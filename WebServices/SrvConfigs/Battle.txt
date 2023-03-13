@@ -1,0 +1,464 @@
+{
+  "waitTimes": {
+    "BUY_ACTION_CARD": 5,
+    "RollDice": 5,
+    "BuildHouse": 5,
+    "UseActionCard": 5,
+    "UseCharacterSkill": 5,
+    "ExchangeBlocks": 20,
+    "SelectBlock": 20,
+    "SellHouses": 30
+  },
+  "TIME_MOVE_CHARACTER_PER_STEP": 0.35,
+  "manas": {
+    "Start": 2,
+    "EveryMoveStep": 2,
+    "UseSkill": 2,
+    "Roll1Dice": 2,
+    "Roll2Dices": 2,
+    "OpponentRollDice": 2
+  },
+  "missions": {
+    "DoubleDices": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    },
+    "GoToSpecialBlock": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    },
+    "BuildHouse": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    },
+    "BuildPark": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    },
+    "OwnBlock": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    },
+    "ChooseChanceCard": {
+      "name": "",
+      "description": "",
+      "time": 3,
+      "parameter": 0
+    }
+  },
+  "blocks": [
+    {
+      "name": "GO",
+      "type": "GO"
+    },
+    {
+      "name": "A1",
+      "type": "House",
+      "coupleIndex": 2,
+      "coupleVisualIndex": 0,
+      "monopolyIndexs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "housesCost": [
+        23,
+        34,
+        68,
+        125
+      ],
+      "housesToll": [
+        2,
+        9,
+        32,
+        96
+      ]
+    },
+    {
+      "name": "A2",
+      "type": "House",
+      "coupleIndex": 1,
+      "coupleVisualIndex": 0,
+      "monopolyIndexs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "housesCost": [
+        30,
+        41,
+        75,
+        132
+      ],
+      "housesToll": [
+        2,
+        11,
+        36,
+        104
+      ]
+    },
+    {
+      "name": "Chance",
+      "type": "Chance"
+    },
+    {
+      "name": "A3",
+      "type": "House",
+      "coupleIndex": 5,
+      "coupleVisualIndex": 1,
+      "monopolyIndexs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "housesCost": [
+        55,
+        78,
+        146,
+        260
+      ],
+      "housesToll": [
+        7,
+        28,
+        80,
+        217
+      ]
+    },
+    {
+      "name": "A4",
+      "type": "House",
+      "coupleIndex": 4,
+      "coupleVisualIndex": 1,
+      "monopolyIndexs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "housesCost": [
+        62,
+        85,
+        153,
+        267
+      ],
+      "housesToll": [
+        9,
+        32,
+        87,
+        228
+      ]
+    },
+    {
+      "name": "Tornado",
+      "type": "Tornado"
+    },
+    {
+      "name": "B1",
+      "type": "House",
+      "coupleIndex": 8,
+      "coupleVisualIndex": 2,
+      "monopolyIndexs": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "housesCost": [
+        75,
+        109,
+        212,
+        383
+      ],
+      "housesToll": [
+        14,
+        46,
+        137,
+        365
+      ]
+    },
+    {
+      "name": "B2",
+      "type": "House",
+      "coupleIndex": 7,
+      "coupleVisualIndex": 2,
+      "monopolyIndexs": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "housesCost": [
+        82,
+        116,
+        219,
+        390
+      ],
+      "housesToll": [
+        16,
+        52,
+        148,
+        399
+      ]
+    },
+    {
+      "name": "Chance",
+      "type": "Chance"
+    },
+    {
+      "name": "B3",
+      "type": "House",
+      "coupleIndex": 11,
+      "coupleVisualIndex": 3,
+      "monopolyIndexs": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "housesCost": [
+        114,
+        160,
+        297,
+        525
+      ],
+      "housesToll": [
+        27,
+        82,
+        216,
+        535
+      ]
+    },
+    {
+      "name": "B4",
+      "type": "House",
+      "coupleIndex": 10,
+      "coupleVisualIndex": 3,
+      "monopolyIndexs": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "housesCost": [
+        114,
+        160,
+        297,
+        525
+      ],
+      "housesToll": [
+        27,
+        82,
+        216,
+        535
+      ]
+    },
+    {
+      "name": "Cannon",
+      "type": "Cannon"
+    },
+    {
+      "name": "C1",
+      "type": "House",
+      "coupleIndex": 14,
+      "coupleVisualIndex": 4,
+      "monopolyIndexs": [
+        13,
+        14,
+        16,
+        17
+      ],
+      "housesCost": [
+        134,
+        191,
+        362,
+        647
+      ],
+      "housesToll": [
+        36,
+        116,
+        307,
+        740
+      ]
+    },
+    {
+      "name": "C2",
+      "type": "House",
+      "coupleIndex": 13,
+      "coupleVisualIndex": 4,
+      "monopolyIndexs": [
+        13,
+        14,
+        16,
+        17
+      ],
+      "housesCost": [
+        141,
+        198,
+        369,
+        654
+      ],
+      "housesToll": [
+        39,
+        123,
+        319,
+        763
+      ]
+    },
+    {
+      "name": "Chance",
+      "type": "Chance"
+    },
+    {
+      "name": "C3",
+      "type": "House",
+      "coupleIndex": 17,
+      "coupleVisualIndex": 5,
+      "monopolyIndexs": [
+        13,
+        14,
+        16,
+        17
+      ],
+      "housesCost": [
+        195,
+        227,
+        432,
+        774
+      ],
+      "housesToll": [
+        50,
+        148,
+        376,
+        900
+      ]
+    },
+    {
+      "name": "C4",
+      "type": "House",
+      "coupleIndex": 16,
+      "coupleVisualIndex": 5,
+      "monopolyIndexs": [
+        13,
+        14,
+        16,
+        17
+      ],
+      "housesCost": [
+        166,
+        234,
+        439,
+        781
+      ],
+      "housesToll": [
+        55,
+        160,
+        411,
+        946
+      ]
+    },
+    {
+      "name": "Park",
+      "type": "Park"
+    },
+    {
+      "name": "D1",
+      "type": "House",
+      "monopolyIndexs": [
+        19,
+        21,
+        22,
+        23
+      ],
+      "housesCost": [
+        93,
+        131,
+        253,
+        452
+      ],
+      "housesToll": [
+        64,
+        205,
+        524,
+        1207
+      ]
+    },
+    {
+      "name": "Chance",
+      "type": "Chance"
+    },
+    {
+      "name": "D2",
+      "type": "House",
+      "monopolyIndexs": [
+        19,
+        21,
+        22,
+        23
+      ],
+      "housesCost": [
+        219,
+        310,
+        583,
+        1039
+      ],
+      "housesToll": [
+        82,
+        251,
+        615,
+        1390
+      ]
+    },
+    {
+      "name": "D3",
+      "type": "House",
+      "monopolyIndexs": [
+        19,
+        21,
+        22,
+        23
+      ],
+      "housesCost": [
+        569
+      ],
+      "housesToll": [
+        911
+      ],
+      "maxHouseCanBuild": 1
+    },
+    {
+      "name": "D4",
+      "type": "House",
+      "monopolyIndexs": [
+        19,
+        21,
+        22,
+        23
+      ],
+      "housesCost": [
+        228,
+        319,
+        592,
+        1048
+      ],
+      "housesToll": [
+        91,
+        273,
+        660,
+        1457
+      ]
+    }
+  ]
+}

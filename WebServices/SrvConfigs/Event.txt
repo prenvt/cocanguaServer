@@ -1,0 +1,89 @@
+﻿{
+  "ListTheThang": [
+    {
+      "DisplayName": "Thẻ Tháng",
+      "CodeName": "The1",
+      "Cost": 130000,
+      "PhanThuongNhanNgay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 600
+          }
+        ]
+      },
+      "PhanThuongMoiNgay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 30
+          }
+        ]
+      },
+      "SoNgocMoiNgay": 20,
+      "EXPPercent": 5,
+      "AtkPercent": 5,
+      "PhanThuongAFKs": [
+        {
+          "CodeName": "BAC",
+          "Percent": 10
+        },
+        {
+          "CodeName": "EXP",
+          "Percent": 5
+        },
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Percent": 5
+        }
+      ],
+      "TotalDay": 30
+    },
+    {
+      "DisplayName": "Thẻ Tháng Vàng",
+      "CodeName": "The2",
+      "Cost": 260000,
+      "PhanThuongNhanNgay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1200
+          }
+        ]
+      },
+      "PhanThuongMoiNgay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 60
+          }
+        ]
+      },
+      "EXPPercent": 10,
+      "AtkPercent": 10,
+      "PhanThuongAFKs": [
+        {
+          "CodeName": "BAC",
+          "Percent": 20
+        },
+        {
+          "CodeName": "EXP",
+          "Percent": 10
+        },
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Percent": 10
+        }
+      ],
+      "TotalDay": 30
+    }
+  ]
+}

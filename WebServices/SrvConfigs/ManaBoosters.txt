@@ -1,0 +1,10 @@
+{
+	"PEPSI": {
+		"name": "",
+		"description": "",
+		"manaValue": 10,
+		"costByRoomLevels": {
+			"Jewel": 10
+		}
+	}
+}

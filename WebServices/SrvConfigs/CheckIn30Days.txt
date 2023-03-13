@@ -1,0 +1,373 @@
+{
+  "StartCost": {
+    "KNB": 30
+  },
+  "StepCost": {
+    "KNB": 30
+  },
+  "MaxCost": {
+    "KNB": 300
+  },
+  "ListDayReward": [
+    {
+      "DayIndex": 1,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 2,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 3,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 4,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 5,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 6,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 7,
+      "BigDay": true,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 8,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 9,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 10,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 11,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 12,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 13,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 14,
+      "BigDay": true,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 60
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 15,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 16,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 17,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 18,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 19,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 20,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 21,
+      "BigDay": true,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 60
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 22,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 23,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 24,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 25,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 26,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 27,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 28,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 29,
+      "BigDay": false,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "DayIndex": 30,
+      "BigDay": true,
+      "RewardInDay": {
+        "Rewards": [
+          {
+            "CodeName": "OptionChest_RuongTongSuGiap",
+            "Quantity": 1
+          }
+        ]
+      }
+    }
+  ]
+}

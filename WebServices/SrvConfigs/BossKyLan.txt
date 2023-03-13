@@ -1,0 +1,1110 @@
+{
+  "DaysOfWeek": [
+    3,
+    6
+  ],
+  "MaxLuotDanh": 1,
+  "MaxRank": 3,
+  "ListKyLan": [
+    {
+      "SpawnOrder": 1,
+      "loaikylan": "THUY",
+      "SpawnTime": "08:00:00",
+      "StartTime": "09:00:00",
+      "EndTime": "21:00:00",
+      "RewardTime": "22:00:00",
+      "MaxHP": 2500000000,
+      "AS": 1.5,
+      "Dmg": 999999999,
+      "bossBodyRadius": 2,
+      "Delay": 60,
+      "SkillCooldown": 15,
+      "HPGrowth" : 0.05,
+      "MapPool": [
+        6
+      ],
+      "MapConfigs": [
+        {
+          "chapter": 6,
+          "posX": 2,
+          "posY": 0,
+          "posZ": -19
+        }
+      ],
+      "SkipCost": {
+        "KNB": 20
+      }
+    },
+    {
+      "SpawnOrder": 2,
+      "loaikylan": "HOA",
+      "SpawnTime": "08:00:00",
+      "StartTime": "09:00:00",
+      "EndTime": "21:00:00",
+      "RewardTime": "22:00:00",
+      "MaxHP": 5000000000,
+      "AS": 1.5,
+      "Dmg": 999999999,
+      "bossBodyRadius": 2,
+      "Delay": 60,
+      "SkillCooldown": 15,
+      "HPGrowth" : 0.05,
+      "MapPool": [
+        7,
+        8
+      ],
+      "MapConfigs": [
+        {
+          "chapter": 7,
+          "posX": 10,
+          "posY": 0,
+          "posZ": -14
+        },
+		{
+          "chapter": 8,
+          "posX": 20,
+          "posY": 8,
+          "posZ": -17
+        }
+      ],
+      "SkipCost": {
+        "KNB": 20
+      }
+    },
+    {
+      "SpawnOrder": 99,
+      "loaikylan": "HONDON",
+      "SpawnTime": "08:00:00",
+      "StartTime": "09:00:00",
+      "EndTime": "21:00:00",
+      "RewardTime": "22:00:00",
+      "MaxHP": 10000000000,
+      "AS": 1.5,
+      "Dmg": 9999999995,
+      "bossBodyRadius": 2,
+      "Delay": 60,
+      "SkillCooldown": 15,
+      "HPGrowth" : 0.05,
+      "MapPool": [
+        9,
+        10
+      ],
+      "MapConfigs": [
+        {
+          "chapter": 9,
+          "posX": 15,
+          "posY": 0,
+          "posZ": -22.5
+        },
+        {
+          "chapter": 10,
+          "posX": 10,
+          "posY": 0,
+          "posZ": 12
+        }
+      ],
+      "SkipCost": {
+        "KNB": 40
+      }
+    }
+  ],
+  "RewardConfigs": [
+    {
+      "loaikylan": "THUY",
+      "thuongLuotDanh": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 100
+          }
+        ]
+      },
+      "lastHitReward": {
+        "top": 0,
+        "desc": "lastHit",
+        "phanthuong": {
+          "Rewards": [
+            {
+              "CodeName": "ManhLegend_RaceType_Demi_Human",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      "topRewards": [
+        {
+          "top": 1,
+          "desc": "top1",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 1500
+              }
+            ]
+          }
+        },
+        {
+          "top": 2,
+          "desc": "top2",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 1000
+              }
+            ]
+          }
+        },
+        {
+          "top": 3,
+          "desc": "top3",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 750
+              }
+            ]
+          }
+        },
+        {
+          "top": 4,
+          "desc": "top4",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 5,
+          "desc": "top5",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 6,
+          "desc": "top6",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 7,
+          "desc": "top7",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 8,
+          "desc": "top8",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 9,
+          "desc": "top9",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 10,
+          "desc": "top10",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 500
+              }
+            ]
+          }
+        },
+        {
+          "top": 50,
+          "desc": "top11_50",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 15
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 300
+              }
+            ]
+          }
+        },
+        {
+          "top": 1000,
+          "desc": "top51_1000",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TayTuyDon",
+                "Quantity": 250
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "loaikylan": "HOA",
+      "thuongLuotDanh": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 3
+          },
+		  {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 100
+          }
+        ]
+      },
+      "lastHitReward": {
+        "top": 0,
+        "desc": "lastHit",
+        "phanthuong": {
+          "Rewards": [
+            {
+              "CodeName": "ManhLegend_RaceType_Demon",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      "topRewards": [
+        {
+          "top": 1,
+          "desc": "top1",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 300
+              }
+            ]
+          }
+        },
+        {
+          "top": 2,
+          "desc": "top2",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 250
+              }
+            ]
+          }
+        },
+        {
+          "top": 3,
+          "desc": "top3",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 200
+              }
+            ]
+          }
+        },
+        {
+          "top": 4,
+          "desc": "top4",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 5,
+          "desc": "top5",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 6,
+          "desc": "top6",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 7,
+          "desc": "top7",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 8,
+          "desc": "top8",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 9,
+          "desc": "top9",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 10,
+          "desc": "top10",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 50,
+          "desc": "top11_50",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 15
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "top": 1000,
+          "desc": "top51_1000",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "loaikylan": "HONDON",
+      "thuongLuotDanh": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 3
+          }
+        ]
+      },
+      "lastHitReward": {
+        "top": 0,
+        "desc": "lastHit",
+        "phanthuong": {
+          "Rewards": [
+            {
+              "CodeName": "ManhLegend_RaceType_Monster",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      "topRewards": [
+        {
+          "top": 1,
+          "desc": "top1",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 150
+              }
+            ]
+          }
+        },
+        {
+          "top": 2,
+          "desc": "top2",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "top": 3,
+          "desc": "top3",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanThuLenh",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 75
+              }
+            ]
+          }
+        },
+        {
+          "top": 4,
+          "desc": "top4",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 5,
+          "desc": "top5",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 6,
+          "desc": "top6",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 7,
+          "desc": "top7",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 40
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 8,
+          "desc": "top8",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 9,
+          "desc": "top9",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 10,
+          "desc": "top10",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "top": 50,
+          "desc": "top11_50",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 15
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 30
+              }
+            ]
+          }
+        },
+        {
+          "top": 1000,
+          "desc": "top51_1000",
+          "phanthuong": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 30
+              },
+              {
+                "CodeName": "OptionChest_RuongTuLuyen",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 25
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "clanRewards": [
+    {
+      "hang": 1000,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "hang": 50,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 15
+          }
+        ]
+      }
+    },
+    {
+      "hang": 10,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 9,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 8,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 7,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 6,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 5,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 5
+          }
+        ]
+      }
+    },
+    {
+      "hang": 4,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 5
+          }
+        ]
+      }
+    },
+    {
+      "hang": 3,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi2",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "hang": 2,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi2",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 15
+          }
+        ]
+      }
+    },
+    {
+      "hang": 1,
+      "reward": {
+        "Rewards": [
+          {
+            "CodeName": "RandomChest_ThanBi2",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "RandomChest_ThanBi1",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    }
+  ]
+}

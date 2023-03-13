@@ -1,0 +1,381 @@
+﻿{
+  "ThanhKhi_ThieuLam": {
+  "mapIdx" : 1,
+    "ListBonus": [
+      {
+        "Type": "ATK",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17
+        ]
+      },
+      {
+        "Type": "HP",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiThieuLamAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_CaiBang": {
+  "mapIdx" : 2,
+    "ListBonus": [
+      {
+        "Type": "CRIT",
+        "Value": [
+          9,
+          10,
+          11,
+          12,
+          15,
+          16,
+          17,
+          18,
+          19,
+          22
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiCaiBangAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_NgaMy": {
+    "mapIdx" : 3,
+    "ListBonus": [
+      {
+        "Type": "HP",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17
+        ]
+      },
+      {
+        "Type": "CRITRES",
+        "Value": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiNgaMyAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_VoDang": {
+    "mapIdx" : 4,
+    "ListBonus": [
+      {
+        "Type": "STATUSRES",
+        "Value": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ]
+      },
+      {
+        "Type": "MAGICRES",
+        "Value": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiVoDangAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_NguDoc": {
+    "mapIdx" : 5,
+    "ListBonus": [
+      {
+        "Type": "LIFELEECH",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20
+        ]
+      },
+      {
+        "Type": "CRIT",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiNguDocAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_DiHoaCung": {
+    "mapIdx" : 6,
+    "ListBonus": [
+      {
+        "Type": "HP",
+        "Value": [
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          19,
+          21,
+          22,
+          25
+        ]
+      },
+      {
+        "Type": "MAGICRES",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiDiHoaCungAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_DuongMon": {
+    "mapIdx" : 7,
+    "ListBonus": [
+      {
+        "Type": "PHYSRES",
+        "Value": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiDuongMonAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10]
+  },
+  "ThanhKhi_HoangKimGiap": {
+    "mapIdx" : 8,
+  "ListBonus": [
+      {
+        "Type": "PHYSRES",
+        "Value": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ]
+      },
+      {
+        "Type": "MAGICRES",
+        "Value": [
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          21,
+          22,
+          23,
+          25
+        ]
+      }
+    ],
+    "UpGradeCost": [
+      0,
+      100,
+      300,
+      500,
+      700,
+      900,
+      1200,
+      1500,
+      1800,
+      3000
+    ],
+    "ListSkill": [
+      "ThanhKhiHoangKimGiapAbility"
+    ],
+	"ListLevelUpSkill": [1,5,10],
+	"isSieuCap" : true
+  }
+}

@@ -1,0 +1,5029 @@
+{
+  "QUEST_DailyReward": {
+    "QuestType": "Daily",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC_HOUR",
+              "Quantity": 2
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroDrug",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "CLOCK_Gold2",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ManhRare_Random",
+              "Quantity": 15
+            },
+            {
+              "CodeName": "ITEM_PvPTicket",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "CLOCK_Exp2",
+              "Quantity": 1
+            },
+            {
+              "CodeName": "ITEM_ThienThach1",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "ITEM_TayTuyDon",
+              "Quantity": 5
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyCampaign": {
+    "QuestType": "Daily",
+    "Shortcut": "Campaign",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyTower": {
+    "QuestType": "Daily",
+    "Shortcut": "Tower",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyPvP": {
+    "QuestType": "Daily",
+    "Shortcut": "PvP",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyAFK": {
+    "QuestType": "Daily",
+    "Shortcut": "Town",
+    "Stages": [
+      {
+        "Value": 2,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyUseKNB": {
+    "QuestType": "Daily",
+    "Shortcut": "None",
+    "Stages": [
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyLvlUpHero": {
+    "QuestType": "Daily",
+    "Shortcut": "Hero",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyRankUpHero": {
+    "QuestType": "Daily",
+    "Shortcut": "Hero",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyRoll": {
+    "QuestType": "Daily",
+    "Shortcut": "Summon",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyFastReward": {
+    "QuestType": "Daily",
+    "Shortcut": "FastReward",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyFriend": {
+    "QuestType": "Daily",
+    "Shortcut": "Friend",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyBounty": {
+    "QuestType": "Daily",
+    "Shortcut": "Bounty",
+    "Stages": [
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyClan": {
+    "QuestType": "Daily",
+    "Shortcut": "ClanDailyBoss",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyDungeon": {
+    "QuestType": "Daily",
+    "Shortcut": "Dungeon",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyPalace": {
+    "QuestType": "Daily",
+    "Shortcut": "HuyetChien",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyReward": {
+    "QuestType": "Weekly",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_ThienThach1",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "CLOCK_Exp4",
+              "Quantity": 1
+            },
+            {
+              "CodeName": "ITEM_HeroDrug",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "CLOCK_HeroDrug4",
+              "Quantity": 1
+            },
+            {
+              "CodeName": "ITEM_PvPTicket",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "ITEM_HeroDrug",
+              "Quantity": 500
+            }
+          ]
+        }
+      },
+      {
+        "Value": 230,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "CLOCK_Exp8",
+              "Quantity": 1
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_ThienThach1",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 380,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 5
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "ITEM_ThienThach1",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 480,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "ITEM_ThanCham",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_ThienThach1",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 600,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "CLOCK_HeroDrug8",
+              "Quantity": 1
+            },
+            {
+              "CodeName": "ManhEpic_Random",
+              "Quantity": 60
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 5
+            },
+            {
+              "CodeName": "ITEM_ThienThach2",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "ITEM_TayTuyDon",
+              "Quantity": 25
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyPvPWin": {
+    "QuestType": "Weekly",
+    "Shortcut": "PvP",
+    "Stages": [
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyAlliance": {
+    "QuestType": "Weekly",
+    "Shortcut": "Bounty",
+    "Stages": [
+      {
+        "Value": 6,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyRoll": {
+    "QuestType": "Weekly",
+    "Shortcut": "Summon",
+    "Stages": [
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyStore": {
+    "QuestType": "Weekly",
+    "Shortcut": "Store",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyPvPStore": {
+    "QuestType": "Weekly",
+    "Shortcut": "Store",
+    "Stages": [
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyGuildStore": {
+    "QuestType": "Weekly",
+    "Shortcut": "Store",
+    "Stages": [
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 30
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyAscend": {
+    "QuestType": "Weekly",
+    "Shortcut": "Temple",
+    "Stages": [
+      {
+        "Value": 5,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 100
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyFinisher": {
+    "QuestType": "Weekly",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 125
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyUseKNB": {
+    "QuestType": "Weekly",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 1000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 2000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 100
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyDungeon": {
+    "QuestType": "Weekly",
+    "Shortcut": "Dungeon",
+    "Stages": [
+      {
+        "Value": 5,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 100
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_HeroCollector": {
+    "QuestType": "Achievement",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 4,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 1000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 5,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 2000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 6,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 5000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 10000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 15000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 20000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 30000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 75,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 50000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 100000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 150000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 400000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            }
+          ]
+        }
+      },
+      {
+        "Value": 240,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 600000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 140
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 1000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 360,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 2000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 160
+            }
+          ]
+        }
+      },
+      {
+        "Value": 500,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 3000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 700,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 3000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 1000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 3000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 1500,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "EXP",
+              "Quantity": 3000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_HeroLvlUp": {
+    "QuestType": "Achievement",
+    "Shortcut": "Hero",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 20000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 30000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 40000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 50000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 75000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 100000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            }
+          ]
+        }
+      },
+      {
+        "Value": 70,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 150000
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 30
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 30
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 90,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 350000
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 500000
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 110,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 80
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 80
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 115
+            }
+          ]
+        }
+      },
+      {
+        "Value": 170,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 125
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 190,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 350,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 400,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_PlayerLvl": {
+    "QuestType": "Achievement",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 30
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 70,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 90,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 110,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 170,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 190,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 210,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 220,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 230,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 240,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 260,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 270,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 290,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 170
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 320,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 340,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 360,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      },
+      {
+        "Value": 380,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_PentagramLvl": {
+    "QuestType": "Achievement",
+    "Shortcut": "Pentagram",
+    "Stages": [
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 350,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 400,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_PvPWin": {
+    "QuestType": "Achievement",
+    "Shortcut": "PvP",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 25
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 40
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 60
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 80
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 105
+            }
+          ]
+        }
+      },
+      {
+        "Value": 500,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 105
+            }
+          ]
+        }
+      },
+      {
+        "Value": 1000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 105
+            }
+          ]
+        }
+      },
+      {
+        "Value": 2000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 105
+            }
+          ]
+        }
+      },
+      {
+        "Value": 5000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 105
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_TopPvP": {
+    "QuestType": "Achievement",
+    "Shortcut": "PvP",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 2,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 400000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 600000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 4,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 800000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 5,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 900000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 6,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 1000000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 7,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_PVP",
+              "Quantity": 1200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_AFKGoldCollector": {
+    "QuestType": "Achievement",
+    "Shortcut": "NONE",
+    "Stages": [
+      {
+        "Value": 5000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 1000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 2000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 5000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 10000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 500000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 50000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 1000000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 100000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 10000000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20000000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50000000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100000000,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "BAC",
+              "Quantity": 200000
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_TowerLvl": {
+    "QuestType": "Achievement",
+    "Shortcut": "Tower",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 30
+            }
+          ]
+        }
+      },
+      {
+        "Value": 70,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 90,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 110,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 170,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 190,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 210,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 220,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 230,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 240,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 260,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            }
+          ]
+        }
+      },
+      {
+        "Value": 270,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 290,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 170
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 350,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 400,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 450,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 500,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 550,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_FactionTowerLvl": {
+    "QuestType": "Achievement",
+    "Shortcut": "FactionTower",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 30
+            }
+          ]
+        }
+      },
+      {
+        "Value": 70,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 90,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 110,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 170,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 190,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 210,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 220,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 230,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 240,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 300
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 260,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            }
+          ]
+        }
+      },
+      {
+        "Value": 270,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 290,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 170
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 350,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 400,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 450,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 500,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 550,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 350
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_Castle": {
+    "QuestType": "Achievement",
+    "Shortcut": "HuyetChien",
+    "Stages": [
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 50,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 50
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 60,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 30
+            }
+          ]
+        }
+      },
+      {
+        "Value": 70,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            }
+          ]
+        }
+      },
+      {
+        "Value": 80,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 90,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            }
+          ]
+        }
+      },
+      {
+        "Value": 100,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 110,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            }
+          ]
+        }
+      },
+      {
+        "Value": 120,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 130,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 140,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 150,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 160,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 170,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            }
+          ]
+        }
+      },
+      {
+        "Value": 180,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 190,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            }
+          ]
+        }
+      },
+      {
+        "Value": 200,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 210,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 220,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 230,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 240,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 250,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 260,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            }
+          ]
+        }
+      },
+      {
+        "Value": 270,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 280,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 290,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 170
+            }
+          ]
+        }
+      },
+      {
+        "Value": 300,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 320,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 340,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 360,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 380,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 400,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_Campaign": {
+    "QuestType": "Achievement",
+    "Shortcut": "Campaign",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "KNB",
+              "Quantity": 400
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 5
+            }
+          ]
+        }
+      },
+      {
+        "Value": 2,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 2
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 10
+            }
+          ]
+        }
+      },
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 3
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 15
+            }
+          ]
+        }
+      },
+      {
+        "Value": 4,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 4
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 5,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 5
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 25
+            }
+          ]
+        }
+      },
+      {
+        "Value": 6,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 6
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 30
+            }
+          ]
+        }
+      },
+      {
+        "Value": 7,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 8
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 35
+            }
+          ]
+        }
+      },
+      {
+        "Value": 8,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 40
+            }
+          ]
+        }
+      },
+      {
+        "Value": 9,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 45
+            }
+          ]
+        }
+      },
+      {
+        "Value": 10,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 50
+            }
+          ]
+        }
+      },
+      {
+        "Value": 11,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 100
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 55
+            }
+          ]
+        }
+      },
+      {
+        "Value": 12,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 60
+            }
+          ]
+        }
+      },
+      {
+        "Value": 13,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 65
+            }
+          ]
+        }
+      },
+      {
+        "Value": 14,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 12
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 150
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 70
+            }
+          ]
+        }
+      },
+      {
+        "Value": 15,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 14
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 75
+            }
+          ]
+        }
+      },
+      {
+        "Value": 16,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 16
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      },
+      {
+        "Value": 17,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 18
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 200
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 85
+            }
+          ]
+        }
+      },
+      {
+        "Value": 18,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 18
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 90
+            }
+          ]
+        }
+      },
+      {
+        "Value": 19,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 95
+            }
+          ]
+        }
+      },
+      {
+        "Value": 20,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 250
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 21,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 100
+            }
+          ]
+        }
+      },
+      {
+        "Value": 22,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 23,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 110
+            }
+          ]
+        }
+      },
+      {
+        "Value": 24,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 25,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 120
+            }
+          ]
+        }
+      },
+      {
+        "Value": 26,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 130
+            }
+          ]
+        }
+      },
+      {
+        "Value": 27,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 28,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 150
+            }
+          ]
+        }
+      },
+      {
+        "Value": 29,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 170
+            }
+          ]
+        }
+      },
+      {
+        "Value": 30,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 31,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 32,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 33,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 34,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 35,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 36,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 37,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 38,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 39,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      },
+      {
+        "Value": 40,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "ITEM_FactionScroll",
+              "Quantity": 20
+            },
+            {
+              "CodeName": "KNB",
+              "Quantity": 500
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 190
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_JoinClan": {
+    "QuestType": "Achievement",
+    "Shortcut": "Clan",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "ITEM_HeroScroll",
+              "Quantity": 10
+            },
+            {
+              "CodeName": "VIP_POINT",
+              "Quantity": 80
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyThatTinhTran": {
+    "QuestType": "Daily",
+    "Shortcut": "ThatTinhDai",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_DailyDongNhan": {
+    "QuestType": "Daily",
+    "Shortcut": "DongNhan",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Daily",
+              "Quantity": 10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyKyLan": {
+    "QuestType": "Weekly",
+    "Shortcut": "BossKyLanAll",
+    "Stages": [
+      {
+        "Value": 2,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 4,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyCamDia": {
+    "QuestType": "Weekly",
+    "Shortcut": "TamBao",
+    "Stages": [
+      {
+        "Value": 3,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "QUEST_WeeklyTinhLuyenTrangBi": {
+    "QuestType": "Weekly",
+    "Shortcut": "Equipment",
+    "Stages": [
+      {
+        "Value": 1,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 20
+            }
+          ]
+        }
+      },
+      {
+        "Value": 2,
+        "Reward": {
+          "Rewards": [
+            {
+              "CodeName": "TOKEN_Weekly",
+              "Quantity": 50
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

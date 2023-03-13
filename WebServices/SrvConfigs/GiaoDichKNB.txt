@@ -1,0 +1,16 @@
+[
+	{
+		"codeName": "lenhbaiknbtuan",
+		"price": 0,
+		"hanMucGui": 0,
+		"hanMucNhan": 0,
+		"soNgay": 7
+	},
+	{
+		"codeName": "lenhbaiknbthang",
+		"price": 0,
+		"hanMucGui": 0,
+		"hanMucNhan": 0,
+		"soNgay": 30
+	}
+]

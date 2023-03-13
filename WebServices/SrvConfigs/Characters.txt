@@ -1,0 +1,26 @@
+{
+	"DOANH_NHAN": {
+		"skillTurn": 3
+	},
+	"PHI_CONG": {
+		"skillTurn": 3
+	},
+	"CO_GAI": {
+		"skillTurn": 3
+	},
+	"TEN_TROM": {
+		"skillTurn": 3
+	},
+	"RONALDO": {
+		"skillTurn": 3
+	},
+	"DR_STRANGE": {
+		"skillTurn": 3
+	},
+	"DONAL_TRUMP": {
+		"skillTurn": 3
+	},
+	"ELON_MUSK": {
+		"skillTurn": 3
+	}
+}

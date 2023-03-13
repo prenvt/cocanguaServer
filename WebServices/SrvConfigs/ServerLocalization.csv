@@ -1,0 +1,483 @@
+KEY,Vietnamese
+,
+YouHaveAcceptToClan,Chưởng Môn được chấp nhận vào Bang Hội {0}
+ChatSystem,Hệ thống
+ChatSystemMemberJoinClan,{0} đã tham gia Bang Hội!
+ChatSystemMemberWasKickOut,{0} đã bị đuổi!
+ChatSystemWasPromotedToElder,{0} đã được thăng chức thành Trưởng Lão!
+ChatSystemWasPromotedToViceLeader,{0} đã được thăng chức thành Phó Bang Chủ!
+ChatSystemWasPromotedToLeader,{0} đã được thăng chức thành Bang Chủ!
+ChatSystemWasDemotedToElder,{0} đã bị giáng chức thành Trưởng Lão!
+ChatSystemWasDemotedToMember,{0} đã bị thăng chức xuống Thành Viên!
+DISPLAY_NAME_EXIST,{0} đã tồn tại!
+DATABASE_ERROR,"Cơ sở dữ liệu có lỗi, hãy thử lại!"
+YouHaveReceivedSecretFragment,Chưởng Môn  nhận được một mảnh {0} từ {1}
+ReceivedSecretFragmentFrom,{0} đã nhận mảnh {1} từ {2}
+SManh0,E1
+SManh1,E2
+SManh2,E3
+SManh3,E4
+SManh4,E5
+SManh5,D1
+SManh6,D2
+SManh7,D3
+SManh8,D4
+SManh9,D5
+SManh10,C1
+SManh11,C2
+SManh12,C3
+SManh13,C4
+SManh14,C5
+SManh15,B1
+SManh16,B2
+SManh17,B3
+SManh18,B4
+SManh19,B5
+SManh20,A1
+SManh21,A2
+SManh22,A3
+SManh23,A4
+SManh24,A5
+BanBiDanhBaiLuanKiem,Chưởng Môn bị tấn công bởi {0} trong Hoa Sơn Luận Kiếm.
+SecretGateWasOpen,Bí Cảnh đã mở
+MemberAlreadyJoinOtherClan,{0} đã gia nhập Bang {1}
+YouHaveBeRejectedJoinClan,Đơn xin gia nhập Bang {0} của Chưởng Môn bị từ chối
+RewardAssistKillRiftBoss,Phần thưởng khi đánh bại Cao Thủ Giang Hồ
+CLAN_NOT_EXIST,Bang Hội không tồn tại!
+CLAN_MAX_MEMBER_REACHED,Bang Hội đã đủ thành viên!
+YOU_NEED_WAIT_ONE_DAY_SINCE_LEFT_CLAN,Chưởng Môn phải đợi một ngày sau khi rời Bang.
+INVALID_REQUEST,Yêu cầu không hợp lệ
+TOKEN_INVALID,Tài khoản của Chưởng Môn đang đăng nhập vào thiết bị khác
+INVALID_REQUEST_CLAN,Yêu cầu không hợp lệ
+DailySubscriptionPack,Phần thưởng hàng ngày khi đăng ký gói
+DailyTheThangPack,Nhận thưởng thẻ tháng
+TUT_COMPLETED,Đã hoàn thành hướng dẫn!
+EquipmentIdentifyRequire,Trang bị này cần phải Giám Định!
+PlayerLevelRequire,Chưởng Môn cần đạt cấp người chơi cao hơn!
+MaxedEquipmentLevel,Trang bị này đã đạt giới hạn cấp độ!
+InsufficientResource,Không đủ tài nguyên!
+PurchaseMail,Chưởng Môn đã mua thành công {0}. Đa tạ!
+MissingMail,"Giao dịch không thành công. Đừng lo, tại hạ sẽ chuyển cho Chưởng Môn Vật Phẩm Nạp có giá trị tương đương. Chưởng Môn có thể dùng chúng cho giao dịch khác!"
+BasicSubPack,Gói Đăng Ký Cơ Bản
+PremiumSubPack,Gói Đăng Ký Cao Cấp
+OfferDaily_1,Đề cử hàng ngày 1
+OfferDaily_2,Đề cử hàng ngày 2
+OfferDaily_3,Đề cử hàng ngày 3
+OfferDaily_4,Đề cử hàng ngày 4
+OfferMonthly_1,Đề cử hàng tháng 1
+OfferMonthly_2,Đề cử hàng tháng 2
+OfferMonthly_3,Đề cử hàng tháng 3
+OfferMonthly_4,Đề cử hàng tháng 4
+OfferCampaign_3,Võ Đang Bí Bảo
+OfferCampaign_4,Kho Báu Đại Lý
+OfferCampaign_5,Rương Thần Bí
+OfferCampaign_6,Bảo Khố Hoàng Cung
+OfferCampaign_7,Bí Ẩn Chung Nam
+OfferCampaign_8,Toàn Chân Bảo Khố
+OfferCampaign_9,Rương Cổ Mộ
+OfferCampaign_10,Rương Hoa Sơn
+OfferCampaign_11,Ngũ Tuyệt Bảo Rương
+OfferCampaign_12,Băng Hỏa Bảo Bối
+OfferCampaign_13,Quang Minh Chi Bí
+OfferCampaign_14,Minh Giáo Bảo Rương
+OfferCampaign_15,Rương Bí Ẩn
+OfferCampaign_16,Rương Bí Ẩn
+OfferCampaign_17,Kho Báu Tuyết Sơn
+OfferCampaign_18,Đại Tuyết Sơn Bảo Vật
+OfferCampaign_19,Bạch Vân Kho Tàng
+OfferCampaign_20,Rương Bí Ẩn
+OfferCampaign_21,Dường Môn Cơ Quan
+OfferCampaign_22,Khổng Tước Kho Tàng
+OfferCampaign_23,Đào Hoa Bảo Rương
+OfferCampaign_24,Nga Mi Bảo Rương
+OfferCampaign_25,Đại Mạc Kho Báu
+OfferCampaign_26,Rương Bí Ẩn
+OfferCampaign_27,Thất Tinh Bảo Rương
+OfferCampaign_28,Rương Bí Ẩn
+OfferCampaign_29,Huyết Rương
+OfferCampaign_30,Đoạn Thiên Bí Bảo
+OfferTower_100,Rương Hắc Mộc Nhai tầng 100
+OfferTower_110,Rương Hắc Mộc Nhai tầng 110
+OfferTower_120,Rương Hắc Mộc Nhai tầng 120
+OfferTower_130,Rương Hắc Mộc Nhai tầng 130
+OfferTower_140,Rương Hắc Mộc Nhai tầng 140
+OfferTower_150,Rương Hắc Mộc Nhai tầng 150
+OfferTower_160,Rương Hắc Mộc Nhai tầng 160
+OfferTower_170,Rương Hắc Mộc Nhai tầng 170
+OfferTower_180,Rương Hắc Mộc Nhai tầng 180
+OfferTower_190,Rương Hắc Mộc Nhai tầng 190
+OfferTower_200,Rương Hắc Mộc Nhai tầng 200
+OfferTower_210,Rương Hắc Mộc Nhai tầng 210
+OfferTower_220,Rương Hắc Mộc Nhai tầng 220
+OfferTower_230,Rương Hắc Mộc Nhai tầng 230
+OfferTower_240,Rương Hắc Mộc Nhai tầng 240
+OfferTower_250,Rương Hắc Mộc Nhai tầng 250
+OfferTower_260,Rương Hắc Mộc Nhai tầng 260
+OfferTower_270,Rương Hắc Mộc Nhai tầng 270
+OfferTower_280,Rương Hắc Mộc Nhai tầng 280
+OfferTower_290,Rương Hắc Mộc Nhai tầng 290
+OfferTower_300,Rương Hắc Mộc Nhai tầng 300
+OfferTower_310,Rương Hắc Mộc Nhai tầng 310
+OfferTower_320,Rương Hắc Mộc Nhai tầng 320
+OfferTower_330,Rương Hắc Mộc Nhai tầng 330
+OfferPlayerLevel_60,Gói Ưu Đãi Môn Phái cấp 60
+OfferPlayerLevel_70,Gói Ưu Đãi Môn Phái cấp 70
+OfferPlayerLevel_80,Gói Ưu Đãi Môn Phái cấp 80
+OfferPlayerLevel_90,Gói Ưu Đãi Môn Phái cấp 90
+OfferPlayerLevel_100,Gói Ưu Đãi Môn Phái cấp 100
+OfferPlayerLevel_110,Gói Ưu Đãi Môn Phái cấp 110
+OfferPlayerLevel_120,Gói Ưu Đãi Môn Phái cấp 120
+OfferPlayerLevel_130,Gói Ưu Đãi Môn Phái cấp 130
+OfferPlayerLevel_140,Gói Ưu Đãi Môn Phái cấp 140
+OfferPlayerLevel_150,Gói Ưu Đãi Môn Phái cấp 150
+OfferPlayerLevel_160,Gói Ưu Đãi Môn Phái cấp 160
+OfferPlayerLevel_170,Gói Ưu Đãi Môn Phái cấp 170
+OfferPlayerLevel_180,Gói Ưu Đãi Môn Phái cấp 180
+OfferPlayerLevel_190,Gói Ưu Đãi Môn Phái cấp 190
+OfferPlayerLevel_200,Gói Ưu Đãi Môn Phái cấp 200
+OfferPlayerLevel_210,Gói Ưu Đãi Môn Phái cấp 210
+GemPack1,Một ít Kim Nguyên Bảo
+GemPack2,Kim Nguyên Bảo
+GemPack3,Túi Kim Nguyên Bảo
+GemPack4,Hộp Kim Nguyên Bảo
+GemPack5,Rương Kim Nguyên Bảo
+GemPack6,Kho Kim Nguyên Bảo
+MissingPayment,GIAO DỊCH KHÔNG HOÀN THÀNH
+INVALID_FORMATION,Đội hình không hợp lệ
+NOT_ATTACK_EXCEED_POSITION,Vị trí {0} Chưởng Môn tấn công không hợp lệ
+,
+ADDED_13_2_2020_____________________ADDED,
+CONFIG_VERSION_INVALID,"Cấu hình không hợp lệ, cần khởi động lại trò chơi"
+BOSS_ALREADY_DIE,Boss đã bị đánh bại
+HET_LUOT_DANH_DAILY_BOSS,Đã hết lượt khiêu chiến
+TIME_BOSS_CLOSE,Trận chiến đã kết thúc
+NOT_PERMISION_CHANGE_SETTING,Chưởng Môn không thể thay đổi điều này
+ONE_CLAN_ONLY_1_VICE_LEADER,Mỗi bang chỉ có 1 Phó Bang
+ONE_CLAN_ONLY_10_ELDER,Mỗi bang chỉ có 10 Trưởng Lão
+NOT_PERMISION_PROMOTE,Chỉ có Bang Chủ mới có thể bổ nhiệm
+NOT_PERMISION_KICK,Chưởng Môn phải trở thành Bang Chủ để trục xuất thành viên
+NOT_LEADER_TO_REJECT,Chưởng Môn phải là Bang Chủ mới có thể từ chối lời mời
+CLAN_MAX_MEMBER_REACHED,Bang Hội đã đầy
+KILL_BOSS_NOT_ENOUGH_TO_RECEIVE_REWARD,"Không thể nhận thưởng, cần đồng bộ hóa lại dữ liệu"
+KILL_BOSS_REWARD_RECEIVED,Đã nhận thưởng.
+FRIEND_FRAG_SECRETMAP_NOT_REQUEST,Người chơi đã sở hữu mảnh này
+WasKickOutClan,Chưởng Môn vừa bị trục xuất khỏi {0}.
+mailthuonghuyetchien,Chúc mừng Chưởng Môn đạt được phần thưởng huyết chiến hạng {0}
+,
+DailyDealName,Ưu đãi hàng ngày {0}
+WeeklyDealName,Ưu đãi hàng tuần {0}
+MonthlyDealName,Ưu đãi hàng tháng {0}
+,
+LKSeasonReward,"Kì luận kiếm đã kết thúc, thứ hạng của Chưởng Môn là {0}"
+RewardOnRank,Phần Thưởng
+rankup,Thăng hạng:
+,
+OfferPersonal_1,Ưu đãi riêng 1
+OfferPersonal_2,Ưu đãi riêng 2
+OfferPersonal_3,Ưu đãi riêng 3
+OfferPersonal_4,Ưu đãi riêng 4
+,
+RESTART_GAME_SYNC_YOUR_DATA,Khởi động lại trò chơi để đồng bộ dữ liệu
+MailTraThuong,Thưởng sự kiện bảo khố
+MailTraThuongBaoKhoDaiLe,Thưởng đại lễ sự kiện bảo khố
+MailTraThuongBaoKhoMoc,Thưởng sự kiện bảo khố ngày {0} 
+MailTraThuongDuaTopUserLevelTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Cấp Độ người chơi
+MailTraThuongDuaTopChienLucDoiHinhTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Đội Hình
+MailTraThuongDuaTopChienLucTuongTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Đệ Tử
+MailTraThuongDuaTopChienLucAoTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Áo
+MailTraThuongDuaTopChienLucMuTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Mũ
+MailTraThuongDuaTopChienLucTrangSucTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Trang Sức
+MailTraThuongDuaTopChienLucVuKhiTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Chiến Lực Vũ Khí
+MailTraThuongDuaTopHuyetChienTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Huyết Chiến
+MailTraThuongDuaTopGiangHoTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Giang Hồ
+MailTraThuongDuaTopHacMocNhaiTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Hắc Mộc Nhai
+MailTraThuongDuaTopKichSatBossTitle,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng Kết Liễu Đồng Nhân
+MailTraThuongTichLuyTieuTitle,Trả thưởng tích lũy tiêu mốc {0} KNB
+MailTraThuongVQTBTitle,Trả thưởng lượt quay sự kiện Vòng quay trang bị mốc {0} lượt quay
+MailTraThuongTienTrangTitle,Trả thưởng tiền trang cấp {0}
+MailTraThuongTopTitleVQMM,Trả thưởng Hạng {0} sự kiện Vòng Quay May Mắn
+mailThuongTopBossDongNhan,Chúc mừng Chưởng Môn đạt được phần thưởng đánh Đồng Nhân hạng {0}
+mailThuongLastHitBossDongNhan,Chúc mừng Chưởng Môn đạt được phần thưởng kết liễu Đồng Nhân
+firstPurchaseRewardMail,Chưởng Môn đã nhận được phần thưởng cho lần nạp đầu tiên!
+LAP_TRANG_BI_KHONG_HOP_LE,Nhân vật phải đạt cấp độ {0} để sử dụng trang bị này!
+INVALID_REQUEST,Yêu cầu không hợp lệ!
+,
+KNBPack1,Túi Kim Nguyên Bảo Cỡ Nhỏ
+KNBPack2,Túi Kim Nguyên Bảo Cỡ Vừa
+KNBPack3,Túi Kim Nguyên Bảo Cỡ Lớn
+KNBPack4,Rương Kim Nguyên Bảo Sơ Cấp
+KNBPack5,Rương Kim Nguyên Bảo Trung Cấp
+KNBPack6,Rương Kim Nguyên Bảo Cao Cấp
+,
+NgocPack1,Gói Bích Ngọc Nhỏ
+NgocPack2,Gói Bích Ngọc Sơ Cấp
+NgocPack3,Gói Bích Ngọc Trung Cấp
+NgocPack4,Gói Bích Ngọc Cao Cấp
+NgocPack5,Gói Bích Ngọc Siêu Cấp
+NgocPack6,Gói Bích Ngọc Cực Đại
+BasicSubPack,Gói Đăng ký cơ bản
+PremiumSubPack,Gói Đăng Ký Cao Cấp
+OfferDaily_1,Đề cử Hàng ngày 1
+OfferDaily_2,Đề cử Hàng ngày 2
+OfferDaily_3,Đề cử Hàng ngày 3
+OfferDaily_4,Đề cử Hàng ngày 4
+OfferMonthly_1,Đề cử Hàng Tháng 1
+OfferMonthly_2,Đề cử Hàng Tháng 2
+OfferMonthly_3,Đề cử Hàng Tháng 3
+OfferMonthly_4,Đề cử Hàng Tháng 4
+OfferCampaign_3,Võ Đang Bí Bảo
+OfferCampaign_4,Kho Báu Đại Lý
+OfferCampaign_5,Rương Thần Bí
+OfferCampaign_6,Bảo Khố Hoàng Cung
+OfferCampaign_7,Bí Ẩn Chung Nam
+OfferCampaign_8,Toàn Chân Bảo Khố
+OfferCampaign_9,Rương Cổ Mộ
+OfferCampaign_10,Rương Hoa Sơn
+OfferCampaign_11,Ngũ Tuyệt Bảo Rương
+OfferCampaign_12,Băng Hỏa Bảo Bối
+OfferCampaign_13,Quang Minh Chi Bí
+OfferCampaign_14,Minh Giáo Bảo Rương
+OfferCampaign_15,Rương Bí Ẩn
+OfferCampaign_16,Rương Bí Ẩn
+OfferCampaign_17,Kho Báu Tuyết Sơn
+OfferCampaign_18,Đại Tuyết Sơn Bảo Vật
+OfferCampaign_19,Bạch Vân Kho Tàng
+OfferCampaign_20,Rương Bí Ẩn
+OfferCampaign_21,Đường Môn Cơ Quan
+OfferCampaign_22,Khổng Tước Kho Tàng
+OfferCampaign_23,Đào Hoa Bảo Rương
+OfferCampaign_24,Nga Mi Bảo Rương
+OfferCampaign_25,Đại Mạc Kho Báu
+OfferCampaign_26,Rương Bí Ẩn
+OfferCampaign_27,Thất Tinh Bảo Rương
+OfferCampaign_28,Rương Bí Ẩn
+OfferCampaign_29,Huyết Rương
+OfferCampaign_30,Đoạn Thiên Bí Bảo
+OfferTower_100,Rương Hắc Mộc Nhai tầng 100
+OfferTower_110,Rương Hắc Mộc Nhai tầng 110
+OfferTower_120,Rương Hắc Mộc Nhai tầng 120
+OfferTower_130,Rương Hắc Mộc Nhai tầng 130
+OfferTower_140,Rương Hắc Mộc Nhai tầng 140
+OfferTower_150,Rương Hắc Mộc Nhai tầng 150
+OfferTower_160,Rương Hắc Mộc Nhai tầng 160
+OfferTower_170,Rương Hắc Mộc Nhai tầng 170
+OfferTower_180,Rương Hắc Mộc Nhai tầng 180
+OfferTower_190,Rương Hắc Mộc Nhai tầng 190
+OfferTower_200,Rương Hắc Mộc Nhai tầng 200
+OfferTower_210,Rương Hắc Mộc Nhai tầng 210
+OfferTower_220,Rương Hắc Mộc Nhai tầng 220
+OfferTower_230,Rương Hắc Mộc Nhai tầng 230
+OfferTower_240,Rương Hắc Mộc Nhai tầng 240
+OfferTower_250,Rương Hắc Mộc Nhai tầng 250
+OfferTower_260,Rương Hắc Mộc Nhai tầng 260
+OfferTower_270,Rương Hắc Mộc Nhai tầng 270
+OfferTower_280,Rương Hắc Mộc Nhai tầng 280
+OfferTower_290,Rương Hắc Mộc Nhai tầng 290
+OfferTower_300,Rương Hắc Mộc Nhai tầng 300
+OfferTower_310,Rương Hắc Mộc Nhai tầng 310
+OfferTower_320,Rương Hắc Mộc Nhai tầng 320
+OfferTower_330,Rương Hắc Mộc Nhai tầng 330
+OfferPlayerLevel_60,Gói Ưu Đãi Môn Phái cấp 60
+OfferPlayerLevel_70,Gói Ưu Đãi Môn Phái cấp 70
+OfferPlayerLevel_80,Gói Ưu Đãi Môn Phái cấp 80
+OfferPlayerLevel_90,Gói Ưu Đãi Môn Phái cấp 90
+OfferPlayerLevel_100,Gói Ưu Đãi Môn Phái cấp 100
+OfferPlayerLevel_110,Gói Ưu Đãi Môn Phái cấp 110
+OfferPlayerLevel_120,Gói Ưu Đãi Môn Phái cấp 120
+OfferPlayerLevel_130,Gói Ưu Đãi Môn Phái cấp 130
+OfferPlayerLevel_140,Gói Ưu Đãi Môn Phái cấp 140
+OfferPlayerLevel_150,Gói Ưu Đãi Môn Phái cấp 150
+OfferPlayerLevel_160,Gói Ưu Đãi Môn Phái cấp 160
+OfferPlayerLevel_170,Gói Ưu Đãi Môn Phái cấp 170
+OfferPlayerLevel_180,Gói Ưu Đãi Môn Phái cấp 180
+OfferPlayerLevel_190,Gói Ưu Đãi Môn Phái cấp 190
+OfferPlayerLevel_200,Gói Ưu Đãi Môn Phái cấp 200
+OfferPlayerLevel_210,Gói Ưu Đãi Môn Phái cấp 210
+InvalidRequest,"Yêu cầu không hợp lệ, hãy thử lại!"
+BannedUserMessage,"""TÀI KHOẢN CỦA CÁC HẠ BỊ KHÓA VÌ SỬ DỤNG CHEATS/HACKS/BUGS"""
+InvalidRequestUserBanned,"""YÊU CẦU KHÔNG HỢP LỆ. TÀI KHOẢN ĐÃ BỊ KHÓA!"""
+RuongKhongTonTaiMess,Rương không tồn tại.
+VatPhamSaiMess,Vật phẩm sai.
+MailTraThuongSuKienTanThu,Chúc mừng Chưởng Môn nhận được phần thưởng tân thủ ngày {0}
+MailTraThuongSuKienThuThachTanThu,Chúc mừng Chưởng Môn nhận được phần thưởng thử thách tân thủ: nhiệm vụ {0} ngày {1}
+MailTraThuongSuKienThuThachTanThuTop,Chúc mừng Chưởng Môn nhận được phần thưởng thử thách tân thủ: Xếp Hạng {0} {1}
+TheThang1,Thẻ tháng thường
+TheThang2,Thẻ tháng vàng
+delayTimeToJoinNewClanMsg,Chưởng Môn cần chờ {0} để gia nhập bang mới!
+delayTimeToJoinLastClanMsg,Chưởng Môn cần chờ {0} để gia nhập bang cũ!
+daysFormatLbl,{0} ngày
+hoursFormat,{0} giờ
+minutesFormat,{0:00} phút
+secondsFormat,{0:00} giây
+QUEST_TTTT_HeroLvl,Đệ tử đạt cấp độ: {0}
+QUEST_TTTT_HeroRoll,Sưu tập {0} đệ tử
+QUEST_TTTT_GearEpic,Thu thập {0} trang bị Ất
+QUEST_TTTT_HeroLegend,Nâng cấp {0} đệ tử lên Giáp Cấp
+QUEST_TTTT_GearRefine,Tinh luyện trang bị {0} lần
+QUEST_TTTT_PentagramLvl,Hộ pháp đường đạt cấp độ {0}
+QUEST_TTTT_PlayerLvl,Môn phái đạt cấp độ {0}
+QUEST_TTTT_HeroLvl_TopTitle,Bảng xếp hạng Cấp Độ Đệ Tử
+QUEST_TTTT_HeroRoll_TopTitle,Bảng xếp hạng Số Lượng Đệ Tử
+QUEST_TTTT_GearEpic_TopTitle,Bảng xếp hạng Trang Bị Ất Cấp
+QUEST_TTTT_HeroLegend_TopTitle,Bảng xếp hạng Thăng Phẩm Giáp Cấp
+QUEST_TTTT_GearRefine_TopTitle,Bảng xếp hạng Tinh Luyện Trang Bị
+QUEST_TTTT_PentagramLvl_TopTitle,Bảng xếp hạng Cấp Độ Hộ Pháp Đường
+QUEST_TTTT_PlayerLvl_TopTitle,Bảng xếp hạng Cấp Độ Môn Phái
+The1,Thẻ Thường
+The2,Thẻ Vàng
+DailyTheThangMailTitle_The1,Nhận thưởng thẻ tháng Thường
+DailyTheThangMailTitle_The2,Nhận thưởng thẻ tháng Vàng
+NgocPack7,Gói Bích Ngọc Cực Đại 2
+NgocPack8,Gói Bích Ngọc Cực Đại 3
+NgocPack9,Gói Bích Ngọc Cực Đại 4
+NgocPack10,Gói Bích Ngọc Cực Đại 5
+NgocPack11,Gói Bích Ngọc Cực Đại 7
+NgocPack12,Gói Bích Ngọc Cực Đại 8
+Champions,Thái Cổ
+Mythic0,Thượng Cổ
+Super_Legendary,Truyền Thuyết
+Legendary,Huyền Thoại
+Grand_Master,Tông Sư
+Master,Đại Cao Thủ
+Veteran,Cao Thủ
+Diamond,Kim Cương
+Platinum,Bạch Kim
+Gold,Hoàng Kim
+Silver,Bạch Ngân
+Bronze,Thanh Đồng
+No-Rank,Chưa Xếp Hạng
+MailThuongQuaKhaiMo,"Bổn Trang có chút quà tặng để giúp đại hiệp thuận tiện trải nghiệm Kiếm Hiệp Việt, những đóng góp - góp ý vui lòng gửi về Bổn trang tại fanpage, cảm ơn đại hiệp."
+TiThiWin,"Chưởng Môn đã chiến thắng trong cuộc tỉ thí với {0}, xin chúc mừng!"
+TiThiLose,Chưởng Môn đã thất bại trong cuộc tỉ thí với {0}
+GiftCodeMailThongBao,Chưởng Môn vừa sử dụng thành công mã quà tặng!
+mailRewardDonDau,Chúc mừng Chưởng Môn đạt được phần thưởng {0} Đơn Đấu
+donDauReward_VONG_LOAI_Title,Vượt qua Vòng Loại
+donDauReward_VONG_32_Title,Vượt qua Vòng 32
+donDauReward_VONG_16_Title,Vượt qua Vòng 16
+donDauReward_TU_KET_Title,Vượt qua Tứ Kết
+donDauReward_BAN_KET_Title,Vượt qua Bán Kết
+donDauReward_QUAN_QUAN_Title,Nhà Vô Địch
+donDauGhiDanhTimeout,Đã hết thời gian Ghi danh!
+betClanWarMsg,Tính năng cược đang phát triển!
+bossDongNhanDied,Boss Đồng Nhân đã bị kết liễu!
+bossDongNhanTimeout,Đã hết giờ kích sát Boss Đồng Nhân!
+dondauChangeFormationInvalidTime,"Trận đấu sắp diễn ra, Chưởng môn không thể cập nhật đội hình!"
+clanwarMailThuongBoSung,"Chúc mừng Bang Hội của Chưởng Môn đã đạt thành tích trong Bang Chiến lần này, xin nhận lấy phần thưởng Bang Chiến"
+EventNapDungMocMailReward,Chúc mừng Chưởng Môn đã nhận được phần thưởng mốc {0} của sự kiện Nạp Đúng Mốc
+TamBaoChapterChuaUnlock,Cần hoàn thành Giang hồ Chương {0} để mở khóa
+FeatureLockingMsg,Tính năng đang tạm khoá!
+dailybattlepass,Võ Lâm Lệnh Ngày
+weeklybattlepass,Võ Lâm Lệnh Tuần
+clanwarNotInClanMsg,Chưởng Môn không tham gia Bang Chiến ở Bang này!
+ChuHonKhongDuDieuKien,Trang bị cần tinh luyện đạt cấp {0} để có thể tiếp tục chú hồn
+clanRiffBossClaimedMsg,Chưởng môn đã nhận thưởng!
+clanRiffBossMinPointToAttackMsg,Chưởng môn cần đủ {0} điểm Cống Hiến Bang
+,
+PushNotify_ArenaTitle,Hoa Sơn Luận Kiếm
+PushNotify_ArenaMessage,Chưởng Môn vừa bị đánh bại bởi {0} ở Hoa Sơn Luận Kiếm!
+PushNotify_RiffBossTitle,Bang Hội
+PushNotify_RiffBossMessage,Giang Hồ Cao Thủ đang chờ. Mau mau tấn công!
+PushNotify_PrivateTitle,Tin nhắn
+PushNotify_PrivateMessage,Chưởng Môn có tin nhắn từ {0}
+PushNotify_DongNhanTitle,Đồng Nhân
+PushNotify_DongNhanMessage,Đồng Nhân trận đã mở! Chưởng Môn mau đến khiêu chiến!
+WarningPhanGiaiHeroLvcao,"Đệ tử có cấp độ lớn hơn 1, không thể phân giải, hãy Tái Sinh trước nếu vẫn muốn phân giải!"
+ThuongLK3DHGamer,Phần thưởng chúc mừng Chưởng môn đạt xếp hạng {0} Đấu Trường Đỉnh Cao
+MailTraThuongDoiDoTitle,Trả thưởng sự kiện Kỳ Trân Các mốc {0} điểm
+ARENA3DH,ĐẤU TRƯỜNG ĐỈNH CAO
+CONFIG_ITEM_INVALID,Cấu hình vật phẩm lỗi!
+BanBiDanhBaiLuanKiem3,Chưởng Môn bị tấn công bởi {0} trong Đấu Trường Đỉnh Cao
+ResetCharacterErrorMsg,"Cấp độ Đệ tử đang thay đổi, vui lòng Tái sinh lại!"
+ReplayDataNotFound,Không tìm thấy dữ liệu trận đấu!
+OfferCampaign_31,Ảo Mộng Kho Báu
+OfferCampaign_32,Mộng Chi Bảo
+OfferCampaign_33,Hiệp Khách Rương
+OfferCampaign_34,Kiếm
+OfferCampaign_35,Tụ Hiền
+lenhbaiknbtuan,Lệnh Bài Tuần
+lenhbaiknbthang,Lệnh Bài Tháng
+MailTraThuongHKDBaoDanh,Thưởng báo danh sự kiện hiệp khách đảo
+MailTraThuongTopHiepKhachDao,Chưởng môn đã đạt hạng {0} trong bảng xếp hạng sự kiện Hiệp Khách Đảo
+MailHoanTraClanWarBet,Hoàn trả đặt cược Bang Chiến!
+,
+NgocPack13,Gói Bích Ngọc Cực Đại 9
+NgocPack14,Gói Bích Ngọc Cực Đại 10
+NgocPack15,Gói Bích Ngọc Cực Đại 6
+,
+CTCCannotDefendingAtCongTrinh,Không thể Trấn thủ Công trình này!
+mailThuongTopBossKyLan,Chưởng Môn đã đạt hạng {0} khi khiêu chiến {1}
+mailThuongLastHitBossKyLan,Chưởng Môn đã kết liễu {0}
+CTCCannotPhanThanAtCongTrinh,Không thể Phân thân tại Công trình này!
+bossKyLanKetThuc,{0} đã kết thúc!
+bossKyLanDied,{0} đã bị tiêu diệt!
+bossKyLanTimeout,{0} đã biến mất
+ThuyKyLan,Thuỷ Kỳ Lân
+HoaKyLan,Hoả Kỳ Lân
+HonDonKyLan,Hỗn Độn Kỳ Lân
+mailThuongClanBossKyLan,Chúc mừng Bang hội của Chưởng Môn đã đạt hạng {0} đánh Boss Kỳ Lân!
+MailTraThuongTichLuyNap,Trả thưởng Tích Lũy Nạp mốc {0} Bích Ngọc
+OfflineRewardMail,Nhận quà tái xuất!
+,
+MailTraThuongSuKienTaiXuatGiangHo,Chúc mừng Chưởng Môn nhận được phần thưởng tái xuất giang hồ: nhiệm vụ {0} ngày {1}
+,
+,
+QUEST_TXGH_CamDiaMonPhai_Fight,Khiêu chiến Cấm Địa Môn Phái
+QUEST_TXGH_ThatTinhTran_Fight,Đánh Thất Tinh Trận
+QUEST_TXGH_LuanKiem_Fight,Khiêu chiến Luận Kiếm
+QUEST_TXGH_DeTu_ChieuMo,Chiêu mộ đệ tử
+QUEST_TXGH_TruyenTongTranAi2_Completed,Hoàn thành Truyền Tống Trận ải 2 
+QUEST_TXGH_DeTu_NangPham,Nâng phẩm Tướng
+QUEST_TXGH_DongNhan_Fight,Khiêu chiến Đồng Nhân
+TXGHInvalidDayMess,Ngày không hợp lệ
+TXGHInvalidShopItemMess,Cấu hình cửa hàng không hợp lệ
+TXGHShopLimited,Chưởng môn đã mua đủ số lượng cho phép
+ShopCTC_CantBuyItemNow,Chưởng môn không thể mua Vật phẩm!
+ShopCTC_MaxItemsCanBuy,Vật phẩm này chỉ được mua {0} lần!
+ShopCTC_MustBeLeaderToBuy,Chỉ Bang Chủ mới được mua Vật phẩm này!
+CTCNotEnoughItemToPhanThan,Chưởng Môn không đủ Vật phẩm để Phân thân!
+CTCMaxPhanThan,Chưởng Môn chỉ được tạo tối đa {0} Pháp thân!
+CTCThanhCoChuChuaKhieuChien,Thành đã có chủ và chưa đến thời gian khiêu chiến!
+CTCRoundMessage_NONE,Công Thành Chiến chưa diễn ra!
+,
+,
+CTCRoundMessage_KET_THUC,Công Thành Chiến đã kết thúc!
+CTCThanhOwned,Thành đã được chiếm bởi bang\n{0}
+,
+MailSohaReward_0,Quà Tri ân ngày 1
+MailSohaReward_1,Quà Tri ân ngày 4
+MailSohaReward_2,Quà Tri ân ngày 7
+,
+CTCNotEnoughItemToStopTranThu,Chưởng Môn không đủ Vật phẩm để dừng Trấn thủ!
+CTCCannotStopTranThuAtCongTrinh,Chưởng Môn không thể dừng Trấn thủ!
+CTCSlotDangGiaoChien,Vị trí trấn thủ này đang Giao chiến.\nVui lòng thử lại sau!
+CTCSlotTranThuThayDoi,Dữ liệu vị trí Trấn thủ đã thay đổi!\nVui lòng thử lại!
+CTCDiemCongHienYeuCauMuaDaiKyMsg,Chưởng Môn cần có {0} điểm Cống hiến để mua Vật phẩm!
+HC_RETRY_MAX,Đã hết lượt đánh Huyết Chiến Tương Dương trong ngày!
+,
+CTCKhongDuThoiGianTrongBangDeMuaVatPham,Chưa đủ thời gian trong bang để mua vật phẩm.\nCần thêm {0}
+mailThuongBXHQuanCongCTC,Chúc mừng Chưởng Môn đã đạt hạng {0} BXH Quân Công!
+PushNotify_CongThanhChien,Công Thành Chiến
+PushNotify_CongThanhChienMessage,Vị trí của Chưởng Môn vừa bị chiếm bởi {0}
+,
+CTCKickClan,Không thể trục xuất thành viên trong thời gian diễn ra Công Thành Chiến
+CTCRoundMessage_KET_THUC,Công Thành Chiến đã kết thúc!
+RECEIVE_PERSON_LIST_EMPTY,Danh sách gửi thư trống!
+ONLY_LEADER_CAN_SEND_MAIL,Chỉ Bang Chủ có quyền gửi thư cho các thành viên
+SoLuongMoRuongInvalid,Số lượng rương mở không hợp lệ
+,
+ChatSystemMemberOutClan,Thành viên {0} đã rời khỏi bang hội!
+MailFromLeaderTitle,Thư từ Bang chủ
+HERO_EXIST_IN_OTHER_FORMATION,Lỗi đệ tử dùng trong nhiều đội hình!
+FormationNotChangeMsg,Đội hình chưa thay đổi!
+bossKyLanDeTuKhongDuLevel,Đệ tử phải có phẩm Giáp và có cấp độ bằng {0} mới được tham gia khiêu chiến Kỳ Lân. Đây là cấp độ lớn nhất mà Hộ Pháp Đường của Chưởng Môn đã từng đạt được.
+bossKyLanDeTuKhongDu6,Đội hình khiêu chiến cần đủ 6 đệ tử!
+,
+,
+MailTraThuongNhiemVuNamMoiAll,Chưởng môn đã hoàn thành tất cả nhiệm vụ năm mới
+MailTraThuongNhiemVuNamMoiHang,Chưởng môn đã hoàn thành hàng {0} nhiệm vụ năm mới
+MailTraThuongNhiemVuNamMoiCot,Chưởng môn đã hoàn thành cột {0} nhiệm vụ năm mới
+,
+,
+MailTraThuongUuDaiChieuMoTitle,Trả thưởng sự kiện Ưu đãi Chiêu mộ
+,
+CLAN_NOT_SAME_WORLD,"Bang Hội không cùng thế giới, không thể gia nhập!"

@@ -1,0 +1,120 @@
+{
+  "GhiDanhDayOfWeek": 8,
+  "GhiDanhStartTime": "0.19:00:00",
+  "VongLoaiStartTime": "1.19:00:00",
+  "Vong32StartTime": "1.20:30:00",
+  "Vong16StartTime": "2.19:00:00",
+  "TuKetStartTime": "2.20:30:00",
+  "BanKetStartTime": "3.19:00:00",
+  "QuanQuanStartTime": "3.20:30:00",
+  "rewards": {
+    "QUAN_QUAN": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 2000
+      },
+      {
+        "CodeName": "ManhLegend_Random",
+        "Quantity": 120
+      },
+      {
+        "CodeName": "ITEM_ThienThach4",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 150
+      }
+    ],
+    "BAN_KET": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 1500
+      },
+      {
+        "CodeName": "ManhLegend_Random",
+        "Quantity": 60
+      },
+      {
+        "CodeName": "ITEM_ThienThach4",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 100
+      }
+    ],
+    "TU_KET": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 750
+      },
+      {
+        "CodeName": "ManhEpic_Random",
+        "Quantity": 120
+      },
+      {
+        "CodeName": "ITEM_ThienThach3",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 80
+      }
+    ],
+    "VONG_16": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 500
+      },
+      {
+        "CodeName": "ManhEpic_Random",
+        "Quantity": 60
+      },
+      {
+        "CodeName": "ITEM_ThienThach3",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 60
+      }
+    ],
+    "VONG_32": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 250
+      },
+      {
+        "CodeName": "ManhRare_Random",
+        "Quantity": 120
+      },
+      {
+        "CodeName": "ITEM_ThienThach2",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 40
+      }
+    ],
+    "VONG_LOAI": [
+      {
+        "CodeName": "KNB",
+        "Quantity": 100
+      },
+      {
+        "CodeName": "ManhRare_Random",
+        "Quantity": 60
+      },
+      {
+        "CodeName": "ITEM_ThienThach2",
+        "Quantity": 50
+      },
+      {
+        "CodeName": "ITEM_ThanCham",
+        "Quantity": 20
+      }
+    ]
+  }
+}

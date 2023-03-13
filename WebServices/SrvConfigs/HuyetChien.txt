@@ -1,0 +1,946 @@
+{
+  "saoFromPickGates": [
+    1,
+    3,
+    5
+  ],
+  "saoFromPickBuffs": [
+    3,
+    8,
+    18
+  ],
+  "gateOffsetAutoFight": 15,
+  "retryMax": 2,
+  "lvBossEasys": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    81,
+    83,
+    85,
+    87,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103,
+    105,
+    107,
+    109,
+    111,
+    113,
+    115,
+    117,
+    119,
+    121,
+    123,
+    125,
+    127,
+    129,
+    131,
+    133,
+    135,
+    137,
+    139,
+    141,
+    143,
+    145,
+    147,
+    149,
+    151,
+    153,
+    155,
+    157,
+    159,
+    161,
+    163,
+    165,
+    167,
+    169,
+    171,
+    173,
+    175,
+    177,
+    179,
+    181,
+    183,
+    185,
+    187,
+    189,
+    191,
+    193,
+    195,
+    197,
+    199,
+    201,
+    203,
+    205,
+    207,
+    209,
+    211,
+    213,
+    215,
+    217,
+    219,
+    221,
+    223,
+    225,
+    227,
+    229,
+    231,
+    233,
+    235,
+    237,
+    239,
+    241,
+    243,
+    245,
+    247,
+    249,
+    251,
+    253,
+    255,
+    257,
+    259,
+    261,
+    263,
+    265,
+    267,
+    269,
+    271,
+    273,
+    275,
+    277,
+    279,
+    281,
+    283,
+    285,
+    287,
+    289,
+    291,
+    293,
+    295,
+    297,
+    299,
+    301,
+    303,
+    305,
+    307,
+    309,
+    311,
+    313,
+    315,
+    317,
+    319,
+    321,
+    323,
+    325,
+    327,
+    329,
+    331,
+    333,
+    335,
+    337,
+    339,
+    341,
+    343,
+    345,
+    347,
+    349,
+    351,
+    353,
+    355,
+    357,
+    359,
+    361,
+    363,
+    365,
+    367,
+    369,
+    371,
+    373,
+    375,
+    377,
+    379,
+    381,
+    383,
+    385,
+    387,
+    389,
+    391,
+    393,
+    395,
+    397,
+    399,
+    401,
+    403,
+    405,
+    407,
+    409,
+    411,
+    413,
+    415,
+    417,
+    419,
+    421,
+    423,
+    425,
+    427,
+    429,
+    431,
+    433,
+    435,
+    437,
+    439,
+    441,
+    443,
+    445,
+    447,
+    449,
+    451,
+    453,
+    455,
+    457,
+    459,
+    461,
+    463,
+    465,
+    467,
+    469,
+    471,
+    473,
+    475,
+    477,
+    479,
+    481,
+    483,
+    485,
+    487,
+    489,
+    491,
+    493,
+    495,
+    497,
+    499,
+    501,
+    503,
+    505,
+    507,
+    509,
+    511,
+    513,
+    515,
+    517,
+    519,
+    521,
+    523,
+    525,
+    527,
+    529,
+    531,
+    533,
+    535,
+    537,
+    539,
+    541,
+    543,
+    545,
+    547,
+    549,
+    551,
+    553,
+    555,
+    557,
+    559,
+    561,
+    563,
+    565,
+    567,
+    569,
+    571,
+    573,
+    575,
+    577,
+    579,
+    581,
+    583,
+    585,
+    587,
+    589,
+    591,
+    593,
+    595,
+    597,
+    599,
+    601,
+    603,
+    605,
+    607,
+    609,
+    611,
+    613,
+    615,
+    617,
+    619,
+    621,
+    623,
+    625,
+    627,
+    629,
+    631,
+    633,
+    635,
+    637,
+    639,
+    641,
+    643,
+    645,
+    647,
+    649,
+    651,
+    653,
+    655,
+    657,
+    659,
+    661,
+    663,
+    665,
+    667,
+    669,
+    671,
+    673,
+    675,
+    677,
+    679,
+    681,
+    683,
+    685,
+    687,
+    689,
+    691,
+    693,
+    695,
+    697,
+    699,
+    701,
+    703,
+    705,
+    707,
+    709,
+    711,
+    713,
+    715,
+    717,
+    719,
+    721,
+    723,
+    725,
+    727,
+    729,
+    731,
+    733,
+    735,
+    737,
+    739,
+    741,
+    743,
+    745,
+    747,
+    749,
+    751,
+    753,
+    755,
+    757,
+    759,
+    761,
+    763,
+    765,
+    767,
+    769,
+    771,
+    773,
+    775,
+    777,
+    779,
+    781,
+    783,
+    785,
+    787,
+    789,
+    791,
+    793,
+    795,
+    797,
+    799,
+    801,
+    803,
+    805,
+    807,
+    809,
+    811,
+    813,
+    815,
+    817,
+    819,
+    821,
+    823,
+    825,
+    827,
+    829,
+    831,
+    833,
+    835,
+    837,
+    839,
+    841,
+    843,
+    845,
+    847,
+    849,
+    851,
+    853,
+    855,
+    857,
+    859,
+    861,
+    863,
+    865,
+    867,
+    869,
+    871,
+    873,
+    875,
+    877,
+    879,
+    881,
+    883,
+    885,
+    887,
+    889,
+    891,
+    893,
+    895,
+    897,
+    899
+  ],
+  "normal": 5,
+  "hard": 10,
+  "rewardForAllByGate": [
+    {
+      "gate": 70,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "gate": 140,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "gate": 190,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4
+          }
+        ]
+      }
+    },
+    {
+      "gate": 230,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 5
+          }
+        ]
+      }
+    },
+    {
+      "gate": 270,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6
+          }
+        ]
+      }
+    },
+    {
+      "gate": 450,
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 7
+          }
+        ]
+      }
+    }
+  ],
+  "rewardForAll": {
+    "top": 1000,
+    "desc": "rewardForAll",
+    "phanthuong": {
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Quantity": 1
+        },
+		{
+          "CodeName": "ITEM_TayTuyDon",
+          "Quantity": 20
+        },
+        {
+          "CodeName": "KNB",
+          "Quantity": 150
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 10
+        },
+        {
+          "CodeName": "ManhEpic_Random",
+          "Quantity": 15
+        }
+      ]
+    }
+  },
+  "rewardTop50": [
+    {
+      "top": 1,
+      "desc": "top1",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 40
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "top": 2,
+      "desc": "top2",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 30
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 25
+          }
+        ]
+      }
+    },
+    {
+      "top": 3,
+      "desc": "top3",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 25
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "top": 10,
+      "desc": "top4_10",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "top": 20,
+      "desc": "top11_20",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 15
+          }
+        ]
+      }
+    },
+    {
+      "top": 30,
+      "desc": "top21_30",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "top": 40,
+      "desc": "top31_40",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "top": 50,
+      "desc": "top41_50",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 25
+          }
+        ]
+      }
+    },
+    {
+      "top": 100,
+      "desc": "top51_100",
+      "phanthuong": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    }
+  ],
+  "listBuffs": [
+    {
+      "buff": "TangThuTeam",
+      "values": [
+        3,
+        10,
+        30
+      ]
+    },
+    {
+      "buff": "TangMauTeam",
+      "values": [
+        3,
+        10,
+        30
+      ]
+    },
+    {
+      "buff": "TangCongTeam",
+      "values": [
+        3,
+        10,
+        30
+      ]
+    },
+    {
+      "buff": "TangCritDamageTeam",
+      "values": [
+        20,
+        40,
+        100
+      ]
+    },
+    {
+      "buff": "TangLifeStealTeam",
+      "values": [
+        6,
+        12,
+        30
+      ]
+    },
+    {
+      "buff": "TangCritRateTeam",
+      "values": [
+        2,
+        4,
+        10
+      ]
+    }
+  ],
+  "listHeroPositions": [
+    {
+      "name": "ROLE_DuThanChi",
+      "col": 1
+    },
+    {
+      "name": "ROLE_TruongVoKy",
+      "col": 1
+    },
+    {
+      "name": "ROLE_QuachTuong",
+      "col": 3
+    },
+    {
+      "name": "ROLE_NhamNgaHanh",
+      "col": 2
+    },
+    {
+      "name": "ROLE_PhamDao",
+      "col": 2
+    },
+    {
+      "name": "ROLE_DoanDu",
+      "col": 3
+    },
+    {
+      "name": "ROLE_HoangSamNuTu",
+      "col": 1
+    },
+    {
+      "name": "ROLE_DuongQua",
+      "col": 3
+    },
+    {
+      "name": "ROLE_TieuChieu",
+      "col": 1
+    },
+    {
+      "name": "ROLE_HongThatCong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_ChuBaThong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_HuTruc",
+      "col": 2
+    },
+    {
+      "name": "ROLE_ThachPhaThien",
+      "col": 1
+    },
+    {
+      "name": "ROLE_YeuNguyetCungChu",
+      "col": 3
+    },
+    {
+      "name": "ROLE_PhongThanhDuong",
+      "col": 2
+    },
+    {
+      "name": "ROLE_TieuLongNu",
+      "col": 2
+    },
+    {
+      "name": "ROLE_DocCoCauBai",
+      "col": 1
+    },
+    {
+      "name": "ROLE_BachPhatMaNu",
+      "col": 3
+    },
+    {
+      "name": "ROLE_ThienSonDongLao",
+      "col": 3
+    },
+    {
+      "name": "ROLE_ThanhDucBucVuong",
+      "col": 2
+    },
+    {
+      "name": "ROLE_LyThuThuy",
+      "col": 2
+    },
+    {
+      "name": "ROLE_LyTamHoan",
+      "col": 3
+    },
+    {
+      "name": "ROLE_TieuPhong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_QuachTinh",
+      "col": 3
+    },
+    {
+      "name": "ROLE_VuongNguYen",
+      "col": 2
+    },
+    {
+      "name": "ROLE_LenhHoXung",
+      "col": 2
+    },
+    {
+      "name": "ROLE_DongPhuongBatBai",
+      "col": 3
+    },
+    {
+      "name": "ROLE_NhamDoanhDoanh",
+      "col": 3
+    },
+    {
+      "name": "ROLE_DuongTieu",
+      "col": 2
+    },
+    {
+      "name": "ROLE_MoDungPhuc",
+      "col": 1
+    },
+    {
+      "name": "ROLE_VoNhaiTu",
+      "col": 1
+    },
+    {
+      "name": "ROLE_HoangDung",
+      "col": 1
+    },
+    {
+      "name": "ROLE_TuSamLongVuong",
+      "col": 3
+    },
+    {
+      "name": "ROLE_KimMaoSuVuong",
+      "col": 2
+    },
+    {
+      "name": "ROLE_BachMiUngVuong",
+      "col": 2
+    },
+    {
+      "name": "ROLE_TruongTamPhong",
+      "col": 3
+    },
+    {
+      "name": "ROLE_AuDuongPhong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_VuongTrungDuong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_KimLuanPhapVuong",
+      "col": 1
+    },
+    {
+      "name": "ROLE_TaoDiaTang",
+      "col": 1
+    },
+    {
+      "name": "ROLE_HoangDuocSu",
+      "col": 2
+    },
+    {
+      "name": "ROLE_NhatDang",
+      "col": 3
+    },
+    {
+      "name": "ROLE_ChuChiNhuoc",
+      "col": 2
+    },
+    {
+      "name": "ROLE_TrieuMan",
+      "col": 1
+    },
+    {
+      "name": "ROLE_LamTrieuAnh",
+      "col": 3
+    },
+    {
+      "name": "ROLE_DatMaSuTo",
+      "col": 3
+    }
+  ]
+}

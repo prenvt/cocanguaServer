@@ -1,0 +1,1495 @@
+{
+  "DayConfig": {
+    "1": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroLvl",
+          "Value": 50,
+          "Reward": {
+            "CodeName": "IconChest1",
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_Random",
+                "Quantity": 60
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroRoll",
+          "Value": 7,
+          "Reward": {
+            "CodeName": "IconChest1",
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_Random",
+                "Quantity": 60
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearEpic",
+          "Value": 1,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "KNB",
+                "Quantity": 200
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "BAC",
+                "Quantity": 100000
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 40,
+          "LimitBuy": 50,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 96,
+          "LimitBuy": 2,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroDrug",
+                "Quantity": 100
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 50,
+          "LimitBuy": 5,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_HeroLvl",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 20
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 5
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 15
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 4
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 3
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              }
+            ]
+          }
+        },
+        "BaseTop1": 60,
+        "BaseTop2": 50,
+        "BaseTop3": 40
+      }
+    },
+    "2": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroRoll",
+          "Value": 20,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearEpic",
+          "Value": 2,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroLegend",
+          "Value": 2,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach1",
+                "Quantity": 30
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 1280,
+          "LimitBuy": 10,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "GearSetEpic_Random",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 900,
+          "LimitBuy": 1,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_Random",
+                "Quantity": 30
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 65,
+          "LimitBuy": 2,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_HeroRoll",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuGiap",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 120
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuAt",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 120
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuAt",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          }
+        },
+        "BaseTop1": 30,
+        "BaseTop2": 25,
+        "BaseTop3": 20
+      }
+    },
+    "3": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroLvl",
+          "Value": 80,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "AG_GiapThep",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearEpic",
+          "Value": 3,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearRefine",
+          "Value": 5,
+          "Reward": {
+            "CodeName": "IconChest1",
+            "Rewards": [
+              {
+                "CodeName": "BAC",
+                "Quantity": 200000
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_PentagramLvl",
+          "Value": 20,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 96,
+          "LimitBuy": 2,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 48,
+          "LimitBuy": 1,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 96,
+          "LimitBuy": 2,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_PentagramLvl",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 4
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 3
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 2
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        "BaseTop1": 50,
+        "BaseTop2": 40,
+        "BaseTop3": 30
+      }
+    },
+    "4": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroRoll",
+          "Value": 30,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 20
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroLegend",
+          "Value": 5,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach1",
+                "Quantity": 30
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearRefine",
+          "Value": 7,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_PlayerLvl",
+          "Value": 20,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "BAC",
+                "Quantity": 300000
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 30
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 192,
+          "LimitBuy": 10,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 10
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 64,
+          "LimitBuy": 10,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 96,
+          "LimitBuy": 2,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_HeroLegend",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 4
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 3
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 2
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        "BaseTop1": 5,
+        "BaseTop2": 4,
+        "BaseTop3": 3
+      }
+    },
+    "5": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroLvl",
+          "Value": 100,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "TS_VongVang",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearEpic",
+          "Value": 4,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroLegend",
+          "Value": 7,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach1",
+                "Quantity": 30
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearRefine",
+          "Value": 10,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_PlayerLvl",
+          "Value": 30,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "GearSetLegend_Random",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 6500,
+          "LimitBuy": 1,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "GearSetLegend_Random",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 6500,
+          "LimitBuy": 2,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 48,
+          "LimitBuy": 1,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_GearEpic",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 4
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 3
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 2
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        "BaseTop1": 10,
+        "BaseTop2": 7,
+        "BaseTop3": 5
+      }
+    },
+    "6": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroRoll",
+          "Value": 40,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 30
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearEpic",
+          "Value": 5,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroLegend",
+          "Value": 10,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach1",
+                "Quantity": 30
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearRefine",
+          "Value": 15,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_PentagramLvl",
+          "Value": 30,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Gold8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 96,
+          "LimitBuy": 2,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 10
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 320,
+          "LimitBuy": 10,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach5",
+                "Quantity": 5
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 320,
+          "LimitBuy": 10,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_GearRefine",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 100
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 300
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 50
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 200
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 30
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 100
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach4",
+                "Quantity": 20
+              },
+			  {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        "BaseTop1": 4,
+        "BaseTop2": 3,
+        "BaseTop3": 2
+      }
+    },
+    "7": {
+      "DayQuests": [
+        {
+          "CodeName": "QUEST_TTTT_HeroLvl",
+          "Value": 150,
+          "Reward": {
+            "CodeName": "IconChest1",
+            "Rewards": [
+              {
+                "CodeName": "BAC",
+                "Quantity": 400000
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroRoll",
+          "Value": 50,
+          "Reward": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 40
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_HeroLegend",
+          "Value": 15,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach1",
+                "Quantity": 40
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_GearRefine",
+          "Value": 20,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "CodeName": "QUEST_TTTT_PlayerLvl",
+          "Value": 70,
+          "Reward": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "DayShop": [
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "PLAYER_EXP",
+                "Quantity": 3000
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 240,
+          "LimitBuy": 20,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 10
+              }
+            ]
+          },
+          "Currency": "KNB",
+          "Price": 80,
+          "LimitBuy": 10,
+          "Discount": 20
+        },
+        {
+          "Reward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 10
+              }
+            ]
+          },
+          "Currency": "NGOC",
+          "Price": 80,
+          "LimitBuy": 10,
+          "Discount": 20
+        }
+      ],
+      "TopServer": {
+        "QuestCodeName": "QUEST_TTTT_PlayerLvl",
+        "TopRewards": {
+          "1": {
+            "CodeName": "IconChest5",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 4
+              }
+            ]
+          },
+          "2": {
+            "CodeName": "IconChest4",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 3
+              }
+            ]
+          },
+          "3": {
+            "CodeName": "IconChest3",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 2
+              }
+            ]
+          },
+          "4": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "5": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "6": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "7": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "8": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "9": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          },
+          "10": {
+            "CodeName": "IconChest2",
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              }
+            ]
+          }
+        },
+        "BaseTop1": 50,
+        "BaseTop2": 40,
+        "BaseTop3": 30
+      }
+    }
+  }
+}

@@ -1,0 +1,4437 @@
+{
+  "Products": [
+    {
+      "ProductId": "com.game.sg293.dailybattlepass",
+      "Price": 200000
+    },
+    {
+      "ProductId": "com.game.sg293.weeklybattlepass",
+      "Price": 400000
+    }
+  ],
+  "EpicPasses": [
+    {
+      "CodeName": "dailybattlepass",
+      "Type": 1,
+      "Price": 200000,
+      "FreePlay": true,
+      "AvailableDays": 35,
+      "Renewable": true,
+      "UnlockRequire": 4,
+      "ListItem": [
+        {
+          "Index": 1,
+          "Require": 0,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "VIP_POINT",
+                "Quantity": 1200
+              }
+            ]
+          }
+        },
+        {
+          "Index": 2,
+          "Require": 100,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 2
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 3,
+          "Require": 200,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 3
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 4,
+          "Require": 300,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp4",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 5,
+          "Require": 400,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 6,
+          "Require": 500,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug4",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 7,
+          "Require": 620,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 8,
+          "Require": 730,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 9,
+          "Require": 840,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "GearSetEpic_Random",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 10,
+          "Require": 1050,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 11,
+          "Require": 1260,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 10
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 12,
+          "Require": 1470,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_RaceType_Demi_Human",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 13,
+          "Require": 1680,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_RaceType_Monster",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 14,
+          "Require": 1890,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhRare_RaceType_Demon",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 15,
+          "Require": 2100,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 16,
+          "Require": 2310,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 10
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 17,
+          "Require": 2520,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 18,
+          "Require": 2730,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 19,
+          "Require": 2940,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 20,
+          "Require": 3150,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 21,
+          "Require": 3360,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 22,
+          "Require": 3570,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 23,
+          "Require": 3780,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_Exp8",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 24,
+          "Require": 3990,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 25,
+          "Require": 4200,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 26,
+          "Require": 4410,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 27,
+          "Require": 4870,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        },
+        {
+          "Index": 28,
+          "Require": 5330,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuAt",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 50
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "CodeName": "weeklybattlepass",
+      "Type": 2,
+      "Price": 400000,
+      "FreePlay": true,
+      "AvailableDays": 35,
+      "Renewable": true,
+      "UnlockRequire": 4,
+      "ListItem": [
+        {
+          "Index": 1,
+          "Require": 0,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuAt",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "VIP_POINT",
+                "Quantity": 2400
+              }
+            ]
+          }
+        },
+        {
+          "Index": 2,
+          "Require": 30,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 3,
+          "Require": 60,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 30
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_TinhKim",
+                "Quantity": 50
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 4,
+          "Require": 100,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "CLOCK_HeroDrug8",
+                "Quantity": 3
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 5,
+          "Require": 150,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 6,
+          "Require": 200,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 7,
+          "Require": 300,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 8,
+          "Require": 380,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 9,
+          "Require": 550,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 50
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThanCham",
+                "Quantity": 100
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 10,
+          "Require": 650,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 11,
+          "Require": 750,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 5
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 12,
+          "Require": 850,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 13,
+          "Require": 1050,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 50
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_ThienThach3",
+                "Quantity": 50
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 14,
+          "Require": 1250,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_FactionScroll",
+                "Quantity": 10
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 15,
+          "Require": 1450,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 16,
+          "Require": 1650,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ITEM_HeroScroll",
+                "Quantity": 10
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanMu",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 17,
+          "Require": 1750,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demi_Human",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanAoGiap",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 18,
+          "Require": 1950,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Monster",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanTrangSuc",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 19,
+          "Require": 2150,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_RaceType_Demon",
+                "Quantity": 1
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongThanVuKhi",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 20,
+          "Require": 2350,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhEpic_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        },
+        {
+          "Index": 21,
+          "Require": 2600,
+          "FreeReward": {
+            "Rewards": [
+              {
+                "CodeName": "ManhLegend_Random",
+                "Quantity": 60
+              }
+            ]
+          },
+          "PremiumReward": {
+            "Rewards": [
+              {
+                "CodeName": "OptionChest_RuongTongSuAt",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "KNB",
+                "Quantity": 100
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "VIPPointPerUSD": 50,
+  "VIPPointPerScoin": 2,
+  "NgocPacks": [
+    {
+      "codeName": "NgocPack1",
+      "productID": "com.game.sg293.tuixu1",
+      "price": 23000,
+      "ngocAmount": 54,
+      "store": "iOS"
+    },
+    {
+      "codeName": "NgocPack2",
+      "productID": "com.game.sg293.tuixu2",
+      "price": 115000,
+      "ngocAmount": 282,
+      "store": "iOS"
+    },
+    {
+      "codeName": "NgocPack3",
+      "productID": "com.game.sg293.tuixu3",
+      "price": 1149000,
+      "ngocAmount": 2850,
+      "store": "iOS"
+    },
+    {
+      "codeName": "NgocPack4",
+      "productID": "com.game.sg293.tuixu4",
+      "price": 2299770,
+      "ngocAmount": 5664,
+      "store": "iOS"
+    },
+    {
+      "codeName": "NgocPack1",
+      "productID": "com.shgame.sg293.tuixu1",
+      "price": 21000,
+      "ngocAmount": 42,
+      "store": "Android"
+    },
+    {
+      "codeName": "NgocPack2",
+      "productID": "com.shgame.sg293.tuixu2",
+      "price": 105000,
+      "ngocAmount": 210,
+      "store": "Android"
+    },
+    {
+      "codeName": "NgocPack3",
+      "productID": "com.shgame.sg293.tuixu3",
+      "price": 1050000,
+      "ngocAmount": 2100,
+      "store": "Android"
+    },
+    {
+      "codeName": "NgocPack4",
+      "productID": "com.shgame.sg293.tuixu4",
+      "price": 2100000,
+      "ngocAmount": 4200,
+      "store": "Android"
+    },
+    {
+      "codeName": "NgocPack5",
+      "productID": "com.shgame.sg293.tuixu5",
+      "price": 5250000,
+      "ngocAmount": 10500,
+      "store": "Android"
+    },
+    {
+      "codeName": "NgocPack1",
+      "productID": "sg293_sc_10",
+      "price": 10000,
+      "ngocAmount": 30,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack2",
+      "productID": "sg293_sc_20",
+      "price": 20000,
+      "ngocAmount": 60,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack3",
+      "productID": "sg293_sc_30",
+      "price": 30000,
+      "ngocAmount": 90,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack4",
+      "productID": "sg293_sc_50",
+      "price": 50000,
+      "ngocAmount": 150,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack5",
+      "productID": "sg293_sc_100",
+      "price": 100000,
+      "ngocAmount": 300,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack6",
+      "productID": "sg293_sc_200",
+      "price": 200000,
+      "ngocAmount": 600,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack7",
+      "productID": "sg293_sc_300",
+      "price": 300000,
+      "ngocAmount": 900,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack8",
+      "productID": "sg293_sc_500",
+      "price": 500000,
+      "ngocAmount": 1500,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack9",
+      "productID": "sg293_sc_1000",
+      "price": 1000000,
+      "ngocAmount": 3000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack10",
+      "productID": "sg293_sc_2000",
+      "price": 2000000,
+      "ngocAmount": 6000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack15",
+      "productID": "sg293_sc_3000",
+      "price": 3000000,
+      "ngocAmount": 9000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack11",
+      "productID": "sg293_sc_5000",
+      "price": 5000000,
+      "ngocAmount": 15000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack12",
+      "productID": "sg293_sc_10000",
+      "price": 10000000,
+      "ngocAmount": 30000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack13",
+      "productID": "sg293_sc_20000",
+      "price": 20000000,
+      "ngocAmount": 60000,
+      "store": "Web"
+    },
+    {
+      "codeName": "NgocPack14",
+      "productID": "sg293_sc_50000",
+      "price": 50000000,
+      "ngocAmount": 150000,
+      "store": "Web"
+    }
+  ],
+  "KNBPacks": [
+    {
+      "CodeName": "KNBPack1",
+      "ngocPrice": 300,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 600
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "KNBPack2",
+      "ngocPrice": 600,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "KNBPack3",
+      "ngocPrice": 1500,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "KNBPack4",
+      "ngocPrice": 3000,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 3000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "KNBPack5",
+      "ngocPrice": 6000,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 12000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "KNBPack6",
+      "ngocPrice": 12000,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 12000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 24000
+          }
+        ]
+      }
+    }
+  ],
+  "SubscriptionPacks": [
+    {
+      "CodeName": "BasicSubPack",
+      "ngocPrice": 200,
+      "instantKNB": 250,
+      "dailyKNB": 50,
+      "TotalDay": 30
+    },
+    {
+      "CodeName": "PremiumSubPack",
+      "ngocPrice": 200,
+      "instantKNB": 750,
+      "dailyKNB": 200,
+      "TotalDay": 30
+    }
+  ],
+  "Offers": [
+    {
+      "CodeName": "OfferDaily_1",
+      "ngocPrice": 1600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1600
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3200
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 40
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferDaily_2",
+      "ngocPrice": 800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 800
+          },
+          {
+            "CodeName": "CLOCK_Exp8",
+            "Quantity": 6
+          },
+          {
+            "CodeName": "CLOCK_Gold8",
+            "Quantity": 6
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1600
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferDaily_3",
+      "ngocPrice": 400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "CLOCK_HeroDrug8",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 800
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferDaily_4",
+      "ngocPrice": 560,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 560
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1120
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 14
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferMonthly_1",
+      "ngocPrice": 6000,
+      "LimitHour": 72,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 40
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 12000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 12000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferMonthly_2",
+      "ngocPrice": 12000,
+      "LimitHour": 72,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 12000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 24000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 24000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 150
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferMonthly_3",
+      "ngocPrice": 18000,
+      "LimitHour": 72,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 18000
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 360
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 36000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 36000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 225
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferMonthly_4",
+      "ngocPrice": 24000,
+      "LimitHour": 72,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 24000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 48000
+          },
+          {
+            "CodeName": "OptionChest_RuongThanMu",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 48000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_6",
+      "ngocPrice": 200,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 200
+          },
+          {
+            "CodeName": "CLOCK_Gold8",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "CLOCK_HeroDrug8",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "CLOCK_Exp8",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 400
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_7",
+      "ngocPrice": 300,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 600
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_8",
+      "ngocPrice": 400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 800
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_9",
+      "ngocPrice": 500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_10",
+      "ngocPrice": 600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "VK_Glaive",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 1200
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_11",
+      "ngocPrice": 600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "AG_Fullplate",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 1200
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1200
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_12",
+      "ngocPrice": 800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "MU_Crown",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 1600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1600
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 60
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_13",
+      "ngocPrice": 1000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "TS_LegendRing",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 90
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_14",
+      "ngocPrice": 1200,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2400
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2400
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_15",
+      "ngocPrice": 1400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2800
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2800
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 120
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_16",
+      "ngocPrice": 1600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3200
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3200
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 140
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_17",
+      "ngocPrice": 1800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 800
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3600
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 160
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_18",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 180
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_19",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_20",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_21",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_22",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_23",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_24",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_25",
+      "ngocPrice": 2500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1250
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 5000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 5000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 250
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_26",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_27",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_28",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_29",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_30",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_31",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_32",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_33",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_34",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferCampaign_35",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "GearSetLegend_Random",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThanCham",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_100",
+      "ngocPrice": 1000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 100
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_110",
+      "ngocPrice": 1200,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 600
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2400
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2400
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 120
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_120",
+      "ngocPrice": 1400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 700
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2800
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2800
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 140
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_130",
+      "ngocPrice": 1600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 800
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3200
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3200
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 160
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_140",
+      "ngocPrice": 1800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 900
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3600
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 180
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_150",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_160",
+      "ngocPrice": 2200,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1100
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 150
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4400
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4400
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 220
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_170",
+      "ngocPrice": 2400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1200
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4800
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4800
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 240
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_180",
+      "ngocPrice": 2600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1300
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 240
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 5200
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 5200
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 260
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_190",
+      "ngocPrice": 2800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1400
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 5600
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 5600
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 280
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_200",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach2",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_210",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_220",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 120
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_230",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_240",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_250",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_260",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_270",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_280",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_290",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_300",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_310",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_320",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferTower_330",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 180
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_60",
+      "ngocPrice": 200,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 100
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 400
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_70",
+      "ngocPrice": 400,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 200
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 800
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 800
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_80",
+      "ngocPrice": 600,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_90",
+      "ngocPrice": 800,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 1400
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 1600
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_100",
+      "ngocPrice": 1000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "ITEM_ThienThach4",
+            "Quantity": 25
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 2000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_110",
+      "ngocPrice": 1500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2500
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_120",
+      "ngocPrice": 2000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1000
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 2500
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 25
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 4000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_130",
+      "ngocPrice": 2500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1250
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 30
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 5000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_140",
+      "ngocPrice": 3000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1500
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 25
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 35
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 6000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_150",
+      "ngocPrice": 3500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 1750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 30
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3500
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 40
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 7000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_160",
+      "ngocPrice": 4000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 2000
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 35
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 3500
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 50
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 8000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_170",
+      "ngocPrice": 4500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 2250
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 40
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 4000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 55
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 9000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_180",
+      "ngocPrice": 5000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 2500
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 45
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 5000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 60
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 10000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_190",
+      "ngocPrice": 5500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 2750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 50
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 6000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 70
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 11000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_200",
+      "ngocPrice": 6000,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 3000
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 55
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 8000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 75
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 12000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPlayerLevel_210",
+      "ngocPrice": 6500,
+      "LimitHour": 4,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 3250
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 60
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 10000
+          },
+          {
+            "CodeName": "ITEM_ThienThach5",
+            "Quantity": 80
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 13000
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPersonal_1",
+      "ngocPrice": 60,
+      "LimitHour": 8,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 60
+          },
+          {
+            "CodeName": "ITEM_HeroDrug",
+            "Quantity": 250
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 120
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPersonal_2",
+      "ngocPrice": 210,
+      "LimitHour": 8,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 420
+          },
+          {
+            "CodeName": "KNB",
+            "Quantity": 200
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPersonal_3",
+      "ngocPrice": 360,
+      "LimitHour": 8,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 720
+          },
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          }
+        ]
+      }
+    },
+    {
+      "CodeName": "OfferPersonal_4",
+      "ngocPrice": 1800,
+      "LimitHour": 8,
+      "LimitBuy": 1,
+      "Rewards": {
+        "Rewards": [
+          {
+            "CodeName": "CLOCK_Exp8",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "CLOCK_HeroDrug8",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "VIP_POINT",
+            "Quantity": 3600
+          }
+        ]
+      }
+    }
+  ],
+  "FirstPurchaseAvailable": 365,
+  "FirstPurchaseBonus": {
+    "Rewards": [
+      {
+        "CodeName": "CLOCK_Gold8",
+        "Quantity": 1
+      },
+      {
+        "CodeName": "CLOCK_Exp8",
+        "Quantity": 1
+      },
+      {
+        "CodeName": "ROLE_DoanDu",
+        "Quantity": 2
+      },
+      {
+        "CodeName": "VK_Crossbow",
+        "Quantity": 1
+      }
+    ]
+  },
+  "ListDeal": [
+    {
+      "Index": 1,
+      "ngocPrice": 0,
+      "DealType": "Daily",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 20
+                },
+                {
+                  "CodeName": "ManhEpic_Random",
+                  "Quantity": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 2,
+      "ngocPrice": 150,
+      "DealType": "Daily",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_Exp4",
+                  "Quantity": 2
+                },
+                {
+                  "CodeName": "CLOCK_HeroDrug4",
+                  "Quantity": 1
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 3,
+      "ngocPrice": 300,
+      "DealType": "Daily",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_Exp8",
+                  "Quantity": 3
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 4,
+      "ngocPrice": 450,
+      "DealType": "Daily",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_HeroDrug8",
+                  "Quantity": 3
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 900
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 5,
+      "ngocPrice": 600,
+      "DealType": "Daily",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_HeroScroll",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 6,
+      "ngocPrice": 0,
+      "DealType": "Daily",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_HeroScroll",
+                  "Quantity": 1
+                },
+                {
+                  "CodeName": "ITEM_HeroDrug",
+                  "Quantity": 100
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1,
+      "ngocPrice": 900,
+      "DealType": "Weekly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_FactionScroll",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 900
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 1800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 2,
+      "ngocPrice": 900,
+      "DealType": "Weekly",
+      "LimitBuy": 3,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_Exp8",
+                  "Quantity": 5
+                },
+                {
+                  "CodeName": "CLOCK_HeroDrug8",
+                  "Quantity": 5
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 1800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 3,
+      "ngocPrice": 2000,
+      "DealType": "Weekly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_TinhKim",
+                  "Quantity": 200
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 2000
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 4000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 4,
+      "ngocPrice": 3000,
+      "DealType": "Weekly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ManhLegend_Random",
+                  "Quantity": 120
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 3000
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 6000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "Index": 5,
+      "ngocPrice": 3000,
+      "DealType": "Weekly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "OptionChest_RuongTongSuGiap",
+                  "Quantity": 1
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 1000
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 6000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 1,
+      "ngocPrice": 2000,
+      "DealType": "Monthly",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_Exp8",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "CLOCK_HeroDrug8",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 4000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 2,
+      "ngocPrice": 3000,
+      "DealType": "Monthly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_ThienThach5",
+                  "Quantity": 30
+                },
+                {
+                  "CodeName": "ITEM_ThienThach4",
+                  "Quantity": 30
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 6000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 3,
+      "ngocPrice": 2500,
+      "DealType": "Monthly",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_HeroDrug8",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "ITEM_HeroScroll",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 5000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 4,
+      "ngocPrice": 2500,
+      "DealType": "Monthly",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "CLOCK_Exp8",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "ITEM_HeroScroll",
+                  "Quantity": 10
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 5000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 5,
+      "ngocPrice": 2000,
+      "DealType": "Monthly",
+      "LimitBuy": 2,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "ITEM_TinhKim",
+                  "Quantity": 200
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 2000
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 4000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Index": 6,
+      "ngocPrice": 4500,
+      "DealType": "Monthly",
+      "LimitBuy": 1,
+      "Rewards": [
+        {
+          "RewardByDay": [
+            {
+              "Rewards": [
+                {
+                  "CodeName": "OptionChest_RuongTongSuGiap",
+                  "Quantity": 1
+                },
+				{
+                  "CodeName": "OptionChest_RuongTongSuAt",
+                  "Quantity": 1
+                },
+                {
+                  "CodeName": "KNB",
+                  "Quantity": 3000
+                },
+                {
+                  "CodeName": "VIP_POINT",
+                  "Quantity": 9000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ListPersonalOffer": [
+    {
+      "OfferCodeName": "OfferPersonal_1",
+      "PaidAmount": 30
+    },
+    {
+      "OfferCodeName": "OfferPersonal_2",
+      "PaidAmount": 150
+    },
+    {
+      "OfferCodeName": "OfferPersonal_3",
+      "PaidAmount": 300
+    },
+    {
+      "OfferCodeName": "OfferPersonal_4",
+      "PaidAmount": 1500
+    }
+  ]
+}

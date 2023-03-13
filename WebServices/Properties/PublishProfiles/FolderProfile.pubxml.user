@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\CTP\ctpServerPublish</_PublishTargetUrl>
+    <History>True|2023-01-31T15:43:39.2989995Z;True|2023-01-31T22:27:44.6465714+07:00;False|2023-01-31T22:20:50.7587789+07:00;False|2023-01-31T21:44:35.8469579+07:00;True|2023-01-31T21:44:16.8358302+07:00;True|2022-09-24T18:04:41.4883823+07:00;True|2022-09-23T21:09:02.5998740+07:00;True|2022-09-19T23:20:14.3555238+07:00;True|2022-09-18T16:56:54.4219539+07:00;True|2022-06-17T02:08:17.8302798+07:00;True|2022-06-02T02:47:37.5675336+07:00;True|2022-05-24T02:10:44.6531039+07:00;True|2022-05-24T01:39:30.6234867+07:00;True|2022-05-24T01:38:42.8417723+07:00;True|2022-05-24T00:53:46.7043152+07:00;True|2022-05-24T00:45:37.9029587+07:00;True|2022-05-24T00:03:46.0125631+07:00;True|2022-05-19T00:31:13.9336968+07:00;True|2022-05-19T00:30:37.0417457+07:00;True|2022-04-29T08:53:44.0549114+07:00;True|2022-04-29T08:49:53.2640109+07:00;True|2022-04-28T21:37:39.1077279+07:00;True|2022-04-28T21:33:21.9639066+07:00;True|2022-04-28T00:45:35.6325632+07:00;True|2022-04-26T02:00:41.0347208+07:00;True|2022-04-14T23:02:53.4332530+07:00;True|2022-04-14T22:35:35.6462261+07:00;True|2022-04-14T00:00:30.4205380+07:00;True|2022-04-11T09:11:19.8049061+07:00;True|2022-04-10T21:51:46.0614242+07:00;True|2022-04-10T20:59:40.6653324+07:00;True|2022-04-10T01:55:39.5849483+07:00;True|2022-04-10T00:58:37.7289278+07:00;True|2022-04-06T01:03:42.5321108+07:00;True|2022-04-05T02:51:24.9075970+07:00;True|2022-03-31T02:37:35.2046958+07:00;True|2022-03-31T02:02:30.8733796+07:00;True|2022-03-28T01:38:46.9148280+07:00;True|2022-03-24T01:21:24.8341073+07:00;True|2022-03-24T01:16:53.7202871+07:00;True|2022-03-22T04:22:57.4796398+07:00;True|2022-03-22T04:04:33.3681858+07:00;True|2022-03-22T02:52:09.2096995+07:00;True|2022-03-18T04:25:57.1185247+07:00;True|2022-03-17T23:57:23.0479056+07:00;True|2022-03-17T23:53:53.1058109+07:00;True|2021-12-06T14:43:43.0823135+07:00;True|2021-12-06T09:58:20.1061713+07:00;True|2021-12-01T23:27:45.8254670+07:00;True|2021-12-01T23:00:42.1937433+07:00;True|2021-12-01T22:05:06.5292709+07:00;True|2021-12-01T21:09:51.1875721+07:00;True|2021-12-01T03:29:12.3054263+07:00;True|2021-11-30T23:27:20.1339347+07:00;True|2021-11-30T23:26:17.0150041+07:00;True|2021-11-23T16:12:41.7907188+07:00;True|2021-11-23T14:18:21.1660326+07:00;True|2021-11-23T10:28:02.1624359+07:00;True|2021-11-22T14:08:57.3534839+07:00;True|2021-11-22T14:00:13.7440447+07:00;True|2021-11-22T11:57:08.8713354+07:00;True|2021-11-22T11:17:09.1192037+07:00;True|2021-11-22T10:57:52.7011974+07:00;True|2021-11-22T10:57:16.5408747+07:00;True|2021-11-21T21:10:38.4338028+07:00;True|2021-11-21T21:04:19.9370601+07:00;True|2021-11-20T11:32:38.4313850+07:00;True|2021-11-18T09:26:16.9818411+07:00;True|2021-11-18T09:01:51.5841772+07:00;True|2021-11-17T18:10:07.3247841+07:00;True|2021-10-22T16:07:36.2849459+07:00;True|2021-10-21T22:27:10.9774804+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Pages/Error.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Error.cshtml.cs">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Index.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Index.cshtml.cs">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Privacy.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Privacy.cshtml.cs">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Shared/_Layout.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/Shared/_ValidationScriptsPartial.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/_ViewImports.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="Pages/_ViewStart.cshtml">
+      <publishTime>10/21/2021 22:25:48</publishTime>
+    </File>
+    <File Include="SrvConfigs/AFK.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/api-project-320930423577-46ca95ec87ca.p12">
+      <publishTime>06/09/2020 08:57:05</publishTime>
+    </File>
+    <File Include="SrvConfigs/BattleCfgTest.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/BossDongNhan.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/BossKyLan.txt">
+      <publishTime>10/25/2021 14:14:47</publishTime>
+    </File>
+    <File Include="SrvConfigs/BotName.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/BountyBoard.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/ChatFilter.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/CheckIn30Days.txt">
+      <publishTime>09/29/2021 23:27:10</publishTime>
+    </File>
+    <File Include="SrvConfigs/Clan.txt">
+      <publishTime>09/27/2021 22:01:17</publishTime>
+    </File>
+    <File Include="SrvConfigs/CongThanhChien.txt">
+      <publishTime>10/19/2021 15:21:43</publishTime>
+    </File>
+    <File Include="SrvConfigs/DonDau.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Dungeon.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/DuyenPhan.txt">
+      <publishTime>09/14/2021 17:01:08</publishTime>
+    </File>
+    <File Include="SrvConfigs/Equipments.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Event.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/FormationGD.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/GiaoDichKNB.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/HiepKhachDao.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/HuyetChien.txt">
+      <publishTime>08/30/2021 09:06:42</publishTime>
+    </File>
+    <File Include="SrvConfigs/IAP.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Items.txt">
+      <publishTime>10/25/2021 14:14:47</publishTime>
+    </File>
+    <File Include="SrvConfigs/KhamNgoc.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/KinhMach.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Localization.csv">
+      <publishTime>10/25/2021 14:14:47</publishTime>
+    </File>
+    <File Include="SrvConfigs/Location.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/locationLocalization.csv">
+      <publishTime>06/09/2020 09:07:41</publishTime>
+    </File>
+    <File Include="SrvConfigs/LuanKiem.txt">
+      <publishTime>08/09/2021 15:34:52</publishTime>
+    </File>
+    <File Include="SrvConfigs/Maps.txt">
+      <publishTime>09/29/2021 20:31:57</publishTime>
+    </File>
+    <File Include="SrvConfigs/Other.txt">
+      <publishTime>10/25/2021 16:45:04</publishTime>
+    </File>
+    <File Include="SrvConfigs/Pet.txt">
+      <publishTime>10/02/2021 21:47:23</publishTime>
+    </File>
+    <File Include="SrvConfigs/PreloadResourceConfig.csv">
+      <publishTime>10/02/2021 22:24:44</publishTime>
+    </File>
+    <File Include="SrvConfigs/Quests.txt">
+      <publishTime>08/17/2021 17:54:51</publishTime>
+    </File>
+    <File Include="SrvConfigs/ResourcesConfigs.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Role.txt">
+      <publishTime>10/21/2021 09:43:56</publishTime>
+    </File>
+    <File Include="SrvConfigs/SacredTomb.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/ServerLocalization.csv">
+      <publishTime>10/19/2021 15:21:41</publishTime>
+    </File>
+    <File Include="SrvConfigs/Shop.txt">
+      <publishTime>06/09/2020 08:57:05</publishTime>
+    </File>
+    <File Include="SrvConfigs/Skill.txt">
+      <publishTime>10/22/2021 15:47:05</publishTime>
+    </File>
+    <File Include="SrvConfigs/SkillLocalization.csv">
+      <publishTime>10/19/2021 15:21:43</publishTime>
+    </File>
+    <File Include="SrvConfigs/SkyTower.txt">
+      <publishTime>09/16/2021 16:56:06</publishTime>
+    </File>
+    <File Include="SrvConfigs/SkyTowerDemon.txt">
+      <publishTime>09/13/2021 14:33:57</publishTime>
+    </File>
+    <File Include="SrvConfigs/SkyTowerHuman.txt">
+      <publishTime>09/13/2021 14:33:57</publishTime>
+    </File>
+    <File Include="SrvConfigs/SkyTowerMonster.txt">
+      <publishTime>09/13/2021 14:33:57</publishTime>
+    </File>
+    <File Include="SrvConfigs/SoNhapGiangHoQuest.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/Store.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/TamBao.txt">
+      <publishTime>10/19/2021 15:21:43</publishTime>
+    </File>
+    <File Include="SrvConfigs/ThanhKhi.txt">
+      <publishTime>09/27/2021 22:01:13</publishTime>
+    </File>
+    <File Include="SrvConfigs/ThatTinhDai.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/ThuThachTanThu.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SrvConfigs/VIP.txt">
+      <publishTime>07/19/2021 23:11:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

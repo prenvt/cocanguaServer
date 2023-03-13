@@ -1,0 +1,983 @@
+{
+  "ListKinhMach": [
+    {
+      "idx": 1,
+      "DisplayName": "Đốc Mạch",
+      "CodeName": "DocMach",
+      "LevelReq": 40,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Thừa Khấp",
+          "Vitri": "0,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 200
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Thừa Tương",
+          "Vitri": "60,-200",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 2
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Thiên Đột",
+          "Vitri": "0,-120",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Tuyền Ki",
+          "Vitri": "80,-40",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 1
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Hoa Cái",
+          "Vitri": "20,40",
+          "ChanceSucess": 80,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 300
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Ngọc Đường",
+          "Vitri": "80,120",
+          "ChanceSucess": 80,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 2
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Đản Trung",
+          "Vitri": "10,200",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Cự Khuyết",
+          "Vitri": "80,280",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 1000
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Kiến Lí",
+          "Vitri": "10,360",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "DisplayName": "Nhâm Mạch",
+      "CodeName": "NhamMach",
+      "LevelReq": 80,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Tiền Đình",
+          "Vitri": "30,-480",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 1500
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Bách Hội",
+          "Vitri": "30,100",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "LifeLeech",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Cường Gian",
+          "Vitri": "0,-120",
+          "ChanceSucess": 80,
+          "KinhMachStats": [
+            {
+              "Type": "Def",
+              "Value": 400
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Phong Phủ",
+          "Vitri": "80,-40",
+          "ChanceSucess": 80,
+          "KinhMachStats": [
+            {
+              "Type": "EVD",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Á Môn",
+          "Vitri": "20,40",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 2250
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Đại Trùy",
+          "Vitri": "80,120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "LifeLeech",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Thần Đạo",
+          "Vitri": "10,200",
+          "ChanceSucess": 60,
+          "KinhMachStats": [
+            {
+              "Type": "Def",
+              "Value": 600
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Linh Đài",
+          "Vitri": "80,280",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "EVD",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Trung Xu",
+          "Vitri": "10,360",
+          "ChanceSucess": 40,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 3375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "DisplayName": "Xung Mạch",
+      "CodeName": "XungMach",
+      "LevelReq": 120,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "U Môn",
+          "Vitri": "30,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "PHYSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Âm Đô",
+          "Vitri": "30,100",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "MAGICRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Thạch Quan",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "STATUSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Thương Khúc",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRITRES",
+              "Value": 2
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Trung Chú",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "PHYSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Khí Huyệt",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "MAGICRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Hoành Cốt",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "STATUSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Quan Môn",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "CRITRES",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Thủy Đạo",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 5062
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "DisplayName": "Đới Mạch",
+      "CodeName": "DoiMach",
+      "LevelReq": 160,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Ngũ Xu",
+          "Vitri": "30,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 450
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Thiên Xung",
+          "Vitri": "30,100",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Thừa Linh",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 675
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Huyền Chung",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Phù Bạch",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 7594
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Bổn Thần",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "Def",
+              "Value": 900
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Chính Doanh",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 11391
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Não Không",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "Def",
+              "Value": 1350
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Dương Phụ",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 17086
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "DisplayName": "Âm Kiêu Mạch",
+      "CodeName": "AmKieuMach",
+      "LevelReq": 200,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Nội Quan",
+          "Vitri": "0,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Liêm Tuyền",
+          "Vitri": "60,-200",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 2
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Đại Hoành",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Phủ Xá",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 3
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Xung Môn",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "LifeLeech",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Thiểu Xung",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "EVD",
+              "Value": 4
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Thần Môn",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "LifeLeech",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Khí Hải",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "EVD",
+              "Value": 6
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Khúc Cốt",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 25629
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "DisplayName": "Dương Kiêu Mạch",
+      "CodeName": "DuongKieuMach",
+      "LevelReq": 240,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Ngoại Quan",
+          "Vitri": "0,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "MAGICRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Phong Trì",
+          "Vitri": "60,-200",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Mục Song",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "MAGICRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Dương Bạch",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRITDMG",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Đầu Duy",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "PHYSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Kiên Tịnh",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "STATUSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Thiên Liêu",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "PHYSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Noãn Du",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "STATUSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Dương Giao",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 38443
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "DisplayName": "Âm Duy Mạch",
+      "CodeName": "AmDuyMach",
+      "LevelReq": 280,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Nhân Nghênh",
+          "Vitri": "0,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "Def",
+              "Value": 2024
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Nhũ Căn",
+          "Vitri": "60,-200",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 1012
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Vị Kinh",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 57665
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Thận Kinh",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "EVD",
+              "Value": 9
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Âm Cốc",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "LifeLeech",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Chiếu Hải",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "PHYSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Hoành Cốc",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "STATUSRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Âm Khí Xung",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MAGICRES",
+              "Value": 0.04
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Hoành Tì",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 86498
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "DisplayName": "Dương Duy Mạch",
+      "CodeName": "DuongDuyMach",
+      "LevelReq": 320,
+      "ListHuyetMach": [
+        {
+          "idx": 1,
+          "DisplayName": "Tình Minh",
+          "Vitri": "0,-480",
+          "ChanceSucess": 100,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 2,
+          "DisplayName": "Địa Thương",
+          "Vitri": "60,-200",
+          "ChanceSucess": 90,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 3,
+          "DisplayName": "Cự Cốt",
+          "Vitri": "0,-120",
+          "ChanceSucess": 70,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 1519
+            }
+          ]
+        },
+        {
+          "idx": 4,
+          "DisplayName": "Kiên Liêu",
+          "Vitri": "80,-40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "CRITRES",
+              "Value": 4
+            }
+          ]
+        },
+        {
+          "idx": 5,
+          "DisplayName": "Phụ Dương",
+          "Vitri": "20,40",
+          "ChanceSucess": 50,
+          "KinhMachStats": [
+            {
+              "Type": "HIT",
+              "Value": 5
+            }
+          ]
+        },
+        {
+          "idx": 6,
+          "DisplayName": "Thân Mạch",
+          "Vitri": "80,120",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "CRIT",
+              "Value": 7
+            }
+          ]
+        },
+        {
+          "idx": 7,
+          "DisplayName": "Ngũ Xứ",
+          "Vitri": "10,200",
+          "ChanceSucess": 30,
+          "KinhMachStats": [
+            {
+              "Type": "Atk",
+              "Value": 2278
+            }
+          ]
+        },
+        {
+          "idx": 8,
+          "DisplayName": "Lạc Tức",
+          "Vitri": "80,280",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "CRITRES",
+              "Value": 6
+            }
+          ]
+        },
+        {
+          "idx": 9,
+          "DisplayName": "Thừa Sơn",
+          "Vitri": "10,360",
+          "ChanceSucess": 10,
+          "KinhMachStats": [
+            {
+              "Type": "MaxHP",
+              "Value": 129746
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ListHuyetMachBase": [
+    {
+      "ThanChamCost": 10,
+      "ChanceSucess": 100,
+      "idx": 1
+    },
+    {
+      "ThanChamCost": 15,
+      "ChanceSucess": 90,
+      "idx": 2
+    },
+    {
+      "ThanChamCost": 22,
+      "ChanceSucess": 70,
+      "idx": 3
+    },
+    {
+      "ThanChamCost": 34,
+      "ChanceSucess": 50,
+      "idx": 4
+    },
+    {
+      "ThanChamCost": 51,
+      "ChanceSucess": 50,
+      "idx": 5
+    },
+    {
+      "ThanChamCost": 76,
+      "ChanceSucess": 30,
+      "idx": 6
+    },
+    {
+      "ThanChamCost": 114,
+      "ChanceSucess": 30,
+      "idx": 7
+    },
+    {
+      "ThanChamCost": 171,
+      "ChanceSucess": 10,
+      "idx": 8
+    },
+    {
+      "ThanChamCost": 255,
+      "ChanceSucess": 10,
+      "idx": 9
+    }
+  ],
+  "FirstPercentValue": 10,
+  "GemCostFirst": 30,
+  "NextThanChamCostFactor": 1.5,
+  "NextGemCostFactor": 1.5
+}

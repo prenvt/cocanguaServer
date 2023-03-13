@@ -1,0 +1,296 @@
+{
+  "1": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_PlayerLvl",
+        "Shortcut": "Town",
+        "Value": 10
+      },
+      {
+        "CodeName": "QUEST_HeroLvlUp",
+        "Shortcut": "Hero",
+        "Value": 20
+      },
+      {
+        "CodeName": "QUEST_Campaign",
+        "Shortcut": "Campaign",
+        "Value": 3
+      },
+      {
+        "CodeName": "QUEST_AddFriend",
+        "Shortcut": "Friend",
+        "Value": 1
+      },
+      {
+        "CodeName": "QUEST_DailyRoll",
+        "Shortcut": "Summon",
+        "Value": 1
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest1",
+      "Rewards": [
+        {
+          "CodeName": "GearSetRare_Random",
+          "Quantity": 2
+        }
+      ]
+    }
+  },
+  "2": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_PlayerLvl",
+        "Shortcut": "Town",
+        "Value": 20
+      },
+      {
+        "CodeName": "QUEST_HeroLvlUp",
+        "Shortcut": "Hero",
+        "Value": 40
+      },
+      {
+        "CodeName": "QUEST_Campaign",
+        "Shortcut": "Campaign",
+        "Value": 5
+      },
+      {
+        "CodeName": "QUEST_Castle",
+        "Shortcut": "HuyetChien",
+        "Value": 10
+      },
+      {
+        "CodeName": "QUEST_DailyRoll",
+        "Shortcut": "Summon",
+        "Value": 1
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest3",
+      "Rewards": [
+        {
+          "CodeName": "KNB",
+          "Quantity": 100
+        },
+        {
+          "CodeName": "ITEM_HeroScroll",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "3": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_HeroLvlUp",
+        "Shortcut": "Hero",
+        "Value": 50
+      },
+      {
+        "CodeName": "QUEST_Castle",
+        "Shortcut": "HuyetChien",
+        "Value": 15
+      },
+      {
+        "CodeName": "QUEST_PvPWin",
+        "Shortcut": "PvP",
+        "Value": 1
+      },
+      {
+        "CodeName": "QUEST_AddFriend",
+        "Shortcut": "Friend",
+        "Value": 3
+      },
+      {
+        "CodeName": "QUEST_DailyClan",
+        "Shortcut": "ClanDailyBoss",
+        "Value": 1
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest4",
+      "Rewards": [
+        {
+          "CodeName": "ITEM_ThienThach1",
+          "Quantity": 20
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 50
+        }
+      ]
+    }
+  },
+  "4": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_PlayerLvl",
+        "Shortcut": "Town",
+        "Value": 35
+      },
+      {
+        "CodeName": "QUEST_Campaign",
+        "Shortcut": "Campaign",
+        "Value": 7
+      },
+      {
+        "CodeName": "QUEST_TowerLvl",
+        "Shortcut": "Tower",
+        "Value": 10
+      },
+      {
+        "CodeName": "QUEST_AddFriend",
+        "Shortcut": "Friend",
+        "Value": 5
+      },
+      {
+        "CodeName": "QUEST_DailyRoll",
+        "Shortcut": "Summon",
+        "Value": 2
+      }
+    ],
+    "Reward": {
+	  "CodeName": "IconChest4",
+      "Rewards": [
+        {
+          "CodeName": "ITEM_FactionScroll",
+          "Quantity": 5
+        },
+        {
+          "CodeName": "GearSetRare_Random",
+          "Quantity": 2
+        }
+      ]
+    }
+  },
+  "5": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_HeroLvlUp",
+        "Shortcut": "Hero",
+        "Value": 60
+      },
+      {
+        "CodeName": "QUEST_TowerLvl",
+        "Shortcut": "Tower",
+        "Value": 15
+      },
+      {
+        "CodeName": "QUEST_Castle",
+        "Shortcut": "HuyetChien",
+        "Value": 20
+      },
+      {
+        "CodeName": "QUEST_PvPWin",
+        "Shortcut": "PvP",
+        "Value": 3
+      },
+      {
+        "CodeName": "QUEST_SecretTreasure",
+        "Shortcut": "SecretTreasure ",
+        "Value": 1
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest4",
+      "Rewards": [
+        {
+          "CodeName": "ITEM_ThienThach1",
+          "Quantity": 20
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 20
+        }
+      ]
+    }
+  },
+  "6": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_PlayerLvl",
+        "Shortcut": "Town",
+        "Value": 45
+      },
+      {
+        "CodeName": "QUEST_TowerLvl",
+        "Shortcut": "Tower",
+        "Value": 20
+      },
+      {
+        "CodeName": "QUEST_PvPWin",
+        "Shortcut": "PvP",
+        "Value": 5
+      },
+      {
+        "CodeName": "QUEST_DailyClan",
+        "Shortcut": "ClanDailyBoss",
+        "Value": 2
+      },
+      {
+        "CodeName": "QUEST_DailyDungeon",
+        "Shortcut": "Dungeon",
+        "Value": 1
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest5",
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HeroScroll",
+          "Quantity": 7
+        },
+        {
+          "CodeName": "GearSetEpic_Random",
+          "Quantity": 2
+        }
+      ]
+    }
+  },
+  "7": {
+    "ListQuest": [
+      {
+        "CodeName": "QUEST_HeroLvlUp",
+        "Shortcut": "Hero",
+        "Value": 80
+      },
+      {
+        "CodeName": "QUEST_Campaign",
+        "Shortcut": "Campaign",
+        "Value": 9
+      },
+      {
+        "CodeName": "QUEST_TowerLvl",
+        "Shortcut": "Tower",
+        "Value": 30
+      },
+      {
+        "CodeName": "QUEST_PvPWin",
+        "Shortcut": "PvP",
+        "Value": 7
+      },
+      {
+        "CodeName": "QUEST_DailyRoll",
+        "Shortcut": "Summon ",
+        "Value": 5
+      }
+    ],
+    "Reward": {
+      "CodeName": "IconChest5",
+      "Rewards": [
+        {
+          "CodeName": "KNB",
+          "Quantity": 200
+        },
+        {
+          "CodeName": "ManhEpic_Random",
+          "Quantity": 60
+        },
+        {
+          "CodeName": "ITEM_ThienThach2",
+          "Quantity": 10
+        }
+      ]
+    }
+  }
+}

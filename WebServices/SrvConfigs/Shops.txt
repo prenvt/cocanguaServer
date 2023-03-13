@@ -1,0 +1,118 @@
+{
+	"characterPacksList": [
+		{
+			"codeName": "PHI_CONG",
+			"price": {
+				"JEWEL": 300
+			}
+		},
+		{
+			"codeName": "DOANH_NHAN",
+			"price": {
+				"JEWEL": 300
+			}
+		},
+		{
+			"codeName": "CO_GAI",
+			"price": {
+				"JEWEL": 300
+			}
+		},
+		{
+			"codeName": "TEN_TROM",
+			"price": {
+				"JEWEL": 300
+			}
+		}
+	],
+	"moneyPacksList": [
+		{
+			"codeName": "MONEY_01",
+			"quantity": 2000,
+			"price": {
+				"JEWEL": 10
+			}
+		},
+		{
+			"codeName": "MONEY_02",
+			"quantity": 4500,
+			"price": {
+				"JEWEL": 20
+			}
+		},
+		{
+			"codeName": "MONEY_03",
+			"quantity": 12000,
+			"price": {
+				"JEWEL": 50
+			}
+		},
+		{
+			"codeName": "MONEY_04",
+			"quantity": 25000,
+			"price": {
+				"JEWEL": 100
+			}
+		},
+		{
+			"codeName": "MONEY_05",
+			"quantity": 55000,
+			"price": {
+				"JEWEL": 200
+			}
+		},
+		{
+			"codeName": "MONEY_06",
+			"quantity": 80000,
+			"price": {
+				"JEWEL": 300
+			}
+		},
+		{
+			"codeName": "MONEY_07",
+			"quantity": 135000,
+			"price": {
+				"JEWEL": 500
+			}
+		},
+		{
+			"codeName": "MONEY_08",
+			"quantity": 300000,
+			"price": {
+				"JEWEL": 1000
+			}
+		}
+	],
+	"jewelPacksList": [
+		{
+			"codeName": "JEWEL_01",
+			"quantity": 100,
+			"iapPrice": 0.99
+		},
+		{
+			"codeName": "JEWEL_02",
+			"quantity": 303,
+			"iapPrice": 2.99
+		},
+		{
+			"codeName": "JEWEL_03",
+			"quantity": 515,
+			"iapPrice": 4.99
+		},
+		{
+			"codeName": "JEWEL_04",
+			"quantity": 1060,
+			"iapPrice": 9.99
+		},
+		{
+			"codeName": "JEWEL_05",
+			"quantity": 3750,
+			"iapPrice": 29.99
+		},
+		{
+			"codeName": "JEWEL_06",
+			"quantity": 6900,
+			"iapPrice": 49.99
+		}
+	]
+}

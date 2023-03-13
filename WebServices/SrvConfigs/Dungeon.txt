@@ -1,0 +1,3486 @@
+
+{
+    "chapters" : [
+        {
+            "index" : 3,
+            "gate1X" : 66,
+            "gate1Y" : 608,
+            "gate1Z" : -110,
+            "gate2NormalX" : 9647,
+            "gate2NormalY" : 568,
+            "gate2NormalZ" : -1606,
+            "gate2HardX"   : 7806,
+            "gate2HardY"   : 571,
+            "gate2HardZ"   : -117,
+            "agents"       : [
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -21,
+                    "levelMax" : -19,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 4137,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -4,
+                    "levelMax" : -2,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54408,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 33415,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35529,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 33372,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 9,
+            "gate1X" : -1726,
+            "gate1Y" : 0,
+            "gate1Z" : 1726,
+            "gate2NormalX" : 7957,
+            "gate2NormalY" : 7,
+            "gate2NormalZ" : -2833,
+            "gate2HardX"   : 10175,
+            "gate2HardY"   : -10,
+            "gate2HardZ"   : -516,
+            "agents"       : [
+                {
+                    "ID" : 4137,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -19,
+                    "levelMax" : -17,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -21,
+                    "levelMax" : -19,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 61665,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 30231,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12711,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 47345,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 10,
+            "gate1X" : -846,
+            "gate1Y" : 0,
+            "gate1Z" : -304,
+            "gate2NormalX" : 5542,
+            "gate2NormalY" : 0,
+            "gate2NormalZ" : 1,
+            "gate2HardX"   : 5115,
+            "gate2HardY"   : 0,
+            "gate2HardZ"   : 457,
+            "agents"       : [
+                {
+                    "ID" : 4137,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -21,
+                    "levelMax" : -19,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -19,
+                    "levelMax" : -17,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -29,
+                    "levelMax" : -27,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -21,
+                    "levelMax" : -19,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 61665,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 30231,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20572,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -8,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6720,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31939,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18190,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 1,
+            "gate1X" : 3170,
+            "gate1Y" : 296,
+            "gate1Z" : 1347,
+            "gate2NormalX" : 7011,
+            "gate2NormalY" : 288,
+            "gate2NormalZ" : -196,
+            "gate2HardX"   : 6990,
+            "gate2HardY"   : 288,
+            "gate2HardZ"   : 72,
+            "agents"       : [
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 4137,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -22,
+                    "levelMax" : -20,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 2,
+            "gate1X" : -13,
+            "gate1Y" : 296,
+            "gate1Z" : -184,
+            "gate2NormalX" : 6387,
+            "gate2NormalY" : 288,
+            "gate2NormalZ" : -57,
+            "gate2HardX"   : 6427,
+            "gate2HardY"   : 288,
+            "gate2HardZ"   : 1256,
+            "agents"       : [
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 4137,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -29,
+                    "levelMax" : -27,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54408,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18926,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46724,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 4,
+            "gate1X" : -74,
+            "gate1Y" : 39,
+            "gate1Z" : 99,
+            "gate2NormalX" : 10971,
+            "gate2NormalY" : 342,
+            "gate2NormalZ" : 1470,
+            "gate2HardX"   : 8095,
+            "gate2HardY"   : 325,
+            "gate2HardZ"   : -1231,
+            "agents"       : [
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 4137,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -4,
+                    "levelMax" : -2,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54408,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 33415,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35529,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 33372,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 34014,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 42257,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 24632,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 5,
+            "gate1X" : 21,
+            "gate1Y" : 5,
+            "gate1Z" : 365,
+            "gate2NormalX" : 8108,
+            "gate2NormalY" : 4,
+            "gate2NormalZ" : 825,
+            "gate2HardX"   : 7085,
+            "gate2HardY"   : -6,
+            "gate2HardZ"   : -1332,
+            "agents"       : [
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 4137,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 8,
+                    "levelMax" : 12,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54408,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 33415,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35529,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 34014,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 24632,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 42257,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 6,
+            "gate1X" : 9,
+            "gate1Y" : 10,
+            "gate1Z" : 309,
+            "gate2NormalX" : 12042,
+            "gate2NormalY" : 0,
+            "gate2NormalZ" : 2013,
+            "gate2HardX"   : 12991,
+            "gate2HardY"   : 0,
+            "gate2HardZ"   : 1962,
+            "agents"       : [
+                {
+                    "ID" : 4137,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -29,
+                    "levelMax" : -27,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 61665,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 30231,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 7,
+            "gate1X" : 266,
+            "gate1Y" : 0,
+            "gate1Z" : -80,
+            "gate2NormalX" : 9307,
+            "gate2NormalY" : -154,
+            "gate2NormalZ" : 6,
+            "gate2HardX"   : 8853,
+            "gate2HardY"   : -154,
+            "gate2HardZ"   : 375,
+            "agents"       : [
+                {
+                    "ID" : 4137,
+                    "levelMin" : -20,
+                    "levelMax" : -16,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -26,
+                    "levelMax" : -24,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 61665,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 30231,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -12,
+                    "levelMax" : -10,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -5,
+                    "levelMax" : -3,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        },
+        {
+            "index" : 8,
+            "gate1X" : -935,
+            "gate1Y" : 4,
+            "gate1Z" : 274,
+            "gate2NormalX" : 8034,
+            "gate2NormalY" : 26,
+            "gate2NormalZ" : 864,
+            "gate2HardX"   : 7033,
+            "gate2HardY"   : 26,
+            "gate2HardZ"   : 1889,
+            "agents"       : [
+                {
+                    "ID" : 4137,
+                    "levelMin" : -31,
+                    "levelMax" : -29,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 30626,
+                    "levelMin" : -28,
+                    "levelMax" : -26,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 422,
+                    "levelMin" : -27,
+                    "levelMax" : -25,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13498,
+                    "levelMin" : -25,
+                    "levelMax" : -23,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 36852,
+                    "levelMin" : -22,
+                    "levelMax" : -20,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13338,
+                    "levelMin" : -24,
+                    "levelMax" : -22,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 21827,
+                    "levelMin" : -21,
+                    "levelMax" : -19,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 53916,
+                    "levelMin" : -30,
+                    "levelMax" : -28,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 1918,
+                    "levelMin" : -23,
+                    "levelMax" : -21,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29508,
+                    "levelMin" : -9,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 61665,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 30231,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : true
+                },
+                {
+                    "ID" : 59208,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 55437,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 12884,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 65478,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 60352,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20473,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 19279,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 14964,
+                    "levelMin" : -2,
+                    "levelMax" : 0,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 35166,
+                    "levelMin" : -3,
+                    "levelMax" : -1,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 13690,
+                    "levelMin" : -6,
+                    "levelMax" : -2,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 62571,
+                    "levelMin" : -6,
+                    "levelMax" : -4,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 54281,
+                    "levelMin" : -11,
+                    "levelMax" : -9,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 25362,
+                    "levelMin" : -9,
+                    "levelMax" : -7,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 26843,
+                    "levelMin" : -8,
+                    "levelMax" : -6,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 46823,
+                    "levelMin" : -10,
+                    "levelMax" : -8,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 37256,
+                    "levelMin" : -7,
+                    "levelMax" : -5,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 56774,
+                    "levelMin" : 9,
+                    "levelMax" : 11,
+                    "type"     : 0,
+                    "gate"     : 2,
+                    "isFloor2Boss" : true,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 18225,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 20934,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48831,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 6517,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 29303,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 11763,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 48002,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 1,
+                    "gate"     : 2,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 17733,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                },
+                {
+                    "ID" : 31603,
+                    "levelMin" : 0,
+                    "levelMax" : 0,
+                    "type"     : 2,
+                    "gate"     : 1,
+                    "isFloor2Boss" : false,
+                    "isFloor1Boss" : false
+                }
+            ]
+        }
+    ],
+    "foor1CongNormal" : {
+        "Rewards" : [
+            {
+                "CodeName" : "CLOCK_HeroDrug2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Exp2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Gold4",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "KNB",
+                "Quantity" : 100
+            }
+        ],
+        "CodeName" : null
+    },
+    "foor1CongHard"   : {
+        "Rewards" : [
+            {
+                "CodeName" : "CLOCK_HeroDrug2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Exp2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Gold4",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "KNB",
+                "Quantity" : 100
+            }
+        ],
+        "CodeName" : null
+    },
+    "foor2BossNormal" : {
+        "Rewards" : [
+            {
+                "CodeName" : "CLOCK_HeroDrug2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Exp2",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Gold4",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "ITEM_HeroScroll",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "KNB",
+                "Quantity" : 100
+            }
+        ],
+        "CodeName" : null
+    },
+    "foor2BossHard"   : {
+        "Rewards" : [
+            {
+                "CodeName" : "CLOCK_HeroDrug4",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Exp4",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "CLOCK_Gold8",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "ITEM_HeroScroll",
+                "Quantity" : 1
+            },
+            {
+                "CodeName" : "KNB",
+                "Quantity" : 150
+            }
+        ],
+        "CodeName" : null
+    },
+    "defaultReward"   : {
+        "Rewards" : [
+            {
+                "CodeName" : "EXP",
+                "Quantity" : 1000
+            },
+            {
+                "CodeName" : "BAC",
+                "Quantity" : 1000
+            }
+        ],
+        "CodeName" : null
+    },
+    "levelBonusFloor2Hard" : 5,
+    "buffDropFromQuais"    : [
+        4,
+        10,
+        5,
+        50,
+        5,
+        6,
+        5,
+        8,
+        20,
+        10,
+        75,
+        10,
+        12,
+        10
+    ],
+    "CountManhKillBossFloor1" : 10,
+    "CountManhKillBossFloor2Normal" : 20,
+    "CountManhKillBossFloor2Hard"   : 40,
+    "MaxHireHero"                   : 5,
+    "levelAFKOffset"                : 10,
+    "CodeName"                      : null
+}

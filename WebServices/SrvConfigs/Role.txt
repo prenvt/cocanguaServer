@@ -1,0 +1,5310 @@
+{
+  "ROLE_ChuCap": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ChuCap_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuCap_jnt_shoulder_L",
+        "boneName": "jnt_shoulder_L"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuCap_jnt_shoulder_R",
+        "boneName": "jnt_shoulder_R"
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_ThanDieu": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ThanDieu_jnt_Bip01 Head",
+        "boneName": "jnt_Bip01 Head"
+      },
+      {
+        "codeNameParticle": "ROLE_ThanDieu_jnt_Bip01 R-L Foot",
+        "boneName": "jnt_Bip01 R Foot"
+      },
+      {
+        "codeNameParticle": "ROLE_ThanDieu_jnt_Bip01 R-L Foot",
+        "boneName": "jnt_Bip01 L Foot"
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_ManhHo": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ManhHo_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_ManhHo_jnt_tail_L_5",
+        "boneName": "jnt_tail_L_5"
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_BachVien": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_fire_1-2-3",
+        "boneName": "jnt_fire_1"
+      },
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_fire_1-2-3",
+        "boneName": "jnt_fire_2"
+      },
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_fire_1-2-3",
+        "boneName": "jnt_fire_3"
+      },
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_hand_L-R",
+        "boneName": "jnt_hand_L"
+      },
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_hand_L-R",
+        "boneName": "jnt_hand_R"
+      },
+      {
+        "codeNameParticle": "ROLE_BachVien_jnt_head",
+        "boneName": "jnt_head"
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_TienLoc": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TienLoc_jnt_bel_R-L_3",
+        "boneName": "jnt_bel_R_3"
+      },
+      {
+        "codeNameParticle": "ROLE_TienLoc_jnt_bel_R-L_3",
+        "boneName": "jnt_bel_L_3"
+      },
+      {
+        "codeNameParticle": "ROLE_TienLoc_jnt_head",
+        "boneName": "jnt_head"
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_LucTieuPhung": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.33,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_jnt_collar_L-R_2",
+        "boneName": "jnt_collar_R_2"
+      },
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_jnt_collar_L-R_2",
+        "boneName": "jnt_collar_L_2"
+      },
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_jnt_F_1",
+        "boneName": "jnt_F_1"
+      },
+      {
+        "codeNameParticle": "ROLE_LucTieuPhung_jnt_F_3",
+        "boneName": "jnt_F_3"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 500,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 190,
+    "Evasion": 10,
+    "HP": 5000,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "LinhTeNhatChi",
+      "TrienHonCamNaThu",
+      "PhungVuCuuThien",
+      "LacHoaLuuThuy"
+    ],
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.25,
+    "LvlFactorHP": 4.5,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "TanCong",
+      "CanChien"
+    ]
+  },
+  "ROLE_SoLuuHuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.33,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_SoLuuHuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_SoLuuHuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_SoLuuHuong_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_SoLuuHuong_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_SoLuuHuong_R_F_CRTH01",
+        "boneName": "R_F_CRTH01"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 520,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 200,
+    "Evasion": 10,
+    "HP": 4956,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "LuuVanTongMong",
+      "TrungVanTuHai",
+      "DanChiThanCong",
+      "PhucThuyNanThu"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.22,
+    "LvlFactorHP": 5,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "TanCong",
+      "VienTrinh"
+    ]
+  },
+  "ROLE_LongTru": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 0,
+    "AtkRange": 90,
+    "AtkSpd": 0,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "LongTruSkill"
+    ],
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 0,
+    "MoveSpd": 0,
+    "Rank": "Common",
+    "roleType": "Boss",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male"
+  },
+  "ROLE_LamTrieuAnh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.33,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_L_silk01",
+        "boneName": "jnt_L_silk01"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_L_silk02",
+        "boneName": "jnt_L_silk02"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_L_silk03",
+        "boneName": "jnt_L_silk03"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_L_sword",
+        "boneName": "jnt_L_sword"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_R_silk01",
+        "boneName": "jnt_R_silk01"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_R_silk02",
+        "boneName": "jnt_R_silk02"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_R_silk03",
+        "boneName": "jnt_R_silk03"
+      },
+      {
+        "codeNameParticle": "ROLE_LamTrieuAnh_jnt_w_1",
+        "boneName": "jnt_w_1"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 488,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 224,
+    "Evasion": 10,
+    "HP": 4750,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NgocNuToTamKiemPhap",
+      "NgheThuongVuY",
+      "LuuVanTram",
+      "ThienTamKiemQuyet"
+    ],
+    "LvlFactorAtk": 0.45,
+    "LvlFactorDef": 0.22,
+    "LvlFactorHP": 4,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "TanCong",
+      "VienTrinh"
+    ]
+  },
+  "ROLE_TrieuMan": {
+    "HeSoRandom": 10,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.33,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TrieuMan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_CFL_1",
+        "boneName": "jnt_CFL_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_CFL_2",
+        "boneName": "jnt_CFL_2"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_cover_sword",
+        "boneName": "jnt_cover_sword"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_fan",
+        "boneName": "jnt_fan"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_shoulder_L",
+        "boneName": "jnt_shoulder_L"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_shoulder_R",
+        "boneName": "jnt_shoulder_R"
+      },
+      {
+        "codeNameParticle": "ROLE_TrieuMan_jnt_w_1",
+        "boneName": "jnt_w_1"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 446,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 230,
+    "Evasion": 10,
+    "HP": 5100,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "MiAnhKiemPhap",
+      "DapTuyetTamMai",
+      "MucLoanTinhMe",
+      "DiBoHoanHinh"
+    ],
+    "LvlFactorAtk": 0.38,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 5.3,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_DatMaSuTo": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.33,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_shoe",
+        "boneName": "jnt_shoe"
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_silk08",
+        "boneName": "jnt_silk08"
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_silk09",
+        "boneName": "jnt_silk09"
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_silk11",
+        "boneName": "jnt_silk11"
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DatMaSuTo_jnt_pray",
+        "boneName": "jnt_pray"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 490,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 222,
+    "Evasion": 10,
+    "HP": 4860,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "VanPhatTrieuTong",
+      "KimDinhPhatQuang",
+      "PhanTamHangMa",
+      "VanThuXuatVanThoai"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.26,
+    "LvlFactorHP": 4.9,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_NhatDang": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.875,
+    "DelaySendDmg": 0.41,
+    "ProjectileSpeed": 25,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_NhatDang_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NhatDang_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_NhatDang_R_F_CRTH01",
+        "boneName": "R_F_CRTH01"
+      },
+      {
+        "codeNameParticle": "ROLE_NhatDang_R_F_CRTH03",
+        "boneName": "R_F_CRTH03"
+      },
+      {
+        "codeNameParticle": "ROLE_NhatDang_jnt_roll",
+        "boneName": "jnt_roll"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 451,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 210,
+    "Evasion": 10,
+    "HP": 4890,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NhatDuongChi",
+      "PhatTamChuong",
+      "KimCangPhucMa",
+      "VoVongThanCong"
+    ],
+    "LvlFactorAtk": 0.38,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 5.65,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_NetherWard": {
+    "HeSoRandom": 10,
+    "AnimTime": 0.625,
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 0,
+    "AtkRange": 0,
+    "AtkSpd": 0,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NetherWardLightning"
+    ],
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 0,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male"
+  },
+  "ROLE_HoangDuocSu": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HoangDuocSu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_HoangDuocSu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HoangDuocSu_jnt_F_2",
+        "boneName": "jnt_F_2"
+      },
+      {
+        "codeNameParticle": "ROLE_HoangDuocSu_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "ProjectileSpeed": 20,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 462,
+    "Def": 170,
+    "HP": 5180,
+    "AtkRange": 10,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Evasion": 10,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NetherWard",
+      "ToanPhongTaoDiepThoai",
+      "DevilProtection",
+      "Rearm"
+    ],
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.19,
+    "LvlFactorHP": 5.6,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "KhongChe"
+    ]
+  },
+  "ROLE_AuDuongPhong": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.292,
+    "DelaySendDmg": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_AuDuongPhong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_AuDuongPhong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_AuDuongPhong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_AuDuongPhong_jnt_weapon",
+        "boneName": "jnt_weapon"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,54,0",
+    "AvatarDialogPos": "4.35,-0.31,4.57",
+    "AvatarDialogRot": "0,22,0",
+    "PopupHeroAnim": "idle_m",
+    "HPBarOffset": 0.5,
+    "Atk": 459,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 184,
+    "Evasion": 10,
+    "HP": 5070,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Pierce",
+      "ChargeOfDeath",
+      "CurseOfKnight",
+      "WarCry"
+    ],
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.7,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_VuongTrungDuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.083,
+    "DelaySendDmg": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_VuongTrungDuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_VuongTrungDuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_VuongTrungDuong_jnt_F_1",
+        "boneName": "jnt_F_1"
+      },
+      {
+        "codeNameParticle": "ROLE_VuongTrungDuong_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_VuongTrungDuong_jnt_weapon_3",
+        "boneName": "jnt_weapon_3"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,16,0",
+    "AvatarDialogPos": "5.52,-0.17,6.26",
+    "AvatarDialogRot": "0,22,0",
+    "Atk": 515,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 192,
+    "Evasion": 10,
+    "HP": 4430,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "TienThienCong",
+      "ToanChanKiemPhap",
+      "KimNhanCong",
+      "ThienHaDaiDao"
+    ],
+    "LvlFactorHP": 4.4,
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.21,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_KimLuanPhapVuong": {
+    "HeSoRandom": 10,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimLuanPhapVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimLuanPhapVuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_KimLuanPhapVuong_jnt_weapon",
+        "boneName": "jnt_weapon"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "Atk": 445,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 188,
+    "Evasion": 10,
+    "HP": 4990,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "SamVIII",
+      "Whirling",
+      "RocketFlare",
+      "ReactiveArmor"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.22,
+    "LvlFactorHP": 4.3,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_TaoDiaTang": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.45,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TaoDiaTang_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TaoDiaTang_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TaoDiaTang_jnt_roll",
+        "boneName": "jnt_roll"
+      },
+      {
+        "codeNameParticle": "ROLE_TaoDiaTang_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "Atk": 478,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 222,
+    "Evasion": 10,
+    "HP": 4880,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NhuLaiThienDiep",
+      "ThaiToTruongQuyen",
+      "ViDaChuong",
+      "KimChungTrao"
+    ],
+    "LvlFactorAtk": 0.47,
+    "LvlFactorDef": 0.24,
+    "LvlFactorHP": 5,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_ChuChiNhuoc": {
+    "HeSoRandom": 10,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.35,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_ACL_4",
+        "boneName": "jnt_ACL_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_ACR_4",
+        "boneName": "jnt_ACR_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_CF_2",
+        "boneName": "jnt_CF_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuChiNhuoc_jnt_w_1",
+        "boneName": "jnt_w_1"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "ProjectileSpeed": 30,
+    "Atk": 470,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 200,
+    "Evasion": 10,
+    "HP": 4800,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NgaMiKiemPhap",
+      "PhongSuongTuyetAnh",
+      "PhieuTuyetXuyenVan",
+      "BangCoNgocCotCong"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 4.35,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "NPC_CaoNhan": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.398,-0.07,6.202",
+    "AvatarDialogRot": "0,12,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "HoTro"
+    ]
+  },
+  "NPC_BaLao": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.62,0.07,6.32",
+    "AvatarDialogRot": "0,20,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "HoTro"
+    ]
+  },
+  "NPC_OngLao": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.866,0.02,6.754",
+    "AvatarDialogRot": "0,24,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "HoTro"
+    ]
+  },
+  "NPC_ThonNu": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.16,0.26,5.6",
+    "AvatarDialogRot": "0,10,0",
+    "MoveSpd": 5,
+    "AtkRange": 60,
+    "Atk": 10,
+    "Def": 100,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "HoTro"
+    ]
+  },
+  "ROLE_VoNhaiTu": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.47,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_VoNhaiTu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_VoNhaiTu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_VoNhaiTu_jnt_F_Clth01",
+        "boneName": "jnt_F_Clth01"
+      },
+      {
+        "codeNameParticle": "ROLE_VoNhaiTu_jnt_F_Clth02",
+        "boneName": "jnt_F_Clth02"
+      },
+      {
+        "codeNameParticle": "ROLE_VoNhaiTu_jnt_Pen",
+        "boneName": "jnt_Pen"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,54,0",
+    "AvatarDialogPos": "4.35,-0.31,4.57",
+    "AvatarDialogRot": "0,22,0",
+    "PopupHeroAnim": "idle_m",
+    "HPBarOffset": 0.5,
+    "Atk": 474,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 175,
+    "Evasion": 10,
+    "HP": 5010,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Torrent",
+      "WaterSplash",
+      "WaveForm",
+      "WaterEffect"
+    ],
+    "LvlFactorAtk": 0.61,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 4.8,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_TuSamLongVuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.5,
+    "ProjectileSpeed": 27,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_spine_3",
+        "boneName": "jnt_spine_3"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_hair_B-BL-BR-L-R_4",
+        "boneName": "jnt_hair_B_4"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_hair_B-BL-BR-L-R_4",
+        "boneName": "jnt_hair_BL_4"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_hair_B-BL-BR-L-R_4",
+        "boneName": "jnt_hair_BR_4"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_hair_B-BL-BR-L-R_4",
+        "boneName": "jnt_hair_L_4"
+      },
+      {
+        "codeNameParticle": "ROLE_TuSamLongVuong_jnt_hair_B-BL-BR-L-R_4",
+        "boneName": "jnt_hair_R_4"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 460,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 202,
+    "Evasion": 10,
+    "HP": 4880,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "HolyBuff",
+      "ManaBuff",
+      "Curse",
+      "DarkMagic"
+    ],
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.71,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_KimMaoSuVuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.875,
+    "DelaySendDmg": 0.41,
+    "ProjectileSpeed": 20,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_jnt_F_2",
+        "boneName": "jnt_F_2"
+      },
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_KimMaoSuVuong_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 501,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 175,
+    "Evasion": 10,
+    "HP": 4740,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "PitLord",
+      "ScreamOfPain",
+      "FingerOfDeath",
+      "Destruction"
+    ],
+    "LvlFactorAtk": 0.45,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.33,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "KhongChe"
+    ]
+  },
+  "ROLE_BachMiUngVuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.875,
+    "DelaySendDmg": 0.41,
+    "ProjectileSpeed": 20,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 485,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_jnt_clavicle_L",
+        "boneName": "jnt_clavicle_L"
+      },
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_jnt_shoulder_L",
+        "boneName": "jnt_shoulder_L"
+      },
+      {
+        "codeNameParticle": "ROLE_BachMiUngVuong_jnt_spine_3",
+        "boneName": "jnt_spine_3"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 185,
+    "Evasion": 10,
+    "HP": 4800,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "ThanUngCuuDoat",
+      "UngKichTruongKhong",
+      "UngTraoCong",
+      "DaiBangTrienDuc"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.19,
+    "LvlFactorHP": 4.53,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_HoangDung": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.25,
+    "DelaySendDmg": 0.7,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,54,0",
+    "AvatarDialogPos": "4.35,-0.31,4.57",
+    "AvatarDialogRot": "0,22,0",
+    "PopupHeroAnim": "idle_m",
+    "HPBarOffset": 0.5,
+    "Atk": 446,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 189,
+    "Evasion": 10,
+    "HP": 5150,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HoangDung_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_HoangDung_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HoangDung_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_HoangDung_jnt_w_1",
+        "boneName": "jnt_w_1"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "FlowerTrap",
+      "SilentPassive",
+      "NatureGrasp",
+      "Charge"
+    ],
+    "LvlFactorAtk": 0.49,
+    "LvlFactorDef": 0.18,
+    "LvlFactorHP": 4.97,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_TruongTamPhong": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.5,
+    "ProjectileSpeed": 25,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TruongTamPhong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TruongTamPhong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TruongTamPhong_jnt_F_2",
+        "boneName": "jnt_F_2"
+      },
+      {
+        "codeNameParticle": "ROLE_TruongTamPhong_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_TruongTamPhong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 474,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "Def": 161,
+    "Evasion": 10,
+    "HP": 5150,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "EnergyBall",
+      "ChakraMagic",
+      "ShadowWave",
+      "ManaShield"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 4.97,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_DaoSi": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.333,
+    "DelaySendDmg": 0.25,
+    "ProjectileSpeed": 15,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,-12,0",
+    "AvatarDialogPos": "3.62,0.37,3.84",
+    "AvatarDialogRot": "0,-5,0",
+    "HPBarOffset": -0.3,
+    "Atk": 375,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DaoSi_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_DaoSi_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 93,
+    "Evasion": 0,
+    "HP": 3620,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "PassiveRecovery"
+    ],
+    "LvlFactorAtk": 0.42,
+    "LvlFactorDef": 0.1,
+    "LvlFactorHP": 4.01,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_NhaSu": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.208,
+    "DelaySendDmg": 0.2,
+    "ProjectileSpeed": 15,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,12,0",
+    "AvatarDialogPos": "4.31,0.39,4.85",
+    "AvatarDialogRot": "0,4,0",
+    "HPBarOffset": -0.3,
+    "Atk": 368,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_NhaSu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NhaSu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 129,
+    "Evasion": 0,
+    "HP": 4230,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.37,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.23,
+    "Mana": 1000,
+    "MoveSpd": 3,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_LyThuThuy": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.45,
+    "ProjectileSpeed": 20,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_jnt_ACLxR_14",
+        "boneName": "jnt_ACL_1"
+      },
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_jnt_ACLxR_14",
+        "boneName": "jnt_ACL_4"
+      },
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_jnt_ACLxR_14",
+        "boneName": "jnt_ACR_1"
+      },
+      {
+        "codeNameParticle": "ROLE_LyThuThuy_jnt_ACLxR_14",
+        "boneName": "jnt_ACR_4"
+      }
+    ],
+    "AvatarPos": "0, 0, 0",
+    "AvatarRot": "0,28,0",
+    "AvatarDialogPos": "4.14,-0.73,4.52",
+    "AvatarDialogRot": "0,16,0",
+    "HPBarOffset": 0.6,
+    "Atk": 407,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 173,
+    "Evasion": 10,
+    "HP": 4200,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Reconstruct",
+      "StoneShield",
+      "StoneFall",
+      "ReflectPassive"
+    ],
+    "LvlFactorAtk": 0.41,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 4.2,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "KhongChe"
+    ]
+  },
+  "ROLE_ThanhDucBucVuong": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.917,
+    "DelaySendDmg": 0.4,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,40,0",
+    "AvatarDialogPos": "5.1,0.12,6.05",
+    "AvatarDialogRot": "0,50,0",
+    "HPBarOffset": -0.2,
+    "Atk": 588,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 92,
+    "Evasion": 10,
+    "HP": 4700,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_jnt_hand_L",
+        "boneName": "jnt_hand_L"
+      },
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_jnt_hand_R",
+        "boneName": "jnt_hand_R"
+      },
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_ThanhDucBucVuong_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "BatSwarm",
+      "MultiStrike",
+      "VampirePassive",
+      "Link"
+    ],
+    "LvlFactorAtk": 0.56,
+    "LvlFactorDef": 0.09,
+    "LvlFactorHP": 4.49,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_MoDungPhuc": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.167,
+    "DelaySendDmg": 0.4,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,53,0",
+    "AvatarDialogPos": "5.17,-0.32,5.73",
+    "AvatarDialogRot": "0,16,0",
+    "HPBarOffset": 0.3,
+    "Atk": 501,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_MoDungPhuc_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_MoDungPhuc_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_MoDungPhuc_jnt_weapon",
+        "boneName": "jnt_weapon"
+      },
+      {
+        "codeNameParticle": "ROLE_MoDungPhuc_jnt_rope_3",
+        "boneName": "jnt_rope_3"
+      },
+      {
+        "codeNameParticle": "ROLE_MoDungPhuc_jnt_F_Clth02",
+        "boneName": "jnt_F_Clth02"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 147,
+    "Evasion": 10,
+    "HP": 5010,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "DragoonJump",
+      "StrongHeart",
+      "CounterAttack",
+      "Tornado"
+    ],
+    "LvlFactorAtk": 0.47,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4.71,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_NhamDoanhDoanh": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.167,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_NhamDoanhDoanh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NhamDoanhDoanh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_NhamDoanhDoanh_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_NhamDoanhDoanh_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_NhamDoanhDoanh_jnt_we_20",
+        "boneName": "jnt_we_20"
+      }
+    ],
+    "DelaySendDmg": 0.55,
+    "ProjectileSpeed": 100,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.22,-0.46,5.84",
+    "AvatarDialogRot": "0,22,0",
+    "HPBarOffset": 0.4,
+    "Atk": 416,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 156,
+    "Evasion": 10,
+    "HP": 4280,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "MassSeduce",
+      "BrainSap",
+      "LifeTransfer",
+      "Dancer"
+    ],
+    "LvlFactorAtk": 0.42,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 4.28,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demon",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_HoangSamNuTu": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.125,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HoangSamNuTu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_HoangSamNuTu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 3
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HoangSamNuTu_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      }
+    ],
+    "DelaySendDmg": 0.3,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,30,0",
+    "AvatarDialogPos": "5.44,-0.43,6.18",
+    "AvatarDialogRot": "0,50,0",
+    "HPBarOffset": 0.8,
+    "Atk": 357,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 181,
+    "Evasion": 10,
+    "HP": 5120,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "NatureCovering",
+      "Toss",
+      "PassiveRecovery",
+      "StatusResUp"
+    ],
+    "LvlFactorAtk": 0.35,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 5.04,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "HoTro"
+    ]
+  },
+  "ROLE_PhongThanhDuong": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.083,
+    "DelaySendDmg": 0.3,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,41,0",
+    "AvatarDialogPos": "5.571,0.07,6.271",
+    "AvatarDialogRot": "0,23,0",
+    "Atk": 485,
+    "AtkRange": 2,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_PhongThanhDuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_PhongThanhDuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 3
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_PhongThanhDuong_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      },
+      {
+        "codeNameParticle": "ROLE_PhongThanhDuong_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 144,
+    "Evasion": 10,
+    "HP": 4710,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Assassinate",
+      "Rage",
+      "ChargePassive",
+      "BloodBath"
+    ],
+    "LvlFactorAtk": 0.48,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4.63,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ],
+    "LimitRank": 2
+  },
+  "ROLE_NuHiep": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.875,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_NuHiep_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NuHiep_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.59,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,13,0",
+    "AvatarDialogPos": "2.83,-0.36,2.93",
+    "AvatarDialogRot": "0,14,0",
+    "HPBarOffset": 0.5,
+    "Atk": 352,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 133,
+    "Evasion": 0,
+    "HP": 4660,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.35,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.66,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_BachPhatMaNu": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.583,
+    "DelaySendDmg": 0.46,
+    "ProjectileSpeed": 15,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,45,0",
+    "AvatarDialogPos": "5.42,-0.282,6.14",
+    "AvatarDialogRot": "0,15,0",
+    "HPBarOffset": 0.3,
+    "Atk": 463,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_BachPhatMaNu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_BachPhatMaNu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_BachPhatMaNu_jnt_wea",
+        "boneName": "jnt_wea"
+      },
+      {
+        "codeNameParticle": "ROLE_BachPhatMaNu_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 164,
+    "Evasion": 10,
+    "HP": 4230,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "DragonHand",
+      "MindControl",
+      "SoulStrike",
+      "AutoShield"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 4.23,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demon",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_TruongVoKy": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.375,
+    "DelaySendDmg": 0.37,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TruongVoKy_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TruongVoKy_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TruongVoKy_jnt_elbow_L",
+        "boneName": "jnt_elbow_L"
+      },
+      {
+        "codeNameParticle": "ROLE_TruongVoKy_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      },
+      {
+        "codeNameParticle": "ROLE_TruongVoKy_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,42,0",
+    "AvatarDialogPos": "4.277,0.379,4.757",
+    "AvatarDialogRot": "0,2,0",
+    "Atk": 405,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 212,
+    "Evasion": 10,
+    "HP": 4830,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Avatar",
+      "SlamGround",
+      "DefensiveTactic",
+      "Provoke"
+    ],
+    "LvlFactorAtk": 0.39,
+    "LvlFactorDef": 0.19,
+    "LvlFactorHP": 4.67,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_CaoThuGiangHo": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_CaoThuGiangHo_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_CaoThuGiangHo_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.45,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,10,0",
+    "AvatarDialogPos": "4.696,0.116,5.162",
+    "AvatarDialogRot": "0,18,0",
+    "Atk": 387,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 113,
+    "Evasion": 0,
+    "HP": 4010,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.12,
+    "LvlFactorHP": 4.09,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_PhamDao": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.3,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "3.87,0,4.51",
+    "AvatarDialogRot": "0,52,0",
+    "Atk": 471,
+    "AtkRange": 2,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_PhamDao_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_PhamDao_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_PhamDao_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_PhamDao_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      },
+      {
+        "codeNameParticle": "ROLE_PhamDao_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 138,
+    "Evasion": 10,
+    "HP": 4710,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Ravage",
+      "Burrow",
+      "StoneSkin",
+      "WeakPointAttack"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.58,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_VuongNguYen": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.667,
+    "DelaySendDmg": 0.2,
+    "ProjectileSpeed": 25,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_VuongNguYen_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_VuongNguYen_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_VuongNguYen_jnt_umb01",
+        "boneName": "jnt_umb01"
+      },
+      {
+        "codeNameParticle": "ROLE_VuongNguYen_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,39,0",
+    "AvatarDialogPos": "5.18,0.09,5.72",
+    "AvatarDialogRot": "0,21,0",
+    "Atk": 436,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 144,
+    "Evasion": 10,
+    "HP": 4200,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "SleepDust",
+      "HealPotion",
+      "Hex",
+      "SelfHex"
+    ],
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4.2,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_DuongTieu": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.917,
+    "DelaySendDmg": 0.51,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,40,0",
+    "AvatarDialogPos": "5.322,-0.244,5.97",
+    "AvatarDialogRot": "0,10,0",
+    "HPBarOffset": 0.2,
+    "Atk": 475,
+    "AtkRange": 2,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DuongTieu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DuongTieu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DuongTieu_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 176,
+    "Evasion": 10,
+    "HP": 5000,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "ShadowDance",
+      "BlinkAttack",
+      "IncubusPassive",
+      "EscapePassive"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 4.37,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_YeuNguyetCungChu": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.125,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_YeuNguyetCungThu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_YeuNguyetCungThu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_YeuNguyetCungChu_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_YeuNguyetCungChu_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      }
+    ],
+    "DelaySendDmg": 0.3,
+    "ProjectileSpeed": 15,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,44,0",
+    "AvatarDialogPos": "5.77,-0.29,6.57",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.7,
+    "Atk": 460,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 114,
+    "Evasion": 10,
+    "HP": 4260,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "GhostForm",
+      "AtkSpirit",
+      "HealSpirit",
+      "Flee"
+    ],
+    "LvlFactorAtk": 0.48,
+    "LvlFactorDef": 0.12,
+    "LvlFactorHP": 4.47,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_QuachTinh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.3,
+    "ProjectileSpeed": 30,
+    "ProjectileBone": "",
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_QuachTinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTinh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_QuachTinh_jnt_elbow_L",
+        "boneName": "jnt_elbow_L"
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTinh_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,41,0",
+    "AvatarDialogPos": "4.15,0.29,4.49",
+    "AvatarDialogRot": "0,20,0",
+    "HPBarOffset": -0.3,
+    "Atk": 460,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 114,
+    "Evasion": 10,
+    "HP": 4260,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Xbow",
+      "DoubleAxe",
+      "SmokeBomb",
+      "Ks"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.11,
+    "LvlFactorHP": 4.26,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ],
+    "LimitRank": 2
+  },
+  "ROLE_TieuChieu": {
+    "HeSoRandom": 20,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.35,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,34,0",
+    "AvatarDialogPos": "3.73,0,3.81",
+    "AvatarDialogRot": "0,16,0",
+    "HPBarOffset": 0.2,
+    "Atk": 491,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TieuChieu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_CF_1",
+        "boneName": "jnt_CF_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_elbow_L",
+        "boneName": "jnt_elbow_L"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_hair_LR_1",
+        "boneName": "jnt_hair_L_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_hair_LR_1",
+        "boneName": "jnt_hair_R_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_knee_R",
+        "boneName": "jnt_knee_R"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuChieu_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 147,
+    "Evasion": 10,
+    "HP": 4620,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "WildCall",
+      "Immortal",
+      "ArmorBreak",
+      "MonsterLifeLeach"
+    ],
+    "LvlFactorAtk": 0.49,
+    "LvlFactorDef": 0.15,
+    "LvlFactorHP": 4.62,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_NhamNgaHanh": {
+    "HeSoRandom": 20,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.3,
+    "ProjectileSpeed": 15,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_NhamNgaHanh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NhamNgaHanh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_NhamNgaHanh_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_NhamNgaHanh_jnt_hand_L",
+        "boneName": "jnt_hand_L"
+      },
+      {
+        "codeNameParticle": "ROLE_NhamNgaHanh_jnt_hand_R",
+        "boneName": "jnt_hand_R"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,50,0",
+    "AvatarDialogPos": "4.67,-0.49,5.09",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 1,
+    "Atk": 491,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 118,
+    "Evasion": 10,
+    "HP": 4410,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "ManaBlast",
+      "LightningStrike",
+      "SpiritRise",
+      "MagicDrain"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.12,
+    "LvlFactorHP": 4.45,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_DuThanChi": {
+    "HeSoRandom": 20,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.4,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,41,0",
+    "AvatarDialogPos": "4.35,-0.31,4.57",
+    "AvatarDialogRot": "0,22,0",
+    "HPBarOffset": 0.5,
+    "Atk": 428,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 224,
+    "Evasion": 10,
+    "HP": 4280,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DuThanChi_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DuThanChi_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DuThanChi_jnt_hand_L",
+        "boneName": "jnt_hand_L"
+      },
+      {
+        "codeNameParticle": "ROLE_DuThanChi_jnt_hand_R",
+        "boneName": "jnt_hand_R"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "GreatestShield",
+      "Weakness",
+      "DarkArmor",
+      "ShockPunch"
+    ],
+    "LvlFactorAtk": 0.45,
+    "LvlFactorDef": 0.24,
+    "LvlFactorHP": 4.52,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_DaiNoiThiVe": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DaiNoiThiVe_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DaiNoiThiVe_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.41,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,24,0",
+    "AvatarDialogPos": "5.44,0.06,6.14",
+    "AvatarDialogRot": "0,17,0",
+    "Atk": 392,
+    "AtkRange": 20,
+    "ProjectileSpeed": 15,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 158,
+    "Evasion": 0,
+    "HP": 3490,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.41,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 3.69,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_BinhLinh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.167,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_BinhLinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_BinhLinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_BinhLinh_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.3,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,23,0",
+    "AvatarDialogPos": "4.71,0.05,5.21",
+    "AvatarDialogRot": "0,16,0",
+    "HPBarOffset": -0.2,
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 156,
+    "Evasion": 0,
+    "HP": 3580,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [],
+    "LvlFactorAtk": 0.36,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 3.74,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Assasin",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_TieuPhong": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.458,
+    "DelaySendDmg": 0.5,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,40,0",
+    "AvatarDialogPos": "5.1,-0.3,5.78",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 505,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 173,
+    "Evasion": 10,
+    "HP": 4720,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TieuPhong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TieuPhong_jnt_elbow_L",
+        "boneName": "jnt_elbow_L"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_jnt_F_1",
+        "boneName": "jnt_F_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuPhong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Frenzy",
+      "GreatBash",
+      "MarkedTarget",
+      "RoyalShield"
+    ],
+    "LvlFactorAtk": 0.47,
+    "LvlFactorDef": 0.16,
+    "LvlFactorHP": 4.43,
+    "Mana": 1000,
+    "MoveSpd": 6,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_ThienSonDongLao": {
+    "PopupHeroAnim": "idle_m",
+    "HeSoRandom": 20,
+    "AnimTime": 1.542,
+    "DelaySendDmg": 0.35,
+    "ProjectileSpeed": 25,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_2",
+        "boneName": "jnt_ACL_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_3",
+        "boneName": "jnt_ACL_3"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_4",
+        "boneName": "jnt_ACL_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_5",
+        "boneName": "jnt_ACL_5"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_2",
+        "boneName": "jnt_ACR_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_3",
+        "boneName": "jnt_ACR_3"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_4",
+        "boneName": "jnt_ACR_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ThienSonDongLao_jnt_ACL_5",
+        "boneName": "jnt_ACR_5"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,43,0",
+    "AvatarDialogPos": "5.19,-0.25,5.87",
+    "AvatarDialogRot": "0,22,0",
+    "Atk": 469,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 112,
+    "Evasion": 10,
+    "HP": 4690,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "SoulSplit",
+      "SoulBurn",
+      "SoulEater",
+      "ChargeAttack"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.12,
+    "LvlFactorHP": 5,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_ThachPhaThien": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.48,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,39,0",
+    "AvatarDialogPos": "3.98,-0.53,3.57",
+    "AvatarDialogRot": "0,2,0",
+    "HPBarOffset": 0.7,
+    "Atk": 407,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ThachPhaThien_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_ThachPhaThien_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_ThachPhaThien_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ThachPhaThien_jnt_armor",
+        "boneName": "jnt_armor"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 204,
+    "Evasion": 10,
+    "HP": 4900,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Skewer",
+      "ThickSkin",
+      "Xcell",
+      "RhinoSpirit"
+    ],
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.81,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_LyTamHoan": {
+    "HeSoRandom": 1,
+    "AnimTime": 0.708,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_LyTamHoan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 4
+      },
+      {
+        "codeNameParticle": "ROLE_LyTamHoan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 4
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_LyTamHoan_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      },
+      {
+        "codeNameParticle": "ROLE_LyTamHoan_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_LyTamHoan_jnt_wea",
+        "boneName": "jnt_wea"
+      }
+    ],
+    "DelaySendDmg": 0.4,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,44,0",
+    "AvatarDialogPos": "4.59,0,4.95",
+    "AvatarDialogRot": "0,2,0",
+    "Atk": 501,
+    "AtkRange": 20,
+    "ProjectileSpeed": 25,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 84,
+    "Evasion": 10,
+    "HP": 4650,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "ThunderSpear",
+      "MultiShot",
+      "BloodPoison",
+      "Leap"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.08,
+    "LvlFactorHP": 4.65,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_HongThatCong": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.167,
+    "DelaySendDmg": 0.43,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.123,-0.304,5.713",
+    "AvatarDialogRot": "0,26,0",
+    "HPBarOffset": 0.3,
+    "Atk": 462,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 176,
+    "Evasion": 10,
+    "HP": 4620,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HongThatCong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_HongThatCong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_HongThatCong_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HongThatCong_jnt_bau_1",
+        "boneName": "jnt_bau_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HongThatCong_jnt_we",
+        "boneName": "jnt_we"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "CounterStrike",
+      "ShieldCharge",
+      "United",
+      "ProtectionAura"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.18,
+    "LvlFactorHP": 4.62,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "PhongNgu"
+    ]
+  },
+  "ROLE_DongPhuongBatBai": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.042,
+    "DelaySendDmg": 0.5,
+    "ProjectileSpeed": 35,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,37,0",
+    "AvatarDialogPos": "5.35,-0.62,6.09",
+    "AvatarDialogRot": "0,10,0",
+    "HPBarOffset": 0.8,
+    "Atk": 506,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_CF_1",
+        "boneName": "jnt_CF_1"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_CF_4",
+        "boneName": "jnt_CF_4"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_CFL_2",
+        "boneName": "jnt_CFL_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_CFR_2",
+        "boneName": "jnt_CFR_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_elbow_L",
+        "boneName": "jnt_elbow_L"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_elbow_R",
+        "boneName": "jnt_elbow_R"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_head",
+        "boneName": "jnt_head"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DongPhuongBatBai_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 145,
+    "Evasion": 10,
+    "HP": 4490,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Armageddon",
+      "FlameChain",
+      "SelfDestruction",
+      "FireWall"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4.45,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_DocCoCauBai": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.4,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,10,0",
+    "AvatarDialogPos": "4.07,-0.3,4.71",
+    "AvatarDialogRot": "0,27,0",
+    "HPBarOffset": 0.4,
+    "Atk": 427,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DocCoCauBai_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DocCoCauBai_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DocCoCauBai_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 180,
+    "Evasion": 10,
+    "HP": 4930,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Swallow",
+      "RollingBall",
+      "Absorb",
+      "DefenseBall"
+    ],
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.17,
+    "LvlFactorHP": 4.66,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "KhongChe"
+    ]
+  },
+  "ROLE_DoanDu": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.667,
+    "DelaySendDmg": 0.35,
+    "ProjectileSpeed": 30,
+    "ProjectileBone": "",
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,30,0",
+    "AvatarDialogPos": "5.288,0.03,6.212",
+    "AvatarDialogRot": "0,10,0",
+    "Atk": 467,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DoanDu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DoanDu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DoanDu_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DoanDu_jnt_weapon",
+        "boneName": "jnt_weapon"
+      },
+      {
+        "codeNameParticle": "ROLE_DoanDu_jnt_indexEnd_R",
+        "boneName": "jnt_indexEnd_R"
+      },
+      {
+        "codeNameParticle": "ROLE_DoanDu_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DoanDu_jnt_wear04",
+        "boneName": "jnt_wear04"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 151,
+    "Evasion": 10,
+    "HP": 3820,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "GreatArrow",
+      "TripleShot",
+      "Marksmanship",
+      "BackTrackTripleShot"
+    ],
+    "LvlFactorAtk": 0.47,
+    "LvlFactorDef": 0.15,
+    "LvlFactorHP": 3.82,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_LenhHoXung": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.083,
+    "DelaySendDmg": 0.5,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,16,0",
+    "AvatarDialogPos": "5.52,-0.17,6.26",
+    "AvatarDialogRot": "0,22,0",
+    "Atk": 564,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 109,
+    "Evasion": 10,
+    "HP": 4770,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_L_2"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_L_3"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_L_4"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_R_2"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_R_3"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_clo_LR_234",
+        "boneName": "jnt_clo_R_4"
+      },
+      {
+        "codeNameParticle": "ROLE_LenhHoXung_jnt_w",
+        "boneName": "jnt_w"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Onnislash",
+      "LightningSlash",
+      "IceSlash",
+      "BloodSlash"
+    ],
+    "LvlFactorHP": 4.65,
+    "LvlFactorAtk": 0.55,
+    "LvlFactorDef": 0.11,
+    "Mana": 1000,
+    "MoveSpd": 6,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_ChuBaThong": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.3,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,43,0",
+    "AvatarDialogPos": "4.59,-0.1,5.29",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 498,
+    "AtkRange": 2,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_jnt_clo_L_4",
+        "boneName": "jnt_clo_L_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_jnt_jnt_clo_R_4",
+        "boneName": "jnt_clo_R_4"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ChuBaThong_jnt_wea",
+        "boneName": "jnt_wea"
+      }
+    ],
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 135,
+    "Evasion": 10,
+    "HP": 4670,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Clone",
+      "VenomAttack",
+      "NinjaPassive",
+      "ManaBreak"
+    ],
+    "LvlFactorAtk": 0.5,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.67,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien",
+      "TanCong"
+    ]
+  },
+  "ROLE_KiemKhach": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.25,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KiemKhach_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KiemKhach_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KiemKhach_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.28,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,-5,0",
+    "AvatarDialogPos": "4.31,0.44,4.55",
+    "AvatarDialogRot": "0,-9,0",
+    "HPBarOffset": -0.4,
+    "Atk": 364,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 113,
+    "Evasion": 0,
+    "HP": 3530,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [],
+    "LvlFactorAtk": 0.39,
+    "LvlFactorDef": 0.12,
+    "LvlFactorHP": 3.82,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_DuongQua": {
+    "HeSoRandom": 0,
+    "AnimTime": 1,
+    "DelaySendDmg": 0.3,
+    "ProjectileSpeed": 25,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,0,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 524,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DuongQua_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0.25,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DuongQua_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0.25,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DuongQua_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DuongQua_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_DuongQua_jnt_spine_4",
+        "boneName": "jnt_spine_4"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 86,
+    "Evasion": 10,
+    "HP": 4600,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Fury",
+      "Piercing",
+      "Bloodlust",
+      "InnerVitality"
+    ],
+    "LvlFactorAtk": 0.53,
+    "LvlFactorDef": 0.09,
+    "LvlFactorHP": 4.64,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Assasin",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "TanCong"
+    ]
+  },
+  "ROLE_HuTruc": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.875,
+    "DelaySendDmg": 0.41,
+    "ProjectileSpeed": 20,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,25,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 416,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HuTruc_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1.5
+      },
+      {
+        "codeNameParticle": "ROLE_HuTruc_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1.5
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HuTruc_jnt_S_D",
+        "boneName": "jnt_S_D"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 143,
+    "Evasion": 10,
+    "HP": 4410,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Reanimated",
+      "FrostSpear",
+      "SelfReanimated",
+      "CorpseExplosion"
+    ],
+    "LvlFactorAtk": 0.48,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4.41,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh",
+      "KhongChe"
+    ]
+  },
+  "ROLE_QuachTuong": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.2,
+    "ProjectileSpeed": 25,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,30,0",
+    "AvatarDialogPos": "5.514,-0.04,6.506",
+    "AvatarDialogRot": "0,12,0",
+    "HPBarOffset": 0.3,
+    "Atk": 437,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_QuachTuong_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTuong_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTuong_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 1
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_QuachTuong_jnt_headEnd",
+        "boneName": "jnt_headEnd"
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTuong_jnt_spine_2",
+        "boneName": "jnt_spine_2"
+      },
+      {
+        "codeNameParticle": "ROLE_QuachTuong_jnt_spine_5",
+        "boneName": "jnt_spine_5"
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 133,
+    "Evasion": 10,
+    "HP": 3800,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "Resurrection",
+      "HolyLight",
+      "DivineBarrier",
+      "Bless"
+    ],
+    "LvlFactorAtk": 0.46,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 4,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Demi_Human",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_TieuLongNu": {
+    "PopupHeroAnim": "idle_m",
+    "HeSoRandom": 0,
+    "AnimTime": 1.25,
+    "DelaySendDmg": 0.22,
+    "ProjectileSpeed": 35,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_weapon",
+        "boneName": "jnt_weapon"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_R_CRTH07"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_R_CRTH04"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_R_CRTH02"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_L_CLTH07"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_L_CLTH04"
+      },
+      {
+        "codeNameParticle": "ROLE_TieuLongNu_jnt_RxL_CRxLTH0742",
+        "boneName": "jnt_L_CLTH02"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,28,0",
+    "AvatarDialogPos": "4.18,0.31,4.44",
+    "AvatarDialogRot": "0,14,0",
+    "Atk": 400,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 176,
+    "Evasion": 10,
+    "HP": 4240,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "SnowStorm",
+      "SpeedUp",
+      "Freeze",
+      "MagicRes"
+    ],
+    "LvlFactorAtk": 0.4,
+    "LvlFactorDef": 0.18,
+    "LvlFactorHP": 4.24,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Hero",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Female",
+    "PhanLoai": [
+      "VienTrinh",
+      "HoTro"
+    ]
+  },
+  "ROLE_KimQuocDaoBinh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.875,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimQuocDaoBinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocDaoBinh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocDaoBinh_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.1,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,13,0",
+    "AvatarDialogPos": "2.83,-0.36,2.93",
+    "AvatarDialogRot": "0,14,0",
+    "HPBarOffset": 0.5,
+    "Atk": 352,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 133,
+    "Evasion": 0,
+    "HP": 4660,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.35,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.66,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_KimQuocGiapBinh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.875,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimQuocGiapBinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocGiapBinh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocGiapBinh_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.59,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,13,0",
+    "AvatarDialogPos": "2.83,-0.36,2.93",
+    "AvatarDialogRot": "0,14,0",
+    "HPBarOffset": 0.5,
+    "Atk": 352,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 133,
+    "Evasion": 0,
+    "HP": 4660,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.35,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.66,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_KimQuocTuongQuan": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.875,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimQuocTuongQuan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocTuongQuan_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocTuongQuan_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,13,0",
+    "AvatarDialogPos": "2.83,-0.36,2.93",
+    "AvatarDialogRot": "0,14,0",
+    "HPBarOffset": 0.5,
+    "Atk": 352,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 133,
+    "Evasion": 0,
+    "HP": 4660,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.35,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 4.66,
+    "Mana": 1000,
+    "MoveSpd": 4,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_KimQuocCungBinh": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.333,
+    "DelaySendDmg": 0.25,
+    "ProjectileSpeed": 15,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,-12,0",
+    "AvatarDialogPos": "3.62,0.37,3.84",
+    "AvatarDialogRot": "0,-5,0",
+    "HPBarOffset": -0.3,
+    "Atk": 375,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_KimQuocCungBinh_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocCungBinh_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      },
+      {
+        "codeNameParticle": "ROLE_KimQuocCungBinh_Attack3",
+        "boneName": "jnt_root",
+        "delayTime": 0.45,
+        "duration": 3
+      }
+    ],
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 93,
+    "Evasion": 0,
+    "HP": 3620,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "PassiveRecovery"
+    ],
+    "LvlFactorAtk": 0.42,
+    "LvlFactorDef": 0.1,
+    "LvlFactorHP": 4.01,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Mage",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_MinhGiaoCaoThu": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.917,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_MinhGiaoCaoThu_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_MinhGiaoCaoThu_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Warrior",
+    "roleType": "Monster",
+    "MoveSpd": 5,
+    "AtkRange": 2,
+    "Atk": 368,
+    "Def": 110,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 1848,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.37,
+    "LvlFactorDef": 0.11,
+    "LvlFactorHP": 1.85,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_DongNhan": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.167,
+    "DelaySendDmg": 0.43,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.123,-0.304,5.713",
+    "AvatarDialogRot": "0,26,0",
+    "HPBarOffset": 0.3,
+    "Atk": 1,
+    "AtkRange": 2,
+    "AtkSpd": 0.5,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_DongNhan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_DongNhan_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_DongNhan_jnt",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_DongNhan_jnt",
+        "boneName": "jnt_neck"
+      }
+    ],
+    "LifeLeech": 0,
+    "ListSkill": [
+      "DongNhanUltimate"
+    ],
+    "LvlFactorAtk": 0,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Boss",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_ThuyKiLan": {
+    "HeSoRandom": 0,
+    "AnimTime": 3,
+    "DelaySendDmg": 0.67,
+    "normalAttacks": [],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_jnt_head_1",
+        "boneName": "jnt_head_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_jnt_tail_1",
+        "boneName": "jnt_tail_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_jnt_tail_5",
+        "boneName": "jnt_tail_5"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_jnt_tail_6",
+        "boneName": "jnt_tail_6"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BL_H_1",
+        "boneName": "joint_BL_H_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BL_H_2",
+        "boneName": "joint_BL_H_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BL_H_3",
+        "boneName": "joint_BL_H_3"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BR_H_1",
+        "boneName": "joint_BR_H_1"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BR_H_2",
+        "boneName": "joint_BR_H_2"
+      },
+      {
+        "codeNameParticle": "ROLE_ThuyKiLan_joint_BR_H_3",
+        "boneName": "joint_BR_H_3"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.123,-0.304,5.713",
+    "AvatarDialogRot": "0,26,0",
+    "HPBarOffset": 0.3,
+    "ProjectileSpeed": 20,
+    "Atk": 10000,
+    "AtkRange": 20,
+    "AtkSpd": 0.75,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "ThuyKyLanSkill"
+    ],
+    "LvlFactorAtk": 0,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 0,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Boss",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_HoaKiLan": {
+    "HeSoRandom": 0,
+    "AnimTime": 3,
+    "DelaySendDmg": 0.67,
+    "normalAttacks": [],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_head_1",
+        "boneName": "jnt_head_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_L_back_6",
+        "boneName": "jnt_L_back_6"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_L_front_1",
+        "boneName": "jnt_L_front_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_L_front_3",
+        "boneName": "jnt_L_front_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_neck_4",
+        "boneName": "jnt_neck_4"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_R_back_6",
+        "boneName": "jnt_R_back_6"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_R_front_1",
+        "boneName": "jnt_R_front_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_R_front_3",
+        "boneName": "jnt_R_front_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_spine_1",
+        "boneName": "jnt_spine_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_spine_8",
+        "boneName": "jnt_spine_8"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_tail_1",
+        "boneName": "jnt_tail_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_tail_2",
+        "boneName": "jnt_tail_2"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_tail_7",
+        "boneName": "jnt_tail_7"
+      },
+      {
+        "codeNameParticle": "ROLE_HoaKiLan_jnt_tail_8",
+        "boneName": "jnt_tail_8"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.123,-0.304,5.713",
+    "AvatarDialogRot": "0,26,0",
+    "HPBarOffset": 0.3,
+    "ProjectileSpeed": 20,
+    "Atk": 1000,
+    "AtkRange": 20,
+    "AtkSpd": 0.9,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "HoaKyLanSkill"
+    ],
+    "LvlFactorAtk": 0,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 0,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Boss",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_HonDonKiLan": {
+    "HeSoRandom": 0,
+    "AnimTime": 3,
+    "DelaySendDmg": 0.67,
+    "normalAttacks": [],
+    "particles": [
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_head_1",
+        "boneName": "jnt_head_1"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_L_back_5",
+        "boneName": "jnt_L_back_5"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_L_front_3",
+        "boneName": "jnt_L_front_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_R_back_5",
+        "boneName": "jnt_R_back_5"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_R_front_3",
+        "boneName": "jnt_R_front_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_spine_3",
+        "boneName": "jnt_spine_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_tail_3",
+        "boneName": "jnt_tail_3"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_tail_4",
+        "boneName": "jnt_tail_4"
+      },
+      {
+        "codeNameParticle": "ROLE_HonDonKiLan_jnt_tail_5",
+        "boneName": "jnt_tail_5"
+      }
+    ],
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,32,0",
+    "AvatarDialogPos": "5.123,-0.304,5.713",
+    "AvatarDialogRot": "0,26,0",
+    "HPBarOffset": 0.3,
+    "ProjectileSpeed": 20,
+    "Atk": 1000,
+    "AtkRange": 20,
+    "AtkSpd": 0.75,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 1,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "HonDonKyLanSkill"
+    ],
+    "LvlFactorAtk": 0,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 0,
+    "MoveSpd": 5,
+    "Rank": "Epic",
+    "roleType": "Boss",
+    "classType": "Warrior",
+    "raceType": "Monster",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "ROLE_Bat": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.625,
+    "DelaySendDmg": 0.38,
+    "AvatarPos": "-1.36,0.25,-1.25",
+    "AvatarRot": "0,20,0",
+    "AvatarDialogPos": "0.703,-0.46,0.697",
+    "AvatarDialogRot": "0,12,0",
+    "Atk": 347,
+    "AtkRange": 2,
+    "AtkSpd": 1,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 0,
+    "Evasion": 0,
+    "HP": 2,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "ListSkill": [
+      "HealOwner",
+      "BatSkill"
+    ],
+    "LvlFactorAtk": 0.43,
+    "LvlFactorDef": 0,
+    "LvlFactorHP": 0,
+    "Mana": 1000,
+    "MoveSpd": 5,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Warrior",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_HacYNhan": {
+    "HeSoRandom": 20,
+    "AnimTime": 1.125,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_HacYNhan_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_HacYNhan_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.38,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,9,0",
+    "AvatarDialogPos": "4.74,0.82,5.18",
+    "AvatarDialogRot": "0,4,0",
+    "HPBarOffset": -0.7,
+    "MoveSpd": 5,
+    "AtkRange": 2,
+    "Atk": 360,
+    "Def": 135,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 3250,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.39,
+    "LvlFactorDef": 0.15,
+    "LvlFactorHP": 3.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_MaGiao": {
+    "HeSoRandom": 0,
+    "AnimTime": 1.125,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_MaGiao_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_MaGiao_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "DelaySendDmg": 0.5,
+    "raceType": "Monster",
+    "classType": "Warrior",
+    "roleType": "Monster",
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,0,0",
+    "AvatarDialogPos": "4.23,0.17,4.45",
+    "AvatarDialogRot": "0,10,0",
+    "HPBarOffset": -0.2,
+    "MoveSpd": 5,
+    "AtkRange": 2,
+    "Atk": 386,
+    "Def": 140,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 3740,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.39,
+    "LvlFactorDef": 0.14,
+    "LvlFactorHP": 3.78,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "ROLE_ThaoKhau": {
+    "HeSoRandom": 20,
+    "AnimTime": 0.625,
+    "DelaySendDmg": 0.3,
+    "normalAttacks": [
+      {
+        "codeNameParticle": "ROLE_ThaoKhau_Attack1",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      },
+      {
+        "codeNameParticle": "ROLE_ThaoKhau_Attack2",
+        "boneName": "jnt_root",
+        "delayTime": 0,
+        "duration": 2
+      }
+    ],
+    "ProjectileSpeed": 100,
+    "AvatarPos": "0,0,0",
+    "AvatarRot": "0,5,0",
+    "AvatarDialogPos": "5.072,-0.044,5.536",
+    "AvatarDialogRot": "0,9,0",
+    "HPBarOffset": 0.2,
+    "Atk": 401,
+    "AtkRange": 20,
+    "AtkSpd": 0.5,
+    "Crit": 10,
+    "CritRes": 0,
+    "critDamage": 150,
+    "Def": 126,
+    "Evasion": 0,
+    "HP": 3740,
+    "Hit": 100,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.41,
+    "LvlFactorDef": 0.13,
+    "LvlFactorHP": 3.82,
+    "Mana": 1000,
+    "MoveSpd": 3,
+    "Rank": "Common",
+    "roleType": "Monster",
+    "classType": "Assasin",
+    "raceType": "Demon",
+    "Gender": "Male",
+    "PhanLoai": [
+      "VienTrinh"
+    ]
+  },
+  "NPC_Bann": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.138,-0.04,5.822",
+    "AvatarDialogRot": "0,23,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_DaiTuTe": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.398,-0.07,6.202",
+    "AvatarDialogRot": "0,12,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Female",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_Lacose": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "3.74,0,3.74",
+    "AvatarDialogRot": "0,14,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_ThonDan": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "4.62,0.51,4.92",
+    "AvatarDialogRot": "0,0,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_ElfFemale": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.866,0.02,6.754",
+    "AvatarDialogRot": "0,24,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_HumanFemale": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.62,0.07,6.32",
+    "AvatarDialogRot": "0,20,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_HoangDe": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.293,0.776,5.941",
+    "AvatarDialogRot": "0,12,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  },
+  "NPC_Undead": {
+    "HeSoRandom": 0,
+    "AnimTime": 0.833,
+    "DelaySendDmg": 0.25,
+    "raceType": "Monster",
+    "classType": "Assasin",
+    "roleType": "Monster",
+    "AvatarDialogPos": "5.16,0.26,5.6",
+    "AvatarDialogRot": "0,10,0",
+    "MoveSpd": 5,
+    "AtkRange": 1.5,
+    "Atk": 100,
+    "Def": 185,
+    "AtkSpd": 0.5,
+    "Evasion": 0,
+    "Hit": 100,
+    "Mana": 1000,
+    "HP": 650,
+    "Crit": 0,
+    "CritRes": 0,
+    "critDamage": 150,
+    "LifeLeech": 0,
+    "LvlFactorAtk": 0.44,
+    "LvlFactorDef": 0.2,
+    "LvlFactorHP": 4.57,
+    "ListSkill": [],
+    "Gender": "Male",
+    "PhanLoai": [
+      "CanChien"
+    ]
+  }
+}

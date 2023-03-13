@@ -1,0 +1,1061 @@
+{
+  "listRankSeason": [
+    {
+      "hang": 10,
+      "numXuongHang": 3,
+      "name": "Champions",
+      "iconRank": "icon_champion",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 60
+          }
+        ]
+      }
+    },
+    {
+      "hang": 20,
+      "numXuongHang": 3,
+      "name": "Mythic0",
+      "iconRank": "icon_Mythic",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 700
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "hang": 50,
+      "numXuongHang": 5,
+      "name": "Super_Legendary",
+      "iconRank": "icon_SuperLegend",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 650
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 40
+          }
+        ]
+      }
+    },
+    {
+      "hang": 100,
+      "numXuongHang": 5,
+      "name": "Legendary",
+      "iconRank": "icon_Legend",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 550
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "hang": 150,
+      "numXuongHang": 5,
+      "name": "Grand_Master",
+      "iconRank": "icon_GrandMaster",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 500
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 200,
+      "numXuongHang": 5,
+      "name": "Master",
+      "iconRank": "icon_Master",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 450
+          },
+          {
+            "CodeName": "ManhLegend_Random",
+            "Quantity": 10
+          }
+        ]
+      }
+    },
+    {
+      "hang": 250,
+      "numXuongHang": 5,
+      "name": "Veteran",
+      "iconRank": "icon_Veteran",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 400
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 40
+          }
+        ]
+      }
+    },
+    {
+      "hang": 300,
+      "numXuongHang": 15,
+      "name": "Diamond",
+      "iconRank": "icon_Diamond",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 350
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "hang": 450,
+      "numXuongHang": 15,
+      "name": "Platinum",
+      "iconRank": "icon_Platinum",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ManhEpic_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 600,
+      "numXuongHang": 15,
+      "name": "Gold",
+      "iconRank": "icon_Golden",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 250
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 40
+          }
+        ]
+      }
+    },
+    {
+      "hang": 750,
+      "numXuongHang": 15,
+      "name": "Silver",
+      "iconRank": "icon_Silver",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 200
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 30
+          }
+        ]
+      }
+    },
+    {
+      "hang": 900,
+      "numXuongHang": 15,
+      "name": "Bronze",
+      "iconRank": "icon_Bronze",
+      "iconReward": "",
+      "rewards": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 200
+          },
+          {
+            "CodeName": "ManhRare_Random",
+            "Quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "hang": 5000,
+      "numXuongHang": 5,
+      "name": "No-Rank",
+      "iconRank": "icon_NoneRank",
+      "iconReward": ""
+    }
+  ],
+  "MaxLuotLuanKiem": 8,
+  "diemMap": {
+    "0": 1500,
+    "1": 1400,
+    "2": 1350,
+    "3": 1300,
+    "4": 1250,
+    "5": 1200,
+    "6": 1150,
+    "7": 1100,
+    "8": 1050,
+    "9": 1000,
+    "10": 950,
+    "15": 900,
+    "20": 800,
+    "25": 750,
+    "30": 700,
+    "40": 600,
+    "50": 550,
+    "60": 470,
+    "80": 460,
+    "100": 450,
+    "130": 440,
+    "160": 430,
+    "190": 420,
+    "230": 410,
+    "270": 400,
+    "310": 390,
+    "355": 380,
+    "400": 370,
+    "445": 360,
+    "490": 340,
+    "540": 328,
+    "610": 322,
+    "680": 316,
+    "750": 310,
+    "820": 304,
+    "890": 300,
+    "960": 296,
+    "1060": 292,
+    "1160": 288,
+    "1260": 284,
+    "1360": 280,
+    "1460": 276,
+    "1560": 272,
+    "1760": 268,
+    "1960": 264,
+    "2160": 260,
+    "2360": 128,
+    "2560": 126,
+    "2760": 124,
+    "2960": 122,
+    "3160": 120,
+    "3360": 118,
+    "3560": 116,
+    "3760": 114,
+    "3960": 112,
+    "4160": 110,
+    "4360": 108,
+    "4560": 106,
+    "4760": 104,
+    "4960": 102,
+    "4999": 0,
+    "5460": 100,
+    "5960": 98,
+    "6460": 96,
+    "6960": 94,
+    "7460": 92,
+    "7960": 90,
+    "8460": 88,
+    "8960": 86,
+    "9460": 84,
+    "9960": 82,
+    "10960": 80,
+    "11960": 78,
+    "12960": 76,
+    "13960": 74,
+    "14960": 72,
+    "15960": 70,
+    "16960": 68,
+    "17960": 66,
+    "18960": 64,
+    "19960": 62,
+    "20960": 60,
+    "21960": 58,
+    "22960": 56,
+    "23960": 54,
+    "24960": 52,
+    "25960": 0
+  },
+  "diemMap60": {
+    "0": 900,
+    "1": 870,
+    "2": 860,
+    "3": 850,
+    "4": 840,
+    "5": 835,
+    "6": 830,
+    "7": 825,
+    "8": 820,
+    "9": 815,
+    "10": 810,
+    "50": 805,
+    "99": 800,
+    "100000": 800
+  },
+  "BotOnHangs": [
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 101,
+      "Hang": 0
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 99,
+      "Hang": 1
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 98,
+      "Hang": 2
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 97,
+      "Hang": 3
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 96,
+      "Hang": 4
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 95,
+      "Hang": 5
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 94,
+      "Hang": 6
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 93,
+      "Hang": 7
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 92,
+      "Hang": 8
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 91,
+      "Hang": 9
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 89,
+      "Hang": 10
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 88,
+      "Hang": 15
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 87,
+      "Hang": 20
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legend": 5,
+      "Level": 86,
+      "Hang": 25
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 1,
+      "Legend": 4,
+      "Level": 85,
+      "Hang": 30
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 1,
+      "Legend": 4,
+      "Level": 84,
+      "Hang": 40
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 1,
+      "Legend": 4,
+      "Level": 83,
+      "Hang": 50
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 2,
+      "Legend": 3,
+      "Level": 82,
+      "Hang": 60
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 2,
+      "Legend": 3,
+      "Level": 81,
+      "Hang": 80
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 2,
+      "Legend": 3,
+      "Level": 80,
+      "Hang": 100
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 3,
+      "Legend": 2,
+      "Level": 79,
+      "Hang": 130
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 3,
+      "Legend": 2,
+      "Level": 78,
+      "Hang": 160
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 3,
+      "Legend": 2,
+      "Level": 77,
+      "Hang": 190
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 4,
+      "Legend": 1,
+      "Level": 76,
+      "Hang": 230
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 4,
+      "Legend": 1,
+      "Level": 75,
+      "Hang": 270
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 4,
+      "Legend": 1,
+      "Level": 74,
+      "Hang": 310
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 5,
+      "Legend": 0,
+      "Level": 73,
+      "Hang": 355
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 5,
+      "Legend": 0,
+      "Level": 72,
+      "Hang": 400
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 5,
+      "Legend": 0,
+      "Level": 71,
+      "Hang": 445
+    },
+    {
+      "Common": 0,
+      "Rare": 0,
+      "Epic": 5,
+      "Legend": 0,
+      "Level": 70,
+      "Hang": 490
+    },
+    {
+      "Common": 0,
+      "Rare": 1,
+      "Epic": 4,
+      "Legend": 0,
+      "Level": 69,
+      "Hang": 540
+    },
+    {
+      "Common": 0,
+      "Rare": 1,
+      "Epic": 4,
+      "Legend": 0,
+      "Level": 68,
+      "Hang": 610
+    },
+    {
+      "Common": 0,
+      "Rare": 1,
+      "Epic": 4,
+      "Legend": 0,
+      "Level": 67,
+      "Hang": 680
+    },
+    {
+      "Common": 0,
+      "Rare": 1,
+      "Epic": 4,
+      "Legend": 0,
+      "Level": 66,
+      "Hang": 750
+    },
+    {
+      "Common": 0,
+      "Rare": 2,
+      "Epic": 3,
+      "Legend": 0,
+      "Level": 65,
+      "Hang": 820
+    },
+    {
+      "Common": 0,
+      "Rare": 2,
+      "Epic": 3,
+      "Legend": 0,
+      "Level": 64,
+      "Hang": 890
+    },
+    {
+      "Common": 0,
+      "Rare": 2,
+      "Epic": 3,
+      "Legend": 0,
+      "Level": 63,
+      "Hang": 960
+    },
+    {
+      "Common": 0,
+      "Rare": 2,
+      "Epic": 3,
+      "Legend": 0,
+      "Level": 62,
+      "Hang": 1060
+    },
+    {
+      "Common": 0,
+      "Rare": 2,
+      "Epic": 3,
+      "Legend": 0,
+      "Level": 61,
+      "Hang": 1160
+    },
+    {
+      "Common": 0,
+      "Rare": 3,
+      "Epic": 2,
+      "Legend": 0,
+      "Level": 60,
+      "Hang": 1260
+    },
+    {
+      "Common": 0,
+      "Rare": 3,
+      "Epic": 2,
+      "Legend": 0,
+      "Level": 59,
+      "Hang": 1360
+    },
+    {
+      "Common": 0,
+      "Rare": 3,
+      "Epic": 2,
+      "Legend": 0,
+      "Level": 58,
+      "Hang": 1460
+    },
+    {
+      "Common": 0,
+      "Rare": 3,
+      "Epic": 2,
+      "Legend": 0,
+      "Level": 57,
+      "Hang": 1560
+    },
+    {
+      "Common": 0,
+      "Rare": 3,
+      "Epic": 2,
+      "Legend": 0,
+      "Level": 56,
+      "Hang": 1760
+    },
+    {
+      "Common": 0,
+      "Rare": 4,
+      "Epic": 1,
+      "Legend": 0,
+      "Level": 55,
+      "Hang": 1960
+    },
+    {
+      "Common": 0,
+      "Rare": 4,
+      "Epic": 1,
+      "Legend": 0,
+      "Level": 54,
+      "Hang": 2160
+    },
+    {
+      "Common": 0,
+      "Rare": 4,
+      "Epic": 1,
+      "Legend": 0,
+      "Level": 53,
+      "Hang": 2360
+    },
+    {
+      "Common": 0,
+      "Rare": 4,
+      "Epic": 1,
+      "Legend": 0,
+      "Level": 52,
+      "Hang": 2560
+    },
+    {
+      "Common": 0,
+      "Rare": 4,
+      "Epic": 1,
+      "Legend": 0,
+      "Level": 51,
+      "Hang": 2760
+    },
+    {
+      "Common": 0,
+      "Rare": 5,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 50,
+      "Hang": 2960
+    },
+    {
+      "Common": 0,
+      "Rare": 5,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 49,
+      "Hang": 3160
+    },
+    {
+      "Common": 0,
+      "Rare": 5,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 48,
+      "Hang": 3360
+    },
+    {
+      "Common": 0,
+      "Rare": 5,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 47,
+      "Hang": 3560
+    },
+    {
+      "Common": 0,
+      "Rare": 5,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 46,
+      "Hang": 3760
+    },
+    {
+      "Common": 1,
+      "Rare": 4,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 45,
+      "Hang": 3960
+    },
+    {
+      "Common": 1,
+      "Rare": 4,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 44,
+      "Hang": 4160
+    },
+    {
+      "Common": 1,
+      "Rare": 4,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 43,
+      "Hang": 4360
+    },
+    {
+      "Common": 2,
+      "Rare": 3,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 42,
+      "Hang": 4560
+    },
+    {
+      "Common": 2,
+      "Rare": 3,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 41,
+      "Hang": 4760
+    },
+    {
+      "Common": 2,
+      "Rare": 3,
+      "Epic": 0,
+      "Legend": 0,
+      "Level": 40,
+      "Hang": 4960
+    }
+  ],
+  "ptLuanKiem3DoiHinh": [
+    {
+      "hang": 1,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 150
+          }
+        ]
+      }
+    },
+    {
+      "hang": 2,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 15
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 120
+          }
+        ]
+      }
+    },
+    {
+      "hang": 3,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 90
+          }
+        ]
+      }
+    },
+    {
+      "hang": 4,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 90
+          }
+        ]
+      }
+    },
+    {
+      "hang": 5,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "ROLE_NhatDang",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ITEM_FactionScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 90
+          }
+        ]
+      }
+    },
+    {
+      "hang": 6,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "hang": 7,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "hang": 8,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "hang": 9,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "hang": 10,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 750
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 75
+          }
+        ]
+      }
+    },
+    {
+      "hang": 50,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 50
+          }
+        ]
+      }
+    },
+    {
+      "hang": 4000,
+      "pt": {
+        "Rewards": [
+          {
+            "CodeName": "KNB",
+            "Quantity": 250
+          },
+          {
+            "CodeName": "ITEM_HeroScroll",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "ITEM_TayTuyDon",
+            "Quantity": 30
+          }
+        ]
+      }
+    }
+  ]
+}

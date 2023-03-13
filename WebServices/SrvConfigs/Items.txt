@@ -1,0 +1,1202 @@
+{
+  "KNB": {},
+  "BAC": {},
+  "VIP_POINT": {},
+  "GearSetRare_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "GearSetEpic_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "GearSetLegend_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 60
+  },
+  "ManhEpic_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 60
+  },
+  "ManhLegend_Random": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 60
+  },
+  "ManhRare_RaceType_Demi_Human": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_RaceType_Demon": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_RaceType_Monster": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_RaceType_Demi_Human": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_RaceType_Demon": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_RaceType_Monster": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_ClassType_Warrior": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_ClassType_Mage": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhRare_ClassType_Assasin": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_ClassType_Warrior": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_ClassType_Mage": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhEpic_ClassType_Assasin": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ITEM_HeroScroll": {
+    "Consumable": false
+  },
+  "ITEM_FactionScroll": {
+    "Consumable": false
+  },
+  "PLAYER_EXP": {
+    "Consumable": false
+  },
+  "QUEST_Key_L5": {},
+  "QUEST_Key_Golden": {},
+  "QUEST_Key_Silver": {},
+  "QUEST_Item_Villager": {},
+  "QUEST_Item_Lacose_Cloth": {},
+  "QUEST_Item_Lacose_Oil": {},
+  "QUEST_Item_Lacose_Skull": {},
+  "TOKEN_Honor": {
+    "Consumable": false
+  },
+  "TOKEN_Daily": {
+    "Consumable": false
+  },
+  "TOKEN_Weekly": {
+    "Consumable": false
+  },
+  "QUEST_Item_Chaos_Crystal": {},
+  "QUEST_Item_Chaos_Crystal_Fragment": {},
+  "QUEST_Item_Dragon_Heart_Key": {},
+  "QUEST_Item_Rare_Metal_Ores_Crate": {},
+  "ITEM_HeroDrug": {
+    "Consumable": false
+  },
+  "ITEM_ItemDrug": {
+    "Consumable": false
+  },
+  "ITEM_ThienThach1": {
+    "Consumable": false
+  },
+  "ITEM_ThienThach2": {
+    "Consumable": false
+  },
+  "ITEM_ThienThach3": {
+    "Consumable": false
+  },
+  "ITEM_ThienThach4": {
+    "Consumable": false
+  },
+  "ITEM_ThienThach5": {
+    "Consumable": false
+  },
+  "BAC_HOUR": {},
+  "BAC_MINUTE": {},
+  "EXP_HOUR": {},
+  "EXP_MINUTE": {},
+  "CLOCK_Gold1": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 8
+    }
+  },
+  "CLOCK_Gold2": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 2
+    }
+  },
+  "CLOCK_Gold4": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 4
+    }
+  },
+  "CLOCK_Gold8": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 8
+    }
+  },
+  "CLOCK_Gold12": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 12
+    }
+  },
+  "CLOCK_Gold24": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "BAC"
+      ],
+      "Duration": 24
+    }
+  },
+  "CLOCK_Exp1": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 1
+    }
+  },
+  "CLOCK_Exp2": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 2
+    }
+  },
+  "CLOCK_Exp4": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 4
+    }
+  },
+  "CLOCK_Exp8": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 8
+    }
+  },
+  "CLOCK_Exp12": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 12
+    }
+  },
+  "CLOCK_Exp24": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "EXP"
+      ],
+      "Duration": 24
+    }
+  },
+  "CLOCK_HeroDrug1": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 1
+    }
+  },
+  "CLOCK_HeroDrug2": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 2
+    }
+  },
+  "CLOCK_HeroDrug4": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 4
+    }
+  },
+  "CLOCK_HeroDrug8": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 8
+    }
+  },
+  "CLOCK_HeroDrug12": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 12
+    }
+  },
+  "CLOCK_HeroDrug24": {
+    "Consumable": true,
+    "ClockCfg": {
+      "CodeNames": [
+        "ITEM_HeroDrug"
+      ],
+      "Duration": 24
+    }
+  },
+  "ITEM_PvPTicket": {},
+  "ITEM_Cash099": {
+    "CashCfg": {
+      "Price": 0.99
+    }
+  },
+  "ITEM_Cash199": {
+    "CashCfg": {
+      "Price": 1.99
+    }
+  },
+  "ITEM_Cash499": {
+    "CashCfg": {
+      "Price": 4.99
+    }
+  },
+  "ITEM_Cash999": {
+    "CashCfg": {
+      "Price": 9.99
+    }
+  },
+  "ITEM_Cash1499": {
+    "CashCfg": {
+      "Price": 14.99
+    }
+  },
+  "ITEM_Cash1999": {
+    "CashCfg": {
+      "Price": 19.99
+    }
+  },
+  "ITEM_Cash2499": {
+    "CashCfg": {
+      "Price": 24.99
+    }
+  },
+  "ITEM_Cash2999": {
+    "CashCfg": {
+      "Price": 29.99
+    }
+  },
+  "ITEM_Cash3499": {
+    "CashCfg": {
+      "Price": 34.99
+    }
+  },
+  "ITEM_Cash4999": {
+    "CashCfg": {
+      "Price": 49.99
+    }
+  },
+  "ITEM_Cash9999": {
+    "CashCfg": {
+      "Price": 99.99
+    }
+  },
+  "ITEM_Diamond": {},
+  "ITEM_ThanCham": {
+    "Consumable": false
+  },
+  "ITEM_TranKy": {
+    "Consumable": false
+  },
+  "ITEM_TinhKim": {
+    "Consumable": false
+  },
+  "OptionChest_RuongThanVuKhi": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "VK_WarHammer",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_GreatSword",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_Snipebow",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_Lance",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_Glaive",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_Scythe",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanAoGiap": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "AG_Fullplate",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_Scale",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_Splint",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_Laminar",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanTrangSuc": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "TS_LegendRing",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "TS_LegendNeckle",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "TS_LegendAmulet",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanMu": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "MU_Basssinet",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_Sallet",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_Burgonet",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_Crown",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanChinhPhai": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_QuachTuong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_DoanDu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_HongThatCong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_ChuBaThong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_LenhHoXung",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_TruongVoKy",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_VuongNguYen",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_TieuPhong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_HuTruc",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_QuachTinh",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanTrungLap": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_DuongQua",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_ThachPhaThien",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_LyTamHoan",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_TieuChieu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_YeuNguyetCungChu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_HoangSamNuTu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_PhongThanhDuong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_LyThuThuy",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongThanTaPhai": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_ThanhDucBucVuong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_MoDungPhuc",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_NhamDoanhDoanh",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_BachPhatMaNu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_PhamDao",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_DuongTieu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_NhamNgaHanh",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_DuThanChi",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_ThienSonDongLao",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_DongPhuongBatBai",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongVuKhiMythic": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "VK_MMjolnir",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_MHofund",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_MValhalla",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_MGungnir",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_MGramr",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_MHelBlade",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "VK_CuuCungSongKiem",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongMuMythic": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "MU_MThorHelm",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_MOdinEyepatch",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_MFreyaCrown",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_MMimirSkull",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "MU_TuKimQuan",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongAoMythic": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "AG_MWyrmplate",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_MFroststeelArmor",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_MWorldScale",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_MYggdrasilBark",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "AG_OTamY",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongTrangSucMythic": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "TS_MMythicalRing",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "TS_MMythicalNecklace",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "TS_MMythical_Amulet",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "TS_KimBaiLenhTien",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongTongSuAt": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_DongPhuongBatBai",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_DocCoCauBai",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_QuachTinh",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_PhongThanhDuong",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_BachMiUngVuong",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_TuSamLongVuong",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_KimMaoSuVuong",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_HoangDung",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_HoangDuocSu",
+          "Quantity": 2
+        },
+		{
+          "CodeName": "ROLE_AuDuongPhong",
+          "Quantity": 2
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongTongSuGiap": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_DongPhuongBatBai",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_DocCoCauBai",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_QuachTinh",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_PhongThanhDuong",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_BachMiUngVuong",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_TuSamLongVuong",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_KimMaoSuVuong",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_HoangDung",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_HoangDuocSu",
+          "Quantity": 3
+        },
+		{
+          "CodeName": "ROLE_AuDuongPhong",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "ITEM_KhiLinh": {
+    "Consumable": false
+  },
+  "ManhLegend_RaceType_Demi_Human": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhLegend_RaceType_Demon": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhLegend_RaceType_Monster": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ITEM_TayTuyDon": {
+    "Consumable": false
+  },
+  "ManhLegend_ClassType_Warrior": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhLegend_ClassType_Mage": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ManhLegend_ClassType_Assasin": {
+    "Consumable": true,
+    "SoLuongManhCanGhep": 1
+  },
+  "ITEM_QuocKy": {
+    "Consumable": false
+  },
+  "ITEM_Phao": {
+    "Consumable": false
+  },
+  "ITEM_Hoa": {
+    "Consumable": false
+  },
+  "ITEM_HuyChuong": {
+    "Consumable": false
+  },
+  "ITEM_LiXi": {
+    "Consumable": false
+  },
+  "RandomChest_ThanBi1": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Quantity": 500
+        },
+        {
+          "CodeName": "CLOCK_Gold8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "CLOCK_Exp8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HeroScroll",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ITEM_ThienThach1",
+          "Quantity": 30
+        },
+        {
+          "CodeName": "ManhRare_Random",
+          "Quantity": 40
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 15
+        },
+        {
+          "CodeName": "KNB",
+          "Quantity": 200
+        }
+      ]
+    },
+    "HeSoRandom": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5,
+      5,
+      1
+    ]
+  },
+  "RandomChest_ThanBi2": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "CLOCK_HeroDrug8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_TayTuyDon",
+          "Quantity": 15
+        },
+        {
+          "CodeName": "ITEM_TinhKim",
+          "Quantity": 15
+        },
+        {
+          "CodeName": "ITEM_FactionScroll",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ITEM_ThienThach4",
+          "Quantity": 10
+        },
+        {
+          "CodeName": "ManhEpic_Random",
+          "Quantity": 30
+        },
+        {
+          "CodeName": "ManhLegend_Random",
+          "Quantity": 20
+        },
+        {
+          "CodeName": "KNB",
+          "Quantity": 500
+        }
+      ]
+    },
+    "HeSoRandom": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5,
+      2,
+      1
+    ]
+  },
+  "ITEM_HongBaoThach": {
+    "Consumable": false
+  },
+  "ITEM_LamBaoThach": {
+    "Consumable": false
+  },
+  "ITEM_HoangBaoThach": {
+    "Consumable": false
+  },
+  "ITEM_HongLamThach": {
+    "Consumable": false
+  },
+  "ITEM_HongLucThach": {
+    "Consumable": false
+  },
+  "ITEM_LucLamThach": {
+    "Consumable": false
+  },
+  "OptionChest_BaoThach": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HongBaoThach",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_LamBaoThach",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HoangBaoThach",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HongLamThach",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HongLucThach",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_LucLamThach",
+          "Quantity": 1
+        }
+      ]
+    }
+  },
+  "OptionChest_RuongTuLuyen": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "CLOCK_HeroDrug8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "CLOCK_Exp8",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "CLOCK_Gold8",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ITEM_TinhKim",
+          "Quantity": 25
+        },
+        {
+          "CodeName": "ITEM_ThienThach4",
+          "Quantity": 10
+        }
+      ]
+    }
+  },
+  "OptionChest_LenhBaiTruyenKyAt": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_DuongQua",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_VoNhaiTu",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_VuongTrungDuong",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ROLE_TruongTamPhong",
+          "Quantity": 2
+        }
+      ]
+    }
+  },
+  "OptionChest_LenhBaiTruyenKyGiap": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ROLE_DuongQua",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_VoNhaiTu",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_VuongTrungDuong",
+          "Quantity": 3
+        },
+        {
+          "CodeName": "ROLE_TruongTamPhong",
+          "Quantity": 3
+        }
+      ]
+    }
+  },
+  "ITEM_PhapThan": {
+    "Consumable": false
+  },
+  "ITEM_HongKy": {
+    "Consumable": true
+  },
+  "ITEM_LucKy": {
+    "Consumable": true
+  },
+  "ITEM_LamKy": {
+    "Consumable": true
+  },
+  "ITEM_DaiKyCongThanh": {
+    "Consumable": false
+  },
+  "ITEM_TinhThiet": {
+    "Consumable": false
+  },
+  "ITEM_BanhEXPThap": {
+    "Consumable": false
+  },
+  "ITEM_BanhEXPCao": {
+    "Consumable": false
+  },
+  "ITEM_ThanThuLenh": {
+    "Consumable": false
+  },
+  "ITEM_VoGiangSinh": {
+    "Consumable": false
+  },
+  "ITEM_Keo": {
+    "Consumable": false
+  },
+  "RandomChest_TuiQuaGiangSinh": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Quantity": 500
+        },
+        {
+          "CodeName": "CLOCK_Gold8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "CLOCK_Exp8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HeroScroll",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ITEM_ThienThach1",
+          "Quantity": 30
+        },
+        {
+          "CodeName": "ManhRare_Random",
+          "Quantity": 40
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 15
+        },
+        {
+          "CodeName": "KNB",
+          "Quantity": 200
+        }
+      ]
+    },
+    "HeSoRandom": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5,
+      5,
+      1
+    ]
+  },
+  "RandomChest_HongBaoMayMan": {
+    "Consumable": true,
+    "OptionReward": {
+      "Rewards": [
+        {
+          "CodeName": "ITEM_HeroDrug",
+          "Quantity": 500
+        },
+        {
+          "CodeName": "CLOCK_Gold8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "CLOCK_Exp8",
+          "Quantity": 1
+        },
+        {
+          "CodeName": "ITEM_HeroScroll",
+          "Quantity": 2
+        },
+        {
+          "CodeName": "ITEM_ThienThach1",
+          "Quantity": 30
+        },
+        {
+          "CodeName": "ManhRare_Random",
+          "Quantity": 40
+        },
+        {
+          "CodeName": "ITEM_ThanCham",
+          "Quantity": 15
+        },
+        {
+          "CodeName": "KNB",
+          "Quantity": 200
+        }
+      ]
+    },
+    "HeSoRandom": [
+      5,
+      5,
+      5,
+      3,
+      5,
+      5,
+      5,
+      1
+    ]
+  },
+  "ITEM_MamNguQua": {
+    "Consumable": false
+  },
+  "ITEM_BanhChung": {
+    "Consumable": false
+  },
+  "ITEM_BanhDay": {
+    "Consumable": false
+  },
+  "ITEM_CanhDao": {
+    "Consumable": false
+  }
+}

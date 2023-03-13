@@ -1,0 +1,28 @@
+KEY,Vietnamese,English
+request_update_resources_configs,Kiếm tra cấu hình,Kiếm tra cấu hình
+loading_resources_configs,Tải cấu hình,Tải cấu hình
+Authentication_Fail_Service_Android,Xác thực với Google Play thất bại. Bạn vẫn có thể tiếp tục trải nghiệm bằng tài khoản khách,Xác thực với Google Play thất bại. Bạn vẫn có thể tiếp tục trải nghiệm bằng tài khoản khách
+Authentication_Fail_Service_IOS ,Xác thực với Game Center thất bại. Bạn vẫn có thể tiếp tục trải nghiệm bằng tài khoản khách,Xác thực với Game Center thất bại. Bạn vẫn có thể tiếp tục trải nghiệm bằng tài khoản khách
+loading_remote_configs,Đang tải cấu hình,Đang tải cấu hình
+loading_configs_fail,"Không thể kết nối đến máy chủ, vui lòng thử lại!","Không thể kết nối đến máy chủ, vui lòng thử lại!"
+ConfirmPopupTitle,XÁC NHẬN,XÁC NHẬN
+Popup_ButtonOKLb,XÁC NHẬN,XÁC NHẬN
+Popup_ButtonConfirmLb,XÁC NHẬN,XÁC NHẬN
+CancelBtn,HỦY,HỦY
+LoginTitle,ĐĂNG NHẬP,ĐĂNG NHẬP
+internet_not_reachability,"Không thể kết nối đến máy chủ, vui lòng thử lại!","Không thể kết nối đến máy chủ, vui lòng thử lại!"
+sohaLoadingTxt,"Đang triệu tập các cao thủ võ lâm, xin Chưởng Môn đợi trong giây lát!","Đang triệu tập các cao thủ võ lâm, xin Chưởng Môn đợi trong giây lát!"
+ServerConnectionErrorMsg,"Lỗi kết nối máy chủ. Vui lòng thử lại sau ít phút!","Lỗi kết nối máy chủ. Vui lòng thử lại sau ít phút!"
+NotifyTitle,THÔNG BÁO,THÔNG BÁO
+Retry,Thử lại,Thử lại
+NETWORK_TIMEOUT,Lỗi mạng,Lỗi mạng
+NETWORK_ERROR,Lỗi mạng,Lỗi mạng
+NETWORK_FAIL_UNKNOWN_DESC,Lỗi mạng không rõ nguyên nhân,Lỗi mạng không rõ nguyên nhân
+LoadingDescriptionLbl,"Game đẹp nên loading hơi lâu...\nĐại hiệp vui lòng chờ trong ít phút!\nXin đừng thoát game\nkhi chưa qua màn hình này!\n-Trân trọng-",
+quit_confirm_msg,Chưởng môn có thực sự muốn thoát game?,Chưởng môn có thực sự muốn thoát game?
+Popup_BtnQuitLb,Thoát,Thoát
+CANCELLB,HỦY,HỦY
+CancelLb,HỦY,HỦY
+
+
+

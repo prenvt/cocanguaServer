@@ -1,0 +1,554 @@
+{
+  "XacSuatRoiManh": 100,
+  "challengePass": 1,
+  "Unlock20Reward": 1,
+  "Unlock40Reward": 20,
+  "Unlock60Reward": 20,
+  "Unlock100Reward": 1,
+  "KhoangCachHienGate": 50,
+  "TyLeKichHoatGate": 50,
+  "rewardWinBoss": [
+    {
+      "CodeName": "BAC_MINUTE",
+      "Quantity": 1000,
+      "QuantityMax": 3000
+    },
+    {
+      "CodeName": "CLOCK_Gold4",
+      "Quantity": 2,
+      "QuantityMax": 6
+    },
+    {
+      "CodeName": "CLOCK_Exp4",
+      "Quantity": 4,
+      "QuantityMax": 10
+    },
+    {
+      "CodeName": "ITEM_HeroDrug",
+      "Quantity": 600,
+      "QuantityMax": 1400
+    },
+    {
+      "CodeName": "ITEM_ThienThach1",
+      "Quantity": 150,
+      "QuantityMax": 350
+    },
+    {
+      "CodeName": "KNB",
+      "Quantity": 200,
+      "QuantityMax": 500
+    }
+  ],
+  "mapConfigs": [
+    {
+      "chapter": 1,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C1",
+          "GatePosX": 23.7,
+          "GatePosY": 0,
+          "GatePosZ": -29.84,
+		  "SpawnPosX": 20.06,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -31.92,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT11M2C1",
+          "GatePosX": -2.62,
+          "GatePosY": 0,
+          "GatePosZ": -13.12,
+		  "SpawnPosX": -0.5599999,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -15.85,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT16M1C2",
+          "GatePosX": -9.86413,
+          "GatePosY": 3.936396,
+          "GatePosZ": -10.30479,
+		  "SpawnPosX": -6.93413,
+		  "SpawnPosY": 3.936396,
+		  "SpawnPosZ": -12.92479,
+          "SlotID": 16
+        },
+        {
+          "texture": "SLOT17M2C2",
+          "GatePosX": -7.004129,
+          "GatePosY": 6.06,
+          "GatePosZ": 12.78521,
+		  "SpawnPosX": -7.01413,
+		  "SpawnPosY": 5.65,
+		  "SpawnPosZ": 10.01521,
+          "SlotID": 17
+        }
+      ]     
+    },
+    {
+      "chapter": 3,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C3",
+          "GatePosX": 30.8,
+          "GatePosY": 9.1532,
+          "GatePosZ": 11.35,
+		  "SpawnPosX": 27.29,
+		  "SpawnPosY": 9.1532,
+		  "SpawnPosZ": 11.04,
+          "SlotID": 11
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT14M1C4",
+          "GatePosX": -15.62,
+          "GatePosY": 3.033206,
+          "GatePosZ": 27.32,
+		  "SpawnPosX": -13.8,
+		  "SpawnPosY": 3.033206,
+		  "SpawnPosZ": 21.83,
+          "SlotID": 13
+        },
+        {
+          "texture": "SLOT13M2C4",
+          "GatePosX": -8.65,
+          "GatePosY": 3.850806,
+          "GatePosZ": -18.07,
+		  "SpawnPosX": -10.82,
+		  "SpawnPosY": 3.033206,
+		  "SpawnPosZ": -21.72,
+          "SlotID": 13
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT7M1C5",
+          "GatePosX": -8.82,
+          "GatePosY": 0,
+          "GatePosZ": 3.72,
+		  "SpawnPosX": -7.08,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 5.96,
+          "SlotID": 7
+        },
+        {
+          "texture": "SLOT13M2C5",
+          "GatePosX": 20.66,
+          "GatePosY": 0,
+          "GatePosZ": -14.13,
+		  "SpawnPosX": 23.59,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -16.02,
+          "SlotID": 13
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C6",
+          "GatePosX": 18.78,
+          "GatePosY": 0,
+          "GatePosZ": -40.42,
+		  "SpawnPosX": 13.97,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -40.32,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT11M2C6",
+          "GatePosX": -24.91,
+          "GatePosY": 2.93,
+          "GatePosZ": -24.39,
+		  "SpawnPosX": -21.45,
+		  "SpawnPosY": 2.93,
+		  "SpawnPosZ": -24.31,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C7",
+          "GatePosX": -20.07,
+          "GatePosY": 0,
+          "GatePosZ": 3.78,
+		  "SpawnPosX": -15.57,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 4.34,
+          "SlotID": 11
+        },     
+        {
+          "texture": "SLOT17M2C7",
+          "GatePosX": 16.44,
+          "GatePosY": 0,
+          "GatePosZ": 14.42,
+		  "SpawnPosX": 11.63,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 15.37,
+          "SlotID": 13
+        }
+	  ]
+    },
+    {
+      "chapter": 8,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT13M1C8",
+          "GatePosX": 20.36,
+          "GatePosY": 7.9991,
+          "GatePosZ": -17.47,
+		  "SpawnPosX": 16.83,
+		  "SpawnPosY": 7.9991,
+		  "SpawnPosZ": -16.83,
+          "SlotID": 13
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C9",
+          "GatePosX": -2.32,
+          "GatePosY": 0,
+          "GatePosZ": -3.39,
+		  "SpawnPosX": -4.94,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -1.26,
+          "SlotID": 11
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C10",
+          "GatePosX": 1.79,
+          "GatePosY": 0,
+          "GatePosZ": 5.21,
+		  "SpawnPosX": -1.89,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 7.88,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT16M2C10",
+          "GatePosX": 52.07,
+          "GatePosY": 0.8194538,
+          "GatePosZ": 14.27,
+		  "SpawnPosX": 50.12,
+		  "SpawnPosY": 0.8194538,
+		  "SpawnPosZ": 11.19,
+          "SlotID": 13
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C11",
+          "GatePosX": 25.16,
+          "GatePosY": 0,
+          "GatePosZ": 9.44,
+		  "SpawnPosX": 23.667,
+		  "SpawnPosY": 0.261,
+		  "SpawnPosZ": 7.274,
+          "SlotID": 11
+        },
+        {
+          "texture": "SLOT12M2C11",
+          "GatePosX": -4.77,
+          "GatePosY": 0,
+          "GatePosZ": -13.71,
+		  "SpawnPosX": -3.14,
+		  "SpawnPosY": 0.131,
+		  "SpawnPosZ": -16.74,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C12",
+          "GatePosX": -28.739,
+          "GatePosY": 3.55551,
+          "GatePosZ": -1.649998,
+		  "SpawnPosX": -32.76,
+		  "SpawnPosY": 3.55551,
+		  "SpawnPosZ": -0.92,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT12M2C12",
+          "GatePosX": 15.44101,
+          "GatePosY": 4.989,
+          "GatePosZ": 81.03,
+		  "SpawnPosX": 14.72,
+		  "SpawnPosY": 5.06,
+		  "SpawnPosZ": 77.33,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C13",
+          "GatePosX": -13.59,
+          "GatePosY": 0,
+          "GatePosZ": 5.64,
+		  "SpawnPosX": -15.33,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 7.5,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT12M2C13",
+          "GatePosX": -13.68,
+          "GatePosY": 0,
+          "GatePosZ": -28.37,
+		  "SpawnPosX": -10.61,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -28.63,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT18M1C14",
+          "GatePosX": 12.56,
+          "GatePosY": 1,
+          "GatePosZ": -15.77,
+		  "SpawnPosX": 10.69,
+		  "SpawnPosY": 1.091,
+		  "SpawnPosZ": -17.52,
+          "SlotID": 18
+        },
+        {
+          "texture": "SLOT8M2C14",
+          "GatePosX": -6.87,
+          "GatePosY": 0,
+          "GatePosZ": -56.76,
+		  "SpawnPosX": -6.89,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -52.98,
+          "SlotID": 8
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C15",
+          "GatePosX": -27.01,
+          "GatePosY": 0,
+          "GatePosZ": -15.52,
+		  "SpawnPosX": -29.73,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -16.54,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT12M2C15",
+          "GatePosX": 8.43,
+          "GatePosY": 0,
+          "GatePosZ": -11.45,
+		  "SpawnPosX": 5.64,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -9.88,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT14M1C16",
+          "GatePosX": 34.75962,
+          "GatePosY": 3.146191,
+          "GatePosZ": -7.495816,
+		  "SpawnPosX": 32.74,
+		  "SpawnPosY": 3.146191,
+		  "SpawnPosZ": -7.43,
+          "SlotID": 14
+        },
+        {
+          "texture": "SLOT17M2C16",
+          "GatePosX": 9.069621,
+          "GatePosY": 3.146191,
+          "GatePosZ": 20.39418,
+		  "SpawnPosX": 10.13,
+		  "SpawnPosY": 3.146191,
+		  "SpawnPosZ": 18.61,
+          "SlotID": 17
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C17",
+          "GatePosX": -0.21,
+          "GatePosY": 0,
+          "GatePosZ": 13.85,
+		  "SpawnPosX": -0.4,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 10.96,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT12M2C17",
+          "GatePosX": -28.95,
+          "GatePosY": 3.1017,
+          "GatePosZ": 17.51,
+		  "SpawnPosX": -26.54,
+		  "SpawnPosY": 3.1017,
+		  "SpawnPosZ": 18.23,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT11M1C18",
+          "GatePosX": -21.7,
+          "GatePosY": 3.454,
+          "GatePosZ": 2.34,
+		  "SpawnPosX": -19.94,
+		  "SpawnPosY": 3.454,
+		  "SpawnPosZ": 2.48,
+          "SlotID": 11
+        },
+        {
+          "texture": "SLOT18M2C18",
+          "GatePosX": 5.78,
+          "GatePosY": 3.4052,
+          "GatePosZ": 19.31,
+		  "SpawnPosX": 2.5,
+		  "SpawnPosY": 3.4052,
+		  "SpawnPosZ": 16.45,
+          "SlotID": 18
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C19",
+          "GatePosX": 0.029958,
+          "GatePosY": 4.7833,
+          "GatePosZ": 8.36,
+		  "SpawnPosX": 1.72,
+		  "SpawnPosY": 4.7833,
+		  "SpawnPosZ": 6.64,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT12M2C19",
+          "GatePosX": 12.6,
+          "GatePosY": 0.671,
+          "GatePosZ": -4.1,
+		  "SpawnPosX": 12.45,
+		  "SpawnPosY": 0.573,
+		  "SpawnPosZ": -6.44,
+          "SlotID": 12
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "BossCodeName": "",
+      "AvatarPrefab": "FX/Prefabs/EFF_AAAA",
+      "randomPictures": [
+        {
+          "texture": "SLOT12M1C20",
+          "GatePosX": -32.4,
+          "GatePosY": 0,
+          "GatePosZ": -18.5,
+		  "SpawnPosX": -35.25,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": -19.3,
+          "SlotID": 12
+        },
+        {
+          "texture": "SLOT17M2C20",
+          "GatePosX": 10.4,
+          "GatePosY": 0,
+          "GatePosZ": 31.38,
+		  "SpawnPosX": 6.6,
+		  "SpawnPosY": 0,
+		  "SpawnPosZ": 31.04,
+          "SlotID": 17
+        }
+      ]
+    }
+  ]
+}

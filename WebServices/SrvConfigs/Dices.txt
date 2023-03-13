@@ -1,0 +1,58 @@
+{
+	"BASIC": {
+		"name": "",
+		"skillTurn": 0,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"Chan": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"Le": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"DaiBao": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"TieuBao": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"TaiLoc": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	},
+	"LocPhat": {
+		"name": "",
+		"skillTurn": 3,
+		"skillDescription": "",
+		"buyCost": {
+			"Jewel": 1000
+		}
+	}
+}

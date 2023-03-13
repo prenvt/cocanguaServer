@@ -1,0 +1,1046 @@
+[
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 4
+      },
+	  {
+        "Role": "ROLE_DuThanChi",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 2
+      },
+	  {
+        "Role": "ROLE_TruongVoKy",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_ThanhDucBucVuong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_DuongTieu",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 4
+      },
+	  {
+        "Role": "ROLE_PhamDao",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 3
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 2
+      },
+	  {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 8
+      },
+	        {
+        "Role": "ROLE_QuachTinh",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 5
+      },
+	  {
+        "Role": "ROLE_TieuLongNu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThanhDucBucVuong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_TieuLongNu",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 5
+      },
+	        {
+        "Role": "ROLE_LyThuThuy",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_HuTruc",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_LyThuThuy",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_DuongTieu",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_TieuLongNu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThachPhaThien",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_DuongTieu",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_DoanDu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_ThachPhaThien",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_HuTruc",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_LyThuThuy",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_TieuLongNu",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_LyTamHoan",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_LyThuThuy",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 6
+      },
+	  {
+        "Role": "ROLE_TieuLongNu",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_DuongQua",
+        "position": 9
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_LenhHoXung",
+        "position": 8
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 1
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_PhamDao",
+        "position": 8
+      },
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 8
+      },
+      {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_LyThuThuy",
+        "position": 8
+      },
+      {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_HuTruc",
+        "position": 8
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 1,
+    "Enemies": [
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 5
+      },
+	  {
+        "Role": "ROLE_LenhHoXung",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_ThanhDucBucVuong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 4
+      },
+	  {
+        "Role": "ROLE_VuongNguYen",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 5
+      },
+	  {
+        "Role": "ROLE_LenhHoXung",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 4
+      },
+	  {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThachPhaThien",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_DuongTieu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 4
+      },
+	  {
+        "Role": "ROLE_TieuPhong",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_PhongThanhDuong",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_QuachTuong",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_TieuLongNu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TruongVoKy",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_VuongNguYen",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_LyThuThuy",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_ThanhDucBucVuong",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 2
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_ThachPhaThien",
+        "position": 2
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 3
+      },
+      {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 1
+      },
+      {
+        "Role": "ROLE_LenhHoXung",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_DuongTieu",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_PhamDao",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_QuachTinh",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_LyThuThuy",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_ChuBaThong",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 7
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThienSonDongLao",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_DuThanChi",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_TieuPhong",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 7
+      },
+	  {
+        "Role": "ROLE_NhamDoanhDoanh",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_DongPhuongBatBai",
+        "position": 8
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_VuongNguYen",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_YeuNguyetCungChu",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_DoanDu",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_DuongQua",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_LyThuThuy",
+        "position": 5
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_ThanhDucBucVuong",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_ThachPhaThien",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_NhamNgaHanh",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_TieuLongNu",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_LyTamHoan",
+        "position": 7
+      },
+      {
+        "Role": "ROLE_HongThatCong",
+        "position": 6
+      }
+    ]
+  },
+  {
+    "Difficulty": 2,
+    "Enemies": [
+      {
+        "Role": "ROLE_BachPhatMaNu",
+        "position": 8
+      },
+	  {
+        "Role": "ROLE_DuongQua",
+        "position": 9
+      },
+      {
+        "Role": "ROLE_MoDungPhuc",
+        "position": 4
+      },
+      {
+        "Role": "ROLE_TieuChieu",
+        "position": 5
+      },
+      {
+        "Role": "ROLE_HoangSamNuTu",
+        "position": 6
+      },
+      {
+        "Role": "ROLE_DocCoCauBai",
+        "position": 7
+      }
+    ]
+  }
+]

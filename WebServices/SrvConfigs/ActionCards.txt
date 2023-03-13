@@ -1,0 +1,31 @@
+{
+	"StartGift":
+	{
+		"name": "",
+		"description": "",
+		"value": 25
+	},
+	"BonusSalaryWhenAtGO":
+	{
+		"name": "",
+		"description": ""
+	},
+	"DiscountHouseCost":
+	{
+		"name": "",
+		"description": "",
+		"value": 50
+	},
+	"FreeTaxes":
+	{
+		"name": "",
+		"description": ""
+	},
+	"StarCity":
+	{
+		"name": "",
+		"description": ""
+	}
+}
+		
+		

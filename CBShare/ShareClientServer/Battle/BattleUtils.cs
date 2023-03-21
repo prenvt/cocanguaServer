@@ -68,9 +68,9 @@ namespace CBShare.Battle
             {
                 return 2;
             }
-            if (roomType == RoomTypeCode.BATTLE_4P)
+            if (roomType == RoomTypeCode.BATTLE_3P)
             {
-                return 4;
+                return 3;
             }
             return 0;
         }

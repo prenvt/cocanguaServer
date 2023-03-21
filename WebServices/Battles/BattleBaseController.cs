@@ -384,7 +384,7 @@ namespace WebServices.Battles
 
             switch (block.type)
             {
-                case BlockTypeCode.GO:
+                case BlockType.GO:
                     {
                         if (this.CheckTurnGamerHasActionCard(ActionCardCode.BonusSalaryWhenAtGO))
                         {
@@ -406,7 +406,7 @@ namespace WebServices.Battles
                     }
                     break;
 
-                case BlockTypeCode.Chance:
+                case BlockType.Chance:
                     {
                         if (this.properties.chanceCardsList.Count > 0)
                         {
@@ -421,7 +421,7 @@ namespace WebServices.Battles
                     }
                     break;
 
-                case BlockTypeCode.Park:
+                case BlockType.Park:
                     {
                         var turnGamerBlockIndexsList = this.properties.GetBlockIndexsByGamer(this.properties.turnGamerIndex);
                         if (turnGamerBlockIndexsList.Count > 0)
@@ -446,7 +446,7 @@ namespace WebServices.Battles
                     }
                     break;
 
-                case BlockTypeCode.Cannon:
+                case BlockType.Cannon:
                     {
                         var randBlockIndex = RandomUtils.GetRandomWithExcepts(this.properties.blocksList.Count - 1, new int[] { 0, 3, 6, 9, 12, 15, 18, 20 });
                         this.AddReplayStep(ReplayStepType.CannonShotToBlock, this.properties.turnGamerIndex, new CannonShotToBlockReplayParameter()
@@ -458,7 +458,7 @@ namespace WebServices.Battles
                     }
                     break;
 
-                case BlockTypeCode.Tornado:
+                case BlockType.Tornado:
                     {
                         int randBlockIndex = RandomUtils.GetRandomWithExcepts(this.properties.blocksList.Count - 1, new int[] { 6 });
                         this.AddReplayStep(ReplayStepType.FallCharacterToBlock, this.properties.turnGamerIndex, new FallToBlockReplayParameter()
@@ -470,7 +470,7 @@ namespace WebServices.Battles
                     }
                     break;
 
-                case BlockTypeCode.House:
+                case BlockType.House:
                     {
                         var opponentGamerIndex = this.properties.gamersPropertiesList.Count - 1 - this.properties.turnGamerIndex;
                         if (block.ownerIndex == opponentGamerIndex)
@@ -981,21 +981,21 @@ namespace WebServices.Battles
 
                     case ChanceCardCode.GoToCannon:
                         {
-                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockTypeCode.Cannon);
+                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockType.Cannon);
                             this.ProcessMoveCharacterToBlock(destBlockIndex);
                             break;
                         }
 
                     case ChanceCardCode.GoToTornado:
                         {
-                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockTypeCode.Tornado);
+                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockType.Tornado);
                             this.ProcessMoveCharacterToBlock(destBlockIndex);
                             break;
                         }
 
                     case ChanceCardCode.GoToPark:
                         {
-                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockTypeCode.Park);
+                            var destBlockIndex = ConfigManager.instance.FindBlockIndexByType(BlockType.Park);
                             this.ProcessMoveCharacterToBlock(destBlockIndex);
                             break;
                         }

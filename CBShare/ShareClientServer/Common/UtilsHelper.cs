@@ -10,10 +10,10 @@ namespace CBShare.Common
 {
     public class UtilsHelper
     {
-        public static T ParseEnum<T>(string value)
+        /*public static T ParseEnum<T>(string value)
         {
             return (T)Enum.Parse(typeof(T), value, true);
-        }
+        }*/
 
         public static string CreateMD5(string input)
         {

@@ -72,6 +72,7 @@
     <Compile Include="ShareClientServer\Common\RandomUtils.cs" />
     <Compile Include="ShareClientServer\Common\ReadText.cs" />
     <Compile Include="ShareClientServer\Common\UtilsHelper.cs" />
+    <Compile Include="ShareClientServer\Configuration\BattleConfig.cs" />
     <Compile Include="ShareClientServer\Configuration\BaseConfig.cs" />
     <Compile Include="ShareClientServer\Configuration\ConfigHelper.cs" />
     <Compile Include="ShareClientServer\Configuration\ConfigManager.cs" />

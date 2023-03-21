@@ -83,7 +83,7 @@
     public enum RoomTypeCode
     {
         BATTLE_2P = 2,
-        BATTLE_4P = 4
+        BATTLE_3P = 3
     }
 
     public enum RoomLevelCode
@@ -114,17 +114,6 @@
         GoldHeart5,
         GoldHeart10,
         GoldHeart15
-    }
-
-    public enum BlockTypeCode
-    {
-        NONE,
-        House,
-        GO,
-        Chance,
-        Park,
-        Cannon,
-        Tornado
     }
 
     public enum TollRateType

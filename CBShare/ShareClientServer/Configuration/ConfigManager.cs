@@ -14,16 +14,12 @@ namespace CBShare.Configuration
         // Use this for initialization
         private static ConfigManager _instance;
         public OtherConfig otherConfig;
-        public List<StarCardConfig> starCardsConfig;
+        //public List<StarCardConfig> starCardsConfig;
         public Dictionary<string, CharacterConfig> charactersConfig;
         public Dictionary<string, DiceConfig> dicesConfig;
         public Dictionary<string, RoomConfig> roomsConfig;
-        //public Dictionary<string, ManaBoosterConfig> manaBoostersConfig;
-        //public Dictionary<string, GiftConfig> giftsConfig;
         public ShopConfig shopsConfig;
         public Dictionary<string, ActionCardConfig> actionCardsConfig;
-        //public List<BlockConfig> blocks;
-        //public Dictionary<string, int> manasConfig;
         public BattleConfig battleConfig;
 
         public ConfigManager()
@@ -51,31 +47,18 @@ namespace CBShare.Configuration
         public void ReadAllConfigs(string otherTxt, string charactersTxt, string dicesTxt, string starCardsTxt, string shopTxt, string roomsTxt, string actionCardsTxt, string battleTxt)
         {
             this.otherConfig = JsonMapper.ToObject<OtherConfig>(otherTxt);
-            this.starCardsConfig = JsonMapper.ToObject<List<StarCardConfig>>(starCardsTxt);
+            //this.starCardsConfig = JsonMapper.ToObject<List<StarCardConfig>>(starCardsTxt);
             this.charactersConfig = JsonMapper.ToObject<Dictionary<string, CharacterConfig>>(charactersTxt);
             this.dicesConfig = JsonMapper.ToObject<Dictionary<string, DiceConfig>>(dicesTxt);
             this.roomsConfig = JsonMapper.ToObject<Dictionary<string, RoomConfig>>(roomsTxt);
             this.shopsConfig = JsonMapper.ToObject<ShopConfig>(shopTxt);
-            //this.manaBoostersConfig = JsonMapper.ToObject<Dictionary<string, ManaBoosterConfig>>(manaBoostersTxt);
-            //this.giftsConfig = JsonMapper.ToObject<Dictionary<string, GiftConfig>>(giftsTxt);
-            //this.jewelPacksConfig = JsonMapper.ToObject<List<JewelPackConfig>>(jewelPacksTxt);
-            //this.moneyPacksConfig = JsonMapper.ToObject<List<MoneyPackConfig>>(moneyPacksTxt);
             this.actionCardsConfig = JsonMapper.ToObject<Dictionary<string, ActionCardConfig>>(actionCardsTxt);
-            //this.manasConfig = JsonMapper.ToObject<Dictionary<string, int>>(manasTxt);
             this.battleConfig = JsonMapper.ToObject<BattleConfig>(battleTxt);
-            //this.blocksConfig = JsonMapper.ToObject<List<BlockConfig>>(blocksTxt);
-            //this.missionsConfig = JsonMapper.ToObject<Dictionary<string, MissionConfig>>(missionsTxt);
-            //this.replayEventsTimeConfig = JsonMapper.ToObject<Dictionary<string, float>>(replayEventsTimeTxt);
         }
 
         public CharacterConfig GetCharacterConfig(CharacterCode characterCode)
         {
             return this.charactersConfig[characterCode.ToString()];
-        }
-
-        public StarCardConfig GetStarCardConfig(string cardName)
-        {
-            return this.starCardsConfig.FirstOrDefault(c => c.name == cardName);
         }
 
         public DiceConfig GetDiceConfig(DiceCode diceCode)
@@ -108,7 +91,7 @@ namespace CBShare.Configuration
             return this.battleConfig.missions[missionCode.ToString()];
         }
 
-        public int FindBlockIndexByType(BlockTypeCode blockTypeCode)
+        public int FindBlockIndexByType(BlockType blockTypeCode)
         {
             var blockCfgByType = this.battleConfig.blocks.FirstOrDefault(b => b.type == blockTypeCode.ToString());
             if (blockCfgByType == null) return -1;

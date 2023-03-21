@@ -23,28 +23,6 @@ namespace CBShare.Data
         public DateTime expiredTime { get; set; }
     }
 
-    public class StarCardGamerData
-    {
-        public long ID { get; set; }
-        public long GID { get; set; }
-        public string name { get; set; }
-        public int level { get; set; }
-        public StarCardRank rank { get { return UtilsHelper.ParseEnum<StarCardRank>(this.name.Split('|')[0]); } }
-        public CharacterCode characterCode { get { return UtilsHelper.ParseEnum<CharacterCode>(this.name.Split('|')[1]); } }
-        public Dictionary<string, float> statsValue { get; set; }
-        public DateTime createTime;
-
-        public float GetStatValue(StarCardStat stat)
-        {
-            var statKey = stat.ToString();
-            if (this.statsValue != null && this.statsValue.ContainsKey(statKey))
-            {
-                return this.statsValue[statKey];
-            }
-            return 0;
-        }
-    }
-
     public class PushNotifyData
     {
         public long GID;

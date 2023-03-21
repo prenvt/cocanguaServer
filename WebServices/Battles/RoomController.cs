@@ -13,14 +13,14 @@ public class RoomController
     private int totalRoomsCount;
     private Dictionary<long, int> roomIDByGID;
     private List<Battle2PController> battle2PsList;
-    private Dictionary<int, Battle4PController> battle4PsList;
+    private Dictionary<int, Battle3PController> battle4PsList;
 
     public RoomController()
     {
         this.totalRoomsCount = 1;
         this.roomIDByGID = new Dictionary<long, int>();
         this.battle2PsList = new List<Battle2PController>();
-        this.battle4PsList = new Dictionary<int, Battle4PController>();
+        this.battle4PsList = new Dictionary<int, Battle3PController>();
 
         /*var allsPlayingBattlePropsList = BattlePropMongoDB.GetAllsPlayingList();
         for (int i = 0; i < allsPlayingBattlePropsList.Count; i++)

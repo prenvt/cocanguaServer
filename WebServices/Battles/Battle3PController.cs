@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebServices.Battles
 {
-    public class Battle4PController : BattleBaseController
+    public class Battle3PController : BattleBaseController
     {
  
     }

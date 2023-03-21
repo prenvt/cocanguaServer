@@ -2033,13 +2033,13 @@ namespace WebServices.Battles
             }
         }
 
-        public async Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue, ChanceCardCode _testChanceCard, bool isAFK)
+        public Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue, ChanceCardCode _testChanceCard, bool isAFK)
         {
             try
             {
                 if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, gamerIndex))
                 {
-                    return;
+                    return Task.CompletedTask;
                 }
                 this.lastReplayStepsCount = this.replayData.stepsList.Count;
                 this.lastBattleTime = this.properties.battleTime;
@@ -2079,6 +2079,7 @@ namespace WebServices.Battles
                 ExceptionLogMongoDB.add(ex.ToString());
                 this.SendDisplayMessageToAllGamers(ex.ToString());
             }
+            return Task.CompletedTask;
         }
 
         public async Task OnGamerBuildHouse(int gamerIndex, int blockIndex, HouseCode selectedHouseCode, bool isAFK)

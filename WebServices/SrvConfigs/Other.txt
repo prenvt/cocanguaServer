@@ -1,3 +1,0 @@
-{
-	"UnlockedLanguages": [ "English", "Vietnamese" ]
-}

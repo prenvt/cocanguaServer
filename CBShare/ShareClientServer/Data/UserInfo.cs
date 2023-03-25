@@ -22,7 +22,6 @@ namespace CBShare.Data
             PROPS_GAMER_DATA,//for userName
             PROPS_CHARACTER_DATA,
             PROPS_DICE_DATA,
-            PROPS_STAR_CARD_DATA
         };
 
         public static List<string> DEFAULT_PROPS = new List<string>()
@@ -307,16 +306,6 @@ namespace CBShare.Data
 
         public List<CharacterGamerData> charactersList { get; set; }
         public List<DiceGamerData> dicesList { get; set; }
-        public List<StarCardGamerData> starCardsList { get; set; }
-
-        public StarCardGamerData GetCurrentStarCard()
-        {
-            if (this.starCardsList == null)
-            {
-                return new StarCardGamerData();
-            }
-            return this.starCardsList.Find(e => e.ID == this.gamerData.currentStarCardID);
-        }
 
         public System.Action CallSyncObjectNetwork;
         public System.Action CallbackUpdateFormationData;
@@ -338,11 +327,7 @@ namespace CBShare.Data
             {
                 this.dicesList = other.dicesList;
             }
-            if (other.starCardsList != null)
-            {
-                this.starCardsList = other.starCardsList;
-            }
-
+           
             if (CallSyncObjectNetwork != null)
             {
                 CallSyncObjectNetwork.Invoke();

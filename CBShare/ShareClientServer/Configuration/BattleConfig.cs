@@ -41,7 +41,7 @@ namespace CBShare.Configuration
 
     public class BlockConfig : BaseConfig
     {
-        public string type { get; set; }
+        public BlockType type { get { return this.codeName.ToEnum<BlockType>(); } }
         public List<int> housesCost { get; set; }
         public List<int> housesToll { get; set; }
         public int coupleIndex { get; set; }

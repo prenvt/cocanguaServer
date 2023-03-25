@@ -154,7 +154,6 @@ namespace WebServices
                 GamerMongoDB.RegisterClass();
                 CharacterGamerMongoDB.RegisterClass();
                 DiceGamerMongoDB.RegisterClass();
-                StarCardGamerMongoDB.RegisterClass();
                 BattleMongoDB.RegisterClass();
                 BattleReplayMongoDB.RegisterClass();
             }

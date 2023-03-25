@@ -91,9 +91,9 @@ namespace CBShare.Configuration
             return this.battleConfig.missions[missionCode.ToString()];
         }
 
-        public int FindBlockIndexByType(BlockType blockTypeCode)
+        public int FindBlockIndexByType(BlockType _blockType)
         {
-            var blockCfgByType = this.battleConfig.blocks.FirstOrDefault(b => b.type == blockTypeCode.ToString());
+            var blockCfgByType = this.battleConfig.blocks.FirstOrDefault(b => b.type == _blockType);
             if (blockCfgByType == null) return -1;
             return this.battleConfig.blocks.IndexOf(blockCfgByType);
         }

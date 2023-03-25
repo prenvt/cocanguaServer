@@ -643,48 +643,6 @@ namespace WebServices
             }
         }
 
-        public static string RequestChooseStarCard(string data)
-        {
-            var response = new UpdateUserInfoResponseData();
-            try
-            {
-                var request = JsonMapper.ToObject<ChooseItemRequest>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request, false);
-                if (errorCode != ERROR_CODE.OK)
-                {
-                    return GetErrorResponse(response, errorCode);
-                }
-                lock (UserLoginMongoDB.GetLockObj(request.accessToken))
-                {
-                    long gid = request.GID;
-                    if (!GamerMongoDB.checkAccessToken(gid, request.accessToken))
-                    {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
-                    }
-
-                    var userInfo = GameManager.GetUserInfo(gid, new List<string>() {
-                        GameRequests.PROPS_GAMER_DATA,
-                        GameRequests.PROPS_STAR_CARD_DATA
-                    });
-                    var starCardGamerData = userInfo.starCardsList.Find(e => e.ID == request.itemID);
-                    if (starCardGamerData == null)
-                    {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
-                    }
-                    userInfo.gamerData.currentStarCardID = starCardGamerData.ID;
-                    GamerMongoDB.Save(userInfo.gamerData);
-
-                    response.userInfo = userInfo;
-                    response.ErrorCode = ERROR_CODE.OK;
-                    return GetResponseStr(response);
-                }
-            }
-            catch (Exception ex)
-            {
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
-            }
-        }
-
         #region Use Item
         /*public static string UseItem(string data)
         {

@@ -121,62 +121,6 @@ public class GameManager
             }
         }
 
-        if (requestProps.Exists(e => e.ToLower() == GameRequests.PROPS_STAR_CARD_DATA))
-        {
-            userInfo.starCardsList = StarCardGamerMongoDB.GetListByGID(gid);
-            if (userInfo.starCardsList == null || userInfo.starCardsList.Count == 0)
-            {
-                userInfo.starCardsList = new List<StarCardGamerData>();
-#if TESTING
-                foreach (StarCardRank starCardRank in (StarCardRank[])Enum.GetValues(typeof(StarCardRank)))
-                {
-                    foreach (CharacterCode characterCode in (CharacterCode[])Enum.GetValues(typeof(CharacterCode)))
-                    {
-                        var cardName = string.Format("{0}|{1}", starCardRank.ToString(), characterCode.ToString());
-                        var cardCfg = ConfigManager.instance.starCardsConfig.Find(e => e.name == cardName);
-                        if (cardCfg != null)
-                        {
-                            var starCardGamerData = StarCardGamerMongoDB.Insert(gid, cardCfg, 1);
-                            userInfo.starCardsList.Add(starCardGamerData);
-                        }
-                    }
-                }
-#endif
-            }
-            if (userInfo.starCardsList.Count > 0 && userInfo.gamerData.currentStarCardID <= 0)
-            {
-                var randIdx = RandomUtils.GetRandomIndexInList(userInfo.starCardsList.Count);
-                userInfo.gamerData.currentStarCardID = userInfo.starCardsList[randIdx].ID;
-            }
-        }
-
-        /*if (checkUnlockTinhNang)
-        {
-            userInfo.unlockProgressData = UnlockProgressMongoDB.GetUnlockProgressDataByGID(gid);
-            if (userInfo.unlockProgressData == null)
-            {
-                bool unlockedStore = userInfo.GamerData != null && userInfo.GamerData.GetLifeTimeNoteCount("StoreUnlocked") == 1;
-                userInfo.unlockProgressData = new UnlockProgressData(gid, userInfo.CampaignData.Count, unlockedStore);
-                UnlockProgressMongoDB.InsertOrReplaceUnlockProgressData(userInfo.unlockProgressData);
-            }
-            else
-            {
-                bool unlockedStore = userInfo.GamerData != null && userInfo.GamerData.GetLifeTimeNoteCount("StoreUnlocked") == 1;
-                var updatedList = UnlockProgressData.GetListPropByUserInfo(userInfo.CampaignData.Count, unlockedStore);
-                bool needUpdate = false;
-                foreach (string str in updatedList)
-                {
-                    if (!userInfo.unlockProgressData.UnlockedProps.Contains(str))
-                    {
-                        userInfo.unlockProgressData.UnlockedProps.Add(str);
-                        needUpdate = true;
-                    }
-                }
-                if (needUpdate)
-                    UnlockProgressMongoDB.InsertOrReplaceUnlockProgressData(userInfo.unlockProgressData);
-            }
-        }*/
-
         bool isNewDay = false;
         DateTime lastTimeLogin = DateTime.Now;
 

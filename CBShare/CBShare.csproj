@@ -111,11 +111,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>c:\windows\system32\xcopy.exe /Y /E "$(ProjectDir)$(OutDir)CBShare.dll" "$(SolutionDir)..\ctpUnity\Assets\Plugins"
-
-c:\windows\system32\xcopy.exe /Y /E "$(ProjectDir)$(OutDir)CBShare.pdb" "$(SolutionDir)..\ctpUnity\Assets\Plugins"
-
-
-</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>

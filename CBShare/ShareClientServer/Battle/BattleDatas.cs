@@ -37,7 +37,7 @@ namespace CBShare.Data
                 var block = new Block()
                 {
                     index = blockIndex,
-                    type = UtilsHelper.ParseEnum<BlockType>(blockCfg.type),
+                    type = blockCfg.type,
                     ownerIndex = -1,
                     currentHouseCode = HouseCode.NONE
                 };

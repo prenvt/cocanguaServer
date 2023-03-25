@@ -42,13 +42,13 @@ namespace WebServices.Hubs
             await battleController.OnGamerRematch(gamerIndex);
         }
 
-        public async Task RequestBuyActionCard(int roomID, int gamerIndex, int cardIndex)
+        public async Task RequestBuySpecialItem(int roomID, int gamerIndex, int cardIndex)
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
-            await battleController.OnGamerBuyActionCard(gamerIndex, cardIndex);
+            await battleController.OnGamerBuySpecialItem(gamerIndex, cardIndex);
         }
 
-        public async Task RequestRollDice(int roomID, int gamerIndex, bool isSpecialRoll, int testValue, ChanceCardCode testChanceCard)
+        /*public async Task RequestRollDice(int roomID, int gamerIndex, bool isSpecialRoll, int testValue, ChanceCardCode testChanceCard)
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
             await battleController.OnGamerRollDice(gamerIndex, isSpecialRoll, testValue, testChanceCard, false);
@@ -88,7 +88,7 @@ namespace WebServices.Hubs
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
             await battleController.OnGamerExchangeBlocks(gamerIndex, selectedBlockIndexsList, false);
-        }
+        }*/
 
         public async Task RequestExitRoom(long gid, int roomID)
         {

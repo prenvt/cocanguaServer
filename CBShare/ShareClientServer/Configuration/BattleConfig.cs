@@ -18,25 +18,25 @@ namespace CBShare.Configuration
     {
         public Dictionary<string, float> waitTimes { get; set; }
         public float TIME_MOVE_CHARACTER_PER_STEP { get; set; }
-        public float tollRateByOlympic = 3f;
-        public float tollRateByFestival = 2f;
-        public float tollRateByStarCity = 2f;
-        public float tollRateByPark = 2f;
-        public float tollRateByCouple = 2f;
-        public Dictionary<string, MissionConfig> missions;
-        public Dictionary<string, int> manas;
         public List<BlockConfig> blocks;
+    }
+
+    public enum BattleTeam
+    {
+        NONE,
+        Blue,
+        Red,
+        Green
     }
 
     public enum BlockType
     {
         NONE,
-        House,
-        GO,
-        Chance,
-        Park,
-        Cannon,
-        Tornado
+        Normal,
+        Start,
+        Star,
+        Jump,
+        End
     }
 
     public class BlockConfig : BaseConfig

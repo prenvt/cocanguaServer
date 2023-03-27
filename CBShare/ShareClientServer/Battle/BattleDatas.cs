@@ -15,15 +15,11 @@ namespace CBShare.Data
         public float nextStateTime;
         public BattleState nextState = BattleState.NONE;
         public float battleTime;
-        public MissionCode currentMissionCode;
         public int firstTurnGamerIndex;
         public int turnGamerIndex = -1;
         public List<Block> blocksList;
         public int turnCount = 1;
         public List<GamerBattleProperty> gamersPropertiesList = new List<GamerBattleProperty>();
-        public Dictionary<string, bool> chanceCardsList = new Dictionary<string, bool>();
-        //public int destBlockIndex;
-        public CharacterCode skillCharacter;
         public DateTime lastUpdate;
 
         public void Init()
@@ -38,46 +34,9 @@ namespace CBShare.Data
                 {
                     index = blockIndex,
                     type = blockCfg.type,
-                    ownerIndex = -1,
-                    currentHouseCode = HouseCode.NONE
                 };
                 this.blocksList.Add(block);
             }
-
-            this.chanceCardsList = new Dictionary<string, bool>();
-            foreach (ChanceCardCode chanceCardCode in (ChanceCardCode[])Enum.GetValues(typeof(ChanceCardCode)))
-            {
-                if (chanceCardCode > ChanceCardCode.NONE)
-                {
-                    this.chanceCardsList.Add(chanceCardCode.ToString(), false);
-                }
-            }
-        }
-
-        public List<int> GetEmptyHouseBlocks()
-        {
-            var emptyHouseBlockIndexsList = new List<int>();
-            foreach (var block in this.blocksList)
-            {
-                if (block.type == BlockType.House && block.ownerIndex < 0)
-                {
-                    emptyHouseBlockIndexsList.Add(block.index);
-                }
-            }
-            return emptyHouseBlockIndexsList;
-        }
-
-        public List<int> GetBlockIndexsByGamer(int gamerIndex)
-        {
-            var blockIndexsList = new List<int>();
-            foreach (var block in this.blocksList)
-            {
-                if (block.ownerIndex == gamerIndex)
-                {
-                    blockIndexsList.Add(block.index);
-                }
-            }
-            return blockIndexsList;
         }
 
         public void ProcessSortGamersByPoint()
@@ -96,53 +55,7 @@ namespace CBShare.Data
     {
         public int index { get; set; }
         public BlockType type { get; set; }
-        public HouseCode currentHouseCode { get; set; }
-        public int ownerIndex { get; set; }
-        public bool isFestival { get; set; }
-        public bool isOlympic { get; set; }
-        public bool isStarCity { get; set; }
-        public bool isPark { get; set; }
-        public bool isCouple { get; set; }
-        public float tollRateBySkill = 1f;
-        public float GetTollRate()
-        {
-            var _tollRate = 1f;
-            for (int i = 0; i < this.tollRatesByTurn.Count; i++)
-            {
-                var tollRateByTurn = this.tollRatesByTurn[i];
-                if (tollRateByTurn.turn > 0)
-                {
-                    _tollRate *= tollRateByTurn.rate;
-                }
-            }
-            if (this.isOlympic) 
-                _tollRate *= ConfigManager.instance.battleConfig.tollRateByOlympic;
-            if (this.isFestival) 
-                _tollRate *= ConfigManager.instance.battleConfig.tollRateByFestival;
-            if (this.isStarCity) 
-                _tollRate *= ConfigManager.instance.battleConfig.tollRateByStarCity;
-            if (this.isPark) 
-                _tollRate *= ConfigManager.instance.battleConfig.tollRateByPark;
-            if (this.isCouple) 
-                _tollRate *= ConfigManager.instance.battleConfig.tollRateByCouple;
-            _tollRate *= this.tollRateBySkill;
-            return _tollRate;
-        }
-        public List<TollRateByTurnData> tollRatesByTurn = new List<TollRateByTurnData>();
 
-        public void DestroyHouses()
-        {
-            this.ownerIndex = -1;
-            this.currentHouseCode = HouseCode.NONE;
-            this.tollRatesByTurn.Clear();
-            this.isCouple = false;
-        }
-    }
-
-    public class TollRateByTurnData
-    {
-        public float rate;
-        public int turn;
     }
 
     public class EndBattleGamerData
@@ -162,9 +75,6 @@ namespace CBShare.Data
         public GamerState state;
         public int money;
         public int point;
-        public CharacterCode currentCharacter;
-        public DiceCode currentDice;
-        public int currentBlockIndex = 0;
         public bool rematch;
 
         public void Init(RoomConfig _roomCfg)
@@ -172,7 +82,6 @@ namespace CBShare.Data
             this.rankingIndex = -1;
             this.state = GamerState.ONLINE; 
             this.point = 0;
-            this.currentBlockIndex = 0;
         }
 
         public void ChangePoint(int _deltaPoint)

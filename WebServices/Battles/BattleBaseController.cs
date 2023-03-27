@@ -316,7 +316,7 @@ namespace WebServices.Battles
             }
         }
 
-        protected void ProcessMoveCharacterToBlock(int _destBlockIndex, CharacterCode _skillCharacter = CharacterCode.NONE)
+        protected void ProcessMoveCharacterToBlock(int _destBlockIndex)
         {
             try
             {
@@ -351,7 +351,6 @@ namespace WebServices.Battles
                         sC = _skillCharacter
                     }, moveTime);
                 }
-                this.ProcessCharacterStayAtBlock(_destBlockIndex);
             }
             catch (Exception ex)
             {
@@ -360,82 +359,10 @@ namespace WebServices.Battles
             }
         }
 
-        protected void ProcessCharacterStayAtBlock(int _blockIndex)
-        {
-            this.currentTurnGamer.currentBlockIndex = _blockIndex;
-            var block = this.properties.blocksList[_blockIndex];
-
-            switch (block.type)
-            {
-                case BlockType.Park:
-                    {
-                        var turnGamerBlockIndexsList = this.properties.GetBlockIndexsByGamer(this.properties.turnGamerIndex);
-                        if (turnGamerBlockIndexsList.Count > 0)
-                        {
-                            //this.SendWaitingGamerAction(BattleGamerAction.SelectBlock, turnGamerBlockIndexsList, SelectBlockActionCode.SET_CASINO);
-                            this.SendWaitingGamerAction(new BattleGamerActionData()
-                            {
-                                actionType = BattleGamerAction.SelectBlock,
-                                indexInBattle = this.properties.turnGamerIndex,
-                                jsonValue = JsonMapper.ToJson(new SelectBlockActionParameter()
-                                {
-                                    blockIndexsList = turnGamerBlockIndexsList,
-                                    selectAction = SelectBlockActionCode.SET_CASINO
-                                })
-                            });
-                        }
-                        else
-                        {
-                            //this.SetNextState(BattleState.CONTINUE_TURN, 0.25f);
-                            this.ContinueTurnGamerAction();
-                        }
-                    }
-                    break;
-            }
-        }
-
-        protected void ContinueTurnGamerAction(params Block[] checkingBlocks)
+        protected virtual void ContinueTurnGamerAction()
         {
             try
             {
-                if (checkingBlocks.Length > 0)
-                {
-                    for (int i = 0; i < checkingBlocks.Length; i++)
-                    {
-                        var checkingBlock = checkingBlocks[i];
-                        if (checkingBlock.ownerIndex < 0) continue;
-                        var blockCfg = ConfigManager.instance.GetBlockConfig(checkingBlock.index);
-
-                        var numBlockOwned = 0;
-                        var warningBlockIndex = -1;
-                        for (int j = 0; j < blockCfg.monopolyIndexs.Count; j++)
-                        {
-                            var blockIndex = blockCfg.monopolyIndexs[j];
-                            var block = this.properties.blocksList[blockIndex];
-                            if (block.ownerIndex >= 0 && block.ownerIndex == checkingBlock.ownerIndex)
-                            {
-                                numBlockOwned++;
-                            }
-                            else
-                            {
-                                warningBlockIndex = blockIndex;
-                            }
-                        }
-                        if (numBlockOwned == blockCfg.monopolyIndexs.Count)
-                        {
-                            this.ProcessEndBattle(EndBattleType.MONOPOLY, checkingBlock.ownerIndex);
-                            return;
-                        }
-                        else if (numBlockOwned == blockCfg.monopolyIndexs.Count - 1)
-                        {
-                            this.AddReplayStep(ReplayStepType.ShowWarning, this.properties.turnGamerIndex, new ShowWarningReplayParameter()
-                            {
-                                wT = BattleWarningType.WARNING_MONOPOLY,
-                                bI = warningBlockIndex
-                            });
-                        }
-                    }
-                }
                 /*if (this.currentTurnGamer.isRollingDoubleDices)
                 {
                     //this.SetNextState(BattleState.START_TURN, this.updateDeltaTime);
@@ -458,21 +385,7 @@ namespace WebServices.Battles
         {
             try
             {
-                foreach (var block in this.properties.blocksList)
-                {
-                    //var blockIndex = this.currentTurnGamer.ownedBlockIndexsList[i];
-                    //var block = this.properties.blocksList[blockIndex];
-                    if (block.ownerIndex != this.properties.turnGamerIndex)
-                        continue;
-                    for (int j = 0; j < block.tollRatesByTurn.Count; j++)
-                    {
-                        var tollRateByTurn = block.tollRatesByTurn[j];
-                        if (tollRateByTurn.turn > 0)
-                        {
-                            tollRateByTurn.turn--;
-                        }
-                    }
-                }
+               
             }
             catch (Exception ex)
             {
@@ -568,8 +481,6 @@ namespace WebServices.Battles
                             name = userInfo.gamerData.displayName,
                             avatar = userInfo.gamerData.Avatar,
                             money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
-                            currentCharacter = userInfo.gamerData.currentCharacter,
-                            currentDice = userInfo.gamerData.currentDice,
                             indexInBattle = this.properties.gamersPropertiesList.Count,
                         };
                         this.properties.gamersPropertiesList.Add(gamerProperties);

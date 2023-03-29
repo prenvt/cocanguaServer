@@ -73,6 +73,8 @@ namespace CBShare.Data
         public int indexInBattle;
         public int rankingIndex;
         public GamerState state;
+        public DiceCode currentDice = DiceCode.BASIC;
+        public List<int> horseSpaceIndexsList = new List<int>() { -1, -1, -1, -1 };
         public int money;
         public int point;
         public bool rematch;

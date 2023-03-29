@@ -320,7 +320,7 @@ namespace WebServices.Battles
         {
             try
             {
-                if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
+                /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
                 {
                     var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
                     this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
@@ -350,7 +350,7 @@ namespace WebServices.Battles
                         dB = _destBlockIndex,
                         sC = _skillCharacter
                     }, moveTime);
-                }
+                }*/
             }
             catch (Exception ex)
             {
@@ -562,34 +562,8 @@ namespace WebServices.Battles
             }
         }
 
-        public Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue, ChanceCardCode _testChanceCard, bool isAFK)
+        public virtual Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue,  bool isAFK)
         {
-            try
-            {
-                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, gamerIndex))
-                {
-                    return Task.CompletedTask;
-                }
-                this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                this.lastBattleTime = this.properties.battleTime;
-                var diceValues = DiceController.getValues(1, this.currentTurnGamer.currentDice, isSpecialRoll, _testValue);
-                var dicesTotalValue = 0;
-                
-                var destBlockIndex = (this.currentTurnGamer.currentBlockIndex + dicesTotalValue) % this.properties.blocksList.Count;
-                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
-                {
-                    d1 = diceValues[0],
-                    d2 = diceValues[1],
-                    dB = destBlockIndex
-                }, 3f);
-                //this.properties.battleTime += 3f;
-                this.ProcessMoveCharacterToBlock(destBlockIndex, CharacterCode.NONE);
-            }
-            catch (Exception ex)
-            {
-                ExceptionLogMongoDB.add(ex.ToString());
-                this.SendDisplayMessageToAllGamers(ex.ToString());
-            }
             return Task.CompletedTask;
         }
 

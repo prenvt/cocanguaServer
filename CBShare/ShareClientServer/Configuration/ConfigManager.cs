@@ -81,16 +81,6 @@ namespace CBShare.Configuration
             return this.battleConfig.blocks[blockIndex];
         }
 
-        public int GetManaValue(ManaCode manaCode)
-        {
-            return this.battleConfig.manas[manaCode.ToString()];
-        }
-
-        public MissionConfig GetMissionConfig(MissionCode missionCode)
-        {
-            return this.battleConfig.missions[missionCode.ToString()];
-        }
-
         public int FindBlockIndexByType(BlockType _blockType)
         {
             var blockCfgByType = this.battleConfig.blocks.FirstOrDefault(b => b.type == _blockType);

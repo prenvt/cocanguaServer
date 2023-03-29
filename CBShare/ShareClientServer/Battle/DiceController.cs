@@ -36,21 +36,10 @@ namespace CBShare.Battle
         private static List<int> ListOddValues = new List<int> { 1, 3, 5 };
         private static List<int> ListEvenValues = new List<int> { 2, 4, 6 };
 
-        public static List<int> getValues(int num_dice, DiceCode dice_id, bool isSpecialRoll, int testDiceValue)
+        public static int getRollValue(DiceCode dice_id, bool isSpecialRoll)
         {
-            List<int> dice_values = null;
-            if (testDiceValue > 0)
-            {
-                if (testDiceValue <= 6)
-                {
-                    dice_values = new List<int>() { 1, testDiceValue - 1 };
-                }
-                else
-                {
-                    dice_values = new List<int>() { 6, testDiceValue - 6 };
-                }
-            }
-            else if (isSpecialRoll)
+            int diceValue = 0;
+            if (isSpecialRoll)
             {
                 if (dice_id == DiceCode.LE)
                 {

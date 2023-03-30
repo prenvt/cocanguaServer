@@ -36,91 +36,10 @@ namespace CBShare.Battle
         private static List<int> ListOddValues = new List<int> { 1, 3, 5 };
         private static List<int> ListEvenValues = new List<int> { 2, 4, 6 };
 
-        public static int getRollValue(DiceCode dice_id, bool isSpecialRoll)
+        public static int getRollValue(DiceType diceType, bool isSpecialRoll)
         {
-            int diceValue = 0;
-            if (isSpecialRoll)
-            {
-                if (dice_id == DiceCode.LE)
-                {
-                    if (num_dice == 1)
-                    {
-                        int dice_value = RandomUtils.GetRandomInArray(ListOddValues);
-                        dice_values = new List<int> { dice_value, 0 };
-                    }
-                    else if (num_dice == 2)
-                    {
-                        int value0 = 0, value1 = 0;
-                        value0 = RandomUtils.GetRandomInt(1, 6);
-                        if (value0 % 2 == 0) value1 = RandomUtils.GetRandomInArray(ListOddValues);
-                        else value1 = RandomUtils.GetRandomInArray(ListEvenValues);
-
-                        dice_values = new List<int> { value0, value1 };
-                    }
-                }
-                else if (dice_id == DiceCode.CHAN)
-                {
-                    if (num_dice == 1)
-                    {
-                        int dice_value = RandomUtils.GetRandomInArray(ListEvenValues);
-                        dice_values = new List<int> { dice_value, 0 };
-                    }
-                    else if (num_dice == 2)
-                    {
-                        int value0 = 0, value1 = 0;
-                        value0 = RandomUtils.GetRandomInt(1, 6);
-                        if (value0 % 2 == 0) value1 = RandomUtils.GetRandomInArray(ListEvenValues);
-                        else value1 = RandomUtils.GetRandomInArray(ListOddValues);
-
-                        dice_values = new List<int> { value0, value1 };
-                    }
-                }
-                else if (dice_id == DiceCode.DAI_BAO)
-                {
-                    if (num_dice == 1)
-                    {
-
-                    }
-                    else if (num_dice == 2)
-                    {
-                        int value0 = 0, value1 = 0;
-                        value0 = RandomUtils.GetRandomInt(1, 6);
-                        value1 = RandomUtils.GetRandomInt(7 - value0, 6);
-
-                        dice_values = new List<int> { value0, value1 };
-                    }
-                }
-                else if (dice_id == DiceCode.TIEU_BAO)
-                {
-                    if (num_dice == 1)
-                    {
-                        int dice_value = RandomUtils.GetRandomInt(1, 6);
-                        dice_values = new List<int> { dice_value, 0 };
-                    }
-                    else if (num_dice == 2)
-                    {
-                        int value0 = 0, value1 = 0;
-                        value0 = RandomUtils.GetRandomInt(1, 5);
-                        value1 = RandomUtils.GetRandomInt(1, 6 - value0);
-                        dice_values = new List<int> { value0, value1 };
-                    }
-                }
-                
-            }
-            else
-            {
-                if (num_dice == 1)
-                {
-                    int dice_value = RandomUtils.GetRandomInt(1, 6);
-                    dice_values = new List<int> { dice_value, 0 };
-                }
-                else if (num_dice == 2)
-                {
-                    int index = RandomUtils.GetRandomInt(0, ListDiceValues.Count - 1);
-                    dice_values = ListDiceValues[index];
-                }
-            }
-            return dice_values;
+            int diceValue = RandomUtils.GetRandomInt(1, 6);
+            return diceValue;
         }
 
         public static List<int> getAnims(bool dice_double)

@@ -530,7 +530,7 @@ namespace WebServices.Battles
             }
         }
 
-        public async Task OnGamerBuySpecialItem(int gamerIndex, int cardIndex)
+        public virtual async Task OnGamerBuySpecialItem(int gamerIndex, int cardIndex)
         {
             try
             {

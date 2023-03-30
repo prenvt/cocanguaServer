@@ -20,8 +20,11 @@ namespace WebServices.Battles
                 }
                 this.lastReplayStepsCount = this.replayData.stepsList.Count;
                 this.lastBattleTime = this.properties.battleTime;
-                var diceValues = DiceController.getValues(1, this.currentTurnGamer.currentDice, isSpecialRoll, _testValue);
-                var dicesTotalValue = 0;
+                var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, isSpecialRoll);
+                if (_testValue > 0)
+                {
+                    diceValue = _testValue;
+                }
 
                 /*var destBlockIndex = (this.currentTurnGamer.currentBlockIndex + dicesTotalValue) % this.properties.blocksList.Count;
                 this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()

@@ -19,7 +19,7 @@ namespace CBShare.Data
     {
         public long ID;
         public long GID;
-        public DiceCode code { get; set; }
+        public DiceType code { get; set; }
         public DateTime expiredTime { get; set; }
     }
 

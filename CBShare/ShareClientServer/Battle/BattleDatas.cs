@@ -17,7 +17,6 @@ namespace CBShare.Data
         public float battleTime;
         public int firstTurnGamerIndex;
         public int turnGamerIndex = -1;
-        public List<Block> blocksList;
         public int turnCount = 1;
         public List<GamerBattleProperty> gamersPropertiesList = new List<GamerBattleProperty>();
         public DateTime lastUpdate;
@@ -25,18 +24,6 @@ namespace CBShare.Data
         public void Init()
         {
             this.battleTime = 0f;
-            this.blocksList = new List<Block>();
-            for (int i = 0; i < ConfigManager.instance.battleConfig.blocks.Count; i++)
-            {
-                var blockIndex = i;
-                var blockCfg = ConfigManager.instance.GetBlockConfig(blockIndex);
-                var block = new Block()
-                {
-                    index = blockIndex,
-                    type = blockCfg.type,
-                };
-                this.blocksList.Add(block);
-            }
         }
 
         public void ProcessSortGamersByPoint()
@@ -49,13 +36,6 @@ namespace CBShare.Data
                 gamerProperty.rankingIndex = _rankingIndex;
             }
         }
-    }
-
-    public class Block
-    {
-        public int index { get; set; }
-        public BlockType type { get; set; }
-
     }
 
     public class EndBattleGamerData
@@ -73,7 +53,7 @@ namespace CBShare.Data
         public int indexInBattle;
         public int rankingIndex;
         public GamerState state;
-        public DiceCode currentDice = DiceCode.BASIC;
+        public DiceType currentDice = DiceType.BASIC;
         public List<int> horseSpaceIndexsList = new List<int>() { -1, -1, -1, -1 };
         public int money;
         public int point;

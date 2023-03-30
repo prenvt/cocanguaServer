@@ -61,7 +61,7 @@ namespace CBShare.Configuration
             return this.charactersConfig[characterCode.ToString()];
         }
 
-        public DiceConfig GetDiceConfig(DiceCode diceCode)
+        public DiceConfig GetDiceConfig(DiceType diceCode)
         {
             return this.dicesConfig[diceCode.ToString()];
         }
@@ -76,7 +76,7 @@ namespace CBShare.Configuration
             return this.actionCardsConfig[actionCardCode.ToString()];
         }
 
-        public BlockConfig GetBlockConfig(int blockIndex)
+        /*public BlockConfig GetSlotConfig(int blockIndex)
         {
             return this.battleConfig.blocks[blockIndex];
         }
@@ -86,7 +86,7 @@ namespace CBShare.Configuration
             var blockCfgByType = this.battleConfig.blocks.FirstOrDefault(b => b.type == _blockType);
             if (blockCfgByType == null) return -1;
             return this.battleConfig.blocks.IndexOf(blockCfgByType);
-        }
+        }*/
 
         public int GetActionCardPrice(RoomLevelCode roomLevel, int cardIndex)
         {

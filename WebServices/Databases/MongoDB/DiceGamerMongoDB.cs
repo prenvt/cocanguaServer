@@ -46,7 +46,7 @@ namespace CTPServer.MongoDB
             return true;
         }
 
-        public static DiceGamerData Insert(long gid, DiceCode diceCode, DateTime expiredTime)
+        public static DiceGamerData Insert(long gid, DiceType diceCode, DateTime expiredTime)
         {
             var data = new DiceGamerData()
             {

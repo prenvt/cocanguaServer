@@ -80,9 +80,9 @@ public class GameManager
             {
                 userInfo.gamerData.currentCharacter = (CharacterCode)RandomUtils.GetRandomInt(1, 4);
             }
-            if (userInfo.gamerData.currentDice == DiceCode.NONE)
+            if (userInfo.gamerData.currentDice == DiceType.NONE)
             {
-                userInfo.gamerData.currentDice = DiceCode.BASIC;
+                userInfo.gamerData.currentDice = DiceType.BASIC;
             }
 #endif
         }
@@ -111,9 +111,9 @@ public class GameManager
             {
                 userInfo.dicesList = new List<DiceGamerData>();
 #if TESTING
-                foreach (DiceCode diceCode in (DiceCode[])Enum.GetValues(typeof(DiceCode)))
+                foreach (DiceType diceCode in (DiceType[])Enum.GetValues(typeof(DiceType)))
                 {
-                    if (diceCode == DiceCode.NONE) continue;
+                    if (diceCode == DiceType.NONE) continue;
                     var diceGamerData = DiceGamerMongoDB.Insert(gid, diceCode, DateTime.Now.AddDays(100));
                     userInfo.dicesList.Add(diceGamerData);
                 }

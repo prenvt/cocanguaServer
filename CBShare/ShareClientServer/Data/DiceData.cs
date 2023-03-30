@@ -5,7 +5,7 @@ namespace CBShare.Data
 {
     public class DiceData
     {
-		public DiceCode Id { get; set; }
+		public DiceType Id { get; set; }
 		public string Name { get; set; }
 		public string SkillName { get; set; }
 		public string SkillDescription { get; set; }

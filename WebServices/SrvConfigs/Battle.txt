@@ -56,10 +56,129 @@
       "parameter": 0
     }
   },
-  "blocks": [
+  "spacesList": [
     {
-      "codeName": "GO"
+      "ID": 0,
+      "codeName": "Start",
+      "team": "Blue"
     },
-   
+    {
+      "ID": 1,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 2,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 3,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 4,
+      "codeName": "Star"
+    },
+    {
+      "ID": 5,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 6,
+      "codeName": "Jump"
+    },
+    {
+      "ID": 7,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 8,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 9,
+      "codeName": "Star"
+    },
+    {
+      "ID": 10,
+      "codeName": "Start",
+      "team": "Red"
+    },
+    {
+      "ID": 11,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 12,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 13,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 14,
+      "codeName": "Star"
+    },
+    {
+      "ID": 15,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 16,
+      "codeName": "Jump"
+    },
+    {
+      "ID": 17,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 18,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 19,
+      "codeName": "Star"
+    },
+    {
+      "ID": 20,
+      "codeName": "Start",
+      "team": "Green"
+    },
+    {
+      "ID": 21,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 22,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 23,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 24,
+      "codeName": "Star"
+    },
+    {
+      "ID": 25,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 26,
+      "codeName": "Jump"
+    },
+    {
+      "ID": 27,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 28,
+      "codeName": "Normal"
+    },
+    {
+      "ID": 29,
+      "codeName": "Star"
+    }
   ]
 }

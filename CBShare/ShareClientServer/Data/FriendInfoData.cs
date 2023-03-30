@@ -13,7 +13,7 @@ namespace CBShare.Data
         public string name;
         public int money;
         public CharacterCode characterId;
-        public DiceCode diceId;
+        public DiceType diceId;
         public int totalMatch;
         public int winMatch;
         public int winMoney;

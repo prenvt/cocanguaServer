@@ -47,7 +47,7 @@
         HEART
     }
 
-    public enum DiceCode
+    public enum DiceType
     {
         NONE = -1,
         BASIC,
@@ -93,48 +93,6 @@
         Master = 3
     }
 
-    public enum GamerColor
-    {
-        GREEN,
-        RED,
-        YELLOW,
-        BLUE
-    }
-
-    /*public enum RewardCode
-    {
-        Heart,
-        Money,
-        Jewel,
-        StarCard
-    }*/
-
-    public enum GoldHeartRewardCode
-    {
-        GoldHeart5,
-        GoldHeart10,
-        GoldHeart15
-    }
-
-    public enum TollRateType
-    {
-        NONE,
-        Olympic,
-        Festival,
-        Park,
-        StarCity,
-        Couple
-    }
-
-    public enum HouseCode
-    {
-        NONE = -1,
-        LAND,
-        VILLA,
-        BUILDING,
-        HOTEL
-    }
-
     public enum ActionCardCode
     {
         None,
@@ -144,42 +102,6 @@
         FreeTaxes,
         StarCity,
         //UpgradeHouseWhenAtGO,
-    }
-
-    public enum MissionCode
-    {
-        DoubleDices,
-        GoToSpecialBlock,
-        BuildHouse,
-        BuildPark,
-        OwnBlock,
-        ChooseChanceCard
-    }
-
-    public enum ChanceCardCode
-    {
-        NONE,
-        MoveForward_1,
-        MoveForward_2,
-        //MoveBack_1,
-        //MoveBack_2,
-        GoToTornado,
-        GoToCannon,
-        GoToPark,
-        SetStarCity,
-        GoToStarCity,
-        OrganizeOlympic,
-        GoToOlympic,
-        OrganizeFestival,
-        GoToFestival,
-        DowngradeOpponentHouse,
-        ReduceOpponentBlockToll,
-        SellOpponentHouse,
-        IncreaseAllBlocksToll,
-        ExchangeBlocks,
-        Help,
-        Donate,
-        RagsToRich
     }
 
     public enum ManaCode

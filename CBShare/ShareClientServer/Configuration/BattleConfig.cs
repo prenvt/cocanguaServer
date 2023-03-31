@@ -18,18 +18,21 @@ namespace CBShare.Configuration
     {
         public Dictionary<string, float> waitTimes { get; set; }
         public float TIME_MOVE_CHARACTER_PER_STEP { get; set; }
-        public List<SpaceType> spacesList;
+        public Dictionary<string, int> startIndexs { get; set; }
+        public Dictionary<string, int> endIndexs { get; set; }
+        public List<int> starIndexs { get; set; }
+        public List<int> jumpIndexs { get; set; }
     }
 
-    public enum BattleTeam
+    public enum BattleColor
     {
-        NONE,
+        NONE = -1,
         Blue,
         Red,
         Green
     }
 
-    public enum SpaceType
+    /*public enum SpaceType
     {
         NONE,
         Normal,
@@ -44,5 +47,5 @@ namespace CBShare.Configuration
         public int ID;
         public SpaceType type { get { return this.codeName.ToEnum<SpaceType>(); } }
         public BattleTeam team = BattleTeam.NONE;
-    }
+    }*/
 }

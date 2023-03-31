@@ -9,8 +9,8 @@ namespace CBShare.Data
     public class BattleProperty
     {
         public int ID;
-        public RoomTypeCode type;
-        public RoomLevelCode level;
+        public RoomType type;
+        public RoomLevel level;
         public BattleState state;
         public float nextStateTime;
         public BattleState nextState = BattleState.NONE;
@@ -32,7 +32,7 @@ namespace CBShare.Data
             for (int i = 0; i < sortByAssetGamersList.Count; i++)
             {
                 var _rankingIndex = i;
-                var gamerProperty = this.gamersPropertiesList.Find(e => e.indexInBattle == sortByAssetGamersList[i].indexInBattle);
+                var gamerProperty = this.gamersPropertiesList.Find(e => e.color == sortByAssetGamersList[i].color);
                 gamerProperty.rankingIndex = _rankingIndex;
             }
         }
@@ -50,7 +50,7 @@ namespace CBShare.Data
         public long gid;
         public string name;
         public string avatar;
-        public int indexInBattle;
+        public BattleColor color;
         public int rankingIndex;
         public GamerState state;
         public DiceType currentDice = DiceType.BASIC;

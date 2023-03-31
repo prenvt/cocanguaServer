@@ -62,13 +62,13 @@ namespace CBShare.Battle
             return sellHousePrice;
         }*/
 
-        public static int GetNumGamersInBattle(RoomTypeCode roomType)
+        public static int GetNumGamersInBattle(RoomType roomType)
         {
-            if (roomType == RoomTypeCode.BATTLE_2P)
+            if (roomType == RoomType.BATTLE_2P)
             {
                 return 2;
             }
-            if (roomType == RoomTypeCode.BATTLE_3P)
+            if (roomType == RoomType.BATTLE_3P)
             {
                 return 3;
             }

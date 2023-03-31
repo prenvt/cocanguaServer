@@ -10,38 +10,6 @@ namespace WebServices.Battles
 {
     public class Battle3PController : BattleBaseController
     {
-        public override Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue, bool isAFK)
-        {
-            try
-            {
-                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, gamerIndex))
-                {
-                    return Task.CompletedTask;
-                }
-                this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                this.lastBattleTime = this.properties.battleTime;
-                var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, isSpecialRoll);
-                if (_testValue > 0)
-                {
-                    diceValue = _testValue;
-                }
-
-                /*var destBlockIndex = (this.currentTurnGamer.currentBlockIndex + dicesTotalValue) % this.properties.blocksList.Count;
-                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
-                {
-                    d1 = diceValues[0],
-                    d2 = diceValues[1],
-                    dB = destBlockIndex
-                }, 3f);*/
-                //this.properties.battleTime += 3f;
-                //this.ProcessMoveCharacterToBlock(destBlockIndex, CharacterCode.NONE);
-            }
-            catch (Exception ex)
-            {
-                ExceptionLogMongoDB.add(ex.ToString());
-                this.SendDisplayMessageToAllGamers(ex.ToString());
-            }
-            return Task.CompletedTask;
-        }
+     
     }
 }

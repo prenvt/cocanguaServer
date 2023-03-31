@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using CBShare.Common;
+using CBShare.Configuration;
 
 namespace CBShare.Data
 {
@@ -19,7 +20,7 @@ namespace CBShare.Data
 
     public class BattleGamerActionData
     {
-        public int indexInBattle;
+        public BattleColor gamerColor;
         public BattleGamerAction actionType;
         public float delayTime;
         public string jsonValue;
@@ -28,23 +29,6 @@ namespace CBShare.Data
     public class RollDiceActionParameter
     {
         public bool isSpecial;
-    }
-
-    public class BuildHouseActionParameter
-    {
-        public int blockIndex;
-        public HouseCode currentHouse;
-        public float discountHouseCostPercent;
-    }
-
-    public class UseActionCardActionParameter
-    {
-        public ActionCardCode actionCard;
-    }
-
-    public class UseCharacterSkillActionParameter
-    {
-        public CharacterCode character;
     }
 
     public class SelectBlockActionParameter

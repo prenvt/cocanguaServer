@@ -59,12 +59,6 @@
         LOC_PHAT
     }
 
-    /*public enum RollDiceType
-    {
-        NORMAL,
-        SPECIAL
-    }*/
-
     public enum EmoticonCode
     {
         NONE,
@@ -80,38 +74,17 @@
         EMO_10
     }
 
-    public enum RoomTypeCode
+    public enum RoomType
     {
         BATTLE_2P = 2,
         BATTLE_3P = 3
     }
 
-    public enum RoomLevelCode
+    public enum RoomLevel
     {
         Rookie = 1,
         Expert = 2,
         Master = 3
-    }
-
-    public enum ActionCardCode
-    {
-        None,
-        StartGift,
-        BonusSalaryWhenAtGO,
-        DiscountHouseCost,
-        FreeTaxes,
-        StarCity,
-        //UpgradeHouseWhenAtGO,
-    }
-
-    public enum ManaCode
-    {
-        Start,
-        EveryMoveStep,
-        UseSkill,
-        Roll1Dice,
-        Roll2Dices,
-        OpponentRollDice
     }
 
     public enum ERROR_CODE

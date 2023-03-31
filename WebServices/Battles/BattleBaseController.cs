@@ -1,19 +1,15 @@
 ﻿using System;
 using Microsoft.AspNetCore.SignalR;
 using WebServices.Hubs;
-using WebServices;
 using System.Collections.Generic;
-using CBShare.Battle;
 using CBShare.Common;
-using Microsoft.Extensions.Caching.Memory;
 using System.Threading.Tasks;
 using CTPServer.MongoDB;
 using CBShare.Configuration;
 using System.Linq;
 using CBShare.Data;
 using LitJson;
-using MongoDB.Bson;
-using System.Security.Cryptography;
+using CBShare.Battle;
 
 namespace WebServices.Battles
 {
@@ -50,7 +46,7 @@ namespace WebServices.Battles
             this.properties = _props;
             this.replayData = BattleReplayMongoDB.GetByBattleID(_props.ID);
             this.replayData.stepsList.Clear();
-            this.roomKey = string.Format("CTP_{0}", _props.ID);
+            this.roomKey = string.Format("LUDO_{0}", _props.ID);
             this.roomConfig = ConfigManager.instance.GetRoomConfig(_props.level);
         }
 
@@ -107,7 +103,7 @@ namespace WebServices.Battles
                         {
                             this.properties.turnGamerIndex = RandomUtils.GetRandomInt(0, 2);
                             this.properties.firstTurnGamerIndex = this.properties.turnGamerIndex;
-                            var actionCardCfg = ConfigManager.instance.GetActionCardConfig(ActionCardCode.StartGift);
+                            //var actionCardCfg = ConfigManager.instance.GetActionCardConfig(ActionCardCode.StartGift);
                             for (int i = 0; i < this.properties.gamersPropertiesList.Count; i++)
                             {
                                 var gamerProperties = this.properties.gamersPropertiesList[i];
@@ -276,7 +272,7 @@ namespace WebServices.Battles
                 this.SendWaitingGamerAction(new BattleGamerActionData()
                 {
                     actionType = BattleGamerAction.RollDice,
-                    indexInBattle = this.properties.turnGamerIndex,
+                    gamerColor = (BattleColor)this.properties.turnGamerIndex,
                     jsonValue = JsonMapper.ToJson(new RollDiceActionParameter()
                     {
                         isSpecial = false
@@ -295,7 +291,7 @@ namespace WebServices.Battles
             }
         }
 
-        protected bool CheckValidWaitingGamerAction(BattleGamerAction _actionType, int _gamerIndex)
+        protected bool CheckValidWaitingGamerAction(BattleGamerAction _actionType, BattleColor _gamerColor)
         {
             lock (syncObj)
             {
@@ -307,7 +303,7 @@ namespace WebServices.Battles
                 {
                     return false;
                 }
-                if (this.waitingGamerAction.indexInBattle != _gamerIndex)
+                if (this.waitingGamerAction.gamerColor != _gamerColor)
                 {
                     return false;
                 }
@@ -481,7 +477,7 @@ namespace WebServices.Battles
                             name = userInfo.gamerData.displayName,
                             avatar = userInfo.gamerData.Avatar,
                             money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
-                            indexInBattle = this.properties.gamersPropertiesList.Count,
+                            color = (BattleColor)this.properties.gamersPropertiesList.Count,
                         };
                         this.properties.gamersPropertiesList.Add(gamerProperties);
                     }
@@ -539,7 +535,7 @@ namespace WebServices.Battles
                     return;
                 }
                 var gamerProperties = this.properties.gamersPropertiesList[gamerIndex];
-                var randActionCard = ActionCardCode.None;
+                //var randActionCard = ActionCardCode.None;
                 /*if (cardIndex >= gamerProperties.actionCardsList.Count)
                 {
                     var allActionCardsList = new List<ActionCardCode>();
@@ -553,7 +549,7 @@ namespace WebServices.Battles
                     randActionCard = allActionCardsList[randIndex];
                     gamerProperties.actionCardsList.Add(randActionCard.ToString(), true);
                 }*/
-                await this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("BuyActionCardResponse", cardIndex, randActionCard);
+                //await this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("BuyActionCardResponse", cardIndex, randActionCard);
             }
             catch (Exception ex)
             {
@@ -562,8 +558,44 @@ namespace WebServices.Battles
             }
         }
 
-        public virtual Task OnGamerRollDice(int gamerIndex, bool isSpecialRoll, int _testValue,  bool isAFK)
+        public virtual Task OnGamerRollDice(BattleColor _color, bool isSpecialRoll, int _testValue,  bool isAFK)
         {
+            try
+            {
+                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, gamerIndex))
+                {
+                    return Task.CompletedTask;
+                }
+                this.lastReplayStepsCount = this.replayData.stepsList.Count;
+                this.lastBattleTime = this.properties.battleTime;
+                var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, isSpecialRoll);
+                if (_testValue > 0)
+                {
+                    diceValue = _testValue;
+                }
+                if (diceValue == 6)
+                {
+
+                }
+                else
+                {
+
+                }
+                /*var destBlockIndex = (this.currentTurnGamer.currentBlockIndex + dicesTotalValue) % this.properties.blocksList.Count;
+                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
+                {
+                    d1 = diceValues[0],
+                    d2 = diceValues[1],
+                    dB = destBlockIndex
+                }, 3f);*/
+                //this.properties.battleTime += 3f;
+                //this.ProcessMoveCharacterToBlock(destBlockIndex, CharacterCode.NONE);
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
             return Task.CompletedTask;
         }
 
@@ -603,6 +635,11 @@ namespace WebServices.Battles
         protected void SyncBattleProperties()
         {
             this.hubContext.Clients.Group(this.roomKey).SendAsync("UpdateBattleProperties", this.properties);
+        }
+
+        protected GamerBattleProperty GetGamerByColor(BattleColor _color)
+        {
+            return this.properties.gamersPropertiesList.Find(e => e.color == _color);
         }
     }
 }

@@ -66,17 +66,17 @@ namespace CBShare.Configuration
             return this.dicesConfig[diceCode.ToString()];
         }
 
-        public RoomConfig GetRoomConfig(RoomLevelCode roomLevel)
+        public RoomConfig GetRoomConfig(RoomLevel roomLevel)
         {
             return this.roomsConfig[roomLevel.ToString()];
         }
 
-        public ActionCardConfig GetActionCardConfig(ActionCardCode actionCardCode)
+        /*public ActionCardConfig GetActionCardConfig(ActionCardCode actionCardCode)
         {
             return this.actionCardsConfig[actionCardCode.ToString()];
         }
 
-        /*public BlockConfig GetSlotConfig(int blockIndex)
+        public BlockConfig GetSlotConfig(int blockIndex)
         {
             return this.battleConfig.blocks[blockIndex];
         }
@@ -88,7 +88,7 @@ namespace CBShare.Configuration
             return this.battleConfig.blocks.IndexOf(blockCfgByType);
         }*/
 
-        public int GetActionCardPrice(RoomLevelCode roomLevel, int cardIndex)
+        public int GetActionCardPrice(RoomLevel roomLevel, int cardIndex)
         {
             var roomCfg = this.GetRoomConfig(roomLevel);
             return roomCfg.actionCardCosts[cardIndex];

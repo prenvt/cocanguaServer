@@ -13,14 +13,14 @@ public class RoomController
     private int totalRoomsCount;
     private Dictionary<long, int> roomIDByGID;
     private List<Battle2PController> battle2PsList;
-    private Dictionary<int, Battle3PController> battle4PsList;
+    private List<Battle3PController> battle3PsList;
 
     public RoomController()
     {
         this.totalRoomsCount = 1;
         this.roomIDByGID = new Dictionary<long, int>();
         this.battle2PsList = new List<Battle2PController>();
-        this.battle4PsList = new Dictionary<int, Battle3PController>();
+        this.battle3PsList = new List<Battle3PController>();
 
         /*var allsPlayingBattlePropsList = BattlePropMongoDB.GetAllsPlayingList();
         for (int i = 0; i < allsPlayingBattlePropsList.Count; i++)
@@ -32,7 +32,7 @@ public class RoomController
         }*/
     }
 
-    public int TryJoinRoom(long gid, RoomTypeCode _roomType, RoomLevelCode _roomLevel)
+    public int TryJoinRoom(long gid, RoomType _roomType, RoomLevel _roomLevel)
     {
         lock (syncObj)
         {
@@ -41,7 +41,7 @@ public class RoomController
             {
                 _roomID = this.roomIDByGID[gid];
             }
-            else
+            else if (_roomType == RoomType.BATTLE_2P)
             {
                 var battleController = this.battle2PsList.FirstOrDefault(e => e.properties.state == BattleState.MATCHING);
                 if (battleController == null)
@@ -64,6 +64,30 @@ public class RoomController
                     _roomID = battleController.properties.ID;
                 }
                 this.battle2PsList.Add(battleController);
+            }
+            else if (_roomType == RoomType.BATTLE_3P)
+            {
+                var battleController = this.battle3PsList.FirstOrDefault(e => e.properties.state == BattleState.MATCHING);
+                if (battleController == null)
+                {
+                    _roomID = GetRoomIDFromTypeLevel(_roomType, _roomLevel, this.totalRoomsCount);
+                    battleController = new Battle3PController();
+                    var battleProps = new BattleProperty()
+                    {
+                        ID = _roomID,
+                        type = _roomType,
+                        level = _roomLevel,
+                        state = BattleState.MATCHING
+                    };
+                    battleProps.Init();
+                    battleController.Init(battleProps);
+                    this.totalRoomsCount++;
+                }
+                else
+                {
+                    _roomID = battleController.properties.ID;
+                }
+                this.battle3PsList.Add(battleController);
             }
             this.roomIDByGID[gid] = _roomID;
             return _roomID;
@@ -107,9 +131,13 @@ public class RoomController
     public BattleBaseController GetBattleControllerByID(int _roomID)
     {
         ParseRoomTypeLevelFromID(_roomID, out var roomType, out var roomLevel);
-        if (roomType == RoomTypeCode.BATTLE_2P)
+        if (roomType == RoomType.BATTLE_2P)
         {
             return this.battle2PsList.FirstOrDefault(e => e.properties.ID == _roomID);
+        }
+        else if (roomType == RoomType.BATTLE_3P)
+        {
+            return this.battle3PsList.FirstOrDefault(e => e.properties.ID == _roomID);
         }
         else
         {
@@ -117,39 +145,15 @@ public class RoomController
         }
     }
 
-    public static int GetRoomIDFromTypeLevel(RoomTypeCode roomType, RoomLevelCode roomLevel, int roomCount)
+    public static int GetRoomIDFromTypeLevel(RoomType roomType, RoomLevel roomLevel, int roomCount)
     {
         return (int)roomType * 1000 + (int)roomLevel * 100 + roomCount;
     }
 
-    public static bool ParseRoomTypeLevelFromID(int roomID, out RoomTypeCode roomType, out RoomLevelCode roomLevel)
+    public static bool ParseRoomTypeLevelFromID(int roomID, out RoomType roomType, out RoomLevel roomLevel)
     {
-        roomType = (RoomTypeCode)(roomID / 1000);
-        roomLevel = (RoomLevelCode)(roomID % 1000 / 100);
+        roomType = (RoomType)(roomID / 1000);
+        roomLevel = (RoomLevel)(roomID % 1000 / 100);
         return true;
     }
-
-    /*public BattleBaseController TryCreateNewBattleController(int roomID)
-    {
-        lock (syncObj)
-        {
-            ParseRoomTypeLevelFromID(roomID, out var roomType, out var roomLevel);
-            if (roomType == RoomTypeCode.BATTLE_2P)
-            {
-                if (!this.battle2PsList.ContainsKey(roomID))
-                {
-                    var battleController = new Battle2PController()
-                    {
-                        //roomID = roomID,
-                        roomConfig = ConfigManager.instance.GetRoomConfig(roomLevel)
-                    };
-                }
-                return this.battle2PsList[roomID];
-            }
-            else
-            {
-                return null;
-            }
-        }
-    }*/
 }

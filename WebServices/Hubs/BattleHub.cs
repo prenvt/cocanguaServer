@@ -13,45 +13,40 @@ namespace WebServices.Hubs
 {
     public class BattleHub : Hub
     {
-        public async Task RequestJoinRoom(long gid, RoomTypeCode roomeType, RoomLevelCode roomLevel)
+        public async Task RequestJoinRoom(long gid, RoomType _roomType, RoomLevel _roomLevel)
         {
-            var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, roomeType, roomLevel);
+            var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, _roomType, _roomLevel);
             if (roomID <= 0)
             {
                 await this.Clients.Caller.SendAsync("ShowDisplayMessage", "JoinRoomFail", true);
                 return;
             }
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
             await battleController.OnGamerJoinRoom(this, gid);
         }
 
         public async Task RequestCancelJoinRoom(long gid, int roomID)
         {
-            /*if (!GameManager.Instance.roomController.TryCancelJoinRoom(gid))
-            {
-                await this.Clients.Caller.SendAsync("ShowDisplayMessage", "CancelJoinRoomFail", true);
-                return;
-            }*/
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
             await battleController.OnGamerCancelJoinRoom(gid);
         }
 
         public async Task RequestRematch(int roomID, int gamerIndex)
         {
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID) as Battle2PController;
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
             await battleController.OnGamerRematch(gamerIndex);
         }
 
         public async Task RequestBuySpecialItem(int _roomID, int gamerIndex, int cardIndex)
         {
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID) as Battle2PController;
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
             await battleController.OnGamerBuySpecialItem(gamerIndex, cardIndex);
         }
 
-        public async Task RequestRollDice(int _roomID, int _gamerIndex, bool _isSpecialRoll, int _testValue)
+        public async Task RequestRollDice(int _roomID, BattleColor _gamerColor, bool _isSpecialRoll, int _testValue)
         {
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID) as Battle2PController;
-            await battleController.OnGamerRollDice(_gamerIndex, _isSpecialRoll, _testValue, false);
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
+            await battleController.OnGamerRollDice(_gamerColor, _isSpecialRoll, _testValue, false);
         }
 
         /*public async Task RequestBuildHouse(int roomID, int gamerIndex, int blockIndex, HouseCode houseCode)

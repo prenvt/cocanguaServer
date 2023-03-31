@@ -9,11 +9,11 @@ namespace CBShare.Data
 		public string Description { get; set; }
 		public int Time { get; set; }
 		public string Parameter { get; set; }
-		public Dictionary<RoomLevelCode, int> Rewards { get; set; }
+		public Dictionary<RoomLevel, int> Rewards { get; set; }
 
 		public Mission()
 		{
-			this.Rewards = new Dictionary<RoomLevelCode, int>();
+			this.Rewards = new Dictionary<RoomLevel, int>();
 		}
 	}
 }

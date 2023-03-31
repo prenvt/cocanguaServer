@@ -74,12 +74,6 @@ namespace CBShare.Data
         public string m;
     }
 
-    public class SetHouseAtBlockReplayParameter
-    {
-        public int bI;
-        public HouseCode hC;
-    }
-
     public class CannonShotToBlockReplayParameter
     {
         public int bI;
@@ -94,12 +88,6 @@ namespace CBShare.Data
     {
         public BattleWarningType wT;
         public int bI;
-    }
-
-    public class DrawChanceCardReplayParameter
-    {
-        public ChanceCardCode cC;
-        public int cV;
     }
 }
 

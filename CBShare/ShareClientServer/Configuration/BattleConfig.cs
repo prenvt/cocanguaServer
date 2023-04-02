@@ -14,22 +14,36 @@ namespace CBShare.Configuration
         public int value { get; set; }
     }
 
+    public enum BattleType
+    {
+        BATTLE_2P = 2,
+        BATTLE_3P = 3
+    }
+
+    public enum BattleLevel
+    {
+        Rookie = 1,
+        Expert = 2,
+        Master = 3
+    }
+
+    public enum GamerColor
+    {
+        NONE = 0,
+        Blue = 1,
+        Red = 2,
+        Green = 3
+    }
+
     public class BattleConfig
     {
         public Dictionary<string, float> waitTimes { get; set; }
         public float TIME_MOVE_CHARACTER_PER_STEP { get; set; }
+        public int numSpaces;
         public Dictionary<string, int> startIndexs { get; set; }
         public Dictionary<string, int> endIndexs { get; set; }
         public List<int> starIndexs { get; set; }
         public List<int> jumpIndexs { get; set; }
-    }
-
-    public enum BattleColor
-    {
-        NONE = -1,
-        Blue,
-        Red,
-        Green
     }
 
     /*public enum SpaceType

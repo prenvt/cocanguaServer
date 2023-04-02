@@ -14,15 +14,11 @@ namespace CBShare.Data
     {
         NONE = 0,
         RollDice = 1,
-        MoveCharacterToBlock = 2,
-        ChangeCash = 3,
-        SetHouseAtBlock = 4,
-        ShowMessageOnChracterHead = 5,
+        MoveHorse = 2,
+        KickHorse = 3,
+        StarHorse = 4,
+        UpdatePoint = 5,
         ShowWarning = 6,
-        DrawChanceCard = 7,
-        FallCharacterToBlock = 8,
-        CannonShotToBlock = 9,
-        SetBlockForCharacterSkill = 10
     }
 
     public class ReplayStepData
@@ -43,45 +39,18 @@ namespace CBShare.Data
 
     public class RollDiceReplayParameter
     {
-        public int d1, d2;
-        public int dB;
+        public int dV;
     }
 
-    public class MoveCharacterReplayParameter
+    public class MoveHorseReplayParameter
     {
-        public int fB;
-        public int dB;
-        public CharacterCode sC;
+        public int fS;
+        public int dS;
     }
 
-    public class FallToBlockReplayParameter
+    public class UpdatePointReplayParameter
     {
-        public int fB;
-        public int dB;
-    }
-
-    public class ChangeCashReplayParameter
-    {
-        public string aN;
-        public int cV;
-        public int bI;
-        public int cA;
-        public int cC;
-    }
-
-    public class ShowMessageOnHeadReplayParameter
-    {
-        public string m;
-    }
-
-    public class CannonShotToBlockReplayParameter
-    {
-        public int bI;
-    }
-
-    public class SetBlockForCharacterSkillReplayParameter
-    {
-        public int bI;
+        public int p;
     }
 
     public class ShowWarningReplayParameter

@@ -32,6 +32,7 @@ namespace WebServices.Battles
         //protected bool needProcessAFK = false;
         protected float updateDeltaTime = 0.2f;
         protected float elapsedTime = 0f;
+        protected BattleConfig battleCfg;
 
         public BattleBaseController()
         {
@@ -44,6 +45,7 @@ namespace WebServices.Battles
         public void Init(BattleProperty _props)
         {
             this.properties = _props;
+            this.battleCfg = ConfigManager.instance.battlesConfig[this.properties.type.ToString()];
             this.replayData = BattleReplayMongoDB.GetByBattleID(_props.ID);
             this.replayData.stepsList.Clear();
             this.roomKey = string.Format("LUDO_{0}", _props.ID);
@@ -87,7 +89,7 @@ namespace WebServices.Battles
                 {
                     case BattleState.BUY_ACTION_CARD:
                         {
-                            var waitingTime = ConfigManager.instance.battleConfig.waitTimes[BattleState.BUY_ACTION_CARD.ToString()];
+                            /*var waitingTime = ConfigManager.instance.battleConfig.waitTimes[BattleState.BUY_ACTION_CARD.ToString()];
                             for (int i = 0; i < this.properties.gamersPropertiesList.Count; i++)
                             {
                                 var gamerIndex = i;
@@ -95,7 +97,7 @@ namespace WebServices.Battles
                                 this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("WaitingBuyActionCard", gamerIndex, waitingTime, gamerProperties);
                             }
                             this.SetNextState(BattleState.START_BATTLE, waitingTime);
-                            this.properties.battleTime += waitingTime;
+                            this.properties.battleTime += waitingTime;*/
                         }
                         break;
 
@@ -272,7 +274,7 @@ namespace WebServices.Battles
                 this.SendWaitingGamerAction(new BattleGamerActionData()
                 {
                     actionType = BattleGamerAction.RollDice,
-                    gamerColor = (BattleColor)this.properties.turnGamerIndex,
+                    gamerColor = (GamerColor)this.properties.turnGamerIndex,
                     jsonValue = JsonMapper.ToJson(new RollDiceActionParameter()
                     {
                         isSpecial = false
@@ -291,7 +293,7 @@ namespace WebServices.Battles
             }
         }
 
-        protected bool CheckValidWaitingGamerAction(BattleGamerAction _actionType, BattleColor _gamerColor)
+        protected bool CheckValidWaitingGamerAction(BattleGamerAction _actionType, GamerColor _gamerColor)
         {
             lock (syncObj)
             {
@@ -312,10 +314,179 @@ namespace WebServices.Battles
             }
         }
 
-        protected void ProcessMoveCharacterToBlock(int _destBlockIndex)
+        protected void ProcessTurnGamerStartHorse()
         {
             try
             {
+                /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
+                {
+                    var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
+                    this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
+                    {
+                        fB = this.currentTurnGamer.currentBlockIndex,
+                        dB = 0,
+                        sC = _skillCharacter
+                    }, moveTime);
+                    if (_destBlockIndex > 0)
+                    {
+                        moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * _destBlockIndex;
+                        this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
+                        {
+                            fB = 0,
+                            dB = _destBlockIndex,
+                            sC = _skillCharacter
+                        }, moveTime);
+                    }
+                }
+                else
+                {
+                    var numSteps = (this.properties.blocksList.Count + _destBlockIndex - this.currentTurnGamer.currentBlockIndex) % this.properties.blocksList.Count;
+                    var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * numSteps;
+                    this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
+                    {
+                        fB = this.currentTurnGamer.currentBlockIndex,
+                        dB = _destBlockIndex,
+                        sC = _skillCharacter
+                    }, moveTime);
+                }*/
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
+        }
+
+        protected void WaitTurnGamerMoveHorse(int _diceValue)
+        {
+            try
+            {
+                var horseCanMoveIdxsList = new List<int>();
+                for (int i = 0; i < this.currentTurnGamer.horseSpaceIndexsList.Count; i++)
+                {
+                    var horseSpaceIdx = this.currentTurnGamer.horseSpaceIndexsList[i];
+                    if (horseSpaceIdx >= 0 && horseSpaceIdx < 30)
+                    {
+                        horseCanMoveIdxsList.Add(i);
+                    }
+                }
+                if (horseCanMoveIdxsList.Count == 0)
+                {
+
+                }
+                else if (horseCanMoveIdxsList.Count == 1)
+                {
+                    this.ProcessTurnGamerMoveHorse(horseCanMoveIdxsList[0]);
+                }
+                else
+                {
+
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
+        }
+
+        protected void ProcessTurnGamerMoveHorse(int _horseIdx)
+        {
+            try
+            {
+                var startSpaceIdx = this.battleCfg.startIndexs[this.currentTurnGamer.color.ToString()];
+                var horseSpaceIdx = this.currentTurnGamer.horseSpaceIndexsList[_horseIdx];
+                var destSpaceIdx = horseSpaceIdx % this.battleCfg.numSpaces;
+                if (destSpaceIdx > startSpaceIdx)
+                {
+                    this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
+                }
+                else
+                {
+                    var endSpaceIdx = this.battleCfg.endIndexs[this.currentTurnGamer.color.ToString()];
+                    if (destSpaceIdx <= endSpaceIdx)
+                    {
+                        this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
+                    }
+                    else
+                    {
+                        
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
+        }
+
+        protected void ProcessApplyHorseMoveToSpace(int _horseIdx, int _fromSpaceIdx, int _destSpaceIdx)
+        {
+            try
+            {
+                var spaceValue = this.properties.spacesList[_destSpaceIdx];
+                if (spaceValue > 0)
+                {
+                    var stayGamerIdx = spaceValue / 10;
+                    var stayGamerColor = (GamerColor)stayGamerIdx;
+                    if (stayGamerColor == this.currentTurnGamer.color)
+                    {
+                        return;
+                    }
+                    this.ProcessTurnGamerKickOpponentHorse(_destSpaceIdx, spaceValue);
+                }
+                this.properties.spacesList[_destSpaceIdx] = (int)this.currentTurnGamer.color * 10 + _horseIdx;
+                this.currentTurnGamer.horseSpaceIndexsList[_horseIdx] = _destSpaceIdx;
+                var moveTime = 1f;// this.battleCfg.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
+                this.AddReplayStep(ReplayStepType.MoveHorse, this.properties.turnGamerIndex, new MoveHorseReplayParameter()
+                {
+                    fS = _fromSpaceIdx,
+                    dS = _destSpaceIdx
+                }, moveTime);
+                /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
+                {
+                    
+                    if (_destBlockIndex > 0)
+                    {
+                        moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * _destBlockIndex;
+                        this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
+                        {
+                            fB = 0,
+                            dB = _destBlockIndex,
+                            sC = _skillCharacter
+                        }, moveTime);
+                    }
+                }
+                else
+                {
+                    var numSteps = (this.properties.blocksList.Count + _destBlockIndex - this.currentTurnGamer.currentBlockIndex) % this.properties.blocksList.Count;
+                    var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * numSteps;
+                    this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
+                    {
+                        fB = this.currentTurnGamer.currentBlockIndex,
+                        dB = _destBlockIndex,
+                        sC = _skillCharacter
+                    }, moveTime);
+                }*/
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
+        }
+
+        protected void ProcessTurnGamerKickOpponentHorse(int _spaceIdx, int _spaceValue)
+        {
+            try
+            {
+                var stayGamerIdx = _spaceValue / 10;
+                var stayGamerColor = (GamerColor)stayGamerIdx;
+                var stayGamer = this.GetGamerByColor(stayGamerColor);
+                var stayHorseIdx = _spaceValue % 10;
+                stayGamer.horseSpaceIndexsList[stayHorseIdx] = -1;
+                this.properties.spacesList[_spaceIdx] = -1;
                 /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
                 {
                     var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
@@ -477,7 +648,7 @@ namespace WebServices.Battles
                             name = userInfo.gamerData.displayName,
                             avatar = userInfo.gamerData.Avatar,
                             money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
-                            color = (BattleColor)this.properties.gamersPropertiesList.Count,
+                            color = (GamerColor)this.properties.gamersPropertiesList.Count,
                         };
                         this.properties.gamersPropertiesList.Add(gamerProperties);
                     }
@@ -558,11 +729,11 @@ namespace WebServices.Battles
             }
         }
 
-        public virtual Task OnGamerRollDice(BattleColor _color, bool isSpecialRoll, int _testValue,  bool isAFK)
+        public virtual Task OnGamerRollDice(GamerColor _gamerColor, bool isSpecialRoll, int _testValue,  bool isAFK)
         {
             try
             {
-                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, gamerIndex))
+                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, _gamerColor))
                 {
                     return Task.CompletedTask;
                 }
@@ -573,23 +744,40 @@ namespace WebServices.Battles
                 {
                     diceValue = _testValue;
                 }
+                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
+                {
+                    dV = diceValue
+                }, 3f);
                 if (diceValue == 6)
                 {
-
+                    var freeHorseIdx = this.currentTurnGamer.GetFreeHorse();
+                    if (freeHorseIdx >= 0)
+                    {
+                        var startHorseSpaceIdx = this.battleCfg.startIndexs[_gamerColor.ToString()];
+                        var spaceValue = this.properties.spacesList[startHorseSpaceIdx];
+                        if (spaceValue <= 0)
+                        {
+                            this.ProcessTurnGamerStartHorse();
+                        }
+                        else if (spaceValue / 10 == (int)_gamerColor)
+                        {
+                            this.WaitTurnGamerMoveHorse(diceValue);
+                        }
+                        else
+                        {
+                            this.ProcessTurnGamerKickOpponentHorse(startHorseSpaceIdx, spaceValue);
+                            this.ProcessTurnGamerStartHorse();
+                        }
+                    }
+                    else
+                    {
+                        this.WaitTurnGamerMoveHorse(diceValue);
+                    }
                 }
                 else
                 {
-
+                    this.WaitTurnGamerMoveHorse(diceValue);
                 }
-                /*var destBlockIndex = (this.currentTurnGamer.currentBlockIndex + dicesTotalValue) % this.properties.blocksList.Count;
-                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
-                {
-                    d1 = diceValues[0],
-                    d2 = diceValues[1],
-                    dB = destBlockIndex
-                }, 3f);*/
-                //this.properties.battleTime += 3f;
-                //this.ProcessMoveCharacterToBlock(destBlockIndex, CharacterCode.NONE);
             }
             catch (Exception ex)
             {
@@ -637,7 +825,7 @@ namespace WebServices.Battles
             this.hubContext.Clients.Group(this.roomKey).SendAsync("UpdateBattleProperties", this.properties);
         }
 
-        protected GamerBattleProperty GetGamerByColor(BattleColor _color)
+        protected GamerBattleProperty GetGamerByColor(GamerColor _color)
         {
             return this.properties.gamersPropertiesList.Find(e => e.color == _color);
         }

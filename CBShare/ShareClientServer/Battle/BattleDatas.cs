@@ -9,8 +9,8 @@ namespace CBShare.Data
     public class BattleProperty
     {
         public int ID;
-        public RoomType type;
-        public RoomLevel level;
+        public BattleType type;
+        public BattleLevel level;
         public BattleState state;
         public float nextStateTime;
         public BattleState nextState = BattleState.NONE;
@@ -20,10 +20,16 @@ namespace CBShare.Data
         public int turnCount = 1;
         public List<GamerBattleProperty> gamersPropertiesList = new List<GamerBattleProperty>();
         public DateTime lastUpdate;
+        public List<int> spacesList;
 
         public void Init()
         {
             this.battleTime = 0f;
+            this.spacesList = new List<int>();
+            for (int i = 0; i < 42; i++)
+            {
+                this.spacesList.Add(0);
+            }
         }
 
         public void ProcessSortGamersByPoint()
@@ -50,7 +56,7 @@ namespace CBShare.Data
         public long gid;
         public string name;
         public string avatar;
-        public BattleColor color;
+        public GamerColor color;
         public int rankingIndex;
         public GamerState state;
         public DiceType currentDice = DiceType.BASIC;
@@ -58,6 +64,7 @@ namespace CBShare.Data
         public int money;
         public int point;
         public bool rematch;
+        public List<int> rollDiceValuesList = new List<int>();
 
         public void Init(RoomConfig _roomCfg)
         {
@@ -69,6 +76,19 @@ namespace CBShare.Data
         public void ChangePoint(int _deltaPoint)
         {
             this.point += _deltaPoint;
+        }
+
+        public int GetFreeHorse()
+        {
+            for (int i = 0; i < this.horseSpaceIndexsList.Count; i++)
+            {
+                var horseSpaceIdx = this.horseSpaceIndexsList[i];
+                if (horseSpaceIdx < 0)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
     }
 }

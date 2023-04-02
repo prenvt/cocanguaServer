@@ -82,7 +82,6 @@
     <Compile Include="ShareClientServer\Data\EmoticonData.cs" />
     <Compile Include="ShareClientServer\Data\FriendInfoData.cs" />
     <Compile Include="ShareClientServer\Data\Gift.cs" />
-    <Compile Include="ShareClientServer\Data\ManaBoosterData.cs" />
     <Compile Include="ShareClientServer\Data\Mission.cs" />
     <Compile Include="ShareClientServer\Data\UserData.cs" />
     <Compile Include="ShareClientServer\FlagsHelper.cs" />

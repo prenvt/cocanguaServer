@@ -74,19 +74,6 @@
         EMO_10
     }
 
-    public enum RoomType
-    {
-        BATTLE_2P = 2,
-        BATTLE_3P = 3
-    }
-
-    public enum RoomLevel
-    {
-        Rookie = 1,
-        Expert = 2,
-        Master = 3
-    }
-
     public enum ERROR_CODE
     {
         OK,

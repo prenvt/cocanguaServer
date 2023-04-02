@@ -20,7 +20,7 @@ namespace CBShare.Configuration
         public Dictionary<string, RoomConfig> roomsConfig;
         public ShopConfig shopsConfig;
         public Dictionary<string, ActionCardConfig> actionCardsConfig;
-        public BattleConfig battleConfig;
+        public Dictionary<string, BattleConfig> battlesConfig;
 
         public ConfigManager()
         {
@@ -53,7 +53,7 @@ namespace CBShare.Configuration
             this.roomsConfig = JsonMapper.ToObject<Dictionary<string, RoomConfig>>(roomsTxt);
             this.shopsConfig = JsonMapper.ToObject<ShopConfig>(shopTxt);
             this.actionCardsConfig = JsonMapper.ToObject<Dictionary<string, ActionCardConfig>>(actionCardsTxt);
-            this.battleConfig = JsonMapper.ToObject<BattleConfig>(battleTxt);
+            this.battlesConfig = JsonMapper.ToObject< Dictionary<string, BattleConfig>>(battleTxt);
         }
 
         public CharacterConfig GetCharacterConfig(CharacterCode characterCode)
@@ -66,7 +66,7 @@ namespace CBShare.Configuration
             return this.dicesConfig[diceCode.ToString()];
         }
 
-        public RoomConfig GetRoomConfig(RoomLevel roomLevel)
+        public RoomConfig GetRoomConfig(BattleLevel roomLevel)
         {
             return this.roomsConfig[roomLevel.ToString()];
         }
@@ -88,7 +88,7 @@ namespace CBShare.Configuration
             return this.battleConfig.blocks.IndexOf(blockCfgByType);
         }*/
 
-        public int GetActionCardPrice(RoomLevel roomLevel, int cardIndex)
+        public int GetActionCardPrice(BattleLevel roomLevel, int cardIndex)
         {
             var roomCfg = this.GetRoomConfig(roomLevel);
             return roomCfg.actionCardCosts[cardIndex];

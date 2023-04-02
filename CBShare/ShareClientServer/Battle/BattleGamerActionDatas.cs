@@ -20,7 +20,7 @@ namespace CBShare.Data
 
     public class BattleGamerActionData
     {
-        public BattleColor gamerColor;
+        public GamerColor gamerColor;
         public BattleGamerAction actionType;
         public float delayTime;
         public string jsonValue;

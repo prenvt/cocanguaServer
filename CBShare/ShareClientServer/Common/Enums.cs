@@ -105,7 +105,7 @@
     public enum BattleState
     {
         MATCHING,
-        BUY_ACTION_CARD,
+        BUY_BOOSTER,
         START_BATTLE,
         START_TURN,
         CONTINUE_TURN,

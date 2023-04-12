@@ -79,7 +79,7 @@ namespace WebServices.Battles
             GC.SuppressFinalize(this);
         }
 
-        protected void ProcessState(BattleState _state)
+        protected virtual void ProcessState(BattleState _state)
         {
             try
             {
@@ -87,17 +87,17 @@ namespace WebServices.Battles
                 this.properties.nextState = BattleState.NONE;
                 switch (_state)
                 {
-                    case BattleState.BUY_ACTION_CARD:
+                    case BattleState.BUY_BOOSTER:
                         {
-                            /*var waitingTime = ConfigManager.instance.battleConfig.waitTimes[BattleState.BUY_ACTION_CARD.ToString()];
+                            var waitingTime = this.battleCfg.waitTimes[BattleState.BUY_BOOSTER.ToString()];
                             for (int i = 0; i < this.properties.gamersPropertiesList.Count; i++)
                             {
                                 var gamerIndex = i;
                                 var gamerProperties = this.properties.gamersPropertiesList[i];
-                                this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("WaitingBuyActionCard", gamerIndex, waitingTime, gamerProperties);
+                                this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("WaitingBuyBoosterItem", gamerIndex, waitingTime, gamerProperties);
                             }
                             this.SetNextState(BattleState.START_BATTLE, waitingTime);
-                            this.properties.battleTime += waitingTime;*/
+                            this.properties.battleTime += waitingTime;
                         }
                         break;
 
@@ -632,7 +632,7 @@ namespace WebServices.Battles
         }
 
         #region Listen action from gamers.
-        public async Task OnGamerJoinRoom(BattleHub hub, long gid)
+        public virtual async Task OnGamerJoinRoom(BattleHub hub, long gid)
         {
             try
             {
@@ -668,7 +668,7 @@ namespace WebServices.Battles
                     if (this.properties.gamersPropertiesList.Count == (int)roomType)
                     {
                         //this.ProcessStartBattle();
-                        this.ProcessState(BattleState.BUY_ACTION_CARD);
+                        this.ProcessState(BattleState.BUY_BOOSTER);
                     }
                 }
             }
@@ -697,15 +697,15 @@ namespace WebServices.Battles
             }
         }
 
-        public virtual async Task OnGamerBuySpecialItem(int gamerIndex, int cardIndex)
+        public virtual async Task OnGamerBuyBoosterItem(int _gamerIndex, int _itemIdx)
         {
             try
             {
-                if (this.properties.state != BattleState.BUY_ACTION_CARD)
+                if (this.properties.state != BattleState.BUY_BOOSTER)
                 {
                     return;
                 }
-                var gamerProperties = this.properties.gamersPropertiesList[gamerIndex];
+                var gamerProperties = this.properties.gamersPropertiesList[_gamerIndex];
                 //var randActionCard = ActionCardCode.None;
                 /*if (cardIndex >= gamerProperties.actionCardsList.Count)
                 {
@@ -809,7 +809,7 @@ namespace WebServices.Battles
                     {
                         _gamerProperties.Init(this.roomConfig);
                     }
-                    this.ProcessState(BattleState.BUY_ACTION_CARD);
+                    this.ProcessState(BattleState.BUY_BOOSTER);
                 }
             }
             catch (Exception ex)

@@ -25,22 +25,22 @@ namespace WebServices.Hubs
             await battleController.OnGamerJoinRoom(this, gid);
         }
 
-        public async Task RequestCancelJoinRoom(long gid, int roomID)
+        public async Task RequestCancelJoinRoom(long gid, int _roomID)
         {
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
             await battleController.OnGamerCancelJoinRoom(gid);
         }
 
-        public async Task RequestRematch(int roomID, int gamerIndex)
-        {
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
-            await battleController.OnGamerRematch(gamerIndex);
-        }
-
-        public async Task RequestBuySpecialItem(int _roomID, int gamerIndex, int cardIndex)
+        public async Task RequestRematch(int _roomID, int _gamerIndex)
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
-            await battleController.OnGamerBuySpecialItem(gamerIndex, cardIndex);
+            await battleController.OnGamerRematch(_gamerIndex);
+        }
+
+        public async Task RequestBuySpecialItem(int _roomID, int _gamerIndex, int _itemIdx)
+        {
+            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
+            await battleController.OnGamerBuyBoosterItem(_gamerIndex, _itemIdx);
         }
 
         public async Task RequestRollDice(int _roomID, GamerColor _gamerColor, bool _isSpecialRoll, int _testValue)

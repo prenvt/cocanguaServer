@@ -97,4 +97,8 @@
     </None>
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="c:\windows\system32\xcopy.exe /Y /E &quot;$(SolutionDir)..\ludoUnity\Assets\Resources\Configs\*.txt&quot; &quot;$(ProjectDir)SrvConfigs&quot;&#xD;&#xA;" />
+  </Target>
+
 </Project>

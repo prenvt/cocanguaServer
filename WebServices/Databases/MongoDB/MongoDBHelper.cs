@@ -18,7 +18,7 @@ namespace Server.DatabaseUtils
 
         public static IMongoDatabase GetDatabase()
         {
-            string mongodbName = "CTP"; // original
+            string mongodbName = "Ludo"; // original
             return instance.client.GetDatabase(mongodbName);
         }
     }

@@ -109,7 +109,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>c:\windows\system32\xcopy.exe /Y /E "$(ProjectDir)$(OutDir)CBShare.dll" "$(SolutionDir)..\ludoUnity\Assets\Plugins"
+
+c:\windows\system32\xcopy.exe /Y /E "$(ProjectDir)$(OutDir)CBShare.pdb" "$(SolutionDir)..\ludoUnity\Assets\Plugins"
+
+
+</PostBuildEvent>
   </PropertyGroup>
 </Project>

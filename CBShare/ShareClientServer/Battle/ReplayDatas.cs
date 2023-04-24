@@ -24,7 +24,7 @@ namespace CBShare.Data
     public class ReplayStepData
     {
         public int ID;
-        public int g;
+        public GamerColor gC;
         public ReplayStepType sT;
         public float aT;
         public string jV;

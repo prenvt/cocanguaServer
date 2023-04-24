@@ -37,9 +37,9 @@ namespace WebServices.Battles
         public BattleBaseController()
         {
             this.hubContext = Program.host.Services.GetService(typeof(IHubContext<BattleHub>)) as IHubContext<BattleHub>;
-            this.updateTimer.Interval = this.updateDeltaTime * 1000;
-            this.updateTimer.Elapsed += this.Update;
-            this.updateTimer.Start();
+            //this.updateTimer.Interval = this.updateDeltaTime * 1000;
+            //this.updateTimer.Elapsed += this.Update;
+            //this.updateTimer.Start();
         }
 
         public void Init(BattleProperty _props)
@@ -269,16 +269,12 @@ namespace WebServices.Battles
             {
                 this.properties.ProcessSortGamersByPoint();
                 //this.SyncBattlePropertiesToAllGamers();
-                //this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                //this.lastBattleTime = this.properties.battleTime;
+                this.lastReplayStepsCount = this.replayData.stepsList.Count;
+                this.lastBattleTime = this.properties.battleTime;
                 this.SendWaitingGamerAction(new BattleGamerActionData()
                 {
                     actionType = BattleGamerAction.RollDice,
-                    gamerColor = (GamerColor)this.properties.turnGamerIndex,
-                    jsonValue = JsonMapper.ToJson(new RollDiceActionParameter()
-                    {
-                        isSpecial = false
-                    })
+                    gamerColor = (GamerColor)this.properties.turnGamerIndex
                 });
                 //if (this.needProcessAFK)
                 {
@@ -617,13 +613,13 @@ namespace WebServices.Battles
             this.hubContext.Clients.Group(this.roomKey).SendAsync("ShowDisplayMessage", msg, true);
         }
 
-        protected void AddReplayStep(ReplayStepType _type, int _gamerIndex, object _param, float _stepTime = 0.25f)
+        protected void AddReplayStep(ReplayStepType _type, int _gamerIdx, object _param, float _stepTime = 0.25f)
         {
             var stepData = new ReplayStepData()
             {
                 ID = this.replayData.stepsList.Count,
                 sT = _type,
-                g = _gamerIndex,
+                gC = (GamerColor)_gamerIdx,
                 aT = this.properties.battleTime,
                 jV = JsonMapper.ToJson(_param)
             };
@@ -632,51 +628,9 @@ namespace WebServices.Battles
         }
 
         #region Listen action from gamers.
-        public virtual async Task OnGamerJoinRoom(BattleHub hub, long gid)
+        public virtual Task OnGamerJoinRoom(BattleHub hub, long gid)
         {
-            try
-            {
-                if (this.properties.state == BattleState.MATCHING)
-                {
-                    var gamerProperties = this.properties.gamersPropertiesList.Find(e => e.gid == gid);
-                    if (gamerProperties == null)
-                    {
-                        var userInfo = GameManager.GetUserInfo(gid, new List<string>() { GameRequests.PROPS_GAMER_DATA, GameRequests.PROPS_STAR_CARD_DATA });
-                        gamerProperties = new GamerBattleProperty()
-                        {
-                            gid = gid,
-                            name = userInfo.gamerData.displayName,
-                            avatar = userInfo.gamerData.Avatar,
-                            money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
-                            color = (GamerColor)this.properties.gamersPropertiesList.Count,
-                        };
-                        this.properties.gamersPropertiesList.Add(gamerProperties);
-                    }
-                    await hub.Clients.GroupExcept(this.roomKey, hub.Context.ConnectionId).SendAsync("OnOtherGamerJoinRoomSuccess", this.properties.gamersPropertiesList);
-                }
-                else
-                {
-
-                }
-                this.hubConnectionIDsList[gid] = hub.Context.ConnectionId;
-                await this.hubContext.Groups.AddToGroupAsync(hub.Context.ConnectionId, this.roomKey);
-                await hub.Clients.Caller.SendAsync("OnJoinRoomSuccess", this.properties);
-
-                if (this.properties.state == BattleState.MATCHING)
-                {
-                    RoomController.ParseRoomTypeLevelFromID(this.properties.ID, out var roomType, out var roomLevel);
-                    if (this.properties.gamersPropertiesList.Count == (int)roomType)
-                    {
-                        //this.ProcessStartBattle();
-                        this.ProcessState(BattleState.BUY_BOOSTER);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                ExceptionLogMongoDB.add(ex.ToString());
-                this.SendDisplayMessageToAllGamers(ex.ToString());
-            }
+            return Task.CompletedTask;
         }
 
         public async Task OnGamerCancelJoinRoom(long gid)

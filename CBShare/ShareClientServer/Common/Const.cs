@@ -18,7 +18,7 @@
     // TIME.
 
     //SECURITY
-    public const string APP_SECRET_KEY = "CTP";
+    public const string APP_SECRET_KEY = "LUDO";
 
 
 }

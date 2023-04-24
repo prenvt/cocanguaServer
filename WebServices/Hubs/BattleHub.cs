@@ -16,13 +16,15 @@ namespace WebServices.Hubs
         public async Task RequestJoinRoom(long gid, BattleType _roomType, BattleLevel _roomLevel)
         {
             var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, _roomType, _roomLevel);
-            if (roomID <= 0)
+            if (roomID > 0)
             {
-                await this.Clients.Caller.SendAsync("ShowDisplayMessage", "JoinRoomFail", true);
-                return;
+                var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
+                await battleController.OnGamerJoinRoom(this, gid);
             }
-            var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
-            await battleController.OnGamerJoinRoom(this, gid);
+            else
+            {
+                await this.Clients.Caller.SendAsync("OnJoinRoomFail", "");
+            }
         }
 
         public async Task RequestCancelJoinRoom(long gid, int _roomID)

@@ -16,23 +16,24 @@ namespace CBShare.Configuration
 
     public enum BattleType
     {
+        NONE,
         BATTLE_2P = 2,
         BATTLE_3P = 3
     }
 
     public enum BattleLevel
     {
-        Rookie = 1,
-        Expert = 2,
-        Master = 3
+        NONE,
+        Normal,
+        Master
     }
 
     public enum GamerColor
     {
-        NONE = 0,
-        Blue = 1,
-        Red = 2,
-        Green = 3
+        NONE = -1,
+        Blue = 0,
+        Red = 1,
+        Green = 2
     }
 
     public class BattleConfig
@@ -44,6 +45,15 @@ namespace CBShare.Configuration
         public Dictionary<string, int> endIndexs { get; set; }
         public List<int> starIndexs { get; set; }
         public List<int> jumpIndexs { get; set; }
+    }
+
+    public enum BoosterItemType
+    {
+        NONE,
+        Luc,
+        Sung,
+        Khien,
+        Sao
     }
 
     /*public enum SpaceType

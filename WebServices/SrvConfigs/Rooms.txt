@@ -1,5 +1,5 @@
 {
-	"Rookie": {
+	"Normal": {
         "multiply": 1,
         "limitAsset": 100000,
         "startCash": 2000,
@@ -8,16 +8,6 @@
         "minJewel": 0,
         "commission": 0,
         "maxTurn": 12
-	},
-    "Expert": {
-        "multiply": 5,
-        "limitAsset": 10000,
-        "startCash": 10000,
-        "salary": 1500,
-        "actionCardCosts": [ 100, 200 ],
-        "minJewel": 0,
-        "commission": 0,
-        "maxTurn": 20
 	},
     "Master": {
         "multiply": 50,

@@ -64,6 +64,7 @@ namespace WebServices.Battles
                         this.ProcessState(this.properties.nextState);
                         //this.properties.nextState = BattleState.NONE;
                         //this.elapsedTime = 0f;
+
                     }
                 }
             }

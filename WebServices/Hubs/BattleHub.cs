@@ -13,9 +13,9 @@ namespace WebServices.Hubs
 {
     public class BattleHub : Hub
     {
-        public async Task RequestJoinRoom(long gid, BattleType _roomType, BattleLevel _roomLevel)
+        public async Task RequestJoinRoom(long gid, BattleType _battleType, BattleLevel _roomLevel)
         {
-            var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, _roomType, _roomLevel);
+            var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, _battleType, _roomLevel);
             if (roomID > 0)
             {
                 var battleController = GameManager.Instance.roomController.GetBattleControllerByID(roomID);
@@ -39,10 +39,10 @@ namespace WebServices.Hubs
             await battleController.OnGamerRematch(_gamerIndex);
         }
 
-        public async Task RequestBuySpecialItem(int _roomID, int _gamerIndex, int _itemIdx)
+        public async Task RequestBuyBoosterItem(int _roomID, GamerColor _gamerColor, int _itemIdx)
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
-            await battleController.OnGamerBuyBoosterItem(_gamerIndex, _itemIdx);
+            await battleController.OnGamerBuyBoosterItem(_gamerColor, _itemIdx);
         }
 
         public async Task RequestRollDice(int _roomID, GamerColor _gamerColor, bool _isSpecialRoll, int _testValue)

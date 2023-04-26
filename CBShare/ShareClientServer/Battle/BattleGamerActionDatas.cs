@@ -5,20 +5,21 @@ using CBShare.Configuration;
 
 namespace CBShare.Data
 {
-    public enum BattleGamerAction
+    public enum BattleActionType
     {
         NONE,
         MatchingSuccess,
-        BuyBoosterItem,
+        StartBattle,
         RollDice,
     }
 
-    public class BattleGamerActionData
+    public class BattleActionData
     {
         public GamerColor gamerColor;
-        public BattleGamerAction actionType;
-        public float delayTime;
-        public string jsonValue;
+        public BattleActionType actionType;
+        public float invokeTime;
+        public string jsonParams;
+        public bool isInvoked;
     }
 
     public class RollDiceActionParameter

@@ -64,14 +64,13 @@ namespace CBShare.Data
 
     public class LoginRequestData : RequestBase
     {
-        //public LoginType loginType { get; set; }
         public string username;
         public string password;
-        public string email;
+        public bool isRegister;
+        /*public string email;
         public string deviceID;
         public Platform platform;
-        public int server;
-        public bool isRegister;
+        public int server;*/
     }
 
     public class LoginResponseData : ResponseBase

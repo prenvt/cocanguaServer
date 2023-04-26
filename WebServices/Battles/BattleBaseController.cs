@@ -20,26 +20,24 @@ namespace WebServices.Battles
         protected RoomConfig roomConfig { get; set; }
         protected BattleReplayData replayData { get; set; }
         protected int lastReplayStepsCount;
-        protected float lastBattleTime;
+        //protected float lastBattleTime;
         public string roomKey { get; set; }
         protected Dictionary<long, string> hubConnectionIDsList = new Dictionary<long, string>();
         protected IHubContext<BattleHub> hubContext;
         protected readonly System.Timers.Timer updateTimer = new System.Timers.Timer();
         protected float saveRoomElapsedTime = 0f;
-        //protected BattleWaitingActionController waitingActionController;
-        protected BattleGamerActionData waitingGamerAction { get; set; }
         protected GamerBattleProperty currentTurnGamer { get { return this.properties.gamersPropertiesList[this.properties.turnGamerIndex]; } }
-        //protected bool needProcessAFK = false;
+        protected bool needProcessAFK = false;
         protected float updateDeltaTime = 0.2f;
-        protected float elapsedTime = 0f;
+        //protected float elapsedTime = 0f;
         protected BattleConfig battleCfg;
 
         public BattleBaseController()
         {
             this.hubContext = Program.host.Services.GetService(typeof(IHubContext<BattleHub>)) as IHubContext<BattleHub>;
-            //this.updateTimer.Interval = this.updateDeltaTime * 1000;
-            //this.updateTimer.Elapsed += this.Update;
-            //this.updateTimer.Start();
+            this.updateTimer.Interval = this.updateDeltaTime * 1000;
+            this.updateTimer.Elapsed += this.Update;
+            this.updateTimer.Start();
         }
 
         public void Init(BattleProperty _props)
@@ -56,15 +54,13 @@ namespace WebServices.Battles
         {
             try
             {
-                if (this.properties != null && this.properties.nextState != BattleState.NONE)
+                if (this.properties != null && this.properties.state > BattleState.NONE && 
+                    this.properties.waitingAction != null && !this.properties.waitingAction.isInvoked)
                 {
-                    this.elapsedTime += this.updateDeltaTime;
-                    if (this.elapsedTime >= this.properties.nextStateTime)
+                    this.properties.elapsedTime += this.updateDeltaTime;
+                    if (this.properties.elapsedTime >= this.properties.waitingAction.invokeTime)
                     {
-                        this.ProcessState(this.properties.nextState);
-                        //this.properties.nextState = BattleState.NONE;
-                        //this.elapsedTime = 0f;
-
+                        this.ProcessInvokeWaitingAction();
                     }
                 }
             }
@@ -80,29 +76,68 @@ namespace WebServices.Battles
             GC.SuppressFinalize(this);
         }
 
-        protected virtual void ProcessState(BattleState _state)
+        protected void SetWaitingAction(BattleActionType _actionType, float _delayTime, GamerColor _gamerColor = GamerColor.NONE, string _jsPrams = "")
         {
             try
             {
-                this.properties.state = _state;
-                this.properties.nextState = BattleState.NONE;
-                switch (_state)
+                //var waitingTime = ConfigManager.instance.battleConfig.waitTimes[_waitingAction.ToString()];
+                lock (syncObj)
                 {
-                    case BattleState.BUY_BOOSTER:
+                    /*this.waitingActionController = new BattleWaitingActionController()
+                    {
+                        actionCode = _waitingAction,
+                        gamerIndex = this.properties.turnGamerIndex,
+                    };*/
+                    this.properties.waitingAction = new BattleActionData()
+                    {
+                        actionType = _actionType,
+                        invokeTime = this.properties.elapsedTime + _delayTime,
+                        gamerColor = _gamerColor,
+                        jsonParams = _jsPrams,
+                        isInvoked = false
+                    };
+                }
+                BattleMongoDB.Save(this.properties);
+                BattleReplayMongoDB.Save(this.replayData);
+                if (_gamerColor > GamerColor.NONE)
+                {
+                    var replayStepsList = new List<ReplayStepData>();
+                    for (int i = this.lastReplayStepsCount; i < this.replayData.stepsList.Count; i++)
+                    {
+                        replayStepsList.Add(this.replayData.stepsList[i]);
+                    }
+                    //_gamerActionData.delayTime = this.properties.battleTime - this.lastBattleTime;
+                    this.hubContext.Clients.Group(this.roomKey).SendAsync("WaitingGamerAction", this.properties.waitingAction, replayStepsList);
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
+        }
+
+        protected virtual void ProcessInvokeWaitingAction()
+        {
+            try
+            {
+                this.properties.waitingAction.isInvoked = true;
+                switch (this.properties.waitingAction.actionType)
+                {
+                    case BattleActionType.MatchingSuccess:
                         {
-                            var waitingTime = this.battleCfg.waitTimes[BattleState.BUY_BOOSTER.ToString()];
+                            var waitingTime = 5f;// this.battleCfg.waitTimes[BattleState.BUY_BOOSTER.ToString()];
                             for (int i = 0; i < this.properties.gamersPropertiesList.Count; i++)
                             {
-                                var gamerIndex = i;
+                                var gamerColor = (GamerColor)i;
                                 var gamerProperties = this.properties.gamersPropertiesList[i];
-                                this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("WaitingBuyBoosterItem", gamerIndex, waitingTime, gamerProperties);
+                                this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("WaitingBuyBoosterItem", gamerColor, waitingTime, gamerProperties);
                             }
-                            this.SetNextState(BattleState.START_BATTLE, waitingTime);
-                            this.properties.battleTime += waitingTime;
+                            this.SetWaitingAction(BattleActionType.StartBattle, waitingTime);
                         }
                         break;
 
-                    case BattleState.START_BATTLE:
+                    case BattleActionType.StartBattle:
                         {
                             this.properties.turnGamerIndex = RandomUtils.GetRandomInt(0, 2);
                             this.properties.firstTurnGamerIndex = this.properties.turnGamerIndex;
@@ -113,14 +148,6 @@ namespace WebServices.Battles
                                 gamerProperties.rematch = false;
                             }
                             this.hubContext.Clients.Group(this.roomKey).SendAsync("StartBattle", this.properties);
-                            this.SetNextState(BattleState.START_TURN, 1f);
-                        }
-                        break;
-
-                    case BattleState.START_TURN:
-                        {
-                            this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                            this.lastBattleTime = this.properties.battleTime;
                             this.ProcessStartTurn();
                         }
                         break;
@@ -237,13 +264,13 @@ namespace WebServices.Battles
             }
         }
 
-        protected void SetNextState(BattleState _state, float _delayTime)
+        /*protected void SetNextState(BattleState _state, float _delayTime)
         {
             this.elapsedTime = 0f;
             this.properties.nextStateTime = _delayTime;
             this.properties.nextState = _state;
             BattleMongoDB.Save(this.properties);
-        }
+        }*/
 
         /*protected void ProcessStartBattle()
         {
@@ -271,17 +298,8 @@ namespace WebServices.Battles
                 this.properties.ProcessSortGamersByPoint();
                 //this.SyncBattlePropertiesToAllGamers();
                 this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                this.lastBattleTime = this.properties.battleTime;
-                this.SendWaitingGamerAction(new BattleGamerActionData()
-                {
-                    actionType = BattleGamerAction.RollDice,
-                    gamerColor = (GamerColor)this.properties.turnGamerIndex
-                });
-                //if (this.needProcessAFK)
-                {
-                    //await Task.Delay((int)(waitingTime * 1000) + 250);
-                    //this.OnGamerRollDice(this.properties.turnGamerIndex, false, true);
-                }
+                //this.lastBattleTime = this.properties.battleTime;
+                this.SetWaitingAction(BattleActionType.RollDice, 10, (GamerColor)this.properties.turnGamerIndex);
             }
             catch (Exception ex)
             {
@@ -290,23 +308,23 @@ namespace WebServices.Battles
             }
         }
 
-        protected bool CheckValidWaitingGamerAction(BattleGamerAction _actionType, GamerColor _gamerColor)
+        protected bool CheckValidWaitingGamerAction(BattleActionType _actionType, GamerColor _gamerColor)
         {
             lock (syncObj)
             {
-                if (this.waitingGamerAction == null)
+                if (this.properties.waitingAction == null)
                 {
                     return false;
                 }
-                if (this.waitingGamerAction.actionType != _actionType)
+                if (this.properties.waitingAction.actionType != _actionType)
                 {
                     return false;
                 }
-                if (this.waitingGamerAction.gamerColor != _gamerColor)
+                if (this.properties.waitingAction.gamerColor != _gamerColor)
                 {
                     return false;
                 }
-                this.waitingGamerAction = null;
+                this.properties.waitingAction = null;
                 return true;
             }
         }
@@ -562,45 +580,11 @@ namespace WebServices.Battles
         {
             try
             {
-                this.properties.state = BattleState.END_BATTLE;
+                this.properties.state = BattleState.Finised;
                 this.properties.ProcessSortGamersByPoint();
                 BattleMongoDB.Save(this.properties);
                 BattleReplayMongoDB.Save(this.replayData);
                 this.hubContext.Clients.Group(this.roomKey).SendAsync("ShowEndBattle", this.properties);
-            }
-            catch (Exception ex)
-            {
-                ExceptionLogMongoDB.add(ex.ToString());
-                this.SendDisplayMessageToAllGamers(ex.ToString());
-            }
-        }
-
-
-        protected void SendWaitingGamerAction(BattleGamerActionData _gamerActionData)
-        {
-            try
-            {
-                //var waitingTime = ConfigManager.instance.battleConfig.waitTimes[_waitingAction.ToString()];
-                lock (syncObj)
-                {
-                    /*this.waitingActionController = new BattleWaitingActionController()
-                    {
-                        actionCode = _waitingAction,
-                        gamerIndex = this.properties.turnGamerIndex,
-                    };*/
-                    this.waitingGamerAction = _gamerActionData;
-                }
-
-                var replayStepsList = new List<ReplayStepData>();
-                for (int i = this.lastReplayStepsCount; i < this.replayData.stepsList.Count; i++)
-                {
-                    replayStepsList.Add(this.replayData.stepsList[i]);
-                }
-                _gamerActionData.delayTime = this.properties.battleTime - this.lastBattleTime;
-                this.hubContext.Clients.Group(this.roomKey).SendAsync("WaitingGamerAction", _gamerActionData, this.properties, replayStepsList);
-
-                BattleMongoDB.Save(this.properties);
-                BattleReplayMongoDB.Save(this.replayData);
             }
             catch (Exception ex)
             {
@@ -621,16 +605,59 @@ namespace WebServices.Battles
                 ID = this.replayData.stepsList.Count,
                 sT = _type,
                 gC = (GamerColor)_gamerIdx,
-                aT = this.properties.battleTime,
+                aT = this.properties.elapsedTime,
                 jV = JsonMapper.ToJson(_param)
             };
             this.replayData.stepsList.Add(stepData);
-            this.properties.battleTime += _stepTime;
+            this.properties.elapsedTime += _stepTime;
         }
 
         #region Listen action from gamers.
-        public virtual Task OnGamerJoinRoom(BattleHub hub, long gid)
+        public Task OnGamerJoinRoom(BattleHub hub, long gid)
         {
+            try
+            {
+                if (this.properties.state == BattleState.Matching)
+                {
+                    var gamerProperties = this.properties.gamersPropertiesList.Find(e => e.gid == gid);
+                    if (gamerProperties == null)
+                    {
+                        var userInfo = GameManager.GetUserInfo(gid, new List<string>() { GameRequests.PROPS_GAMER_DATA, GameRequests.PROPS_STAR_CARD_DATA });
+                        gamerProperties = new GamerBattleProperty()
+                        {
+                            gid = gid,
+                            name = userInfo.gamerData.displayName,
+                            avatar = userInfo.gamerData.Avatar,
+                            money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
+                            color = (GamerColor)this.properties.gamersPropertiesList.Count,
+                        };
+                        this.properties.gamersPropertiesList.Add(gamerProperties);
+                    }
+                    hub.Clients.GroupExcept(this.roomKey, hub.Context.ConnectionId).SendAsync("OnOtherGamerJoinRoomSuccess", this.properties.gamersPropertiesList);
+                }
+                else
+                {
+
+                }
+                this.hubConnectionIDsList[gid] = hub.Context.ConnectionId;
+                this.hubContext.Groups.AddToGroupAsync(hub.Context.ConnectionId, this.roomKey);
+                hub.Clients.Caller.SendAsync("OnJoinRoomSuccess", this.properties);
+
+                if (this.properties.state == BattleState.Matching)
+                {
+                    RoomController.ParseRoomTypeLevelFromID(this.properties.ID, out var roomType, out var roomLevel);
+                    var gamerCount = this.properties.gamersPropertiesList.Count;
+                    if (gamerCount == 2)
+                    {
+                        this.SetWaitingAction(BattleActionType.MatchingSuccess, 5);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add(ex.ToString());
+                this.SendDisplayMessageToAllGamers(ex.ToString());
+            }
             return Task.CompletedTask;
         }
 
@@ -638,7 +665,7 @@ namespace WebServices.Battles
         {
             try
             {
-                if (this.properties.state != BattleState.MATCHING)
+                if (this.properties.state != BattleState.Matching)
                     return;
                 await this.hubContext.Clients.Client(this.hubConnectionIDsList[gid]).SendAsync("OnCancelJoinRoomSuccess");
                 this.hubConnectionIDsList.Remove(gid);
@@ -652,30 +679,31 @@ namespace WebServices.Battles
             }
         }
 
-        public virtual async Task OnGamerBuyBoosterItem(int _gamerIndex, int _itemIdx)
+        public async Task OnGamerBuyBoosterItem(GamerColor _gamerColor, int _itemIdx)
         {
             try
             {
-                if (this.properties.state != BattleState.BUY_BOOSTER)
+                if (this.properties.state != BattleState.BuyBoosterItem)
                 {
                     return;
                 }
-                var gamerProperties = this.properties.gamersPropertiesList[_gamerIndex];
-                //var randActionCard = ActionCardCode.None;
-                /*if (cardIndex >= gamerProperties.actionCardsList.Count)
+                var gamerProperties = this.properties.gamersPropertiesList.Find(e => e.color == _gamerColor);
+                var randItem = BoosterItemType.NONE;
+                if (_itemIdx >= gamerProperties.boosterItemsList.Count)
                 {
-                    var allActionCardsList = new List<ActionCardCode>();
-                    foreach (ActionCardCode cardCode in (ActionCardCode[])Enum.GetValues(typeof(ActionCardCode)))
+                    var allBoosterItemsList = new List<BoosterItemType>();
+                    foreach (BoosterItemType cardCode in (BoosterItemType[])Enum.GetValues(typeof(BoosterItemType)))
                     {
-                        if (cardCode == ActionCardCode.None) continue;
-                        if (gamerProperties.actionCardsList.ContainsKey(cardCode.ToString())) continue;
-                        allActionCardsList.Add(cardCode);
+                        if (cardCode == BoosterItemType.NONE) 
+                            continue;
+                        if (gamerProperties.boosterItemsList.ContainsKey(cardCode.ToString())) continue;
+                        allBoosterItemsList.Add(cardCode);
                     }
-                    var randIndex = RandomUtils.GetRandomInt(0, allActionCardsList.Count);
-                    randActionCard = allActionCardsList[randIndex];
-                    gamerProperties.actionCardsList.Add(randActionCard.ToString(), true);
-                }*/
-                //await this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("BuyActionCardResponse", cardIndex, randActionCard);
+                    var randIndex = RandomUtils.GetRandomInt(0, allBoosterItemsList.Count);
+                    randItem = allBoosterItemsList[randIndex];
+                    gamerProperties.boosterItemsList.Add(randItem.ToString(), true);
+                }
+                await this.hubContext.Clients.Client(this.hubConnectionIDsList[gamerProperties.gid]).SendAsync("BuyBoosterItemResponse", _itemIdx, randItem);
             }
             catch (Exception ex)
             {
@@ -688,12 +716,12 @@ namespace WebServices.Battles
         {
             try
             {
-                if (!this.CheckValidWaitingGamerAction(BattleGamerAction.RollDice, _gamerColor))
+                if (!this.CheckValidWaitingGamerAction(BattleActionType.RollDice, _gamerColor))
                 {
                     return Task.CompletedTask;
                 }
                 this.lastReplayStepsCount = this.replayData.stepsList.Count;
-                this.lastBattleTime = this.properties.battleTime;
+                //this.lastBattleTime = this.properties.battleTime;
                 var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, isSpecialRoll);
                 if (_testValue > 0)
                 {
@@ -746,7 +774,7 @@ namespace WebServices.Battles
         {
             try
             {
-                if (this.properties.state != BattleState.END_BATTLE)
+                if (this.properties.state != BattleState.Finised)
                 {
                     return;
                 }
@@ -764,7 +792,7 @@ namespace WebServices.Battles
                     {
                         _gamerProperties.Init(this.roomConfig);
                     }
-                    this.ProcessState(BattleState.BUY_BOOSTER);
+                    //this.ProcessState(BattleState.BUY_BOOSTER);
                 }
             }
             catch (Exception ex)

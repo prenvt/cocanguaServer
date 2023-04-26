@@ -43,7 +43,7 @@ public class RoomController
             }
             else if (_roomType == BattleType.BATTLE_2P)
             {
-                var battleController = this.battle2PsList.FirstOrDefault(e => e.properties.state == BattleState.MATCHING);
+                var battleController = this.battle2PsList.FirstOrDefault(e => e.properties.state == BattleState.Matching);
                 if (battleController == null)
                 {
                     _roomID = GetRoomIDFromTypeLevel(_roomType, _roomLevel, this.totalRoomsCount);
@@ -53,7 +53,7 @@ public class RoomController
                         ID = _roomID,
                         type = _roomType,
                         level = _roomLevel,
-                        state = BattleState.MATCHING
+                        state = BattleState.Matching
                     };
                     battleProps.Init();
                     battleController.Init(battleProps);
@@ -67,7 +67,7 @@ public class RoomController
             }
             else if (_roomType == BattleType.BATTLE_3P)
             {
-                var battleController = this.battle3PsList.FirstOrDefault(e => e.properties.state == BattleState.MATCHING);
+                var battleController = this.battle3PsList.FirstOrDefault(e => e.properties.state == BattleState.Matching);
                 if (battleController == null)
                 {
                     _roomID = GetRoomIDFromTypeLevel(_roomType, _roomLevel, this.totalRoomsCount);
@@ -77,7 +77,7 @@ public class RoomController
                         ID = _roomID,
                         type = _roomType,
                         level = _roomLevel,
-                        state = BattleState.MATCHING
+                        state = BattleState.Matching
                     };
                     battleProps.Init();
                     battleController.Init(battleProps);

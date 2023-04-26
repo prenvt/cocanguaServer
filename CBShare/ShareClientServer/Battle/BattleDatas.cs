@@ -12,19 +12,20 @@ namespace CBShare.Data
         public BattleType type;
         public BattleLevel level;
         public BattleState state;
-        public float nextStateTime;
-        public BattleState nextState = BattleState.NONE;
-        public float battleTime;
+        //public float nextStateTime;
+        //public BattleState nextState = BattleState.NONE;
+        public float elapsedTime;
         public int firstTurnGamerIndex;
         public int turnGamerIndex = -1;
         public int turnCount = 1;
         public List<GamerBattleProperty> gamersPropertiesList = new List<GamerBattleProperty>();
-        public DateTime lastUpdate;
+        public DateTime lastUpdateTime;
         public List<int> spacesList;
+        public BattleActionData waitingAction { get; set; }
 
         public void Init()
         {
-            this.battleTime = 0f;
+            this.elapsedTime = 0f;
             this.spacesList = new List<int>();
             for (int i = 0; i < 42; i++)
             {
@@ -65,6 +66,7 @@ namespace CBShare.Data
         public int point;
         public bool rematch;
         public List<int> rollDiceValuesList = new List<int>();
+        public Dictionary<string, bool> boosterItemsList = new Dictionary<string, bool>();
 
         public void Init(RoomConfig _roomCfg)
         {

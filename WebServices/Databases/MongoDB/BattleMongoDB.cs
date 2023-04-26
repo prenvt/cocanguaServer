@@ -41,7 +41,7 @@ namespace CTPServer.MongoDB
         {
             var col = GetDataCollection();
             var builder = Builders<BattleProperty>.Filter;
-            var result = col.Find(builder.Where(e => e.state != BattleState.END_BATTLE)).ToList<BattleProperty>(); ;
+            var result = col.Find(builder.Where(e => e.state != BattleState.Finised)).ToList<BattleProperty>(); ;
             return result;
         }
 
@@ -50,7 +50,7 @@ namespace CTPServer.MongoDB
             var col = GetDataCollection();
             var builder = Builders<BattleProperty>.Filter;
             var filter1 = builder.Eq(e => e.ID, data.ID);
-            data.lastUpdate = DateTime.Now;
+            data.lastUpdateTime = DateTime.Now;
             col.ReplaceOne(filter1, data, new ReplaceOptions() { IsUpsert = true });
             return true;
         }

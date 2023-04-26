@@ -76,10 +76,10 @@ public class GameManager
             {
                 userInfo.gamerData.currencies[CurrencyCode.MONEY.ToString()] = 100000;
             }
-            if (userInfo.gamerData.currentCharacter == CharacterCode.NONE)
+            /*if (userInfo.gamerData.currentCharacter == CharacterCode.NONE)
             {
                 userInfo.gamerData.currentCharacter = (CharacterCode)RandomUtils.GetRandomInt(1, 4);
-            }
+            }*/
             if (userInfo.gamerData.currentDice == DiceType.NONE)
             {
                 userInfo.gamerData.currentDice = DiceType.BASIC;
@@ -89,7 +89,7 @@ public class GameManager
 
         if (requestProps.Exists(e => e.ToLower() == GameRequests.PROPS_CHARACTER_DATA))
         {
-            userInfo.charactersList = CharacterGamerMongoDB.GetCharactersListByGID(gid);
+            /*userInfo.charactersList = CharacterGamerMongoDB.GetCharactersListByGID(gid);
             if (userInfo.charactersList == null || userInfo.charactersList.Count == 0)
             {
                 userInfo.charactersList = new List<CharacterGamerData>();
@@ -101,7 +101,7 @@ public class GameManager
                     userInfo.charactersList.Add(characterGamerData);
                 }
 #endif
-            }
+            }*/
         }
 
         if (requestProps.Exists(e => e.ToLower() == GameRequests.PROPS_DICE_DATA))

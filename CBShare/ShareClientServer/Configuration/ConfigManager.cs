@@ -56,10 +56,10 @@ namespace CBShare.Configuration
             this.battlesConfig = JsonMapper.ToObject< Dictionary<string, BattleConfig>>(battleTxt);
         }
 
-        public CharacterConfig GetCharacterConfig(CharacterCode characterCode)
+        /*public CharacterConfig GetCharacterConfig(CharacterCode characterCode)
         {
             return this.charactersConfig[characterCode.ToString()];
-        }
+        }*/
 
         public DiceConfig GetDiceConfig(DiceType diceCode)
         {

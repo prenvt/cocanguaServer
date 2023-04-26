@@ -2,31 +2,10 @@
 {
     public enum Platform
     {
+        NONE,
         STANDALONE,
         ANDROID,
         IOS
-    }
-
-    public enum CharacterCode
-    {
-        NONE,
-        PHI_CONG,
-        DOANH_NHAN,
-        CO_GAI,
-        TEN_TROM,
-        ELON_MUSK,
-        DONAL_TRUMP,
-        RONALDO,
-        DR_STRANGE
-    }
-
-    public enum StarCardRank
-    {
-        BRONZE,
-        SILVER,
-        GOLD,
-        PURPLE,
-        TITAN
     }
 
     public enum StarCardStat
@@ -45,6 +24,11 @@
         MONEY,
         JEWEL,
         HEART
+    }
+
+    public enum CharacterCode
+    {
+        NONE
     }
 
     public enum DiceType
@@ -87,6 +71,7 @@
 
     public enum QuestCode
     {
+        NONE,
         Login,
         InviteFriend,
         SendHeart,
@@ -96,6 +81,7 @@
 
     public enum EventCode
     {
+        NONE,
         Login,
         MoiInviteFriendBan,
         FriendsRanking,
@@ -104,19 +90,17 @@
 
     public enum BattleState
     {
-        MATCHING,
-        BUY_BOOSTER,
-        START_BATTLE,
-        START_TURN,
-        CONTINUE_TURN,
-        END_TURN,
         NONE,
+        Matching,
+        BuyBoosterItem,
+        Playing,
+        Finised
+        
         /*
         ROLL_DICE,
         MOVE_TO_BLOCK,
         STAY_AT_BLOCK,
         DRAW_CHANCE_CARD,
-
         WAITING_BUY_ACTION_CARD,
         WAITING_ROLL_DICE,
         WAITING_BUILD_HOUSE,
@@ -126,9 +110,7 @@
         WAITING_SELECT_MULTI_BLOCKS,
         WAITING_SELL_HOUSES,
         WAITING_EXCHANGE_BLOCKS,
-
         */
-        END_BATTLE
     }
 
     /*public enum BattleWaitingActionCode
@@ -143,19 +125,6 @@
         WAITING_SELL_HOUSES,
         WAITING_EXCHANGE_BLOCKS
     }*/
-
-    public enum SelectBlockActionCode
-    {
-        SET_CASINO,
-        SET_OLYMPIC,
-        SET_FESTIVAL,
-        SET_STAR_CITY,
-        SET_DONATE,
-        DOWNGRADE_OPPONENT_HOUSE,
-        REDUCE_OPPONENT_BLOCK_TOLL,
-        SELL_OPPONENT_HOUSE,
-        SET_BLOCK_FOR_CHARACTER_SKILL,
-    }
 
     public enum GamerState
     {

@@ -124,7 +124,7 @@ namespace CBShare.Data
             public DateTime registerTime { get; set; }
             public DateTime lastTimeLogin { get; set; }
             public DateTime lastChangeDisplayName { get; set; }
-            public CharacterCode currentCharacter { get; set; }
+            //public CharacterCode currentCharacter { get; set; }
             public DiceType currentDice { get; set; }
             public Dictionary<string, int> currencies = new Dictionary<string, int>();
             public long currentStarCardID { get; set; }

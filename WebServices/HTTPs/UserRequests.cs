@@ -587,7 +587,7 @@ namespace WebServices
                     {
                         return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
                     }
-                    userInfo.gamerData.currentCharacter = characterData.code;
+                    //userInfo.gamerData.currentCharacter = characterData.code;
                     GamerMongoDB.Save(userInfo.gamerData);
 
                     response.userInfo = userInfo;

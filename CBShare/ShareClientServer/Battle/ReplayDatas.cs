@@ -14,9 +14,9 @@ namespace CBShare.Data
     {
         NONE = 0,
         RollDice = 1,
-        MoveHorse = 2,
-        KickHorse = 3,
-        StarHorse = 4,
+        StartHorse = 2,
+        MoveHorse = 3,
+        KickHorse = 4,
         UpdatePoint = 5,
         ShowWarning = 6,
     }
@@ -24,10 +24,12 @@ namespace CBShare.Data
     public class ReplayStepData
     {
         public int ID;
-        public GamerColor gC;
-        public ReplayStepType sT;
-        public float aT;
-        public string jV;
+        public GamerColor g;
+        public ReplayStepType ty;
+        public float t;
+        public object v1;
+        public object v2;
+        public object v3;
     }
 
     public class BattleReplayData
@@ -37,9 +39,14 @@ namespace CBShare.Data
         public DateTime lastUpdate;
     }
 
-    public class RollDiceReplayParameter
+    /*public class RollDiceReplayParameter
     {
         public int dV;
+    }
+
+    public class StartHorseReplayParameter
+    {
+        public int sS;
     }
 
     public class MoveHorseReplayParameter
@@ -57,7 +64,7 @@ namespace CBShare.Data
     {
         public BattleWarningType wT;
         public int bI;
-    }
+    }*/
 }
 
 

@@ -10,6 +10,7 @@ using System.Linq;
 using CBShare.Data;
 using LitJson;
 using CBShare.Battle;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace WebServices.Battles
 {
@@ -76,7 +77,7 @@ namespace WebServices.Battles
             GC.SuppressFinalize(this);
         }
 
-        protected void SetWaitingAction(BattleActionType _actionType, float _delayTime, GamerColor _gamerColor = GamerColor.NONE, string _jsPrams = "")
+        protected void SetWaitingAction(BattleActionType _actionType, float _delayTime, GamerColor _gamerColor = GamerColor.NONE/*, string _jsPrams = ""*/)
         {
             try
             {
@@ -93,7 +94,7 @@ namespace WebServices.Battles
                         actionType = _actionType,
                         invokeTime = this.properties.elapsedTime + _delayTime,
                         gamerColor = _gamerColor,
-                        jsonParams = _jsPrams,
+                        //jsonParams = _jsPrams,
                         isInvoked = false
                     };
                 }
@@ -329,41 +330,12 @@ namespace WebServices.Battles
             }
         }
 
-        protected void ProcessTurnGamerStartHorse()
+        protected void ProcessTurnGamerStartHorse(int _spaceIdx)
         {
             try
             {
-                /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
-                {
-                    var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
-                    this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
-                    {
-                        fB = this.currentTurnGamer.currentBlockIndex,
-                        dB = 0,
-                        sC = _skillCharacter
-                    }, moveTime);
-                    if (_destBlockIndex > 0)
-                    {
-                        moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * _destBlockIndex;
-                        this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
-                        {
-                            fB = 0,
-                            dB = _destBlockIndex,
-                            sC = _skillCharacter
-                        }, moveTime);
-                    }
-                }
-                else
-                {
-                    var numSteps = (this.properties.blocksList.Count + _destBlockIndex - this.currentTurnGamer.currentBlockIndex) % this.properties.blocksList.Count;
-                    var moveTime = ConfigManager.instance.battleConfig.TIME_MOVE_CHARACTER_PER_STEP * numSteps;
-                    this.AddReplayStep(ReplayStepType.MoveCharacterToBlock, this.properties.turnGamerIndex, new MoveCharacterReplayParameter()
-                    {
-                        fB = this.currentTurnGamer.currentBlockIndex,
-                        dB = _destBlockIndex,
-                        sC = _skillCharacter
-                    }, moveTime);
-                }*/
+                this.AddReplayStep(ReplayStepType.StartHorse, this.properties.turnGamerIndex, 0.5f, _spaceIdx);
+                this.ProcessStartTurn();
             }
             catch (Exception ex)
             {
@@ -387,7 +359,7 @@ namespace WebServices.Battles
                 }
                 if (horseCanMoveIdxsList.Count == 0)
                 {
-
+                    this.ProcessEndTurn();
                 }
                 else if (horseCanMoveIdxsList.Count == 1)
                 {
@@ -395,7 +367,7 @@ namespace WebServices.Battles
                 }
                 else
                 {
-
+                    this.WaitTurnGamerChooseHorseToMove(horseCanMoveIdxsList);
                 }
             }
             catch (Exception ex)
@@ -403,6 +375,11 @@ namespace WebServices.Battles
                 ExceptionLogMongoDB.add(ex.ToString());
                 this.SendDisplayMessageToAllGamers(ex.ToString());
             }
+        }
+
+        protected void WaitTurnGamerChooseHorseToMove(List<int> _horseIdxsList)
+        {
+
         }
 
         protected void ProcessTurnGamerMoveHorse(int _horseIdx)
@@ -454,11 +431,7 @@ namespace WebServices.Battles
                 this.properties.spacesList[_destSpaceIdx] = (int)this.currentTurnGamer.color * 10 + _horseIdx;
                 this.currentTurnGamer.horseSpaceIndexsList[_horseIdx] = _destSpaceIdx;
                 var moveTime = 1f;// this.battleCfg.TIME_MOVE_CHARACTER_PER_STEP * (this.properties.blocksList.Count - this.currentTurnGamer.currentBlockIndex);
-                this.AddReplayStep(ReplayStepType.MoveHorse, this.properties.turnGamerIndex, new MoveHorseReplayParameter()
-                {
-                    fS = _fromSpaceIdx,
-                    dS = _destSpaceIdx
-                }, moveTime);
+                this.AddReplayStep(ReplayStepType.MoveHorse, this.properties.turnGamerIndex, moveTime, _fromSpaceIdx, _destSpaceIdx);
                 /*if (_destBlockIndex < this.currentTurnGamer.currentBlockIndex)
                 {
                     
@@ -541,11 +514,11 @@ namespace WebServices.Battles
             }
         }
 
-        protected virtual void ContinueTurnGamerAction()
+        /*protected virtual void ContinueTurnGamerAction()
         {
             try
             {
-                /*if (this.currentTurnGamer.isRollingDoubleDices)
+                if (this.currentTurnGamer.isRollingDoubleDices)
                 {
                     //this.SetNextState(BattleState.START_TURN, this.updateDeltaTime);
                     this.ProcessStartTurn();
@@ -554,14 +527,14 @@ namespace WebServices.Battles
                 {
                     //this.SetNextState(BattleState.END_TURN, this.updateDeltaTime);
                     this.ProcessEndTurn();
-                }*/
+                }
             }
             catch (Exception ex)
             {
                 ExceptionLogMongoDB.add(ex.ToString());
                 this.SendDisplayMessageToAllGamers(ex.ToString());
             }
-        }
+        }*/
 
         protected void ProcessEndTurn()
         {
@@ -598,16 +571,27 @@ namespace WebServices.Battles
             this.hubContext.Clients.Group(this.roomKey).SendAsync("ShowDisplayMessage", msg, true);
         }
 
-        protected void AddReplayStep(ReplayStepType _type, int _gamerIdx, object _param, float _stepTime = 0.25f)
+        protected void AddReplayStep(ReplayStepType _type, int _gamerIdx, float _stepTime = 0.25f, params object[] _paramValues)
         {
             var stepData = new ReplayStepData()
             {
                 ID = this.replayData.stepsList.Count,
-                sT = _type,
-                gC = (GamerColor)_gamerIdx,
-                aT = this.properties.elapsedTime,
-                jV = JsonMapper.ToJson(_param)
+                ty = _type,
+                g = (GamerColor)_gamerIdx,
+                t = this.properties.elapsedTime
             };
+            if (_paramValues.Length > 0 )
+            {
+                stepData.v1 = _paramValues[0];
+            }
+            if (_paramValues.Length > 1 )
+            {
+                stepData.v2 = _paramValues[1];
+            }
+            if ( _paramValues.Length > 2 )
+            {
+                stepData.v3 = _paramValues[2];
+            }
             this.replayData.stepsList.Add(stepData);
             this.properties.elapsedTime += _stepTime;
         }
@@ -617,22 +601,23 @@ namespace WebServices.Battles
         {
             try
             {
+                var joinGamerProperties = this.properties.gamersPropertiesList.Find(e => e.gid == gid);
+                if (joinGamerProperties == null)
+                {
+                    var userInfo = GameManager.GetUserInfo(gid, new List<string>() { GameRequests.PROPS_GAMER_DATA, GameRequests.PROPS_STAR_CARD_DATA });
+                    joinGamerProperties = new GamerBattleProperty()
+                    {
+                        gid = gid,
+                        name = userInfo.gamerData.displayName,
+                        avatar = userInfo.gamerData.Avatar,
+                        money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
+                        color = (GamerColor)this.properties.gamersPropertiesList.Count,
+                    };
+                    this.properties.gamersPropertiesList.Add(joinGamerProperties);
+                }
                 if (this.properties.state == BattleState.Matching)
                 {
-                    var gamerProperties = this.properties.gamersPropertiesList.Find(e => e.gid == gid);
-                    if (gamerProperties == null)
-                    {
-                        var userInfo = GameManager.GetUserInfo(gid, new List<string>() { GameRequests.PROPS_GAMER_DATA, GameRequests.PROPS_STAR_CARD_DATA });
-                        gamerProperties = new GamerBattleProperty()
-                        {
-                            gid = gid,
-                            name = userInfo.gamerData.displayName,
-                            avatar = userInfo.gamerData.Avatar,
-                            money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
-                            color = (GamerColor)this.properties.gamersPropertiesList.Count,
-                        };
-                        this.properties.gamersPropertiesList.Add(gamerProperties);
-                    }
+                    
                     hub.Clients.GroupExcept(this.roomKey, hub.Context.ConnectionId).SendAsync("OnOtherGamerJoinRoomSuccess", this.properties.gamersPropertiesList);
                 }
                 else
@@ -641,7 +626,7 @@ namespace WebServices.Battles
                 }
                 this.hubConnectionIDsList[gid] = hub.Context.ConnectionId;
                 this.hubContext.Groups.AddToGroupAsync(hub.Context.ConnectionId, this.roomKey);
-                hub.Clients.Caller.SendAsync("OnJoinRoomSuccess", this.properties);
+                hub.Clients.Caller.SendAsync("OnJoinRoomSuccess", this.properties.ID, joinGamerProperties.color, this.properties.gamersPropertiesList);
 
                 if (this.properties.state == BattleState.Matching)
                 {
@@ -712,44 +697,46 @@ namespace WebServices.Battles
             }
         }
 
-        public virtual Task OnGamerRollDice(GamerColor _gamerColor, bool isSpecialRoll, int _testValue,  bool isAFK)
+        public virtual Task OnGamerRollDice(long _gid, int _testValue, bool isAFK)
         {
             try
             {
-                if (!this.CheckValidWaitingGamerAction(BattleActionType.RollDice, _gamerColor))
+                var gamerProperties = this.properties.gamersPropertiesList.Find(e => e.gid == _gid);
+                if (gamerProperties == null)
+                {
+                    return Task.CompletedTask;
+                }
+                if (!this.CheckValidWaitingGamerAction(BattleActionType.RollDice, gamerProperties.color))
                 {
                     return Task.CompletedTask;
                 }
                 this.lastReplayStepsCount = this.replayData.stepsList.Count;
                 //this.lastBattleTime = this.properties.battleTime;
-                var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, isSpecialRoll);
+                var diceValue = DiceController.getRollValue(this.currentTurnGamer.currentDice, false);
                 if (_testValue > 0)
                 {
                     diceValue = _testValue;
                 }
-                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, new RollDiceReplayParameter()
-                {
-                    dV = diceValue
-                }, 3f);
+                this.AddReplayStep(ReplayStepType.RollDice, this.properties.turnGamerIndex, 3f, diceValue);
                 if (diceValue == 6)
                 {
                     var freeHorseIdx = this.currentTurnGamer.GetFreeHorse();
                     if (freeHorseIdx >= 0)
                     {
-                        var startHorseSpaceIdx = this.battleCfg.startIndexs[_gamerColor.ToString()];
+                        var startHorseSpaceIdx = this.battleCfg.startIndexs[gamerProperties.color.ToString()];
                         var spaceValue = this.properties.spacesList[startHorseSpaceIdx];
                         if (spaceValue <= 0)
                         {
-                            this.ProcessTurnGamerStartHorse();
+                            this.ProcessTurnGamerStartHorse(startHorseSpaceIdx);
                         }
-                        else if (spaceValue / 10 == (int)_gamerColor)
+                        else if (spaceValue / 10 == (int)gamerProperties.color)
                         {
                             this.WaitTurnGamerMoveHorse(diceValue);
                         }
                         else
                         {
                             this.ProcessTurnGamerKickOpponentHorse(startHorseSpaceIdx, spaceValue);
-                            this.ProcessTurnGamerStartHorse();
+                            this.ProcessTurnGamerStartHorse(startHorseSpaceIdx);
                         }
                     }
                     else

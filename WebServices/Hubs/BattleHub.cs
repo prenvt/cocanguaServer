@@ -45,10 +45,10 @@ namespace WebServices.Hubs
             await battleController.OnGamerBuyBoosterItem(_gamerColor, _itemIdx);
         }
 
-        public async Task RequestRollDice(int _roomID, GamerColor _gamerColor, bool _isSpecialRoll, int _testValue)
+        public async Task RequestRollDice(long _gid, int _roomID, int _testValue)
         {
             var battleController = GameManager.Instance.roomController.GetBattleControllerByID(_roomID);
-            await battleController.OnGamerRollDice(_gamerColor, _isSpecialRoll, _testValue, false);
+            await battleController.OnGamerRollDice(_gid, _testValue, false);
         }
 
         /*public async Task RequestBuildHouse(int roomID, int gamerIndex, int blockIndex, HouseCode houseCode)

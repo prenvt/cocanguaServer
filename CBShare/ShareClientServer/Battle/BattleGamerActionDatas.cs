@@ -7,10 +7,10 @@ namespace CBShare.Data
 {
     public enum BattleActionType
     {
-        NONE,
-        MatchingSuccess,
-        StartBattle,
-        RollDice,
+        NONE = -1,
+        MatchingSuccess = 0,
+        StartBattle = 1,
+        RollDice = 2,
     }
 
     public class BattleActionData
@@ -18,13 +18,8 @@ namespace CBShare.Data
         public GamerColor gamerColor;
         public BattleActionType actionType;
         public float invokeTime;
-        public string jsonParams;
+        //public string jsonParams;
         public bool isInvoked;
-    }
-
-    public class RollDiceActionParameter
-    {
-        //public bool isSpecial;
     }
 }
 

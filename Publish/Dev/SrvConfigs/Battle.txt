@@ -1,0 +1,39 @@
+{
+  "BATTLE_3P": {
+    "waitTimes": {
+      "BUY_ACTION_CARD": 5,
+      "RollDice": 5,
+      "BuildHouse": 5,
+      "UseActionCard": 5,
+      "UseCharacterSkill": 5,
+      "ExchangeBlocks": 20,
+      "SelectBlock": 20,
+      "SellHouses": 30
+    },
+    "TIME_MOVE_CHARACTER_PER_STEP": 0.35,
+    "numSpaces": 30,
+    "startIndexs": {
+      "Blue": 0,
+      "Red": 10,
+      "Green": 20
+    },
+    "endIndexs": {
+      "Blue": 29,
+      "Red": 9,
+      "Green": 19
+    },
+    "starIndexs": [
+      4,
+      9,
+      14,
+      19,
+      24,
+      29
+    ],
+    "jumpIndexs": [
+      6,
+      16,
+      26
+    ]
+  }
+}

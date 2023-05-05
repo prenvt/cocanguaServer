@@ -1,0 +1,894 @@
+KEY,Vietnamese,English
+Avatar,Cửu Dương Chân Khí,Giant Avatar
+Avatar_des,"Hấp thu chân khí chí dương, tăng [RaiseMaxHPEffect_param1_0]% Sinh Lực Tối Đa trong [RaiseMaxHPEffect_duration_0]s","Morphs into a Giant, increasing max HP by [RaiseMaxHPEffect_param1_0]% for [RaiseMaxHPEffect_duration_0] s"
+Avatar_level2_des,Sức tấn công của bản thân tăng [RaiseAtkEffect_param1_1]%,"When in Giant form, ATK is increased by [RaiseAtkEffect_param1_1]%"
+Avatar_level3_des,Tăng thời gian tác dụng lên thành [RaiseMaxHPEffect_duration_2]s,Effect duration is increased to [RaiseMaxHPEffect_duration_2] s
+Avatar_level4_des,Tăng [AddPhysicalResistanceEffect_param1_3]% Kháng Đánh Thường và [AddMagicalResistanceEffect_param1_3]% Kháng Sát Thương Võ Công trong 12s,
+SlamGround,Thái Cực Quyền,Earth Slam
+SlamGround_des,Nhảy lên đấm xuống gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng kẻ địch xung quanh mục tiêu [StunEffect_duration_0]s,Triggers a ground tremor that deals [param1_0]% damage and stuns all enemies nearby for [StunEffect_duration_0] s
+SlamGround_level2_des,Tăng thời gian choáng lên thành [StunEffect_duration_1]s,Stun duration is increased to [StunEffect_duration_1] s
+SlamGround_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+DefensiveTactic,Càn Khôn Đại Na Di,Defensive Tactic
+DefensiveTactic_des,"Khi Sinh Lực dưới [param1_0]%, chuyển sang thủ thế - [ModifyReceiveNormalAttackDmgEffect_param1_0]% toàn bộ các loại sát thương nhận vào.","When HP is below [param1_0]%, shifts into a defensive stance that increases all damage resistance by [ModifyReceiveNormalAttackDmgEffect_param1_0]%"
+DefensiveTactic_level2_des,[ModifyReceiveNormalAttackDmgEffect_param1_1]% các loại sát thương nhận vào.,Damage resistance is increased to [ModifyReceiveNormalAttackDmgEffect_param1_1]%
+DefensiveTactic_level3_des,Tác dụng khi Sinh Lực dưới [param1_2]%,Skill is activated when HP is lower than [param1_2]%
+Provoke,Huyết Vũ Tinh Phong,Provoke
+Provoke_des,"Gầm lên thu hút kẻ địch xung quanh tấn công [TauntEffect_duration_0]s, bản thân được tăng [RaiseDefenseEffect_param1_0]% Phòng Ngự, kẻ tấn công không thể dùng võ công khi bị khiêu khích",Causes enemies around to attack himself for [TauntEffect_duration_0] s and increases DEF by [RaiseDefenseEffect_param1_0]%
+Provoke_level2_des,Lượng Phòng Ngự tăng lên thành [RaiseDefenseEffect_param1_1]%,DEF is increased to [RaiseDefenseEffect_param1_1]%
+Provoke_level3_des,Kẻ địch bị phản lại [ReflectReceiveDmgEffect_param1_2]% sát thương gây ra,Reflects [ReflectReceiveDmgEffect_param1_2]% damage dealt by enemies
+Resurrection,Đại Từ Đại Bi Chú,Resurrection
+Resurrection_des,"Hồi sinh lại một đồng đội đã chết, sống lại với [param1_0]% Sinh Lực tối đa. Tối đa sử dụng [param2_0] lần","Resurrects a dead ally up to [param2_0] times, granting them [param1_0]% MAX HP each time"
+Resurrection_level2_des,Tăng số lần hồi sinh tối đa lên thành [param2_1] lần,Max. number of resurrections is increased to [param2_1]
+Resurrection_level3_des,Đồng đội giữ nguyên Nội Lực khi sống lại,"When resurrected, ally keeps their Mana"
+Resurrection_level4_des,Đồng đội sống lại với [param1_3]% Sinh Lực Tối Đa,
+HolyLight,Phật Quang Phổ Chiếu,Holy Light
+HolyLight_des,Hồi [param1_0]% Sinh Lực cho đồng đội thấp máu nhất,Restores [param1_0]% HP to the ally with the lowest HP
+HolyLight_level2_des,Đồng đội nhận được  thêm hiệu ứng phục hồi [RegenerateHPIntervalOnDemandEffect_param2_1]% Sinh Lực mỗi giây trong [RegenerateHPIntervalOnDemandEffect_duration_1]s,Ally recovers [RegenerateHPIntervalOnDemandEffect_param2_1]% HP/s for [RegenerateHPIntervalOnDemandEffect_duration_1] s
+HolyLight_level3_des,Đồng thời gia tăng cho chính mình,Grants buff effect to Elysia herself.
+DivineBarrier,Tiên Nhân Chỉ Lộ,Divine Barrier
+DivineBarrier_des,Tạo vòng bảo vệ cho đồng đội có sức tấn công lớn nhất - kháng toàn bộ hiệu ứng xấu trong [GodEffect_duration_0]s,"Generates a protective barrier for an ally with the greatest ATK, making them immune to all negative statuses for [GodEffect_duration_0] s"
+DivineBarrier_level2_des,Giải toàn bộ hiệu ứng xấu trên người đồng đội ngay khi thực hiện chiêu thức,Removes all negative statuses from that ally
+DivineBarrier_level3_des,Thời gian tác dụng tăng lên thành [GodEffect_duration_2]s,Effect duration is increased to [GodEffect_duration_2] s
+Bless,Phật Quang Chiến Khí,Blessing
+Bless_des,Gia tăng [RaiseAtkEffect_param1_0]% Sức Tấn Công cho đồng đội có Sức Tấn Công lớn nhất. Thời gian tác dụng [RaiseAtkEffect_duration_0]s,Increases [RaiseAtkEffect_param1_0]% ATK for the ally with the greatest ATK for [RaiseAtkEffect_duration_0] s
+Bless_level2_des,Tác dụng lên 2 đồng đội,Buff benefits apply to 2 allies.
+Bless_level3_des,Thời gian tác dụng tăng lên thành [RaiseAtkEffect_duration_2]s,Effect duration is increased to [RaiseAtkEffect_duration_2] s
+GreatArrow,Thiếu Thương Kiếm,Great Arrow
+GreatArrow_des,Bắn kiếm khí từ ngón tay - gây sát thương bằng [param1_0]% Sức Tấn Công và đẩy lùi một kẻ địch ra xa,Shoots a massive magical arrow that deals [param1_0]% damage and knocks back the enemy
+GreatArrow_level2_des,Kẻ địch bị giảm tốc độ di chuyển [ReduceMovementSpeedEffect_param1_1]% trong [ReduceMovementSpeedEffect_duration_1]s,Enemy movement speed is reduced by [ReduceMovementSpeedEffect_param1_1]% for [ReduceMovementSpeedEffect_duration_1] s
+GreatArrow_level3_des,Sát thương tăng lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+GreatArrow_level4_des,Kẻ trúng đòn bị Choáng [StunEffect_duration_3]s,
+TripleShot,Thiếu Xung Kiếm,Triple Shot
+TripleShot_des,"Bắn liên tiếp 3 kiếm khí, mỗi kiếm khí đẩy lùi kẻ địch 1m","Unleashes 3 arrows at once, each knocking back the enemy 1 m"
+TripleShot_level2_des,Tăng [param5_1] Tỉ Lệ Bạo Kích cho các phát bắn này,CRIT is increased by [param5_1] each shot
+TripleShot_level3_des,Kẻ địch sau khi bị dính 3 phát bắn sẽ bị ngã ra [param6_2]s,"After being hit, the enemy is knocked down for [param6_2] s"
+Marksmanship,Thương Dương Kiếm,Expert Marksman
+Marksmanship_des,Tăng [RaiseAtkEffect_param1_0]% sức tấn công cho toàn bộ đồng đội đánh xa,ATK for all ranged allies increases by [RaiseAtkEffect_param1_0]%
+Marksmanship_level2_des,Sức tấn công tăng lên thành [RaiseAtkEffect_param1_1]%,ATK is increased to [RaiseAtkEffect_param1_1]%
+Marksmanship_level3_des,Tác dụng lên cả đồng đội cận chiến,Melee allies are also granted with the buff effects.
+BackTrackTripleShot,Lăng Ba Vi Bộ,Backtrack Triple Shot
+BackTrackTripleShot_des,"Vừa nhảy lùi về phía sau vừa bắn 3 kiếm khí, mỗi kiếm khí đẩy lùi kẻ địch 1m","Jumps back while unleashing three arrows at once, each knocking back the enemy 1 m"
+BackTrackTripleShot_level2_des,Tăng [param6_1] Tỉ Lệ Bạo Kích cho các phát bắn này,CRIT is increased by [param6_1] each shot
+BackTrackTripleShot_level3_des,Kẻ địch sau khi bị dính 3 phát bắn sẽ bị ngã ra [param7_1]s,"After being hit, the enemy is knocked down for [param7_1] s"
+CounterStrike,Kiến Long Tại Điền,Counterstrike
+CounterStrike_des,Thủ thế trong [PaybackReceiveDmgEffect_duration_0]s - kháng toàn bộ sát thương và hiệu ứng xấu. Sau đó phản công lên kẻ địch trước mặt với sát thương bằng  200% Sức Tấn Công + một nửa Sát Thương nhận khi thủ thế,"Hero takes a defensive stance with shield raised for immunity to all damage and statuses for [PaybackReceiveDmgEffect_duration_0] s, followed by a counterstrike dealing damage equal to 200% ATK plus half of damage received while defending"
+CounterStrike_level2_des,Tăng thời gian thủ thế lên thành [PaybackReceiveDmgEffect_duration_1]s,Defensive stance effect is increased to [PaybackReceiveDmgEffect_duration_1] s
+CounterStrike_level3_des,Sát thương phản công tăng thêm 100% Sức Tấn Công bản thân,Counterstrike damage is increased by 100% ATK
+CounterStrike_level4_des,"Kết thúc chiêu thức, bản thân được gia tăng [param4_3]% Tốc Độ Tấn Công trong [param5_3]s",
+ShieldCharge,Đột Như Kỳ Lai,Shield Charge
+ShieldCharge_des,"Lao thẳng về phía trước, gây choáng [StunEffect_duration_0]s và đẩy lùi toàn bộ kẻ địch trên đường. Gây sát thương bằng [param1_0]% Sức Tấn Công","Hero charges forward with shield raised, knocking back all enemies in front and stunning them for [StunEffect_duration_0] s, while dealing [param1_0]% damage ."
+ShieldCharge_level2_des,Sát thương tăng lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+ShieldCharge_level3_des,Tăng quãng đường lao lên,Charge distance increases
+United,Giáng Long Tâm Pháp,Unite
+United_des,Mỗi đồng đội còn sống tăng [RaiseAtkBaseOnAliveAllyEffect_param1_0]% Sức Tấn Công cho Hồng Thất Công,Each living ally increases [RaiseAtkBaseOnAliveAllyEffect_param1_0]% ATK for hero.
+United_level2_des,Tăng [RaiseAtkBaseOnAliveAllyEffect_param1_1]% Sức Tấn Công,Each ally’s ATK is increased by [RaiseAtkBaseOnAliveAllyEffect_param1_1]%
+United_level3_des,Tăng [RaiseAtkBaseOnAliveAllyEffect_param1_2]% Sức Tấn Công,Each ally’s ATK is increased by [RaiseAtkBaseOnAliveAllyEffect_param1_2]%
+ProtectionAura,Tiềm Long Vật Dụng,Protective Aura
+ProtectionAura_des,"Khi Hồng Thất Công còn sống, toàn bộ đồng đội được [ProtectionAuraEffect_param2_0]% sát thương nhận vào - tác dụng gấp đôi với bản thân Hồng Thất Công",Reduces each living ally’s damage received by [ProtectionAuraEffect_param2_0]% and reduces double that amount to the Hero
+ProtectionAura_level2_des,[ProtectionAuraEffect_param2_1]% sát thương nhận vào,Damage received is reduced by [ProtectionAuraEffect_param2_1]%
+ProtectionAura_level3_des,[ProtectionAuraEffect_param2_2]% sát thương nhận vào,Damage received is reduced by [ProtectionAuraEffect_param2_2]%
+SleepDust,Thanh Âm U Vận,Sleep Dust
+SleepDust_des,Ru ngủ toàn bộ kẻ địch trong [SleepEffect_duration_0]s,Lulls all enemies to sleep for [SleepEffect_duration_0] s
+SleepDust_level2_des,Kẻ địch bị giảm [ReduceDefenseEffect_param1_1]% Phòng Ngự,Enemies’ DEF is reduced by [ReduceDefenseEffect_param1_1]%
+SleepDust_level3_des,Kẻ địch nhận sát thương [param1_2]% Sức Tấn Công mỗi 1s,Enemies receive [param1_2]% damage per second
+SleepDust_level4_des,Giảm Phòng Ngự địch tăng thành [ReduceDefenseEffect_param1_3]%,
+HealPotion,Nguyên Thanh Lưu Khiết,Healing Potion
+HealPotion_des,"Ném chai thuốc cho đồng đội có Sinh Lực thấp nhất, đồng đội nhận được hiệu ứng hồi phục [RegenerateHPIntervalEffect_param1_0]% Sinh Lực mỗi giây trong [RegenerateHPIntervalEffect_duration_0]s",Hero throws a potion to the ally with the lowest HP that recovers [RegenerateHPIntervalEffect_param1_0]% HP/s for [RegenerateHPIntervalEffect_duration_0] s
+HealPotion_level2_des,Tăng [RaiseStatusResEffect_param1_1] điểm kháng trạng thái xấu cho đồng đội,Ally’s Status Res is increased by [RaiseStatusResEffect_param1_1]
+HealPotion_level3_des,Ném đồng thời 2 chai thuốc,Throw 2 potions at once
+Hex,Thông Hiểu Võ Học,Hex
+Hex_des,"Đọc võ công của kẻ địch, khiến hắn hoa mắt chóng mặt và không thể tấn công trong [HexVNYEffect_duration_0]s",Throw a potion that transforms an enemy into a rabbit for [HexEffect_duration_0] s
+Hex_level2_des,Kẻ địch bị mất [ReduceDefenseEffect_param1_1]% Phòng Ngự,Transformed enemy’s DEF is reduced by [ReduceDefenseEffect_param1_1]%
+Hex_level3_des,Thời gian bị đọc võ công tăng lên thành [HexVNYEffect_duration_2]s,Effect duration is increased to [HexEffect_duration_2] s
+SelfHex,Thiên biến Vạn Hóa,Self-Hex
+SelfHex_des,"Khi bị tấn công, Vương Ngữ Yên khiến bản thân mờ đi và làm kẻ địch không thể đánh trúng",Transform herself into a rabbit to flee from incoming attack
+SelfHex_level2_des,"Trong khi mờ đi, [ModifyReceiveSkillDmgEffect_param1_1]% sát thương võ công phải nhận","In rabbit form, skill damage resistance is increased by [ModifyReceiveSkillDmgEffect_param1_1]%"
+SelfHex_level3_des,"Khi biến lại bình thường, được tăng [RaiseAtkEffect_param1_2]% Sức Tấn Công trong [RaiseAtkEffect_duration_2]s","Once back in Hero form, ATK is increased by [RaiseAtkEffect_param1_2]% for [RaiseAtkEffect_duration_2] s"
+Clone,Song Thủ Hỗ Bác,Clone
+Clone_des,"Tạo một hư ảnh ở vị trí hiện tại đánh lừa kẻ địch, bản thân Chu Bá Thông biến ra sau lưng địch đánh 1 đòn gây ra sát thương bằng [param1_0]% Sức Tấn Công. Hư ảnh không có võ công, sát thương nhận vào tăng 200%, có 100% Sức Tấn Công, tồn tại [param4_0]s","Creates a Decoy at the Hero’s position, allowing the Hero to blink to enemy’s back in order to deal [param1_0]% damage. Decoy possesses no skills, receives 200% damage, deals 100% damage, and exists for [param4_0] s"
+Clone_level2_des,Hư Ảnh có nội tại,Decoy possesses a passive skill
+Clone_level3_des,Tăng thời gian tồn tại của hư ảnh lên thành [param4_2]s,Decoy duration is increased to [param4_2] s
+Clone_level4_des,Tăng [RaiseAtkSpeedEffect_param1_3]% Tốc Độ Tấn Công cho bản thân trong [RaiseAtkSpeedEffect_duration_3]s,
+VenomAttack,Trác Mục Tranh Châu,Venom Attack
+VenomAttack_des,Đấm mạnh vào kẻ địch và khiến hắn bị nội thương. Nội thương làm kẻ địch mất [ReduceMaxHPDPSEffect_param1_0]% Sinh Lực mỗi giây trong [ReduceMaxHPDPSEffect_duration_0]s,"Thrusts a poisoned weapon into the enemy, reducing their HP by [ReduceMaxHPDPSEffect_param1_0]%/s for [ReduceMaxHPDPSEffect_duration_0] s"
+VenomAttack_level2_des,Nội thương làm giảm tốc độ đánh của kẻ địch [ReduceAtkSpeedEffect_param1_1]%,"When poisoned, enemy’s attack speed is reduced by [ReduceAtkSpeedEffect_param1_1]%"
+VenomAttack_level3_des,Nội thương làm địch mất [ReduceMaxHPDPSEffect_param1_2]% Sinh Lực mỗi giây,"When poisoned, enemy’s HP is reduced by [ReduceMaxHPDPSEffect_param1_2]%/s"
+NinjaPassive,Không Minh Quyền,Ninja Strike
+NinjaPassive_des,Tu luyện thân pháp - tăng [param1_0] Né Tránh,Performing ninjutsu increases Evasion by [param1_0]
+NinjaPassive_level2_des,Tăng [RaiseAtkOnBackEffect_param1_1]% Sức Tấn Công khi đánh sau lưng kẻ địch,"When attacking from behind, damage dealt is increased by [RaiseAtkOnBackEffect_param1_1]%"
+NinjaPassive_level3_des,Tăng [AddCritEffect_param1_0] Tỉ Lệ Bạo Kích,CRIT increased by [AddCritEffect_param1_0]
+ManaBreak,Vân Đạm Phong Khinh,Mana Break
+ManaBreak_des,Mỗi đòn tấn công trúng mục tiêu làm kẻ địch mất [ManaBreakEffect_param1_0] Nội Lực,Each successful attack also destroy [ManaBreakEffect_param1_0] Mana from the enemy
+ManaBreak_level2_des,Mất [ManaBreakEffect_param1_1] Nội Lực,Amount of Mana destroyed is increased to [ManaBreakEffect_param1_1]
+ManaBreak_level3_des,Mất [ManaBreakEffect_param1_2] Nội Lực,Amount of Mana destroyed is increased to [ManaBreakEffect_param1_2]
+Onnislash,Hư Vô Kiếm Pháp,Omni Slash
+Onnislash_des,"Chém lần lượt 2 kẻ địch gần nhất, mỗi kẻ địch 1 nhát chém Hoa Sơn Kiếm Pháp",Inflicts Lightning Slash sequentially upon the 2 nearest enemies
+Onnislash_level2_des,Chém thêm Huyết Sát Kiếm Pháp,Blood Slash is inflicted to increase damage dealt
+Onnislash_level3_des,Chém thêm Cuồng Phong Khoái Kiếm,Ice Slash is inflicted to increase damage dealt
+Onnislash_level4_des,Giảm [param1_3]% Kháng Trạng Thái Xấu của địch trong 3s sau khi dùng chiêu thức,
+LightningSlash,Hoa Sơn Kiếm Pháp,Lightning Slash
+LightningSlash_des,"Chém kẻ địch cực nhanh, gây sát thương bằng [param1_0]% Sức Tấn Công  và làm choáng kẻ địch [StunEffect_duration_0]s",Draws a Lightning Katana that deals [param1_0]% damage and stuns the enemy for [StunEffect_duration_0] s
+LightningSlash_level2_des,Nhát chém bỏ qua [param2_1]% Phòng Ngự của kẻ địch,Lightning Slash ignores [param2_1]% enemy DEF
+LightningSlash_level3_des,Nhát chém bỏ qua [param2_2]% Phòng Ngự của kẻ địch,Lightning Slash ignores [param2_2]%  enemy DEF
+BloodSlash,Huyết Sát Kiếm Pháp,Blood Slash
+BloodSlash_des,"Chiêu thức bạo phát, gây sát thương bằng [param1_0]% Sức Tấn Công và hồi lại máu bằng [param2_0]% sinh lực kẻ địch mất đi",Draws a Blood Katana that deals [param1_0]% damage and recovers a portion of HP equal to [param2_0]% damage dealt
+BloodSlash_level2_des,Hồi lại máu bằng [param2_1]% sinh lực kẻ địch mất đi,Recovered HP is increased to [param2_1]% damage dealt
+BloodSlash_level3_des,Phế võ công kẻ địch [SilenceEffect_duration_2]s,Enemy is silenced for [SilenceEffect_duration_2] s
+IceSlash,Cuồng Phong Khoái Kiếm,Ice Slash
+IceSlash_des,"Kích phá nhược điểm của kẻ địch, chém gây sát thương bằng [param1_0]% Sức Tấn Công và làm chậm kẻ địch [ReduceMovementSpeedEffect_param1_0]% trong [ReduceMovementSpeedEffect_duration_0]s",Draws an Ice Katana that deals [param1_0]% damage and reduces enemy movement speed by [ReduceMovementSpeedEffect_param1_0]% for [ReduceMovementSpeedEffect_duration_0] s
+IceSlash_level2_des,Làm chậm kẻ địch [ReduceMovementSpeedEffect_param1_1]%,Enemy’s movement speed is reduced by [ReduceMovementSpeedEffect_param1_1]%
+IceSlash_level3_des,Tăng sát thương gây ra lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+Reanimated,Bắc Minh Chân Khí,Reanimation
+Reanimated_des,"Dùng Bắc Minh Chân Khí truyền vào kẻ địch đã chết, khiến hắn trở thành Cương Thi. Cương Thi có 100% Sinh Lực, 100% Sức Tấn Công, không có võ công","Reanimates an enemy’s corpse, granting it 100% HP and 100% ATK without skills"
+Reanimated_level2_des,Tăng Sinh Lực tối đa của Cương Thi lên [param1_1]%,Reanimated corpse’s HP is increased to [param1_1]%
+Reanimated_level3_des,Cương Thi có võ công nội tại,Reanimated corpse is granted with passive skills
+Reanimated_level4_des,Tăng Sinh Lực tối đa của Cương Thi lên [param1_3]%,
+FrostSpear,Thiên Sơn Lục Dương Chưởng,Frost Spear
+FrostSpear_des,"Chưởng pháp chí dương chí cương, tấn công kẻ địch - gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s","Hurls an Icy Spear at the enemy, dealing [param1_0]% damage and stunning them for [StunEffect_duration_0] s"
+FrostSpear_level2_des,Tăng thời gian lên choáng lên thành [StunEffect_duration_1]s,Stun duration is increased to [StunEffect_duration_1] s
+FrostSpear_level3_des,Tấn công 2 kẻ địch,Throw 2 spears at once
+SelfReanimated,Chân Khí Hộ Thể,Self-Reanimation
+SelfReanimated_des,"Ngay sau khi chết, Bắc Minh Chân Khí tự tác động lên bản thân","Upon death, Igor’s corpse automatically reanimates"
+SelfReanimated_level2_des,Cương Thi của Hư Trúc có đầy đủ Võ Công,"Upon reanimation, all skills are restored"
+SelfReanimated_level3_des,Cương Thi của Hư Trúc giữ nguyên Nội Lực trước khi chết,"Upon reanimation, amount of Mana held at time of death is restored"
+CorpseExplosion,Sinh Tử Phù,Corpse Explosion
+CorpseExplosion_des,Cương Thi khi chết sẽ nổ gây sát thương diện rộng bằng [param1_0]% Sức Tấn Công,"When defeated, reanimated corpse explodes, dealing [param1_0]% AOE damage"
+CorpseExplosion_level2_des,Kẻ địch trong phạm vi nổ sẽ bị giảm 80% tốc độ di chuyển trong 4s,Explosion slows nearby enemies' movement speed by 80% for 4s
+CorpseExplosion_level3_des,Sát thương nổ tăng lên thành [param1_2]%,Explosion damage is increased to [param1_2]%
+Xbow,Kháng Long Hữu Hối,X-Bow
+Xbow_des,"Chưởng pháp cực mạnh, chiêu thứ 5 của Hàng Long Thập Bát Chưởng - bắn liên tục [param1_0] phát về một kẻ địch, mỗi phát gây sát thương bằng [param2_0]% Sức Tấn Công. Khi mục tiêu chết thì số đòn còn dư sẽ chuyển qua mục tiêu khác. Lúc xuất chiêu thì miễn nhiễm hiệu ứng xấu.","Changes to repeating crossbow, shooting [param1_0] bolts consecutively towards an enemy. Each bolt deals [param2_0]% damage."
+Xbow_level2_des,Mỗi phát gây sát thương [param2_1]% Sức Tấn Công,Each bolt's damage is increased to [param2_1]%
+Xbow_level3_des,"Bắn đồng thời 2 kẻ địch, mỗi kẻ địch [param1_2] phát","Shoots 2 enemies at once, each receives [param1_2] bolts."
+Xbow_level4_des,Tỉ lệ [param5_3]% bỏ qua [param6_3]% Kháng Chiêu Thức của địch khi tấn công.,
+DoubleAxe,Song Long Thủ Thủy,Double Axe
+DoubleAxe_des,"Chiêu thức thứ 10 của Hàng Long Thập Bát Chưởng, tấn công kẻ địch gây sát thương bằng [param1_0]% Sức Tấn Công","Hurls the axe on his back at an enemy, dealing [param1_0]% damage"
+DoubleAxe_level2_des,Tăng [param3_1] Tỉ Lệ Bạo Kích cho chiêu thức này,Skill CRIT is increased by [param3_1]
+DoubleAxe_level3_des,Sát thương tăng lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+SmokeBomb,Mật Vân Bất Vũ,Smoke Bomb
+SmokeBomb_des,"Song chưởng xoay tròn, tích tụ rồi bùng phát, giảm [ReduceOtherHitEffect_param1_0] Chính Xác của 2 kẻ địch. Tác dụng [ReduceOtherHitEffect_duration_0]s","Throws a Smoke Bomb at 2 enemies at the backline, decreasing HIT by [ReduceOtherHitEffect_param1_0] for [ReduceOtherHitEffect_duration_0] s"
+SmokeBomb_level2_des,Tăng thời gian tác dụng lên thành [ReduceOtherHitEffect_duration_1]s,Effect duration is increased to [ReduceOtherHitEffect_duration_1] s
+SmokeBomb_level3_des,Tăng thời gian tác dụng lên thành [ReduceOtherHitEffect_duration_2]s,Effect duration is increased to [ReduceOtherHitEffect_duration_2] s
+Ks,Thiết Kình Cương Quyền,KS
+Ks_des,Tấn công kẻ địch dưới [AddDmgBaseOnTargetHPEffect_param2_0]% Sinh Lực sẽ được tăng [AddDmgBaseOnTargetHPEffect_param1_0]% Sức Tấn Công,"When attacking an enemy with lower than [AddDmgBaseOnTargetHPEffect_param2_0]% HP, ATK increases by [AddDmgBaseOnTargetHPEffect_param1_0]%"
+Ks_level2_des,Mỗi lần hạ sát một kẻ địch sẽ tăng [RaiseAtkWhenKillEffect_param1_1]% Sức Tấn Công,"With each enemy killed, ATK is increased by [RaiseAtkWhenKillEffect_param1_1]%"
+Ks_level3_des,Khi tấn công kẻ địch dưới [AddCritBaseOnTargetHPEffect_param2_2]% Sinh Lực sẽ được tăng [AddCritBaseOnTargetHPEffect_param1_2] Tỉ Lệ Bạo Kích,"When attacking an enemy with lower than [AddCritBaseOnTargetHPEffect_param2_2]% HP, CRIT increases by [AddCritBaseOnTargetHPEffect_param1_2]"
+Frenzy,Long Khiếu Cửu Thiên,Frenzy
+Frenzy_des,"Gia tăng tốc độ đánh của bản thân 100%, đồng đội 50% trong [RaiseAtkSpeedInternalEffect_duration_0]s",Increases attack speed by 100% and allies’ attack speed by 50% for [RaiseAtkSpeedInternalEffect_duration_0] s
+Frenzy_level2_des,Tự động sử dụng Dịch Cân Kinh,Automatically casts Royal Shield
+Frenzy_level3_des,"Ngay sau khi sử dụng, giải hết hiệu ứng xấu của bản thân và đồng đội",Buffs remove all negative statuses from the party
+Frenzy_level4_des,"Gia tăng tốc độ đánh của bản thân 150%, đồng đội 75%",
+GreatBash,Thần Long Bái Vĩ,Great Bash
+GreatBash_des,Sau [BashNormalAttackCountEffect_param2_0] phát đánh thường sẽ có 1 phát đánh mạnh - gây thêm sát thương bằng [BashNormalAttackCountEffect_param1_0]% Sức Tấn Công và làm choáng kẻ địch [BashNormalAttackCountEffect_param3_0]s,"After [BashNormalAttackCountEffect_param2_0] normal attacks, unleashes a powerful attack that deals [BashNormalAttackCountEffect_param1_0]% damage and inflicts stun for [BashNormalAttackCountEffect_param3_0] s"
+GreatBash_level2_des,Tăng sát thương lên thành [BashNormalAttackCountEffect_param1_1]% Sức Tấn Công,Damage dealt is increased to [BashNormalAttackCountEffect_param1_1]%
+GreatBash_level3_des,Giảm số phát đánh thường xuống thành [BashNormalAttackCountEffect_param2_2],Number of normal attacks required is reduced to [BashNormalAttackCountEffect_param2_2]
+MarkedTarget,Long Trảo Thủ,Marked Target
+MarkedTarget_des,Mỗi đòn đánh liên tiếp vào 1 mục tiêu tăng thêm sát thương bằng [param1_0]% Sức Tấn Công(tối đa [param2_0]%). Khi chuyển mục tiêu sẽ giữ một nửa % Sức Tấn Công đã tích lũy.,Each continuous attack upon an enemy increases ATK by [param1_0]% (up to [param2_0]%) that resets when target changes
+MarkedTarget_level2_des,Mỗi đòn đánh tăng thêm sát thương bằng [param1_1]% Sức Tấn Công ( tối đa [param2_1]% ),"When target changes, half of ATK stacked is kept"
+MarkedTarget_level3_des,Mỗi đòn đánh tăng thêm sát thương bằng [param1_2]% Sức Tấn Công ( tối đa [param2_2]% ),"With every attack, ATK is increased by [param1_2]% (up to [param2_2]%)"
+RoyalShield,Dịch Cân Kinh,Royal Shield
+RoyalShield_des,"Dùng nội lực hộ thể cho bản thân, nội lực hộ thể đỡ được [param1_0]% sát thương, tồn tại trong [MitigateDmgEffect_duration_0]s",Protects the Hero with an energy shield that blocks [param1_0]% damage for [MitigateDmgEffect_duration_0] s
+RoyalShield_level2_des,"Khi có nội lực hộ thể, phục hồi [RegenerateHPIntervalEffect_param1_1]% Sinh Lực mỗi giây","When being shielded, hero heals [RegenerateHPIntervalEffect_param1_1]%/s"
+RoyalShield_level3_des,"Khi có nội lực hộ thể, tăng tốc độ đánh [RaiseAtkSpeedInternalEffect_param1_2]%","When being shielded, attack speed is increased by [RaiseAtkSpeedInternalEffect_param1_2]% "
+WildCall,Minh Hỏa Chấp Trượng,Wild Call
+WildCall_des,"Kêu gọi 1 cao thủ Minh Giáo đến hộ vệ - có Sinh Lực bằng [param1_0]%, Sức Tấn Công bằng [param2_0]% Tiểu Chiêu",Summons a Bear Spirit to aid in battle with HP equal [param1_0]% and ATK equal [param2_0]% of the Hero’s own
+WildCall_level2_des,Minh Giáo Cao Thủ có Sức Tấn Công bằng [param2_1]% Tiểu Chiêu,Bear Spirit’s ATK is now equal to [param2_1]% of the Hero’s
+WildCall_level3_des,Minh Giáo Cao Thủ kháng toàn bộ hiệu ứng xấu,Bear Spirit resists all negative statuses
+WildCall_level4_des,Minh Giáo Cao Thủ được tăng [param3_3]% Tốc Độ Tấn Công,
+ArmorBreak,Dẫn Hỏa Thiêu Thân,Armor Break
+ArmorBreak_des,"Mỗi đòn đánh làm giảm [ReducePhysicDefOnGetNormalAttackEffect_param1_0]% Phòng Ngự của kẻ địch, tối đa [ReducePhysicDefOnGetNormalAttackEffect_param2_0] lần xếp chồng.",Each attack reduces enemy’s DEF by [ReducePhysicDefOnGetNormalAttackEffect_param1_0]% and stacks up to [ReducePhysicDefOnGetNormalAttackEffect_param2_0] times
+ArmorBreak_level2_des,"Khi xếp chồng đủ [ReducePhysicDefOnGetNormalAttackEffect_param2_0] lần giảm giáp, kẻ địch bị choáng [ReducePhysicDefOnGetNormalAttackEffect_param3_1]s ","At [ReducePhysicDefOnGetNormalAttackEffect_param2_0] stacks, enemy is stunned for [ReducePhysicDefOnGetNormalAttackEffect_param3_1] s"
+ArmorBreak_level3_des,Mỗi đòn đánh đồng thời giảm [ReducePhysicDefOnGetNormalAttackEffect_param4_2]% Sức Tấn Công của kẻ địch,Enemy’s ATK is now also reduced by [ReducePhysicDefOnGetNormalAttackEffect_param4_2]%
+Immortal,Đao Sơn Hỏa Hải,Immortal
+Immortal_des,"Ngay khi chuẩn bị chết, Tiểu Chiêu dùng bí thuật Tây Vực khiến bản thân bất tử [ImmuneEffect_duration_0]s, tăng [ImmuneEffect_param1_0]% tốc độ đánh trong thời gian đó ( kích hoạt 1 lần duy nhất )","Just before dying, grants an Immortal effect lasting [ImmuneEffect_duration_0] s, during which time ATK speed increases by [ImmuneEffect_param1_0]% (can only be cast once)"
+Immortal_level2_des,Tăng thời gian tác dụng lên [ImmuneEffect_duration_1]s,Effect duration increases by [ImmuneEffect_duration_1] s
+Immortal_level3_des,"Trong thời gian đó, kháng toàn bộ hiệu ứng bất lợi","While Immortal is in effect, Hero is immune to all negative statuses"
+MonsterLifeLeach,Tinh Hỏa Liêu Nguyên,Monster Lifeleech
+MonsterLifeLeach_des,Tăng [param1_0] Hấp Huyết cho bản thân,Lifesteal is increased by [param1_0]
+MonsterLifeLeach_level2_des,Tăng [param2_1] Hấp Huyết cho đồng đội thuộc thế lực Trung Lập,Lifesteal for Nature allies is increased by [param2_1]
+MonsterLifeLeach_level3_des,Tăng [param2_2] Hấp Huyết cho tất cả đồng đội,Lifesteal for all allies is increased by [param2_2]
+NatureCovering,Bích Thủy Nhất Tâm,Nature’s Cover
+NatureCovering_des,"Sử dụng sức mạnh thiên nhiên, hồi phục 5% Sinh Lực mỗi giây cho cả đội, tác dụng trên bản thân 5s, đồng đội 3s","Using the power of Nature restores 5% HP/s to entire party, with effect duration for Hero lasting 5s and for allies 3s"
+NatureCovering_level2_des,Hồi phục 6% Sinh Lực mỗi giây trên bản thân,Restores 6% HP/s to Hero
+NatureCovering_level3_des,Đồng thời tăng [RaiseDefenseEffect_param1_0]% Phòng Ngự,DEF is increased by [RaiseDefenseEffect_param1_0]%
+NatureCovering_level4_des,"Thời gian tác dụng lên đồng đội tăng thành 6s, bản thân 10s",
+Toss,Phản Qua Nhất Kích,Toss
+Toss_des,"Hất kẻ địch lên trời, gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s","Tosses away an enemy, dealing [param1_0]% damage and stunning them for [StunEffect_duration_0] s"
+Toss_level2_des,Tăng thời gian choáng lên thành [StunEffect_duration_1]s,Stun duration is increased to [StunEffect_duration_1] s
+Toss_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+PassiveRecovery,Khô Mộc Sinh Hoa,Passive Recovery
+PassiveRecovery_des,Tự động hồi phục [PassiveRecoveryEffect_param1_0]% Sinh Lực mỗi [PassiveRecoveryEffect_interval]s,Automatically restores [PassiveRecoveryEffect_param1_0]% HP every [PassiveRecoveryEffect_interval] s
+PassiveRecovery_level2_des,"Khi Sinh Lực dưới [PassiveRecoveryEffect_param3_1]%, tăng lượng Sinh Lực hồi phục thêm [PassiveRecoveryEffect_param2_1]%","When HP is lower than [PassiveRecoveryEffect_param3_1]%, HP recovery increases by [PassiveRecoveryEffect_param2_1]%"
+PassiveRecovery_level3_des,Tăng Sinh Lực Tối Đa lên [RaiseMaxHPEffect_param1_2]%,MAX HP is increased to [RaiseMaxHPEffect_param1_2]%
+StatusResUp,Phong Hoa Tuyết Nguyệt,Status Res Up
+StatusResUp_des,Tăng [RaiseStatusResEffect_param1_0] Kháng trạng thái xấu,Status resistance is increased to [param1_0]
+StatusResUp_level2_des,Tăng [RaiseStatusResEffect_param1_1] Kháng trạng thái xấu,Status resistance is increased to [param1_1]
+StatusResUp_level3_des,Tăng [RaiseStatusResEffect_param1_2] Kháng trạng thái xấu,Status resistance is increased to [param1_2]
+Fury,Ám Nhiên Tiêu Hồn Chưởng,Fury
+Fury_des,"Lao thẳng về phía trước, đến gần kẻ địch thì nhảy lên chưởng 2 phát về phía 2 mục tiêu, gây sát thương diện rộng bằng [param1_0]% Sức Tấn Công. Tấn công 1 mục tiêu gần nhất và 1 mục tiêu xa nhất.","Leaps with an axe at the 2 nearest enemies, dealing [param1_0]% cleaving damage"
+Fury_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+Fury_level3_des,Kẻ địch bị dính hiệu ứng Đốt cháy - mất [ReduceMaxHPDPSEffect_param1_2]% Sinh Lực mỗi giây trong [ReduceMaxHPDPSEffect_duration_2]s,"Inflicts burn status on an enemy, reducing their HP by [ReduceMaxHPDPSEffect_param1_2]%/s for [ReduceMaxHPDPSEffect_duration_2] s"
+Fury_level4_des,"Không thể né, tất cả kẻ địch trong tầm ảnh hưởng bị ngã ra đất [param2_3]s, sát tương tăng thành [param1_3]% Sức Tấn Công",
+Piercing,Vũ Hận Vân Sầu,Piercing
+Piercing_des,Mỗi lần tấn công có xác suất [PiercingEffect_param1_0]% chưởng kình xuyên qua kẻ địch bay đến mục tiêu khác phía sau,Each attack has a [PiercingEffect_param1_0]% chance to pierce through the target with the axe and hit the enemy behind
+Piercing_level2_des,"Xác suất [PiercingEffect_param3_1]% kình khí lưu lại ở mục tiêu ban đầu, phát tác thì gây sát thương cho hắn thêm lần nữa",Grants a [PiercingEffect_param3_1]% chance that the axe will bounce back to the first target after hitting the enemy behind
+Piercing_level3_des,"Tăng xác suất xuyên lên [PiercingEffect_param1_2]%, xác suất kình khí phát tác lên [PiercingEffect_param3_2]%",Piercing chance is increased by [PiercingEffect_param1_2]% and bounce back chance by [PiercingEffect_param3_2]%
+Bloodlust,Ly Thế Tuyệt Tục,Bloodlust
+Bloodlust_des,"Thiêu đốt [RaiseAtkSpdBaseOnExpendHPEffect_param1_0]% Sinh Lực của bản thân, tăng tốc độ đánh [RaiseAtkSpdBaseOnExpendHPEffect_param2_0]% trong [RaiseAtkSpdBaseOnExpendHPEffect_duration_0]s","Hero burns [RaiseAtkSpdBaseOnExpendHPEffect_param1_0]% of his HP, increasing attack speed by [RaiseAtkSpdBaseOnExpendHPEffect_param2_0]% for [RaiseAtkSpdBaseOnExpendHPEffect_duration_0] s"
+Bloodlust_level2_des,"Tăng lượng Sinh Lực đốt lên [RaiseAtkSpdBaseOnExpendHPEffect_param1_1]%, tăng tốc độ đánh lên [RaiseAtkSpdBaseOnExpendHPEffect_param2_1]%","Amount of HP burned increases by [RaiseAtkSpdBaseOnExpendHPEffect_param1_1]%, increasing ATK speed by [RaiseAtkSpdBaseOnExpendHPEffect_param2_1]%"
+Bloodlust_level3_des,Tăng thời gian tác dụng lên thành [RaiseAtkSpdBaseOnExpendHPEffect_duration_2]s,Effect duration is increased to [RaiseAtkSpdBaseOnExpendHPEffect_duration_2] s
+InnerVitality,Sinh Ly Tử Biệt,Inner Vitality
+InnerVitality_des,"Kích hoạt khả năng hồi phục của cơ thể, hồi [param2_0]% Sinh Lực mỗi giây trong [RegenerateHPIntervalEffect_duration_0]s","Grants active Troll recovery, recovering [param2_0]% HP/s for [RegenerateHPIntervalEffect_duration_0] s"
+InnerVitality_level2_des,Đồng thời tăng [RaiseAtkEffect_param1_1]% Sức Tấn Công trong thời gian đó,"When in effect, ATK is increased by [RaiseAtkEffect_param1_1]%"
+InnerVitality_level3_des,Hồi [param2_2]% Sinh Lực mỗi giây,Amount of HP recovered is increased by [param2_2]%/s
+Skewer,Tang Hồn Lạc Phách,Skewer
+Skewer_des,"Lao người chưởng về phía trước, gây sát thương bằng [param1_0]% Sức Tấn Công và đẩy lùi toàn bộ kẻ địch trên đường, cuối cùng - toàn bộ kẻ địch bị ngã ra [KnockBackEffect_duration_0]s","While charging forward, deals [param1_0]% damage and pulls all enemies in the way along before knocking them down for [KnockBackEffect_duration_0] s"
+Skewer_level2_des,Kẻ địch dính chưởng bị giảm [ReduceAtkEffect_param1_1]% Sức Tấn Công trong [ReduceAtkEffect_duration_1]s,Hitting enemies with charge reduces their ATK by [ReduceAtkEffect_param1_1]% for [ReduceAtkEffect_duration_1] s
+Skewer_level3_des,Kẻ địch dính chưởng bị giảm [ReduceAtkEffect_param1_3]% Sức Tấn Công trong [ReduceAtkEffect_duration_1]s. Tăng sát thương lên thành [param1_2]% Sức Tấn Công.,Damage is increased to [param1_2]%
+Skewer_level4_des,Địch bị giảm [param3_3]% Tốc Độ Tấn Công trong 8s,
+ThickSkin,La Hán Phục Ma Thần Công,Thick Skin
+ThickSkin_des,"Thạch Phá Thiên vận công, tăng [RaiseDefenseEffect_param1_0]% Phòng Ngự trong [RaiseDefenseEffect_duration_0]s",Grants a buff upon self that increases DEF by [RaiseDefenseEffect_param1_0]% for [RaiseDefenseEffect_duration_0] s
+ThickSkin_level2_des,Tăng thời gian tác dụng lên thành [RaiseDefenseEffect_duration_1]s,Effect duration is increased to [RaiseDefenseEffect_duration_1] s
+ThickSkin_level3_des,Tăng Phòng Ngự lên thành [RaiseDefenseEffect_param1_2]%,DEF is increased to [RaiseDefenseEffect_param1_2]%
+Xcell,Thái Huyền Tâm Kinh,Xcell
+Xcell_des,Mọi lượng Phục Hồi Sinh Lực vào Thạch Phá Thiên đều được tăng thêm [RaiseHealMultiEffect_param1_0]% ( bao gồm cả Hấp Huyết ),"All HP restored to this Hero is increased by [RaiseHealMultiEffect_param1_0]%, including Lifesteal"
+Xcell_level2_des,Mọi lượng Phục Hồi Sinh Lực vào Thạch Phá Thiên đều được tăng thêm [RaiseHealMultiEffect_param1_1]%,All HP restored to Hero is increased by [RaiseHealMultiEffect_param1_1]%
+Xcell_level3_des,Tăng [RaiseMaxHPEffect_param1_2]% Sinh Lực Tối Đa,MAX HP is increased by [RaiseMaxHPEffect_param1_2]%
+RhinoSpirit,Viêm Viêm Công,Rhino Spirit
+RhinoSpirit_des,"Khi Thạch Phá Thiên bị thương, mỗi đòn đánh thường có tỉ lệ [NormalAttackKnockbackEffect_param1_0]% làm ngã đối phương [NormalAttackKnockbackEffect_param2_0]s","Unless HP is at MAX, grants each normal attack a [NormalAttackKnockbackEffect_param1_0]% chance to knock down an enemy for [NormalAttackKnockbackEffect_param2_0] s"
+RhinoSpirit_level2_des,Tăng tỉ lệ làm ngã lên thành [NormalAttackKnockbackEffect_param1_1]%,Knockdown chance is increased to [NormalAttackKnockbackEffect_param1_1]%
+RhinoSpirit_level3_des,Tăng tỉ lệ làm ngã lên thành [NormalAttackKnockbackEffect_param1_2]%,Knockdown chance is increased to [NormalAttackKnockbackEffect_param1_2]%
+GhostForm,Minh Ngọc Thần Công,Ghost Form
+GhostForm_des,"Kích hoạt Minh Ngọc Thân Pháp trong [GhostFormEffect_duration_0]s - trong trạng thái này Yêu Nguyệt được giảm sát thương vật lý nhận vào, nhưng bị tăng sát thương chiêu thức nhận vào, đồng thời được tăng [RaiseAtkEffect_param1_0]% Sức Tấn Công","Takes on a ghost form for [GhostFormEffect_duration_0] s, reducing normal attack damage received and increasing skill damage, while also increasing ATK by [RaiseAtkEffect_param1_0]%"
+GhostForm_level2_des,Kháng toàn bộ sát thương vật lý nhận vào,Grants immunity to normal attack damage
+GhostForm_level3_des,Không bị tăng sát thương chiêu thức vào nữa,Nullifies all skill damage received
+GhostForm_level4_des,Tăng [param1_3]% Tốc Độ Tấn Công cho bản thân trong 8s,
+AtkSpirit,Hoa Thần Thất Thức,ATK Spirit
+AtkSpirit_des,"Sử dụng [param2_0] bông hoa tấn công 1 kẻ địch, mỗi bông hoa gây sát thương bằng [param1_0]% Sức Tấn Công","Summons [param2_0] Spirits to unleash an attack upon the enemy, each Spirit dealing [param1_0]% damage"
+AtkSpirit_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Spirit damage is increased to [param1_1]%
+AtkSpirit_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Spirit damage is increased to [param1_2]%
+HealSpirit,Hoa Phi Điệp Vũ,Healing Spirit
+HealSpirit_des,Dùng [param2_0] bông hoa dược liệu phục hồi sinh lực cho 2 đồng đội Sinh Lực đang thấp nhất. Mỗi bông hoa hồi lượng Sinh Lực bằng [param1_0]% Sức Tấn Công của Yêu Nguyệt,"Summons [param2_0] Spirits to heal the 2 allies with the lowest HP, each recovering HP equal to [param1_0]% of a Forest Spirit’s ATK"
+HealSpirit_level2_des,Mỗi bông hoa bổ sung cho đồng đội [param3_1] Nội Lực,Each Spirit grants ally [param3_1] Mana
+HealSpirit_level3_des,Tăng lượng Sinh Lực hồi lên thành [param1_2]% Sức Tấn Công,HP recovered is increased to [param1_2]% ATK
+Flee,Di Hoa Tiếp Ngọc,Flee
+Flee_des,"Khi bị tấn công, Yêu Nguyệt sử dụng thân pháp uyển chuyển, biến mất khỏi tầm nhìn của kẻ địch, chỉ để lại hư ảnh của bông hoa","When under attacked, turns invisible and flees to an ally in the back"
+Flee_level2_des,"Xuất hiện lại sau lưng 1 đồng đội, phục hồi cho đồng đội đó [param1_1]% Sinh Lực","Once visible again, ally recovers [param1_1]% HP"
+Flee_level3_des,Bản thân được hồi [param2_1]% Sinh Lực khi xuất hiện lại,Recovers [param2_1]% HP after reavealing herself.
+Assassinate,Thiên Kiếm Càn Khôn,Assassinate
+Assassinate_des,"Chọn kẻ địch có Sinh Lực thấp nhất, phi thân đến chỗ hắn chém liên tục, gây sát thương bằng [param1_0]% Sức Tấn Công","Blinks to attack the enemy with the lowest HP, dealing [param1_0]% damage"
+Assassinate_level2_des,Hấp thu 50% nội lực hiện tại của kẻ địch,Steals [param2_1]% of enemy’s Mana
+Assassinate_level3_des,Tạo nội lực hộ thể chắn được lượng sát thương bằng [param3_2]% Sức Tấn Công bản thân,Creates a shield that blocks an amount of damage equal to [param3_2]% ATK
+Assassinate_level4_des,"Tạo nội lực hộ thể bằng [param3_3]% Sức Tấn Công bản thân, kết thúc chiêu thì tăng [param6_3] Chính Xác trong [param7_3]s",
+Rage,Ngạo Tuyết Lâm Phong,Rage
+Rage_des,Sinh Lực càng thấp càng làm tăng tốc độ đánh của Phong Thanh Dương- tối đa tăng lên [RaiseAtkSpdBaseOnHPPercentEffect_param1_0]% tốc độ đánh,"As HP is reduced, ATK speed increases to a maximum of [RaiseAtkSpdBaseOnHPPercentEffect_param1_0]%"
+Rage_level2_des,Tăng tốc độ tối đa lên [RaiseAtkSpdBaseOnHPPercentEffect_param1_1]%,MAX ATK speed is increased by [RaiseAtkSpdBaseOnHPPercentEffect_param1_1]%
+Rage_level3_des,Tăng tốc độ tối đa lên [RaiseAtkSpdBaseOnHPPercentEffect_param1_2]%,MAX ATK speed is increased by [RaiseAtkSpdBaseOnHPPercentEffect_param1_2]%
+ChargePassive,Cực Trung Hữu Cực,Passive Charge
+ChargePassive_des,"Sau khi vào trận, mỗi giây Phong Thanh Dương tăng thêm [RaiseAtkBaseOnTimeEffect_param1_0]% Sức Tấn Công, tối đa tăng đến [RaiseAtkBaseOnTimeEffect_param2_0]%","Upon battle start, increases ATK by [RaiseAtkBaseOnTimeEffect_param1_0]%/s to a maximum of [RaiseAtkBaseOnTimeEffect_param2_0]%"
+ChargePassive_level2_des,"Ngay sau khi Sức Tấn Công tăng đạt mức tối đa, phát nổ gây sát thương diện rộng bằng [RaiseAtkBaseOnTimeEffect_param3_1]% Sức Tấn Công hiện tại",Creates an explosion dealing [RaiseAtkBaseOnTimeEffect_param3_1]% AOE damage when ATK reaches maximum
+ChargePassive_level3_des,Vụ nổ làm kẻ địch bị Phế Võ Công [RaiseAtkBaseOnTimeEffect_param4_2]s,Explosion inflicts Silent effect on enemies for [RaiseAtkBaseOnTimeEffect_param4_2] s
+BloodBath,Cực Phá Hư Không,Bloodbath
+BloodBath_des,"Mỗi khi kết liễu một kẻ địch, Phong Thanh Dương được hồi lại lượng máu bằng [HealWhenKillEffect_param1_0]% Sinh Lực của kẻ địch","With every kill, Hero recovers an amount of HP equal to [HealWhenKillEffect_param1_0]% HP of the enemy’s"
+BloodBath_level2_des,Hồi lại lượng máu bằng [HealWhenKillEffect_param1_1]% Sinh Lực của kẻ địch,Amount recovered is now equal to [HealWhenKillEffect_param1_1]% of enemy’s HP
+BloodBath_level3_des,Hồi lại lượng máu bằng [HealWhenKillEffect_param1_2]% Sinh Lực của kẻ địch,Amount recovered is now equal to [HealWhenKillEffect_param1_2]% of enemy’s HP
+ThunderSpear,Lệ Bất Hư Phát,Thunder Spear
+ThunderSpear_des,"Nhảy lên trời ném phi đao về phía kẻ địch, khoảnh khắc sau xuất hiện 5 thanh phi đao từ 5 hướng đâm vào người hắn, gây sát thương tổng cộng [param1_0]% Sức Tấn Công - không thể né tránh","Throws a Thunder Spear that nails the enemy to the ground, followed by a series of lightning bolts, dealing a total of [param1_0]% damage that cannot be evaded"
+ThunderSpear_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage increased to [param1_1]%
+ThunderSpear_level3_des,Kẻ địch bị giảm [ReduceDefenseEffect_param1_2]% Phòng Ngự trong [ReduceDefenseEffect_duration_2]s,Enemy’s DEF reduced by [ReduceDefenseEffect_param1_2]% for [ReduceDefenseEffect_duration_2] s
+ThunderSpear_level4_des,Hấp Huyết [param3_3]%,
+MultiShot,Phi Đao Vấn Tình,Multi-Shot
+MultiShot_des,Ném liên tục 4 phát về phía kẻ địch,Throws 4 spears continuously at an enemy
+MultiShot_level2_des,Mỗi phát ném có tỉ lệ [param2_1]% gây sét giật bằng [param3_1]% Sức Tấn Công,"Each spear has a [param2_1]% chance to strike an enemy with lightning, dealing [param3_1]% damage"
+MultiShot_level3_des,Sét giật làm choáng kẻ địch [param4_2]s,Lightning stuns enemy for [param4_2] s
+BloodPoison,Kiến Huyết Phong Hầu,Blood Poison
+BloodPoison_des,"Mỗi đòn tấn công, Lý Tầm Hoan tự rút [AddSendingDmgBaseOnExpendHPEffect_param1_0]% Sinh Lực của bản thân để tăng thêm Sức Tấn Công bằng [AddSendingDmgBaseOnExpendHPEffect_param2_0]% số Sinh Lực đó","For each attack, Hero uses [AddSendingDmgBaseOnExpendHPEffect_param1_0]% HP, increasing ATK equal to [AddSendingDmgBaseOnExpendHPEffect_param2_0]% of that HP"
+BloodPoison_level2_des,"Khi Sinh Lực bản thân dưới [RegenerateHPIntervalOnDemandEffect_param1_1]%, Lý Tầm Hoan tự động phục hồi [RegenerateHPIntervalOnDemandEffect_param2_1]% Sinh Lực mỗi giây","When HP is lower than [RegenerateHPIntervalOnDemandEffect_param1_1]%, Hero begins to generate [RegenerateHPIntervalOnDemandEffect_param2_1]% HP/s"
+BloodPoison_level3_des,Sức Tấn Công tăng thêm bằng [AddSendingDmgBaseOnExpendHPEffect_param2_2]% số Sinh Lực mất,Bonus ATK is now equal to [AddSendingDmgBaseOnExpendHPEffect_param2_2]% of lost HP.
+Leap,Nhiếp Hồn Nguyệt Ảnh,Leap
+Leap_des,"Nhảy đến trước mặt kẻ địch, ném phi đao gây sát thương bằng [param1_0]% Sức Tấn Công rồi nhảy về. Hấp Huyết [param2_0]%","Leaps to an enemy, dealing [param1_0]% damage before returning to their position"
+Leap_level2_des,Địch bị ngã ra [KnockBackEffect_duration_1]s,Enemy is knocked down for [KnockBackEffect_duration_1] s
+Leap_level3_des,Hấp Huyết [param2_2]%,Lifesteal now is equal to [param2_2]% damage dealt
+SnowStorm,Ngọc Nữ Kiếm Pháp,Snowstorm
+SnowStorm_des,Vung kiếm chém liên tục về phía kẻ địch gây sát thương diện rộng bằng [param1_0]% Sức Tấn Công và làm giảm [ReduceAtkSpeedEffect_param1_0]% tốc độ đánh và di chuyển của kẻ địch trong [ReduceAtkSpeedEffect_duration_0]s,Summons a snowstorm that deals [param1_0]% AOE damage and reduces enemy’s ATK speed and movement speed by [ReduceAtkSpeedEffect_param1_0]% for [ReduceAtkSpeedEffect_duration_0] s
+SnowStorm_level2_des,"Kẻ địch bị dính thêm hiệu ứng Nhiễm lạnh - mất [ReduceMaxHPDPSEffect_param1_1]% Sinh Lực mỗi giây, trong thời gian bị Nhiễm Lạnh thì mất [ReduceRegenHPEffect_param1_1]% khả năng hồi phục Sinh Lực","Frostbite effect is inflicted, causing enemy to lose [ReduceMaxHPDPSEffect_param1_1]% HP/s"
+SnowStorm_level3_des,Tăng thời gian tác dụng lên thành [ReduceAtkSpeedEffect_duration_2]s,Effect duration is increased to [ReduceAtkSpeedEffect_duration_2] s
+SnowStorm_level4_des,"Sát thương tăng thành [param1_3]% Sức Tấn Công, kẻ trúng đòn bị giảm [ReduceAtkEffect_param1_3]% Sức Tấn Công trong 7s",
+SpeedUp,Lưu Thủy Quyết,Speed Up
+SpeedUp_des,"Tăng [RaiseAtkSpeedEffect_param1_0]% tốc độ đánh cho đồng đội có Sức Tấn Công cao nhất, tác dụng trong [RaiseAtkSpeedEffect_duration_0]s và đồng đội đó nhận hiệu ứng Bá Thể trong 5s.",Increases [RaiseAtkSpeedEffect_param1_0]% of ATK speed for the ally with the greatest ATK for [RaiseAtkSpeedEffect_duration_0] s
+SpeedUp_level2_des,Tăng [RaiseAtkSpeedEffect_param1_1]% tốc độ đánh,ATK speed is increased to [RaiseAtkSpeedEffect_param1_1]%
+SpeedUp_level3_des,Tăng đồng thời 2 đồng đội,Number of allies affected at once is increased to 2
+Freeze,Hàn Ngọc Quyết,Freeze
+Freeze_des,"Đóng băng 1 đồng đội trong [FrozenEffect_duration_0]s. Trong trạng thái này, đồng đội kháng [ModifyReceiveNormalAttackDmgEffect_param1_0]% mọi loại sát thương, hồi phục [RegenerateHPIntervalEffect_param1_0]% Sinh Lực và 100 Nội Lực mỗi giây.","Freezes an ally for [FrozenEffect_duration_0] s, increasing resistance to all kinds of attacks by [ModifyReceiveNormalAttackDmgEffect_param1_0]% and recovering [RegenerateHPIntervalEffect_param1_0]% HP/s"
+Freeze_level2_des,Kháng [ModifyReceiveNormalAttackDmgEffect_param1_1]% mọi loại sát thương,All ATK resistances is increased to [ModifyReceiveNormalAttackDmgEffect_param1_1]%
+Freeze_level3_des,Tăng thời gian đóng băng lên thành [FrozenEffect_duration_2]s,Effect duration is increased to [FrozenEffect_duration_2] s
+MagicRes,Ngọc Nữ Tâm Kinh,Magic Res
+MagicRes_des,Tiểu Long Nữ có khả năng kháng [ModifyReceiveSkillDmgEffect_param1_0]% sát thương chiêu thức nhận vào,Skill ATK resistance is increased to [ModifyReceiveSkillDmgEffect_param1_0]%
+MagicRes_level2_des,Kháng [ModifyReceiveSkillDmgEffect_param1_1]% sát thương chiêu thức nhận vào,Skill ATK resistance is increased to [ModifyReceiveSkillDmgEffect_param1_1]%
+MagicRes_level3_des,Kháng [ModifyReceiveSkillDmgEffect_param1_2]% sát thương chiêu thức nhận vào,Skill ATK resistance is increased to [ModifyReceiveSkillDmgEffect_param1_2]%
+Armageddon,Mãn Thiên Hoa Vũ,Armageddon
+Armageddon_des,"Nhảy lên trời ném ám khí ra tứ phía, gây sát thương bằng [param1_0]% Sức Tấn Công cho tất cả các đơn vị - trừ bản thân Đông Phương Bất Bại, đồng đội nhận sát thương bằng [param2_0]% Sức Tấn Công",Summons a fire storm that deals [param1_0]% damage to all units except the Hero
+Armageddon_level2_des,Giảm sát thương gây ra cho đồng đội xuống còn [param2_1]% Sức Tấn Công,Damage dealt to allies is reduced by [param2_1]%
+Armageddon_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+Armageddon_level4_des,"Kẻ trúng đòn mỗi giây nhận sát thương bằng [param5_3]% Sinh Lực Tối Đa của chính hắn trong [param6_3]s, sát thương không xuyên Thủ nhưng bỏ qua Kháng Chiêu Thức của địch.",
+FlameChain,Tú Hoa Châm,Flame Chain
+FlameChain_des,"Trói 2 kẻ địch gần nhất bằng Tú Hoa Châm trong [StunEffect_duration_0]s, mỗi giây gây sát thương bằng [param1_0]% Sức Tấn Công","Chains a pair of enemies nearest to the Hero for [StunEffect_duration_0] s, dealing [param1_0]% damage/s"
+FlameChain_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+FlameChain_level3_des,Tăng thời gian tác dụng lên thành [StunEffect_duration_2]s,Effect duration is increased to [StunEffect_duration_2] s
+SelfDestruction,Bạo Vũ Lê Hoa,Self-Destruction
+SelfDestruction_des,"Khi chết, Đông Phương Bất Bại tự phát nổ gây sát thương bằng [param1_0]% Sinh Lực của bản thân cho toàn bộ kẻ địch. Hiệu ứng không thể bị vô hiệu hóa hay ngăn chặn.","Upon death, Hero’s corpse explodes, dealing an amount of AOE damage equal to [param1_0]% HP to all enemies around"
+SelfDestruction_level2_des,Sát thương tăng lên thành [param1_1]% Sinh Lực bản thân,AOE diameter is expanded
+SelfDestruction_level3_des,Vụ nổ gây choáng [param3_2]s,Explosion now stuns enemies for [param3_2] s
+FireWall,Quỳ Hoa Chân Khí,Fire Wall
+FireWall_des,"Dùng chân khí điều khiển kim châm xoay quanh người, đẩy lùi kẻ địch tiếp cận - kẻ địch mất [BlockShieldEffect_param1_0]% Sinh Lực mỗi lần va chạm với vòng chân khí. Tồn tại trong [BlockShieldEffect_duration_0]s","Encircles the Hero in a wall of fire that pushes back all enemies attempting to attack, causing them lose [BlockShieldEffect_param1_0]% HP each time they hit the wall for [BlockShieldEffect_duration_0] s"
+FireWall_level2_des,Kẻ địch mất [BlockShieldEffect_param1_1]% Sinh Lực mỗi lần va chạm,"With each hit, enemies now lose [BlockShieldEffect_param1_1]% HP"
+FireWall_level3_des,Tồn tại trong [BlockShieldEffect_duration_2]s,Effect duration is increased to [BlockShieldEffect_duration_2] s
+Reconstruct,Tiểu Vô Tướng Công,Reconstruct
+Reconstruct_des,Nhảy lên ném [param2_0] ám khí về phía các kẻ địch ngẫu nhiên. Mỗi ám khí gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s,"Shoots [param2_0] parts of Hero’s body at an enemy, each dealing [param1_0]% damage and inflicting stun for [StunEffect_duration_0] s"
+Reconstruct_level2_des,Bản thân phục hồi [param3_1]% Sinh Lực sau khi xuất chiêu thành công,"When buff expires, recovers [param3_1]% HP"
+Reconstruct_level3_des,Tăng thời gian làm choáng lên thành [StunEffect_duration_2]s,Stun duration is increased to [StunEffect_duration_2] s
+Reconstruct_level4_des,Sát thương mỗi ám khí tăng thành [param1_3]% Sức Tấn Công,
+StoneShield,Tiêu Dao Chân Khí,Stone Shield
+StoneShield_des,"Tăng [RaiseDefenseEffect_param1_0]% Phòng Ngự cho đồng đội có Phòng Ngự cao nhất, tác dụng trong [RaiseDefenseEffect_duration_0]s",Ally with the greatest DEF has their DEF increased by [RaiseDefenseEffect_param1_0]% for [RaiseDefenseEffect_duration_0] s
+StoneShield_level2_des,Tăng thời gian tác dụng lên thành [RaiseDefenseEffect_duration_1]s,Effect duration is increased to [RaiseDefenseEffect_duration_1] s
+StoneShield_level3_des,Tăng [RaiseDefenseEffect_param1_2]% Phòng Ngự,DEF now is increased by [RaiseDefenseEffect_param1_2]%
+StoneFall,Bạch Hồng Chưởng,Stone Fall
+StoneFall_des,"Bắn chưởng về phía trước, trúng 1 kẻ địch ngẫu nhiên gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s","Summons a giant stone to crash down upon a random enemy’s head, dealing [param1_0]% damage and inflicting Stun for [StunEffect_duration_0] s"
+StoneFall_level2_des,Bắn 2 chưởng về phía 2 kẻ địch ngẫu nhiên,"Number of stones summoned is increased to 2, dealing damage to 2 random enemies"
+StoneFall_level3_des,Bắn 3 chưởng về phía 3 kẻ địch ngẫu nhiên,"Number of stones summoned is increased to 3, dealing damage to 3 random enemies"
+ReflectPassive,Thiên Giám Thần Công,Reflect Passive
+ReflectPassive_des,Kẻ địch tấn công bị phản lại [ReflectReceiveDmgEffect_param1_0]% sát thương gây ra cho Lý Thu Thủy,Reflects [ReflectReceiveDmgEffect_param1_0]% damage dealt by enemy
+ReflectPassive_level2_des,Phản lại [ReflectReceiveDmgEffect_param1_1]% sát thương,Reflected damage is increased to [ReflectReceiveDmgEffect_param1_1]%
+ReflectPassive_level3_des,Phản lại [ReflectReceiveDmgEffect_param1_2]% sát thương,Reflected damage is increased to [ReflectReceiveDmgEffect_param1_2]%
+GreatestShield,Hàn Băng Chân Khí,Greatest Shield
+GreatestShield_des,"Dùng nội lực tạo hộ thể chân khí cho toàn đội, đỡ được sát thương bằng [param1_0]% Sức Tấn Công của Du Thản Chi. Khi hộ thể chân khí vỡ, gây sát thương diện rộng bằng [param2_0]% Sức Tấn Công. Hộ Thể Chân Khí tồn tại 5s.","Creates shields for your team that block an amount of damage equal to [param1_0]% of Hero’s ATK and, when broken, deal [param2_0]% AOE damage"
+GreatestShield_level2_des,Tăng lượng sát thương chắn được của hộ thể chân khí lên thành [param1_1]% Sức Tấn Công,Blocked damage is now equal to [param1_1]% ATK
+GreatestShield_level3_des,Tăng sát thương khi Chân khí vỡ lên thành [param2_2]% Sức Tấn Công,"When shield is broken, damage dealt is increased to [param2_2]% ATK"
+GreatestShield_level4_des,Hộ Thể Chân Khí tồn tại 7s,
+DarkArmor,Du Già Công,Dark Armor
+DarkArmor_des,Sát thương nhận vào 1 đòn không thể vượt quá [DarkArmorEffect_param1_0]% Sinh lực tối đa của Du Thản Chi,Received damage from 1 hit cannot exceed [DarkArmorEffect_param1_0]% of Hero’s MAX HP
+DarkArmor_level2_des,Không thể vượt quá [DarkArmorEffect_param1_1]% Sinh lực tối đa,Received damage now cannot exceed [DarkArmorEffect_param1_1]% MAX HP
+DarkArmor_level3_des,Không thể vượt quá [DarkArmorEffect_param1_2]% Sinh lực tối đa,Received damage now cannot exceed [DarkArmorEffect_param1_2]% MAX HP
+Weakness,Băng Tằm Hàn Độc,Weakness
+Weakness_des,Làm kẻ địch dính hiệu ứng Suy yếu - Giảm [ReduceSendingDmgEffect_param1_0]% Sức Tấn Công trong [ReduceSendingDmgEffect_duration_0]s,"Inflicts Weakness status upon an enemy, reducing their damage dealt by [ReduceSendingDmgEffect_param1_0]% for [ReduceSendingDmgEffect_duration_0] s"
+Weakness_level2_des,Suy yếu đồng thời 2 kẻ địch,Number of enemies affected at once is increased to 2
+Weakness_level3_des,Tăng thời gian tác dụng lên thành [ReduceSendingDmgEffect_duration_2]s,Effect duration is increased to [ReduceSendingDmgEffect_duration_2] s
+ShockPunch,Song Sao Phong Thiên,Shock Punch
+ShockPunch_des,"Đấm 2 tay vào kẻ địch, gây sát thương bằng [param1_0]% Sức Tấn Công vào làm kẻ địch ngã ra [KnockBackEffect_duration_0]s","Hero punches an enemy with both fists, dealing [param1_0]% damage and knocking them back for [KnockBackEffect_duration_0] s"
+ShockPunch_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+ShockPunch_level3_des,Tăng thời gian ngã ra của kẻ địch lên thành [KnockBackEffect_duration_2]s,Knockback duration is increased to [KnockBackEffect_duration_2] s
+ManaBlast,Khí Thôn Thiên Hạ,Mana Blast
+ManaBlast_des,Dùng nội lực chấn động toàn bản đồ - gây sát thương bằng [param1_0]% Sức Tấn Công cho toàn quân địch và hồi sinh lực cho toàn bộ đồng đội theo [param2_0]% sát thương.,"Creates a Mana explosion that deals [param1_0]% damage to all enemies, while also healing all allies"
+ManaBlast_level2_des,Tăng Sát Thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+ManaBlast_level3_des,Tăng Sát Thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+ManaBlast_level4_des,Bản thân và đồng đội được tăng [param3_3]% Sức Tấn Công trong 4s.,
+SpiritRise,Tà Ma Quần Vũ,Spirit Rise
+SpiritRise_des,Phóng ám kình bám vào một kẻ địch ngẫu nhiên trong [ReceiveDPSEffect_duration_0]s. Ám kình làm kẻ địch bị phế võ công và gây sát thương bằng [param1_0]% Sức Tấn Công mỗi 2s,"Releases a Spirit that attaches to an enemy for [ReceiveDPSEffect_duration_0] s, inflicting Silence and dealing [param1_0]% damage every 2 s"
+SpiritRise_level2_des,Tăng thời gian tồn tại của ám kình lên thành [ReceiveDPSEffect_duration_1]s,Spirit duration increases to [ReceiveDPSEffect_duration_1] s
+SpiritRise_level3_des,Thả đồng thời 2 ám kình vào 2 kẻ địch,Releases 2 Spirits attacking 2 enemies
+LightningStrike,Lôi Động Cửu Thiên,Lightning Strike
+LightningStrike_des,"Nội lực như điện giật, khiến đội hình kẻ địch trúng [param4_0] chiêu ngẫu nhiên. Mỗi chiêu gây sát thương bằng [param1_0]% Sức Tấn Công cho 1 kẻ địch","Casts [param4_0] lightning bolts randomly upon enemy party, each dealing [param1_0]% damage"
+LightningStrike_level2_des,Mỗi chiêu có tỉ lệ [param3_1]% làm choáng [StunEffect_duration_1]s,Each lightning bolt has a [param3_1]% chance to stun the enemy for [StunEffect_duration_1] s
+LightningStrike_level3_des,Tăng số chiêu lên thành [param4_2],Number of lightning bolts increases to [param4_2]
+MagicDrain,Hấp Tinh Đại Pháp,Magic Drain
+MagicDrain_des,Nhậm Ngã Hành được hồi Sinh Lực bằng [MagicDrainEffect_param1_0]% lượng sát thương chiêu thức gây ra,Recovers an amount of HP equal to [MagicDrainEffect_param1_0]% skill damage dealt
+MagicDrain_level2_des,Tăng [AddSendingMagicDmgEffect_param1_0]% sát thương chiêu thức,Skill damage is increased by [AddSendingMagicDmgEffect_param1_0]%
+MagicDrain_level3_des,Hồi Sinh Lực bằng [MagicDrainEffect_param1_2]% lượng sát thương chiêu thức gây ra,Amount of HP recovered is now equal to [MagicDrainEffect_param1_2]% skill damage dealt
+Ravage,Tiêu Dao Thần Kiếm,Ravage
+Ravage_des,"Phạm Dao cắm kiếm xuống đất, kiếm khí từ dưới đất phóng lên gây sát thương cho toàn bộ kẻ địch bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s","Hero jumps up to rain knives down upon enemies, dealing [param1_0]% damage and inflicting stun for [StunEffect_duration_0] s"
+Ravage_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+Ravage_level3_des,Tăng thời gian làm choáng lên thành [StunEffect_duration_2]s,Stun duration is increased to [StunEffect_duration_2] s
+Ravage_level4_des,Sát thương tăng thành [param1_3]%,
+Burrow,Thiên Địa Càn Khôn,Burrow
+Burrow_des,"Độn thổ chui xuống đất, lao vào kẻ địch ở xa nhất - gây sát thương bằng [param1_0]% Sức Tấn Công và làm choáng [StunEffect_duration_0]s","Hero burrows into the ground to reach the furthest enemy, dealing [param1_0]% damage and inflicting stun for [StunEffect_duration_0] s"
+Burrow_level2_des,Tăng thời gian làm choáng lên thành [StunEffect_duration_1]s,Stun duration is increased to [StunEffect_duration_1] s
+Burrow_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+StoneSkin,Khổ Đầu Đà,Stone Skin
+StoneSkin_des,Kẻ địch khi đánh tay vào Phạm Dao có tỉ lệ [StoneSkinEffect_param1_0]% bị choáng trong [StoneSkinEffect_param2_0]s,"When receiving normal attacks, grants a [StoneSkinEffect_param1_0]% chance of stunning enemies for [StoneSkinEffect_param2_0] s"
+StoneSkin_level2_des,Tăng tỉ lệ lên thành [StoneSkinEffect_param1_1]%,Stun chance is increased to [StoneSkinEffect_param1_1]%
+StoneSkin_level3_des,Tăng tỉ lệ lên thành [StoneSkinEffect_param1_2]%,Stun chance is increased to [StoneSkinEffect_param1_2]%
+WeakPointAttack,Như Ảnh Tùy Hình,Weak Point Attack
+WeakPointAttack_des,Phạm Dao khi tấn công vào kẻ địch đang bị choáng sẽ được tăng sát thương bằng [WeakPointAttackEffect_param1_0]% Sức Tấn Công,"When attacking a stunned enemy, ATK is increased by [WeakPointAttackEffect_param1_0]%"
+WeakPointAttack_level2_des,Tăng [WeakPointAttackEffect_param1_1]% Sức Tấn Công khi tấn công vào kẻ địch đang bị choáng,"When attacking a stunned enemy, ATK is increased by [WeakPointAttackEffect_param1_1]%"
+WeakPointAttack_level3_des,Tăng [WeakPointAttackEffect_param1_2]% Sức Tấn Công khi tấn công vào kẻ địch đang bị choáng,"When attacking a stunned enemy, ATK is increased by [WeakPointAttackEffect_param1_2]%"
+Swallow,Ngự Kiếm Phục Ma,Swallow
+Swallow_des,"Phong ấn kẻ địch bằng kiếm trận trong [HexEffect_duration_0]s, khiến địch không thể tấn công cũng như bị tấn công. Trong thời gian đó, sát thương Độc Cô Cầu Bại nhận vào sẽ chia đôi với kẻ địch trong phong ấn.","Hero’s mouth opens wide to swallow an enemy for [DisappearEffect_duration_0] s, during which time half of received damage is shared to the swallowed enemy"
+Swallow_level2_des,Độc Cô Cầu Bại nhận được tăng sát thương bằng 100% Sức Tấn Công của kẻ địch trong phong ấn.,ATK is increased by 100% ATK of swallowed enemy
+Swallow_level3_des,Tăng thời gian tác dụng lên [HexEffect_duration_2]s,Effect duration increases by [DisappearEffect_duration_2] s
+Swallow_level4_des,"Kẻ địch nhận 70% sát thương, Độc Cô Cầu Bại nhận 30% sát thương, đồng thời tăng [RaiseStatusResEffect_param1_3]% Kháng Trạng Thái Xấu cho bản thân trong 6s",
+RollingBall,Độc Cô Cửu Kiếm,Rolling Ball
+RollingBall_des,Độc Cô Cầu Bại lao thẳng về phía trước với những thanh kiếm xoay quanh người gây sát thương bằng [param1_0]% Sức Tấn Công và làm ngã kẻ địch. Trong lúc phi thân kháng toàn bộ hiệu ứng xấu,"Hero curls into a ball and rolls forward, dealing [param1_0]% damage and knocking out all enemies along the way, while also granting self-immunity to all negative statuses"
+RollingBall_level2_des,"Trong khi phi thân, [ModifyReceiveNormalAttackDmgEffect_param1_1]% mọi loại sát thương nhận vào","While rolling, all damage received is reduced by [ModifyReceiveNormalAttackDmgEffect_param1_1]%"
+RollingBall_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+Absorb,Bất Diệt Tâm Pháp,Absorb
+Absorb_des,Các kẻ địch đứng cạnh Độc Cô Cầu Bại bị hút [AbsorbMaxHPEffect_param1_0]% Sinh Lực mỗi 1s,Absorbs [AbsorbMaxHPEffect_param1_0]% HP/s of enemies positioned next to Hero
+Absorb_level2_des,Các kẻ địch bị giảm [AbsorbMaxHPEffect_param3_1]% Sức Tấn Công,Reduces enemies’ ATK by [AbsorbMaxHPEffect_param3_1]%
+Absorb_level3_des,"Khi Độc Cô Cầu Bại có Sinh Lực dưới [AbsorbMaxHPEffect_param4_2]%, tăng lượng Sinh Lực hút mỗi giây thêm [AbsorbMaxHPEffect_param5_2]%","When HP is lower than [AbsorbMaxHPEffect_param4_2]%, increases absorption to [AbsorbMaxHPEffect_param5_2]% HP/s"
+DefenseBall,Nhân Kiếm Hợp Nhất,Defense Ball
+DefenseBall_des,"Khi Sinh Lực dưới [param1_0]%, Độc Cô Cầu Bại trở thành thanh kiếm - giảm [ModifyReceiveSkillDmgEffect_param1_0]% mọi sát thương nhận vào. Trở về trạng thái bình thường khi Sinh Lực lớn hơn [param2_0]%. Trong thời gian hóa kiếm thì kháng mọi hiệu ứng xấu. Khi trở lại bình thường thì cần đợi [param3_0]s mới có thể biến hình lần nữa.","When HP is lower than [param1_0]%, attacks are halted in place of a defensive stance, reducing [ModifyReceiveSkillDmgEffect_param1_0]% of all damage received until HP is greater than [param2_0]%"
+DefenseBall_level2_des,"Trong trạng thái Nhân Kiếm Hợp Nhất, hồi [RegenerateManaIntervalEffect_param1_0] Nội Lực mỗi giây","In defensive stance, recovers [RegenerateManaIntervalEffect_param1_0] Mana/s"
+DefenseBall_level3_des,Giảm [ModifyReceiveSkillDmgEffect_param1_2]% mọi sát thương nhận vào,All damage is received reduced by [ModifyReceiveSkillDmgEffect_param1_2]%
+DragonHand,Hồi Phong Đoạt Nguyệt,Dragon Claw
+DragonHand_des,"Cắm kiếm xuống đất, 2 kẻ địch bị kiếm khí đâm vào người trong [channelingTime]s, gây sát thương bằng [param1_0]% Sức Tấn Công mỗi giây","Strike through the ground, and grab 2 enemies in [LiftUpEffect_duration_0]s, deal [param1_0]% damage per sec"
+DragonHand_level2_des,Tăng Sát Thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+DragonHand_level3_des,Thời gian tác dụng tăng lên thành [LiftUpEffect_duration_2]s,Effect time increased to [LiftUpEffect_duration_2]s
+DragonHand_level4_des,Mỗi giây phục hồi lại sinh lực cho bản thân theo [param4_3]% tổng sát thương gây ra cho kẻ địch.,
+SoulStrike,Hồn Tán Phách Phi,Soul Strike
+SoulStrike_des,"Bạch Phát Ma Nữ rút [param2_0]% Sinh Lực của mỗi đồng đội, tạo thành một kiếm khí với tổng lượng sát thương bằng [param1_0]% Sức Tấn Công +  [param3_0]% (số Sinh Lực của đồng đội)","Absorbs [param2_0]% HP from each ally, forming a ball of energy that deals damage equal to [param1_0]% ATK plus [param3_0]% of combined ally HP"
+SoulStrike_level2_des,Kiếm Khí làm kẻ địch bị ngã ra [KnockBackEffect_duration_0]s,Enemy is knocked down for [KnockBackEffect_duration_0] s
+SoulStrike_level3_des,Tăng lượng sát thương lên thành : [param1_2]% Sức Tấn Công +  [param3_2]% (số Sinh Lực của đồng đội),Damage is increased to an amount equal to [param1_2]% ATK plus [param3_2]% of allies’ HP
+MindControl,Tá Đao Sát Nhân,Mind Control
+MindControl_des,"Làm nhiễu loạn tâm trí của kẻ địch, khiến hắn nghe lời Bạch Phát Ma Nữ trong [MindControlEffect_duration_0]s. Kẻ bị thu phục chỉ đánh tay, không dùng được võ công","Takes control of an enemy for [MindControlEffect_duration_0] s, rendering them unable to cast any skills"
+MindControl_level2_des,Tăng thời gian nhiễu loạn tâm trí lên [MindControlEffect_duration_1]s,Effect duration is increased to [MindControlEffect_duration_1] s
+MindControl_level3_des,Kẻ bị thu phục có thể sử dụng võ công (Trừ nộ chiêu),Controlled enemy can cast skills (except Ultimate)
+AutoShield,Quỷ Phụ Hồn Triền,Auto Shield
+AutoShield_des,"Bạch Phát Ma Nữ dùng chân khí để hộ thân,  chắn được lượng sát thương bằng [param1_0]% Sức Tấn Công. Sau khi chân khí tán đi, tự động tạo lại mỗi [param2_0]s",Creates a shield that blocks an amount of damage equal to [param1_0]% ATK and automatically regenerates after [param2_0] s when broken
+AutoShield_level2_des,"Sau khi chân khí tán đi, tự động tạo lại mỗi [param2_1]s","If shield is broken, it will regenerate after [param2_1] s"
+AutoShield_level3_des,"Sau khi chân khí tán đi, tự động tạo lại mỗi [param2_2]s","If shield is broken, it will regenerate after [param2_2] s"
+SoulSplit,Bát Hoang Lục Hợp,Soul Split
+SoulSplit_des,Dùng kình khí tạo ra ảnh ảo của bản thân trong [param3_0]s. Ảnh ảo có [param2_0]% Sức Tấn Công và [param1_0]% Sinh Lực. Ảnh ảo có đầy đủ võ công,"Hero splits into twin illusions lasting [param3_0] s, each one possessing [param2_0]% ATK and [param1_0]% HP, as well as all skills"
+SoulSplit_level2_des,Ảnh ảo có [param2_1]% Sức Tấn Công và [param1_1]% Sinh Lực,Grants each illusion [param2_1]% ATK and [param1_1]% HP
+SoulSplit_level3_des,Ảnh ảo có [param2_2]% Sức Tấn Công và [param1_2]% Sinh Lực,Grants each illusion [param2_2]% ATK and [param1_2]% HP
+SoulSplit_level4_des,Ảnh ảo có [param1_3]% Sinh Lực,
+SoulBurn,Duy Ngã Độc Tôn,Soul Burn
+SoulBurn_des,Mỗi phát đánh có tỉ lệ [param1_0]% gây tổn thương nguyên khí của kẻ địch - mất [param2_0]% Sinh Lực,"Each attack has a [param1_0]% chance to cripple the enemy’s soul, causing them to lose [param2_0]% HP"
+SoulBurn_level2_des,Tăng tỉ lệ lên thành [param1_1]%,Chance is increased to [param1_1]%
+SoulBurn_level3_des,Tăng tỉ lệ lên thành [param1_2]%,Chance is increased to [param1_2]%
+SoulEater,Trường Sinh Công,Soul Eater
+SoulEater_des,"Mỗi khi có 1 nhân sĩ tử nạn, Thiên Sơn Đồng Lão được hồi lại [HealWhenOtherDeadEffect_param1_0]% Sinh Lực","Each time a Hero dies, recovers [HealWhenOtherDeadEffect_param1_0]% HP"
+SoulEater_level2_des,"Mỗi khi có 1 nhân sĩ tử nạn, Thiên Sơn Đồng Lão được tăng [RaiseMaxHPWhenOtherDeadEffect_param1_1]% Sinh Lực Tối Đa","Each time a Hero dies, MAX HP is increased by [RaiseMaxHPWhenOtherDeadEffect_param1_1]%"
+SoulEater_level3_des,"Mỗi khi có 1 nhân sĩ tử nạn, Thiên Sơn Đồng Lão được hồi lại [HealWhenOtherDeadEffect_param1_2]% Sinh Lực","Each time a Hero dies, recovers [HealWhenOtherDeadEffect_param1_2]% HP"
+ChargeAttack,Thiên Sơn Chiết Mai Thủ,Charge Attack
+ChargeAttack_des,"2 tay chụm lại, 5 đầu ngón tay hướng về phía địch, tự rút [param2_0]% Sinh Lực của bản thân, đâm mạnh về phía kẻ địch gây sát thương tổng cộng bằng [param1_0]% Sức Tấn Công + [param3_0]x( số Sinh Lực mất )","Combines a pair of scythes into a single weapon, sacrifices [param2_0]% of Hero’s HP, unleashing a powerful attack upon the enemy that deals total damage equal to [param1_0]% ATK plus the amount of HP lost x[param3_0]"
+ChargeAttack_level2_des,Kẻ địch dính đòn bị phế võ công [SilenceEffect_duration_1]s,Hit enemies are rendered Silent for [SilenceEffect_duration_1] s
+ChargeAttack_level3_des,Tăng lượng Sinh Lực rút lên thành [param2_2]%,Sacrificed HP is increased to [param2_2]%
+BatSwarm,Thảo Thượng Phi,Swarm of Bats
+BatSwarm_des,"Triệu hồi [param4_0] con dơi tấn công [param5_0] kẻ địch trong [param3_0]s. Mỗi con dơi có [param1_0]% Sức Tấn Công, bị dính sát thương sẽ biến mất. Mỗi cú tấn công của dơi sẽ hồi sinh lực cho Thanh Dực Bức Vương theo 25% sinh lực kẻ địch mất đi.","Summons [param4_0] bats to attack [param5_0] enemies for [param3_0] s, each bat possessing [param1_0]% ATK. Bats will die after receiving an attack. Each time a bat attacks, Hero recovers an amount of HP equal to 25% damage dealt"
+BatSwarm_level2_des,Tăng Sát Thương của dơi lên thành [param1_1]%,Bat ATK is increased to [param1_1]%
+BatSwarm_level3_des,"Dơi dính 2 lần sát thương mới chết, tuy nhiên dơi sẽ bị giảm [ReduceAtkWhenGetHitEffect_param1_2]% Sức Tấn Công mỗi khi bị dính sát thương","Bat can withstand 1 more attack, but ATK is reduced by [ReduceAtkWhenGetHitEffect_param1_2]% after the first attack"
+BatSwarm_level4_des,Dơi không bị giảm sát thương khi trúng đòn,
+MultiStrike,Hàn Băng Miên Chưởng,Multi-Strike
+MultiStrike_des,"Tấn công liên tục [param3_0] phát về kẻ địch phía trước, gây sát thương bằng tổng cộng [param1_0]% Sức Tấn Công. Mỗi phát phục hồi cho Thanh Dực Bức Vương [param2_0]% Sinh Lực","Continuously strikes [param3_0] attacks to an enemy to deal a total of [param1_0]% damage, with each attack recovers [param2_0]% HP to Hero"
+MultiStrike_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+MultiStrike_level3_des,Tăng Sinh Lực phục hồi mỗi phát lên thành [param2_2]%,HP recovered by each attack increased to [param2_2]%
+VampirePassive,Hàn Độc Phệ,Vampire Passive
+VampirePassive_des,"Mỗi khi có nhân sĩ bị chết, Thanh Dực Bức Vương nhận được [RaiseAtkEffect_param1_0]% Sức Tấn Công, [AddLifeLeechEffect_param1_0]% Hấp Huyết trong [RaiseAtkEffect_duration_0]s ( không xếp chồng)","Every time a hero dies, she'll receive a buff that increases [RaiseAtkEffect_param1_0]% ATK, [AddLifeLeechEffect_param1_0] LifeSteal in [RaiseAtkEffect_duration_0]s ( no effect stack )"
+VampirePassive_level2_des,"Tăng [RaiseAtkEffect_param1_1]% Sức Tấn Công, [AddLifeLeechEffect_param1_1]% Hấp Huyết","buff now increases [RaiseAtkEffect_param1_1]% ATK, [AddLifeLeechEffect_param1_1] LifeSteal"
+VampirePassive_level3_des,"Tăng [RaiseAtkEffect_param1_2]% Sức Tấn Công, [AddLifeLeechEffect_param1_2]% Hấp Huyết","buff now increases [RaiseAtkEffect_param1_2]% ATK, [AddLifeLeechEffect_param1_2] LifeSteal"
+Link,Thần Xuất Quỷ Một,Link
+Link_des,"Thanh Dực Bức Vương kết nối bản thân với 1 đồng đội ở phía sau, sát thương Thanh Dực Bức Vương nhận vào sẽ chia [ShareDmgEffect_param1_0]% với đồng đội đó",Links with an ally behind so that [ShareDmgEffect_param1_0]% of received damage is shared with that ally
+Link_level2_des,Đồng đội được hồi [ShareHealEffect_param1_1]% số Sinh Lực Thanh Dực Bức Vương được hồi,Ally recovers an amount of HP equal to [ShareHealEffect_param1_1]% of HP recovered by Hero
+Link_level3_des,Đồng đội được hồi [ShareHealEffect_param1_2]% số Sinh Lực Thanh Dực Bức Vương được hồi,Ally recovers an amount of HP equal to [ShareHealEffect_param1_2]% of HP recovered by Hero
+MassSeduce,Câu Hồn Nhiếp Phách,Mass Seduction
+MassSeduce_des,"Thôi miên toàn bộ nam đệ tử của đối phương: đi vào giấc ngủ [SleepEffect_duration_0]s, nhận sát thương bằng [param1_0]% Sức Tấn Công mỗi giây","Seduces all enemy males, hypnotizing them for [SleepEffect_duration_0] s and dealing [param1_0]% damage/s"
+MassSeduce_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công mỗi giây,Damage is increased to [param1_1]%/s
+MassSeduce_level3_des,Tăng thời gian tác dụng lên [SleepEffect_duration_2]s,Effect duration is increased to [SleepEffect_duration_2] s
+MassSeduce_level4_des,Hết thời gian ngủ thì bị giảm [param2_3]% Sức Tấn Công trong 3s,
+BrainSap,Truy Hồn Đoạt Mệnh,Brain Sap
+BrainSap_des,"Gây sát thương bằng [param1_0]% Sức Tấn Công vào một kẻ địch, Nhậm Doanh Doanh được hồi phục Sinh Lực bằng [param2_0]% sinh lực kẻ địch mất đi","Deals [param1_0]% damage to an enemy, and recovers an amount of HP equal to [param2_0]% of damage dealt"
+BrainSap_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+BrainSap_level3_des,Tấn công đồng thời 2 kẻ địch,Enemies attacked at once is increased to 2
+LifeTransfer,Phù Quang Lược Ảnh,Life Transfer
+LifeTransfer_des,"Nhậm Doanh Doanh rút [param1_0]% Sinh Lực của bản thân, phục hồi cho 2 đồng đội lượng Sinh Lực bằng [param2_0]% số Sinh Lực mà Nhậm Doanh Doanh mất","Sacrifices [param1_0]% of self HP, restoring a pair of allies with HP equal to [param2_0]% of HP lost"
+LifeTransfer_level2_des,Tăng số Sinh Lực rút lên [param1_1]%,Sacrificed HP is increased to [param1_1]%
+LifeTransfer_level3_des,Tăng số Sinh Lực rút lên [param1_2]%,Sacrificed HP is increased to [param1_2]%
+Dancer,Thiên La Ma Vũ,Dancing
+Dancer_des,"Bắt đầu trận đánh, Nhậm Doanh Doanh nhảy múa tăng [RaiseAtkSpeedInternalEffect_param1_0]% tốc độ đánh cho cả đội trong [RaiseAtkSpeedInternalEffect_duration_0]s","At battle start, dances to grant party buff that increases ATK speed by [RaiseAtkSpeedInternalEffect_param1_0]% for [RaiseAtkSpeedInternalEffect_duration_0] s"
+Dancer_level2_des,Tăng [RaiseAtkSpeedInternalEffect_param1_1]% tốc độ đánh,ATK speed is increased by [RaiseAtkSpeedInternalEffect_param1_1]%
+Dancer_level3_des,Tăng thời gian tác dụng lên thành [RaiseAtkSpeedInternalEffect_duration_2]s,Effect duration is increased to [RaiseAtkSpeedInternalEffect_duration_2] s
+ShadowDance,Nhật Nguyệt Quang Minh,Shadow Dance
+ShadowDance_des,"Dùng nội lực tạo màn lửa cháy sáng quanh người, khiến địch không thể chạm vào. Đồng thời, Dương Tiêu được tăng [RaiseAtkSpeedInternalEffect_param1_0]% tốc độ đánh. Thời gian tác dụng [RaiseAtkSpeedInternalEffect_duration_0]s","Disguises the body in smoke to render enemies unable to target, while also increasing Hero’s ATK speed by [RaiseAtkSpeedInternalEffect_param1_0]% for [RaiseAtkSpeedInternalEffect_duration_0] s"
+ShadowDance_level2_des,"Trong trạng thái này, [ModifyReceiveSkillDmgEffect_param1_1]% sát thương chiêu thức phải nhận","When in effect, Skill damage is reduced by [ModifyReceiveSkillDmgEffect_param1_1]%"
+ShadowDance_level3_des,Tăng thời gian tác dụng lên thành [RaiseAtkSpeedInternalEffect_duration_2]s,Effect duration is increased to [RaiseAtkSpeedInternalEffect_duration_2] s
+ShadowDance_level4_des,"Tăng [RaiseAtkSpeedInternalEffect_param1_3]% Tốc Độ Tấn Công, thời gian duy trì giảm xuống còn [RaiseAtkSpeedInternalEffect_duration_3]s",
+BlinkAttack,Đàn Chỉ Thần Công,Blink Attack
+BlinkAttack_des,"Nhảy đến trước mặt một kẻ địch, dùng đá búng về phía hắn gây sát thương bằng [param1_0]% Sức Tấn Công. Ưu tiên tấn công vào nữ đệ tử","Blinks to an enemy, prioritizing females, to deal [param1_0]% damage"
+BlinkAttack_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,Damage is increased to [param1_1]%
+BlinkAttack_level3_des,Kẻ địch bị phế võ công trong [SilenceEffect_duration_2]s,Enemy is rendered Silent for [SilenceEffect_duration_2] s
+IncubusPassive,Tiêu Dao Đào Hoa,Incubus Passive
+IncubusPassive_des,Dương Tiêu được tăng [RaiseAtkWhenAttackFemaleEffect_param1_0]% Sức Tấn Công khi tấn công nữ đệ tử,"When attacking a female enemy, ATK is increased by [RaiseAtkWhenAttackFemaleEffect_param1_0]%"
+IncubusPassive_level2_des,Dương Tiêu được tăng [AddCritWhenAttackFemaleEffect_param1_1] Sát Thương Bạo Kích khi tấn công nữ đệ tử,"When attacking a female enemy, CRIT is increased by [AddCritWhenAttackFemaleEffect_param1_1]"
+IncubusPassive_level3_des,Dương Tiêu được tăng [RaiseAtkWhenAttackFemaleEffect_param1_2]% Sức Tấn Công khi tấn công nữ đệ tử,"When attacking a female enemy, ATK is increased by [RaiseAtkWhenAttackFemaleEffect_param1_2]%"
+EscapePassive,Nhị Trùng Na Di,Escape Charge
+EscapePassive_des,"Mỗi khi mất [AutoBlinkBaseOnMaxHPLostEffect_param1_0]% Sinh Lực, Dương Tiêu lập tức thi triển Đàn Chỉ Thần Công nhảy sang một mục tiêu khác","Upon losing [AutoBlinkBaseOnMaxHPLostEffect_param1_0]% HP, casts Blink Attack to switch to another target"
+EscapePassive_level2_des,Tăng [AutoBlinkBaseOnMaxHPLostEffect_param2_1] Né Tránh trong [AutoBlinkBaseOnMaxHPLostEffect_param3_1]s,Increases Evasion by [AutoBlinkBaseOnMaxHPLostEffect_param2_1] for [AutoBlinkBaseOnMaxHPLostEffect_param3_1] s
+EscapePassive_level3_des,"Mỗi khi mất [AutoBlinkBaseOnMaxHPLostEffect_param1_2]% Sinh Lực , Dương Tiêu lập tức thi triển Đàn Chỉ Thần Công nhảy sang một mục tiêu khác","Upon losing [AutoBlinkBaseOnMaxHPLostEffect_param1_2]% HP, casts Blink Attack to switch to another target"
+DragoonJump,Lăng Hư Điểm Chỉ,Dragoon Jump
+DragoonJump_des,"Nhảy lên trời biến mất sau đó xuất hiện trên đầu kẻ địch, dùng chỉ pháp tấn công gây sát thương bằng [param1_0]% Sức Tấn Công và làm ngã các kẻ địch xung quanh","Hero jumps up and throws a spear downward, dealing [param1_0]% AOE damage and knocking down all enemies around"
+DragoonJump_level2_des,"Tăng gấp đôi tầm tấn công, kẻ địch ở trong tầm ảnh hưởng mở rộng chỉ nhận một nửa Sát Thương và không bị ngã","AOE diameter doubles, with enemies inside the expanded area receiving only 50% damage, without getting knocked down"
+DragoonJump_level3_des,Tăng sát thương lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%
+DragoonJump_level4_des,Những kẻ trúng đòn bị mất [param2_3] Nội Lực,
+StrongHeart,Mộ Dung Tâm Pháp,Strong Heart
+StrongHeart_des,Tăng [RaiseMaxHPEffect_param1_0]% Sinh Lực Tối Đa,MAX HP is increased by [RaiseMaxHPEffect_param1_0]%
+StrongHeart_level2_des,Tăng [RaiseMaxHPEffect_param1_1]% Sinh Lực Tối Đa,MAX HP is increased by [RaiseMaxHPEffect_param1_1]%
+StrongHeart_level3_des,"Khi Sinh Lực xuống dưới [StrongHeartRegenerateHPEffect_param1_2]%, nhận được hiệu ứng hồi phục [StrongHeartRegenerateHPEffect_param2_2]% Sinh Lực mỗi giây trong [StrongHeartRegenerateHPEffect_param3_2]s ( chỉ kích hoạt một lần )","When HP is less than [StrongHeartRegenerateHPEffect_param1_2]%, receives a recovery effect of [StrongHeartRegenerateHPEffect_param2_2]% HP/s for [StrongHeartRegenerateHPEffect_param3_2] s (can be active only once)"
+CounterAttack,Đẩu Chuyển Tinh Di,Counterattack
+CounterAttack_des,"Mộ Dung Phục có tỉ lệ [CounterAttackEffect_param1_0]% đánh bật đòn tấn công của đối phương : không bị dính sát thương, phản kích lại kẻ địch với sát thương bằng 100% Sức Tấn Công","Grants a [CounterAttackEffect_param1_0]% chance to counter an enemy’s attack, receiving 0 damage and reflecting 100% ATK back to the enemy"
+CounterAttack_level2_des,Tăng tỉ lệ phản kích kẻ địch lên thành [CounterAttackEffect_param1_1]%,Chance is increased to [CounterAttackEffect_param1_1]%
+CounterAttack_level3_des,Tăng tỉ lệ phản kích kẻ địch lên thành [CounterAttackEffect_param1_2]%,Chance is increased to [CounterAttackEffect_param1_2]%
+Tornado,Long Quyển Phong,Tornado
+Tornado_des,"Dùng chân khí cuộn quanh người, gây sát thương diện rộng bằng [param1_0]% Sức Tấn Công mỗi giây trong [channelingTime]s. Trong khi chân khí xoay quanh, kháng toàn bộ hiệu ứng xấu",Hero uses a spear to create a mighty whirlwind that deals [param1_0]% AOE damage/s for [channelingTime] s and grants Hero immunity to all negative statuses for 3 s
+Tornado_level2_des,"Khi chân khí tổn tại, [ModifyReceiveNormalAttackDmgEffect_param1_1]% mọi sát thương nhận vào",All types of damage is reduced by [ModifyReceiveNormalAttackDmgEffect_param1_1]% while using Tornado
+Tornado_level3_des,Tăng sát thương gây ra mỗi giây lên thành [param1_2]% Sức Tấn Công,Damage is increased to [param1_2]%/s
+FlowerTrap,Thiên Hạ Vô Cẩu,Flower Trap
+FlowerTrap_des,"Tuyệt kỹ của Đả Cẩu Bổng Pháp, khiến 3 kẻ địch ngẫu nhiên bị phế võ công và không thể di chuyển trong [RootEffect_duration_0]s. Kẻ địch trúng chiêu bị giảm Phòng Ngự [ReduceDefenseEffect_param1_0]% và nhận sát thương [param1_0]% Sức Tấn Công mỗi giây.","Summons 3 giant flowers from the ground, rooting and silencing 3 random enemies for [RootEffect_duration_0] s. Rooted enemies get DEF reduced by [ReduceDefenseEffect_param1_0]% and receive [param1_0]% damage per second."
+FlowerTrap_level2_des,Sát Thương tăng thành [param1_1]%.,Damage is increased by [param1_1]%.
+FlowerTrap_level3_des,Thời gian hiệu ứng tăng thành [RootEffect_duration_2]s.,Root duration is increased to [RootEffect_duration_2] s.
+FlowerTrap_level4_des,Số mục tiêu tăng thành 4,
+SilentPassive,Dẫn Cẩu Nhập Trại,Silent Passive
+SilentPassive_des,"Đánh thường khiến kẻ địch mất [SilenceNormalAttackEffect_param1_0]% Tốc Độ Đánh, chồng lên tối đa [SilenceNormalAttackEffect_param2_0] lần. Sau khi xếp chồng tối đa, kẻ địch bị phế võ công trong [SilenceNormalAttackEffect_param3_0]s.","The Normal attack slows enemy attack speed by [SilenceNormalAttackEffect_param1_0]%, stacking a maximum of [SilenceNormalAttackEffect_param2_0] times. After the stack reaches its maximum, the enemy is silenced for [SilenceNormalAttackEffect_param3_0] s."
+SilentPassive_level2_des,Phế Võ Công [SilenceNormalAttackEffect_param3_1]s.,Silence duration is increased to [SilenceNormalAttackEffect_param3_1] s.
+SilentPassive_level3_des,"Giảm [SilenceNormalAttackEffect_param1_2]% Tốc Độ Đánh của địch với mỗi cú đánh, xếp chồng tối đa [SilenceNormalAttackEffect_param2_0] lần.",Slow duration is increased to [SilenceNormalAttackEffect_param1_2]%.
+NatureGrasp,Bát Cẩu Triều Thiên,Nature’s Grasp
+NatureGrasp_des,"Dùng bổng điểm huyệt kẻ địch, làm kẻ địch mất khả năng nhận phục hồi Sinh Lực và Nội Lực trong [BlockHPEffect_duration_0]s.","Summons vines to wrap around a random enemy, causing the enemy to lose Mana and HP for [BlockHPManaEffect_duration_0] s."
+NatureGrasp_level2_des,Tăng thời gian lên [BlockHPEffect_duration_1]s.,Status duration is increased to [BlockHPManaEffect_duration_1] s.
+NatureGrasp_level3_des,Điểm Huyệt [param1_2] kẻ địch.,Targets [param1_2] enemies.
+Charge,Lạc Thủy Đả Cẩu,Charge
+Charge_des,"Mỗi khi đổi mục tiêu, Hoàng Dung khinh công đến gây sát thương [param1_0]% Sức Tấn Công cho kẻ địch, gia tăng [RaiseDefenseEffect_param1_0]% Phòng Ngự cho bản thân trong [RaiseDefenseEffect_duration_0]s.","Whenever changing the Charge target, Simon deals damage equal to [param1_0]% ATK to the enemy and enemy DEF is reduced to [ReduceDefenseEffect_param1_0]% for 3 s."
+Charge_level2_des,Gây Sát Thương [param1_1]% Sức Tấn Công.,Damage dealt is increased to [param1_1]%.
+Charge_level3_des,Tăng [RaiseDefenseEffect_param1_2]% Phòng Ngự cho bản thân.,Reduces enemy DEF by [ReduceDefenseEffect_param1_2]%.
+WaveForm,Thái Ất Tiêu Dao Công,Wave Form
+WaveForm_des,"Dùng chân khí bao phủ bản thân, lao đến tấn công kẻ địch xa nhất. Đầu trận có tỉ lệ nhỏ sử dụng ngay lập tức. Chân khí gây sát thương [param1_0]% Sức Tấn Công và đẩy ngã kẻ địch trên đường.","Turns into a water wave, surging forward to attack the farthest enemy. Deals damage [param1_0]% ATK and knocks down enemies on its way."
+WaveForm_level2_des,"Khi lao đi để lại 1 ảnh ảo của mình, ảnh ảo không có võ công, nhận [param4_0]% Sát Thương, gây [param3_0]% Sát Thương. Thời gian tồn tại [param5_0]s.","Wave Form leaves behind one mirror image. The image has no skill, taking [param4_0]% damage, causing [param3_0]% damage. The image lasts up to [param5_0] s."
+WaveForm_level3_des,"Ảnh ảo nhận [param4_2]% Sát Thương, gây [param3_2]% Sát Thương.",Image takes [param4_2]% damage and deals [param3_2]% damage.
+WaterSplash,Tàn Ảnh Quyết,Water Splash
+WaterSplash_des,"Dùng bút điểm về phía 1 kẻ địch ngẫu nhiên, gây sát thương [param1_0]% Sức Tấn Công và Giảm [ReduceAtkSpeedInternalEffect_param1_0]% Tốc Độ Tấn Công trong 5s.",Shoots a water bullet at a random enemy that causes [param1_0]% ATK and slows enemy ATK speed by [ReduceAtkSpeedInternalEffect_param1_0]% for 5 s.
+WaterSplash_level2_des,Sát thương tăng thành [param1_1]% Sức Tấn Công.,Damage is increased by [param1_1]%.
+WaterSplash_level3_des,Giảm [ReduceAtkSpeedInternalEffect_param1_2]% Tốc Độ Tấn Công của địch.,Slows enemy ATK speed by [ReduceAtkSpeedInternalEffect_param1_2]%.
+Torrent,Càn Khôn Quyết,Torrent
+Torrent_des,"Dùng 6 cây bút bày trận pháp phạm vi [param2_0]m khiến mặt đất chấn động, gây sát thương [param1_0]% Sức Tấn Công và hất tung kẻ địch lên trời (toàn bộ thời gian bắn lên đến khi chạm đất là [LiftUpEffect_duration_0]s) trong quá trình bắn lên kẻ địch bị Choáng và vẫn bị tấn công bình thường.","Calls a [param2_0]m radius water fountain from the ground, shooting enemies up in the sky, dealing [param1_0]% ATK damage for [LiftUpEffect_duration_0] s. Knocked up enemies are stunned and vulnerable to attack."
+Torrent_level2_des,Tăng phạm vi lên [param2_1]m.,Fountain radius is increased to [param2_1]m.
+Torrent_level3_des,Tăng sát thương lên [param1_2]% sức tấn công.,Damage is increased by [param1_1]%.
+Torrent_level4_des,Sử dụng xong thì ngay lập tức kích hoạt Thái Ất Tiêu Dao Công,
+WaterEffect,Tiêu Dao Thân Pháp,Water Effect
+WaterEffect_des,Tăng [AddOtherEvasionEffect_param1_0]% Né Tránh trong [AddOtherEvasionEffect_duration_0]s sau khi sử dụng Thái Ất Tiêu Dao Công.,Increases [AddOtherEvasionEffect_param1_0]% Evasion for [AddOtherEvasionEffect_duration_0] s after using Wave Form.
+WaterEffect_level2_des,Tăng thời gian hiệu ứng lên [AddOtherEvasionEffect_duration_1]s.,Water Effect duration is increased to [AddOtherEvasionEffect_duration_1] s.
+WaterEffect_level3_des,Tăng thành [AddOtherEvasionEffect_param1_2]% Né Tránh.,Evasion is increased to [AddOtherEvasionEffect_param1_0]%
+PitLord,Sư Tử Hống,Finger of Death
+PitLord_des,"Gầm lên 1 tiếng, khiến kẻ địch trong phạm vi [radiusAOE]m quanh mục tiêu nội thương, không thể di chuyển và sử dụng võ công trong [RootEffect_duration_0]s, mỗi giây nhận sát thương bằng [param1_0]% Sức Tấn Công","Ashna fires [param2_0] purple lightning bolts at the enemy with the lowest HP, causing damage equal to [param1_0]% ATK."
+PitLord_level2_des,Sát thương mỗi giây tăng lên [param1_1]% Sức Tấn Công,Deals [param1_1]% damage.
+PitLord_level3_des,Thời gian nội thương tăng lên thành [RootEffect_duration_2]s,Shoots [param2_0] lightning bolts.
+PitLord_level4_des,Kẻ trúng đòn bị vô hiệu hóa các chiêu thức Nội Tại trong [RemovePassiveBreakEffect_duration_0]s,
+ScreamOfPain,Ma Tâm Liên Hoàn Thủ,Scream of Pain
+ScreamOfPain_des,"Gầm lên, khiến kẻ địch trước mặt nhận sát thương bằng [param1_0]% Sức Tấn Công, mục tiêu chính bị Choáng [StunEffect_duration_0]s, các mục tiêu trong tầm ảnh hưởng bị đẩy lùi [param3_0]m","Ashna yells loudly, deals damage equal to [param1_0]% ATK, knockbacks enemies [param2_0]m and stuns them for [StunEffect_duration_0] s within a 6m radius around her."
+ScreamOfPain_level2_des,Sát thương tăng lên thành [param1_1]% Sức Tấn Công,Damage is increased by [param1_1]% ATK.
+ScreamOfPain_level3_des,Thời gian Choáng tăng lên thành [StunEffect_duration_2]s,Effect duration is increased to [StunEffect_duration_2] s.
+FingerOfDeath,Thất Thương Quyền,Iron Maidens
+FingerOfDeath_des,"Dùng nội lực tự chấn động bản thân, khiến bản thân mất [param3_0]% Sinh Lực và Nội Lực hiện tại, tấn công kẻ địch có Sinh Lực thấp nhất với [param1_0]% Sức Tấn Công. Kẻ trúng đòn không thể phục hồi Sinh Lực và Nội Lực trong [BlockHPEffect_duration_0]s","Ashna sets up a 7m radius giant trap around the current target, causing damage equal to [param1_0]% ATK, rooting, and silencing the enemies inside the trap. The trap lasts up to [RootEffect_duration_0] s."
+FingerOfDeath_level2_des,Sát thương tăng lên thành [param1_1]% Sức Tấn Công,Deals [param1_1]% of ATK damage per second.
+FingerOfDeath_level3_des,Tấn công 2 mục tiêu,Root duration is increased to [RootEffect_duration_2] s.
+Destruction,Phiên Thiên Phách Địa,Destruction
+Destruction_des,"Với mỗi kẻ địch bị tiêu diệt, Kim Mao Sư Vương được tăng [RaiseAtkWhenOtherDeadEffect_param1_0]% Sức Tấn Công, những kẻ đứng trong phạm vi [ReduceEnemyAtkAuraEffect_param3_0]m quanh người bị giảm 10% Sức Tấn Công","For each enemy Hero killed on the battlefield, Ashna gains a buff of 15% ATK and reduces enemy ATK by 20% in the [ReduceEnemyAtkAuraEffect_param3_0]m radius around her."
+Destruction_level2_des,Bán kính giảm sát thương của kẻ địch tăng lên thành [ReduceEnemyAtkAuraEffect_param3_1]m,Attack reduction radius is increased to [ReduceEnemyAtkAuraEffect_param3_1]m.
+Destruction_level3_des,Kẻ địch bị Thất Thương Quyền tiêu diệt thì hiệu ứng Phiên Thiên Phách Địa được tăng gấp đôi,Effect is doubled when an enemy dies by Finger of Death
+,,
+DongNhanUltimate,Thập Nhị Đồng Nhân Trận,Thập Nhị Đồng Nhân Trận
+DongNhanUltimate_des,"Lập trận pháp, tấn công toàn bộ kẻ địch trước mặt, uy lực không thể cản phá","Lập trận pháp, tấn công toàn bộ kẻ địch trước mặt, uy lực không thể cản phá"
+HolyBuff,Thiếu Dương Thần Công,
+HolyBuff_des,"Chọn đồng đội thấp máu nhất, phục hồi sinh lực theo [param1_0]% Sức Tấn Công cho các đồng đội trong bán kính [radiusAOE]m quanh mục tiêu đó.",
+HolyBuff_level2_des,"Với mỗi nhân sĩ (không phân biệt địch ta) trong tầm ảnh hưởng, đồng đội được tăng [param2_0]s kháng trạng thái xấu.",
+HolyBuff_level3_des,"Với mỗi nhân sĩ (không phân biệt địch ta) trong tầm ảnh hưởng, đồng đội được tăng [param3_0]% Phòng Thủ trong [param4_0]s",
+HolyBuff_level4_des,"Với mỗi nhân sĩ trong tầm ảnh hưởng, đồng đội được tăng [param5_3]% Sức tấn công trong [param4_3]s",
+ManaBuff,Phách Ảnh Công,
+ManaBuff_des,"Dùng nội lực hỗ trợ cho đồng đội có Sức Tấn Công cao nhất, gia tăng [RaiseRegenManaLooseHPEffect_param1_0]% lượng Nội Lực phục hồi trong [RaiseRegenManaLooseHPEffect_duration_0]s. Nếu đồng đội có sinh lực dưới [ShamanFleeEffect_param1_0]% thì sẽ biến mất trong 2s. Thời gian nội lực hỗ trợ tồn tại [RaiseRegenManaLooseHPEffect_duration_0]s.",
+ManaBuff_level2_des,"Đẩy lùi kẻ địch đang tấn công đồng đội ra xa [ShamanFleeEffect_param3_0]m, chỉ có tác dụng với quân địch cận chiến.",
+ManaBuff_level3_des,Phục hồi sinh lực cho mục tiêu theo [param1_0]% Sức Tấn Công,
+Curse,Ma Tương Quyết,
+Curse_des,"Gây sát thương theo [param1_0]% Sức Tấn Công và để lại 1 kình khí trong kinh mạch của kẻ địch trong [ShamanCurseEffect_duration_1]s. Trong thời gian đó nếu hắn dùng võ công sẽ bị kình khí cắn trả, mất [ShamanCurseEffect_param1_0]% Nội Lực hiện tại và nhận sát thương [param2_0]% Sức Tấn Công.",
+Curse_level2_des,Tăng sát thương lên thành [param1_1]% Sức Tấn Công,
+Curse_level3_des,Tăng thời gian kình khí bám vào kinh mạch của kẻ địch lên thành [ShamanCurseEffect_duration_2]s,
+DarkMagic,Lưỡng Nghi Kiếm Pháp,
+DarkMagic_des,Tăng [DarkMagicAuraEffect_param1_0]% Nội Lực nhận được khi sử dụng võ công và nhận sát thương từ võ công cho đồng đội xung quanh trong bán kính [radiusAOE]m quanh người.,
+DarkMagic_level2_des,Tăng lượng Nội Lực nhận lên [DarkMagicAuraEffect_param1_1]%,
+DarkMagic_level3_des,Tăng lượng Nội Lực nhận lên [DarkMagicAuraEffect_param1_2]%,
+ThanUngCuuDoat,Thần Ưng Cửu Đoạt,
+ThanUngCuuDoat_des,"Tấn công tất cả các kẻ địch trong bán kính [radiusAOE]m quanh mục tiêu chính, phục hồi lại Sinh Lực cho bản thân theo [param2_0]% sinh lực kẻ địch mất đi. Gây sát thương theo [param1_0]% Sức Tấn Công.",
+ThanUngCuuDoat_level2_des,Phục hồi lại Sinh Lực theo [param2_1]% sinh lực kẻ địch mất đi.,
+ThanUngCuuDoat_level3_des,Kẻ địch có tỉ lệ [param5_2]% bị ngã [param6_2]s khi trúng đòn,
+ThanUngCuuDoat_level4_des,Kẻ địch có tỉ lệ [param5_3]% bị ngã [param6_2]s khi trúng đòn và bị ám Ưng Trảo lên người.,
+UngKichTruongKhong,Ưng Kích Trường Không,
+UngKichTruongKhong_des,"Gây sát thương theo [param1_0]% Sức Tấn Công, khiến kẻ địch trong bán kính [param2_0]m quanh mục tiêu nhận sát thương và ngã ra đất [KnockBackEffect_duration_0]s. Kẻ trúng đòn bị giảm [ReduceRegenHPEffect_param1_0]% tác dụng của các loại phục hồi Sinh Lực trong [ReduceRegenHPEffect_duration_0]s.",
+UngKichTruongKhong_level2_des,Sát thương tăng lên thành [param1_1]%,
+UngKichTruongKhong_level3_des,"Bán kính ảnh hưởng tăng lên thành [param2_2]m, thời gian ngã tăng lên thành [KnockBackEffect_duration_2]s.",
+UngTraoCong,Ưng Trảo Công,
+UngTraoCong_des,"Mỗi lần đánh thường đều có tỉ lệ [param2_0]% ám vào người kẻ địch Ưng Trảo, tồn tại trong [param4_0]s. Bất cứ ai tấn công vào kẻ địch có Ưng Trảo trên người đều được Hấp Huyết [param3_0]%",
+UngTraoCong_level2_des,"Tỉ lệ ám Ưng Trảo vào kẻ địch tăng thành [param2_1]%, có tác dụng cả khi dùng võ công.",
+UngTraoCong_level3_des,Bất cứ ai tấn công vào kẻ có Ưng Trảo đều được [param3_2]% Hấp Huyết,
+DaiBangTrienDuc,Đại Bằng Triển Dực,
+DaiBangTrienDuc_des,"Dùng nội lực khiến chiến trường chấn động, khiến toàn bộ kẻ địch giảm [ReduceRegenHPEffectOnEnemy_param1_0]% khả năng phục hồi Sinh Lực và Nội Lực trong [ReduceRegenHPEffectOnEnemy_duration_0]s",
+DaiBangTrienDuc_level2_des,Thời gian hiệu ứng tăng lên thành [ReduceRegenHPEffectOnEnemy_duration_1]s,
+DaiBangTrienDuc_level3_des,Kẻ địch không thể hồi Nội Lực trong [ReduceRegenManaEffectOnEnemy_duration_2]s,
+EnergyBall,Thái Cực Thần Công,
+EnergyBall_des,Dùng nội công tạo 3 luồng kình lực tấn công ngẫu nhiên các kẻ địch với sát thương [param1_0]% Sức Tấn Công,
+EnergyBall_level2_des,"Tăng sát thương lên thành [param1_1]%, sử dụng thêm 1 lần Âm Dương Giao Thác",
+EnergyBall_level3_des,"Tăng sát thương lên thành [param1_2]%, sử dụng thêm 1 lần Thuần Dương Vô Cực Công",
+EnergyBall_level4_des,Giảm [param4_3]% Tốc Độ Tấn Công của những kẻ trúng đòn trong [param5_3]s,
+ChakraMagic,Âm Dương Giao Thác,
+ChakraMagic_des,Phục hồi [param1_0]% Nội Lực tối đa cho 2 đồng đội gần nhất,
+ChakraMagic_level2_des,Lượng phục hồi tăng lên thành [param1_1]% Nội Lực.,
+ChakraMagic_level3_des,"Đồng đội được phục hồi sẽ có hộ thể [StunWhenGetNormalAttackEffect_duration_0]s, kẻ nào tấn công sẽ có tỉ lệ [StunWhenGetNormalAttackEffect_param1_0]% bị Choáng [StunWhenGetNormalAttackEffect_param2_0]s, chỉ có tác dụng khi địch đánh thường.",
+ShadowWave,Thuần Dương Vô Cực Công,
+ShadowWave_des,Phục hồi Sinh Lực cho đồng đội có Sinh Lực thấp nhất bằng [param2_0]% Sức Tấn Công,
+ShadowWave_level2_des,Đồng đội trong [radiusAOE]m xung quanh mục tiêu chính được phục hồi Sinh Lực bằng [param1_0]% Sức Tấn Công,
+ShadowWave_level3_des,Gây sát thương [param3_0]% Sức Tấn Công cho những kẻ địch trong [radiusAOE]m quanh mục tiêu,
+ManaShield,Thiên Mã Hành Không,
+ManaShield_des,"Khi Trương Tam Phong còn trong trận, đồng đội trong bán kính [radiusAOE]m xung quanh được kháng [ManaShieldAuraEffect_param1_0]% Sát Thương Võ Công",
+ManaShield_level2_des,Tỉ lệ Kháng Sát Thương Võ Công tăng lên thành [ManaShieldAuraEffect_param1_1]%,
+ManaShield_level3_des,Tỉ lệ Kháng Sát Thương Võ Công tăng lên thành [ManaShieldAuraEffect_param1_2]%,
+ThanhKhiThieuLamAbility,Kim Cang Phục Ma,
+ThanhKhiThieuLamAbility_des,"Khi sử dụng Nộ Chiêu, gây thêm sát thương theo [AOEToEnemyWhenUltiEffect_param1_0]% sức tấn công cho toàn bộ kẻ địch trong bán kính [AOEToEnemyWhenUltiEffect_param3_0]m quanh người mình. Số lần kích hoạt [AOEToEnemyWhenUltiEffect_param2_0] lần",
+ThanhKhiThieuLamAbility_level2_des,"Khi sử dụng Nộ Chiêu, gây thêm sát thương theo [AOEToEnemyWhenUltiEffect_param1_0]% sức tấn công cho toàn bộ kẻ địch trong bán kính [AOEToEnemyWhenUltiEffect_param3_0]m quanh người mình. Số lần kích hoạt [AOEToEnemyWhenUltiEffect_param2_1] lần",
+ThanhKhiThieuLamAbility_level3_des,"Khi sử dụng Nộ Chiêu, gây thêm sát thương theo [AOEToEnemyWhenUltiEffect_param1_0]% sức tấn công cho toàn bộ kẻ địch trong bán kính [AOEToEnemyWhenUltiEffect_param3_0]m quanh người mình. Số lần kích hoạt [AOEToEnemyWhenUltiEffect_param2_2] lần",
+ThanhKhiCaiBangAbility,Thanh Long Xuất Thủy,
+ThanhKhiCaiBangAbility_des,Tăng [param1_0]% tốc độ tấn công trong [param3_0]s sau khi gây ra sát thương bạo kích ,
+ThanhKhiCaiBangAbility_level2_des,Tăng [param1_1]% tốc độ tấn công trong [param3_0]s sau khi gây ra sát thương bạo kích ,
+ThanhKhiCaiBangAbility_level3_des,"Tăng [param1_1]% tốc độ tấn công trong [param3_0]s sau khi gây ra sát thương bạo kích, sát thương bạo kích tăng [param2_2]%",
+ThanhKhiNgaMyAbility,Tam Hoa Tụ Đỉnh,
+ThanhKhiNgaMyAbility_des,Phục hồi [GainManaOnSecondEffect_param1_0] nội lực mỗi giây,
+ThanhKhiNgaMyAbility_level2_des,Phục hồi [GainManaOnSecondEffect_param1_1] nội lực mỗi giây,
+ThanhKhiNgaMyAbility_level3_des,Phục hồi [GainManaOnSecondEffect_param1_2] nội lực mỗi giây,
+ThanhKhiVoDangAbility,Kim Đan Độ Kiếp,
+ThanhKhiVoDangAbility_des,Tăng [BuffBaseLifeLeechHealMultiEffect_param1_0]% hiệu quả phục hồi sinh lực cho bản thân (Tăng hiệu quả của những chiêu thức hồi sinh lực và hấp huyết lên bản thân).,
+ThanhKhiVoDangAbility_level2_des,Tăng [BuffBaseLifeLeechHealMultiEffect_param1_1]% hiệu quả phục hồi sinh lực cho bản thân (Tăng hiệu quả của những chiêu thức hồi sinh lực và hấp huyết lên bản thân).,
+ThanhKhiVoDangAbility_level3_des,Tăng [BuffBaseLifeLeechHealMultiEffect_param1_2]% hiệu quả phục hồi sinh lực cho bản thân (Tăng hiệu quả của những chiêu thức hồi sinh lực và hấp huyết lên bản thân).,
+ThanhKhiNguDocAbility,Cổ Thần Kiếp,
+ThanhKhiNguDocAbility_des,Gia tăng [AddCritDmgOnTimeEffect_param1_0]% sát thương bạo kích mỗi [AddCritDmgOnTimeEffect_param2_0]s khi bắt đầu trận đấu.,
+ThanhKhiNguDocAbility_level2_des,Gia tăng [AddCritDmgOnTimeEffect_param1_0]% sát thương bạo kích mỗi [AddCritDmgOnTimeEffect_param2_1]s khi bắt đầu trận đấu.,
+ThanhKhiNguDocAbility_level3_des,Gia tăng [AddCritDmgOnTimeEffect_param1_0]% sát thương bạo kích mỗi [AddCritDmgOnTimeEffect_param2_2]s khi bắt đầu trận đấu.,
+ThanhKhiDiHoaCungAbility,Liệu Địch Tiên Cơ,
+ThanhKhiDiHoaCungAbility_des,"Dùng chân khí hộ thể, kháng lại [ShieldReducedDmgEffect_param1_0]% sát thương trong [ShieldReducedDmgEffect_duration_0]s, thời gian chờ 15s.",
+ThanhKhiDiHoaCungAbility_level2_des,"Dùng chân khí hộ thể, kháng lại [ShieldReducedDmgEffect_param1_1]% sát thương trong [ShieldReducedDmgEffect_duration_0]s, thời gian chờ 15s.",
+ThanhKhiDiHoaCungAbility_level3_des,"Dùng chân khí hộ thể, kháng lại [ShieldReducedDmgEffect_param1_2]% sát thương trong [ShieldReducedDmgEffect_duration_0]s, thời gian chờ 15s.",
+ThanhKhiDuongMonAbility,Thiên La Bộ Pháp,
+ThanhKhiDuongMonAbility_des,Né tránh tăng [RaiseEvdThanhKhiEffect_param1_0],
+ThanhKhiDuongMonAbility_level2_des,Né tránh tăng [RaiseEvdThanhKhiEffect_param1_1],
+ThanhKhiDuongMonAbility_level3_des,Né tránh tăng [RaiseEvdThanhKhiEffect_param1_2],
+NhatDuongChi,Nhất Dương Chỉ,
+NhatDuongChi_des,"Dùng chỉ pháp cực mạnh tấn công vào kẻ địch, gây ra [param1_0]% sát thương lên người 1 kẻ địch gần nhất, nếu trên người hắn đang bị hiệu ứng xấu loại giữ chân thì sát thương của Nhất Dương Chỉ tăng lên thành [param2_0]% và làm mới lại thời gian của hiệu ứng đó trên người kẻ địch.",
+NhatDuongChi_level2_des,Sát thương tăng lên thành [param1_1]% ([param2_1]% với kẻ đang dính hiệu ứng xấu loại giữ chân),
+NhatDuongChi_level3_des,Cấm kẻ địch đánh thường trong [param3_2]s,
+NhatDuongChi_level4_des,Bỏ qua [param4_3]% Phòng Ngự và Kháng Chiêu Thức của địch,
+PhatTamChuong,Phật Tâm Chưởng,
+PhatTamChuong_des,"Xóa 1 hiệu ứng xấu ngẫu nhiên trên người bản thân và đồng đội, đồng thời phục hồi lại [RegenHpPhatTamChuongEffect_param1_0]% Sinh Lực Tối Đa mỗi giây trong [RegenHpPhatTamChuongEffect_duration_0]s. Nếu trong [RegenHpPhatTamChuongEffect_duration_0]s đó bị dính hiệu ứng xấu loại giữ chân, hiệu quả phục hồi tăng gấp đôi (chỉ tính 1 lần duy nhất).",
+PhatTamChuong_level2_des,Thời gian phục hồi tăng lên thành [RegenHpPhatTamChuongEffect_duration_1]s,
+PhatTamChuong_level3_des,Giảm [param1_0]% Sức Tấn Công toàn bộ kẻ địch trong [param2_0]s,
+KimCangPhucMa,Kim Cang Chưởng,
+KimCangPhucMa_des,Mỗi lần đánh thường đều có tỉ lệ [param1_0]% khiến kẻ địch bị Trói Chân trong [param2_0]s,
+KimCangPhucMa_level2_des,Thêm [param1_0]% gây Giảm [param3_0]% tốc độ đánh trong [param4_0]s,
+KimCangPhucMa_level3_des,Thêm [param1_0]% Choáng [param5_0]s,
+VoVongThanCong,Vô Vọng Thần Công,
+VoVongThanCong_des,"Dùng nội lực đả thông tạm thời kinh mạch toàn thân cho 1 đồng đội có Sức Tấn Công cao nhất.
+Trong [param1_0]s sử dụng võ công không cần thời gian chờ, hiệu quả phục hồi nội lực tăng [param2_0]%
+Hết thời gian thì kinh mạch tắc nghẽn, kẻ vừa được đả thông kinh mạch sẽ bị Choáng [param3_0]s",
+VoVongThanCong_level2_des,Thời gian hiệu quả tăng thành [param1_1]s,
+VoVongThanCong_level3_des,Thời gian bị Choáng giảm còn [param3_2]s,
+NetherWard,Bích Hải Triều Sinh Khúc,
+NetherWard_des,"Dùng tiêu tạo ra 1 khúc nhạc với tiếng vọng. Tiếng vọng của khúc nhạc kéo dài trong [param2_0]s, mỗi khi kẻ địch sử dụng võ công thì sẽ bị chấn động gây nội thương, nhận [param1_0]% sát thương. Mỗi giây địch nhận [param4_0]% sát thương.",
+NetherWard_level2_des,Sát thương chấn động tăng lên thành [param1_1]%,
+NetherWard_level3_des,"Tiếng vọng khiến kẻ địch bị nội thương nặng hơn, gây Choáng [param3_0]s",
+NetherWard_level4_des,Địch nếu dùng võ công thì không được hồi Nội Lực trong 4s kế tiếp,
+ToanPhongTaoDiepThoai,Toàn Phong Tảo Diệp Thoái,
+ToanPhongTaoDiepThoai_des,"Lao đến kẻ địch gần nhất, tung cước tấn công liên tục [param3_0] lần vào hắn, mỗi cú đá gây [param1_0]% sát thương. Chiêu thức + 50 điểm Chính Xác khi thi triển. Trong thời gian thi triển miễn nhiễm với toàn bộ hiệu ứng xấu.",
+ToanPhongTaoDiepThoai_level2_des,Chiêu thứ 7 đá văng kẻ địch về phía sau [param6_0]m,
+ToanPhongTaoDiepThoai_level3_des,Nếu kẻ địch đang bị Choáng thì sát thương chiêu thức tăng thêm [param5_0]%,
+DevilProtection,Lạc Anh Thần Kiếm Chưởng,
+DevilProtection_des,"Kết hợp kiếm pháp vào chưởng pháp, tạo cương khí hộ thân cho 1 đồng đội, giúp giảm sát thương Võ Công phải nhận với giá trị [param1_0]% sát thương của Hoàng Dược Sư. Cương khí tồn tại độc lập với những chiêu thức hỗ trợ khác như hộ thể của Du Thản Chi hay Phong Thanh Dương.",
+DevilProtection_level2_des,Sát thương đỡ được tăng lên thành [param1_1]%,
+DevilProtection_level3_des,Hộ thể cho [param2_2] đồng đội,
+Rearm,Ngọc Tiêu Kiếm Pháp,
+Rearm_des,"Mỗi lần sử dụng võ công thì có tỉ lệ [RearmEffect_param1_0]% làm mới ngay lập tức võ công đó
+Mỗi [RearmEffect_param2_0]s mới có thể làm mới võ công 1 lần",
+Rearm_level2_des,Tỉ lệ làm mới tăng thành [RearmEffect_param1_1]%,
+Rearm_level3_des,Tỉ lệ làm mới tăng thành [RearmEffect_param1_2]%,
+Pierce,Hàm Mô Công,
+Pierce_des,"Dùng nội lực bao quanh người, lao đến húc vào mục tiêu gây sát thương [param1_0]% sức tấn công và làm Choáng hắn [StunEffect_duration_0]s.",
+Pierce_level2_des,sát thương tăng thành [param1_1]% sức tấn công.,
+Pierce_level3_des,Những kẻ địch trong bán kính [radiusAOE]m quanh mục tiêu cũng bị Choáng [StunEffect_duration_0]s,
+Pierce_level4_des,Địch trong bản kính [radiusAOE]m bị giảm [ReduceMagicAmpEffect_param1_3]% Kháng Chiêu Thức trong [ReduceMagicAmpEffect_duration_0]s,
+ChargeOfDeath,Huyết Ngưng Thất Bộ,
+ChargeOfDeath_des,"Lướt đến kẻ địch xa nhất, gây sát thương trên đường lao đi bằng [param1_0]% sức tấn công, những kẻ trên đường bị ngã [param2_0]s.
+Nếu dính hiệu ứng dạng Choáng, Đẩy Lùi, Hất Tung, Trói Chân sẽ tự động hóa giải các hiệu ứng xấu và ngay lập tức sử dụng chiêu này.",
+ChargeOfDeath_level2_des,Mục tiêu chính khi trúng đòn sẽ bị mất [param6_0]% Sinh Lực tối đa mỗi giây trong [param7_0]s,
+ChargeOfDeath_level3_des,"Mỗi kẻ địch bị húc trúng thì bản thân được tăng [param3_0]% sức tấn công và [param3_1]% phòng ngự trong [param4_0]s, tối đa 100%.",
+CurseOfKnight,Hủ Cốt Chưởng,
+CurseOfKnight_des,"Mỗi chưởng của Âu Dương Phong đều khiến địch nhận 1 hiệu ứng ""Hủ Cốt"" trong [ModifyReceiveDmgNormalAttackEffect_param3_0]s, đủ [ModifyReceiveDmgNormalAttackEffect_param1_0] tầng ""Hủ Cốt"" thì gây sát thương theo [ModifyReceiveDmgNormalAttackEffect_param2_0]% sinh lực tối đa của kẻ địch, sát thương không xuyên thủ. Hủ Cốt sau khi chồng đủ [ModifyReceiveDmgNormalAttackEffect_param1_0] tầng thì hết thời gian sẽ đếm lại từ đầu.",
+CurseOfKnight_level2_des,Sát thương khi nổ tăng thành [ModifyReceiveDmgNormalAttackEffect_param2_1]%,
+CurseOfKnight_level3_des,Thời gian tồn tại của Hủ Cốt tăng lên thành [ModifyReceiveDmgNormalAttackEffect_param3_2]s,
+WarCry,Lục Chỉ Cầm Ma,
+WarCry_des,"Tăng [RaiseAtkSpeedInternalEffect_param1_0]% Tốc Độ Đánh cho toàn bộ đồng đội, duy trì [RaiseAtkSpeedInternalEffect_duration_0]s. Bản thân nhận thêm Kháng Toàn Bộ hiệu ứng xấu trong [GodEffect_duration_0]s.",
+WarCry_level2_des,Tăng thêm [RaiseAtkEffect_param1_0]% Sức Tấn Công cho toàn đội trong [RaiseAtkEffect_duration_0]s,
+WarCry_level3_des,Thời gian duy trì của tăng tốc và tăng công lên thành [RaiseAtkEffect_duration_2]s.,
+TienThienCong,Tiên Thiên Công,
+TienThienCong_des,"Lao đến chém 1 kẻ địch gần nhất với sát thương [param1_0]% sức tấn công, nếu hắn có Nội Lực bằng hoặc thấp hơn 30% hoặc đang dính hiệu ứng mất nội lực từ Kim Nhạn thì sát thương tăng lên thành [param2_0]%, bị vô hiệu hóa các chiêu thức Nội Tại và bị mất đi các hiệu ứng tăng Công trên người từ võ công trong [param3_0]s.",
+TienThienCong_level2_des,"Kết thúc chiêu thức, kẻ địch bị ngã [param5_0]s, mỗi kẻ trúng đòn đều dính hiệu ứng Kim Nhạn trong [param7_1]s",
+TienThienCong_level3_des,Tấn công [param4_2] mục tiêu,
+TienThienCong_level4_des,Tấn công [param4_3] mục tiêu,
+ToanChanKiemPhap,Toàn Chân Kiếm Pháp,
+ToanChanKiemPhap_des,"Chọn 3 kẻ địch có Nội lực lớn nhất, lao đến chém mỗi kẻ 1 nhát với sát thương [param1_0]% sức tấn công, kẻ trúng đòn mất [param2_0] Nội Lực và hồi lại cho Vương Trùng Dương. Trong thời gian thi triển miễn nhiễm sát thương và hiệu ứng xấu.",
+ToanChanKiemPhap_level2_des,Nội lực mất đi của kẻ địch tăng thành [param2_1],
+ToanChanKiemPhap_level3_des,Nếu Nội Lực của địch về 0 thì sẽ Choáng [param3_2]s.,
+KimNhanCong,Kim Nhạn Công,
+KimNhanCong_des,"Xuất chiêu khiến 1 kẻ trúng đòn bay ngược về phía sau [param2_0]m và ngã ra đất [param3_0]s, nhận sát thương [param1_0]% sức tấn công. Kẻ địch sẽ bị dính hiệu ứng Kim Nhạn, dùng võ công sẽ tự tiêu hao [param5_0]% Nội Lực Tối Đa (không tính khi dùng nộ), tồn tại [param4_0]s",
+KimNhanCong_level2_des,Sát thương tăng lên thành [param1_1]%,
+KimNhanCong_level3_des,Nội Lực Tối Đa mà kẻ địch tiêu hao khi dính Kim Nhạn tăng lên thành [param5_2]%,
+ThienHaDaiDao,Thiên Hạ Đại Đạo,
+ThienHaDaiDao_des,"Dùng chân khí hộ thể, chắn được sát thương bằng 250% Sức Tấn Công bản thân, chân khí khi biến mất sẽ tự động tạo lại mỗi 5s",
+ThienHaDaiDao_level2_des,"Trong thời gian Chân Khí hộ thể, sát thương nhận vào [param3_1]%",
+ThienHaDaiDao_level3_des,Sát Thương bạo kích của địch giảm [ChangeCritDmgEnemyOnGetHitEffect_param3_2]% trong [ChangeCritDmgEnemyOnGetHitEffect_param2_2]s nếu tấn công vào Vương Trùng Dương,
+SamVIII,Long Tượng Bát Nhã Công,
+SamVIII_des,"Bắn ra [param2_0] chưởng ngẫu nhiên lên chiến trường, mỗi chưởng gây sát thương [param1_0]% sức tấn công.",
+SamVIII_level2_des,Kẻ địch đang bị giảm Kháng Chưởng bởi Ngũ Luân Đại Chuyển nhận thêm [param3_1]% sát thương,
+SamVIII_level3_des,Kẻ địch đang bị giảm Chính Xác bởi Cầm Long Thủ nhận thêm [param4_2]% sát thương,
+SamVIII_level4_des,Tăng [RaiseDefenseEffect_param1_3]% Phòng Ngự trong 4s,
+Whirling,Ngũ Luân Đại Chuyển,
+Whirling_des,"Dùng Kim Luân xoay quanh người, khiến kẻ địch trong bán kính [radiusAOE]m bị [AddMagicalResistanceEffect_param1_0]% Kháng Sát Thương Võ Công trong [AddMagicalResistanceEffect_duration_0]s",
+Whirling_level2_des,Bắt những kẻ trong bán kính ảnh hưởng phải tấn công mình trong [TauntEffect_duration_0]s,
+Whirling_level3_des,[AddMagicalResistanceEffect_param1_2]% Kháng Sát Thương Võ Công của địch,
+RocketFlare,Cầm Long Thủ,
+RocketFlare_des,"Chưởng ra 1 con rồng vào kẻ địch có sức tấn công cao nhất, gây sát thương theo [param1_0]% sức tấn công và giảm [ReduceOtherHitEffect_param1_0] Chính Xác của hắn trong [ReduceOtherHitEffect_duration_0]s",
+RocketFlare_level2_des,Tăng sát thương lên [param1_1]% sức tấn công,
+RocketFlare_level3_des,Tấn công [param2_2] mục tiêu,
+ReactiveArmor,Bất Động Minh Vương Ấn,
+ReactiveArmor_des,"Mỗi lần nhận sát thương đánh thường, bản thân được tăng [RaiseDefOnHitByNormalAttackEffect_param1_0]% Phòng ngự trong [RaiseDefOnHitByNormalAttackEffect_param2_0]s, tăng tối đa [RaiseDefOnHitByNormalAttackEffect_param3_0]% phòng ngự. ",
+ReactiveArmor_level2_des,Tăng tối đa [RaiseDefOnHitByNormalAttackEffect_param3_1]% Phòng Ngự,
+ReactiveArmor_level3_des,Tăng [RaiseDefOnHitByNormalAttackEffect_param1_2]% phòng ngự mỗi lần nhận sát thương đánh thường trong [RaiseDefOnHitByNormalAttackEffect_param2_2]s,
+NhuLaiThienDiep,Như Lai Thiên Diệp,
+NhuLaiThienDiep_des,"Cả đội nhận được Bá Thể (Kháng mọi hiệu ứng xấu) trong [param3_0]s, khi dùng chưởng thì gỡ hiệu ứng có hại trên người cả đội.",
+NhuLaiThienDiep_level2_des,"Trong thời gian Bá Thể, cả đội nhận ngẫu nhiên [param1_1] trong các hiệu ứng + [param4_0]% Kháng Bạo Kích/ +[param4_0]% Kháng Võ Công/ +[param4_0]% Kháng Đánh Thường/ +[param4_0]% Hấp Huyết",
+NhuLaiThienDiep_level3_des,"Nhận ít nhất [param1_2] hiệu ứng, tỉ lệ [param2_2]% nhận được tất cả các hiệu ứng hỗ trợ, đồng đội Sức Tấn Công lớn nhất nhận tất cả các hiệu ứng.",
+NhuLaiThienDiep_level4_des,"Tỉ lệ [param2_3]% nhận tất cả các hiệu ứng hỗ trợ, đồng đội Sức Tấn Công lớn nhất nhận tất cả các hiệu ứng.",
+ThaiToTruongQuyen,Thái Tổ Trường Quyền,
+ThaiToTruongQuyen_des,"Đấm 3 phát về phía trước, gây sát thương [param1_0]% sức tấn công mỗi đấm lên bán kính 3m.
+Nếu trên người đang có hiệu ứng từ Như Lai Thiên Diệp, mỗi kẻ địch trúng đòn sẽ cộng thêm 1s hiệu ứng cho Như Lai Thiên Diệp. Khi thi triển thì phục hồi lại 100 Nội Lực",
+ThaiToTruongQuyen_level2_des,Sát thương tăng thành [param1_1]%,
+ThaiToTruongQuyen_level3_des,Đòn thứ 3 đánh ngã 1 mục tiêu ngẫu nhiên 3s,
+ViDaChuong,Vi Đà Chưởng,
+ViDaChuong_des,"Vào trận thì ngay lập tức thi triển, tụ khí trong [param1_0]s, khi Tụ Khí thì giảm [ModifyDamageReceivedEffect_param2_0]% sát thương của địch.
+- Bị dính hiệu ứng xấu, ngắt tụ khí, hồi 100 Nội Lực, giải hiệu ứng xấu, gây sát thương 250% sức tấn công và Choáng 3s vào 1 kẻ địch.
+- Hết tụ khí, Gây sát thương 200% sức tấn công lên bán kính 3m, đẩy lùi kẻ địch 2m và giảm 20% sức tấn công của địch trong 4s",
+ViDaChuong_level2_des,"Thời gian tụ khí tăng lên [param1_1]s, mỗi giây phục hồi [RegenerateHPIntervalEffect_param1_1]% Máu",
+ViDaChuong_level3_des,Tăng [RaiseDefenseEffect_param1_2]% Thủ trong thời gian tụ khí. Khi tấn công thì hấp huyết [param2_2]%.,
+KimChungTrao,Kim Chung Tráo,
+KimChungTrao_des,"Giảm [KimChungTraoEffect_param1_0]% mọi loại sát thương phải nhận, khi bị hiệu ứng xấu thì hiệu quả giảm sát thương x2",
+KimChungTrao_level2_des,"Giảm [KimChungTraoEffect_param1_1]% mọi loại sát thương phải nhận, bị hiệu ứng xấu thì hiệu quả x2",
+KimChungTrao_level3_des,"Khi bị hiệu ứng xấu, bản thân nhận được hiệu ứng phục hồi [KimChungTraoEffect_param2_2]% sinh lực mỗi giây trong thời gian dính hiệu ứng xấu.",
+NgaMiKiemPhap,Nga Mi Kiếm Pháp,
+NgaMiKiemPhap_des,"Nhảy đến sau lưng kẻ địch, đâm liên tục vào người hắn 5 chiêu, mỗi chiêu gây sát thương [param1_0]% sức tấn công, nếu kẻ địch là Nam Đệ Tử thì kết thúc chiêu thức sẽ bị cấm đánh thường [param3_0]s",
+NgaMiKiemPhap_level2_des,Sát thương tăng thành [param1_1]% mỗi chiêu,
+NgaMiKiemPhap_level3_des,"Kết thúc chiêu thức, bản thân kháng mọi hiệu ứng xấu trong [param3_2]s.",
+NgaMiKiemPhap_level4_des,Hồi lại sinh lực cho bản thân theo [param4_3]% sát thương gây ra cho kẻ địch,
+PhongSuongTuyetAnh,Phong Sương Tuyết Ảnh,
+PhongSuongTuyetAnh_des,"Tấn công kẻ địch trên 1 đường thẳng, ngang 2m, dài 10m với sát thương [param1_0]% sức tấn công, những kẻ trúng đòn có tỉ lệ [param2_0]% giảm [ReduceCritEffect_param1_0]% tỉ lệ bạo kích hiện tại, nếu hắn là Nam Đệ Tử, tỉ lệ bạo kích giảm gấp đôi.",
+PhongSuongTuyetAnh_level2_des,Sát thương tăng thành [param1_1]%,
+PhongSuongTuyetAnh_level3_des,Tỉ lệ giảm bạo kích tăng thành [param2_2]%,
+PhieuTuyetXuyenVan,Phiêu Tuyết Xuyên Vân,
+PhieuTuyetXuyenVan_des,"Mỗi đòn tấn công đều giảm [PhieuTuyetXuyenVanEffect_param1_0]% tốc độ đánh của địch và tăng cho bản thân trong [PhieuTuyetXuyenVanEffect_param4_0]s, xếp chồng [PhieuTuyetXuyenVanEffect_param2_0] lần.",
+PhieuTuyetXuyenVan_level2_des,"Nếu kẻ địch là Nam, tỉ lệ bạo kích bản thân tăng [PhieuTuyetXuyenVanEffect_param3_1]%",
+PhieuTuyetXuyenVan_level3_des,"Khi bị dính hiệu ứng xấu, có tỉ lệ [CallTheSimpEffect_param1_2]% chuyển hiệu ứng xấu đó sang cho 1 đồng đội là Nam đệ tử ngay lập tức",
+BangCoNgocCotCong,Băng Cơ Ngọc Cốt Công,
+BangCoNgocCotCong_des,"Ưu tiên tìm và tấn công Nam Đệ Tử của địch.
+Sát thương khi đánh vào Nam Đệ Tử tăng [RaiseAtkWhenAttackMaleEffect_param1_0]%",
+BangCoNgocCotCong_level2_des,Chính xác tăng [RaiseHitWhenAttackMaleEffect_param1_1] khi tấn công Nam Đệ Tử,
+BangCoNgocCotCong_level3_des,Giảm [ReduceDamageReceivedFromMaleEffect_param1_2]% mọi loại sát thương phải nhận khi bị Nam Đệ Tử tấn công.,
+ThanhKhiHoangKimGiapAbility,Bất Diệt Kim Thân,
+ThanhKhiHoangKimGiapAbility_des,"[PaybackDmgEffect_param1_0]% Sinh lực mất đi sẽ phản lại cho toàn bộ kẻ địch, chia đều cho tất cả các mục tiêu còn lại trên chiến trường. Không có tác dụng khi Sinh Lực bản thân xuống dưới 10. Sát Thương bỏ qua Phòng Thủ và Kháng Chiêu Thức",
+ThanhKhiHoangKimGiapAbility_level2_des,"[PaybackDmgEffect_param1_1]% Sinh lực mất đi sẽ phản lại cho toàn bộ kẻ địch, chia đều cho tất cả các mục tiêu còn lại trên chiến trường. Không có tác dụng khi Sinh Lực bản thân xuống dưới 10. Sát Thương bỏ qua Phòng Thủ và Kháng Chiêu Thức",
+ThanhKhiHoangKimGiapAbility_level3_des,"[PaybackDmgEffect_param1_2]% Sinh lực mất đi sẽ phản lại cho toàn bộ kẻ địch, chia đều cho tất cả các mục tiêu còn lại trên chiến trường. Không có tác dụng khi Sinh Lực bản thân xuống dưới 10. Sát Thương bỏ qua Phòng Thủ và Kháng Chiêu Thức",
+ThuyKyLanSkill,Băng Sơn Dung Thủy,
+ThuyKyLanSkill_des,Dùng nước nhấn chìm kẻ địch,
+HoaKyLanSkill,Liệt Hỏa Phần Thiên,
+HoaKyLanSkill_des,Hỏa diễm đốt cháy tất cả mọi thứ,
+HonDonKyLanSkill,Nguyên Ám,
+HonDonKyLanSkill_des,Bóng tối vô tận nuốt trọn trời đất,
+MiAnhKiemPhap,Mị Ảnh Kiếm Pháp,
+MiAnhKiemPhap_des,"Chém 1 kẻ địch 3 nhát kiếm, mỗi nhát gây sát thương [param2_0]% Sức Tấn Công. Kết thúc chiêu thì tốc độ tấn công tăng [RaiseAtkSpeedEffect_param1_0]% trong [RaiseAtkSpeedEffect_duration_0]s.",
+MiAnhKiemPhap_level2_des,Tạo khiên cho bản thân bằng [MitigateDmgEffect_param1_1]% Sức Tấn Công trong [MitigateDmgEffect_duration_1]s,
+MiAnhKiemPhap_level3_des,Thời gian tăng tốc đánh lên thành [RaiseAtkSpeedEffect_duration_2]s,
+MiAnhKiemPhap_level4_des,"Địch bị Choáng [StunEffect_duration_3]s, bản thân Triệu Mẫn nhận 3 điểm Chiến Ý",
+DapTuyetTamMai,Đạp Tuyết Tầm Mai,
+DapTuyetTamMai_des,"Gây sát thương [param1_0]% Sức Tấn Công theo đường thẳng. Kẻ trúng đòn bị Choáng [StunEffect_duration_0]s.
+Mỗi kẻ trúng đòn thì Triệu Mẫn nhận 1 điểm Chiến Ý",
+DapTuyetTamMai_level2_des,Địch bị giảm [ReduceAtkSpeedEffect_param1_1]% Tốc độ đánh trong [ReduceAtkSpeedEffect_duration_1]s,
+DapTuyetTamMai_level3_des,"Thời gian Choáng tăng thành [StunEffect_duration_2]s, Giảm [ReduceAtkSpeedEffect_param1_2]% Tốc đánh trong [ReduceAtkSpeedEffect_duration_2]s",
+MucLoanTinhMe,Mục Loạn Tình Mê,
+MucLoanTinhMe_des,"Chém 5 chiêu, mỗi chiêu [param2_0]% Công lên vùng diện tích hình quạt trước mặt. Chiêu thức bỏ qua [param3_0]% Thủ của địch",
+MucLoanTinhMe_level2_des,Địch máu nhỏ hơn 50% thì nhận sát thương [param6_1]%,
+MucLoanTinhMe_level3_des,Hấp huyết [param7_2]% khi dùng chiêu này.,
+DiBoHoanHinh,Di Bộ Hoán Hình,
+DiBoHoanHinh_des,"Mỗi đòn đánh thường sẽ nhận 1 điểm Chiến Ý. Chiến Ý tích đủ [WarTrackEffect_param1_0] điểm thì phát nổ, gây sát thương [WarTrackEffect_param2_0]% Công lên vùng bán kính [WarTrackEffect_param3_0]m quanh người và hồi lại [WarTrackEffect_param4_0]% Sinh Lực Tối Đa cho Triệu Mẫn (Khi phát nổ thì Chiến Ý về 0)",
+DiBoHoanHinh_level2_des,Tốc độ đánh tăng [RaiseAtkSpeedEffect_param1_1]%,
+DiBoHoanHinh_level3_des,Né tránh tăng [AddOtherEvasionEffect_param1_2]%,
+NgocNuToTamKiemPhap,Ngọc Nữ Tố Tâm Kiếm,
+NgocNuToTamKiemPhap_des,"Chọn 1 mục tiêu ngẫu nhiên, ném kiếm cắm xuống đầu hắn và tạo 1 vòng kiếm khí. Gây sát thương [param1_0]% Công lên mục tiêu và kẻ địch trong bán kính [param2_0]m quanh hắn.
+Những kẻ địch trong bán kính [param2_0]m quanh mục tiêu bị hút vào giữa vòng kiếm khí, Cấm Võ Công [SilenceEffect_duration_0]s. Những kẻ địch trong bán kính [param2_0]m bị giảm [SlowAOEEffect_param1_0]% Tốc Chạy. Vòng kiếm khí tồn tại [SlowAOEEffect_duration_0]s.",
+NgocNuToTamKiemPhap_level2_des,Bán kính tăng lên [param2_1]m,
+NgocNuToTamKiemPhap_level3_des,Cấm võ công [SilenceEffect_duration_2]s,
+NgocNuToTamKiemPhap_level4_des,Vòng kiếm khí tồn tại [SlowAOEEffect_duration_3]s,
+NgheThuongVuY,Nghê Thường Vũ Y,
+NgheThuongVuY_des,"Nhảy múa khiến [MindControlEffect_param1_0] kẻ địch bị điều khiển trong [MindControlEffect_duration_0]s và tăng [RaiseAtkSpeedEffect_param1_0]% Tốc Độ Tấn Công cho hắn, tự tấn công quân mình và không có võ công. Không thể giải trừ trạng thái bị điều khiển, kẻ bị điều khiển không được tăng Nội Lực. Nếu địch còn 1 người thì chiêu thức không được thi triển.",
+NgheThuongVuY_level2_des,"Điều khiển [MindControlEffect_param1_1] kẻ địch (nếu địch chỉ còn lại 2 người thì chỉ điều khiến được 1, nếu địch còn 1 thì chiêu thức không được thi triển)",
+NgheThuongVuY_level3_des,Địch có võ công (không có Nộ Chiêu),
+LuuVanTram,Lưu Vân Trảm,
+LuuVanTram_des,"Bị tấn công thì biến mất trong [param1_0]s, chỗ cũ xuất hiện 1 phân thân. Phân thân có 0% Công, nhận 100% Sát Thương, tồn tại [param4_0]s, bản thân nhảy lùi về sau 2m, có thể tránh được cả những võ công Không Thể Né.",
+LuuVanTram_level2_des,"Xuất hiện lại thì nhận Bá Thể [param3_1]s, kháng toàn bộ các trạng thái xấu.",
+LuuVanTram_level3_des,Hư ảnh có Nội Tại,
+ThienTamKiemQuyet,Thiên Tâm Kiếm Quyết,
+ThienTamKiemQuyet_des,"Đòn tấn công của Lâm Triều Anh xuyên qua kẻ địch, kiếm khí có thể xuyên từ kẻ địch đầu tiên sang những kẻ địch khác với sát thương giảm dần 30% sau mỗi lần xuyên. Tất cả kẻ trúng đòn mất [SpillAttackEffect_param2_0]% Tốc Độ Đánh trong [SpillAttackEffect_param3_0]s.",
+ThienTamKiemQuyet_level2_des,"Mỗi giây tăng [RaiseAttackSpeedOnTimeEffect_param1_1]% Tốc Độ Đánh cho bản thân, tối đa tăng [RaiseAttackSpeedOnTimeEffect_param2_1]%",
+ThienTamKiemQuyet_level3_des,"Mỗi đòn đánh [SpillAttackEffect_param4_2]% Kháng Đánh Thường và [SpillAttackEffect_param4_2]% Kháng Võ Công của địch trong 2s, tối đa [SpillAttackEffect_param5_2]%",
+VanPhatTrieuTong,Như Lai Thần Chưởng,
+VanPhatTrieuTong_des,"Bắn [param1_0] chưởng lên mục tiêu có Sức Tấn Công lớn nhất, mỗi chưởng có bán kính ảnh hưởng là [param3_0]m, gây sát thương [param2_0]% sức tấn công mỗi chưởng.",
+VanPhatTrieuTong_level2_des,Mỗi kẻ trúng đòn bị đánh ngã [KnockBackEffect_duration_0]s,
+VanPhatTrieuTong_level3_des,Tỉ lệ Bạo Kích + [param4_2]% khi sử dụng chiêu này.,
+VanPhatTrieuTong_level4_des,Bắn [param1_3] chưởng,
+KimDinhPhatQuang,Kim Đỉnh Phật Quang,
+KimDinhPhatQuang_des,Tạo vòng bảo vệ giúp toàn đội giảm [AddMagicalResistanceEffect_param1_0]% sát thương phải nhận và thêm [RaiseStatusResEffect_param1_0]% Kháng Trạng Thái Xấu trong [RaiseStatusResEffect_duration_0]s. Khi sử dụng thì giải hiệu ứng xấu cho bản thân và đồng đội ngay lập tức.,
+KimDinhPhatQuang_level2_des,Cả đội được tăng [RaiseAtkSpeedEffect_param1_1]% Tốc Đánh,
+KimDinhPhatQuang_level3_des,Hồi lại Sinh Lực theo [param1_2]% Sức Tấn Công bản thân cho toàn đội mỗi giây trong 5s,
+PhanTamHangMa,Vạn Phật Triều Tông,
+PhanTamHangMa_des,"Tạo vòng cương khí quanh người, kẻ địch trong bán kính [SendDmgAroundEffect_param2_0]m nhận sát thương bằng [SendDmgAroundEffect_param1_0]% Sinh Lực Tối Đa mỗi giây, sát thương bỏ qua Phòng Ngự nhưng bị giảm bởi Kháng Võ Công. Kẻ địch nếu bị Đạt Ma kết liễu sẽ không thể hồi sinh",
+PhanTamHangMa_level2_des,Địch bị giảm [ReduceDefenseAuraEffect_param1_1]% Thủ,
+PhanTamHangMa_level3_des,Mỗi đòn đánh thường của Đạt Ma có tỉ lệ [NormalAttackKnockbackEffect_param1_2]% khiến địch ngã ra đất [NormalAttackKnockbackEffect_param2_2]s.,
+VanThuXuatVanThoai,La Hán Quyền,
+VanThuXuatVanThoai_des,"Tung quyền về phía kẻ địch, đấm liên tục [param1_0] quyền cho 1 kẻ địch, gây sát thương [param2_0]% Công mỗi quyền. Địch bị Ngã - Trói Chân - Choáng - Ngủ thì chiêu thức bỏ qua 100% Kháng Võ Công.",
+VanThuXuatVanThoai_level2_des,Chính xác tăng [param3_1] khi xuất chiêu,
+VanThuXuatVanThoai_level3_des,Địch trong bán kính [param4_2]m quanh mục tiêu bị trói chân [param5_2]s.,
+,,
+LongTruSkill,Song Long Thiên Vũ,
+LongTruSkill_des,Tiêu diệt toàn bộ kẻ địch xâm phạm đến Long Trụ,
+,,
+LinhTeNhatChi,Linh Tê Nhất Chỉ,
+LinhTeNhatChi_des,"Chỉ pháp phòng ngự, trong [DamageImmuneEffect_duration_0]s hấp thu [DamageImmuneEffect_param1_0]% sát thương đến từ võ công của tất cả kẻ địch, bản thân vẫn tấn công và dùng võ công được bình thường.
+Tốc độ tấn công tăng [RaiseAtkSpeedEffect_param1_0]%. Hết [DamageImmuneEffect_duration_0]s sẽ trả lại [DamageImmuneEffect_param3_0]% lượng sát thương đã hấp thu ra phạm vi [DamageImmuneEffect_param4_0]m quanh người, những kẻ trúng đòn bị Choáng [DamageImmuneEffect_param5_0]s",
+LinhTeNhatChi_level2_des,Tốc độ tấn công tăng [RaiseAtkSpeedEffect_param1_1]%,
+LinhTeNhatChi_level3_des,Những kẻ trúng đòn bị Choáng [DamageImmuneEffect_param5_2]s,
+LinhTeNhatChi_level4_des,Sát thương phản ra xung quanh tăng thành [DamageImmuneEffect_param2_3]%,
+TrienHonCamNaThu,Triền Hồn Cầm Nã Thủ,
+TrienHonCamNaThu_des,Lục Tiểu Phụng khiến kẻ địch trong bán kính [param1_0]m quanh người phải tấn công mình trong [param2_0]s. Bản thân và đồng đội trong phạm vi [param1_0]m được hồi [RegenerateHPIntervalEffect_param1_0]% Sinh Lực Tối Đa mỗi giây trong [RegenerateHPIntervalEffect_duration_0]s,
+TrienHonCamNaThu_level2_des,Bản thân và đồng đội được tăng [RaiseStatusResEffect_param1_1]% Kháng Trạng Thái Xấu,
+TrienHonCamNaThu_level3_des,"Bản thân và đồng đội trong [param1_2]m được hồi [RegenerateHPIntervalEffect_param1_2]% Sinh Lực Tối Đa mỗi giây trong [param2_2]s, nếu dính hiệu ứng xấu thì hiệu quả tăng gấp đôi.",
+PhungVuCuuThien,Phụng Vũ Cửu Thiên,
+PhungVuCuuThien_des,"Nhảy ra sau lưng mục tiêu, gây sát thương [param1_0]% Công lên bán kính [param2_0]m quanh người địch, giải tất cả các hỗ trợ trên người địch và phá hủy khiên chắn. Có tỉ lệ [param3_0]% xuất chiêu xong thi triển ngay lập tức Triền Hồn Cầm Nã Thủ",
+PhungVuCuuThien_level2_des,Kẻ trúng đòn mất [ReduceDefenseEffect_param1_1]% Công và [ReduceAtkEffect_param1_1]% Thủ trong 5s,
+PhungVuCuuThien_level3_des,Có tác dụng với Bá Thể,
+LacHoaLuuThuy,Lạc Hoa Lưu Thủy,
+LacHoaLuuThuy_des,Tỉ lệ [LacHoaLuuThuyEffect_param1_0]% không nhận sát thương từ võ công của kẻ địch. Khi Máu xuống dưới [ReduceReceivedDmgByHPEffect_param1_0]% thì sát thương phải nhận giảm [ReduceReceivedDmgByHPEffect_param2_0]%,
+LacHoaLuuThuy_level2_des,Chặn thành công Võ Công của địch thì Phá Nội Tại hắn trong 4s và tạo khiên chắn cho bản thân bằng [LacHoaLuuThuyEffect_param2_1]% Công. Khi Máu xuống dưới [ReduceReceivedDmgByHPEffect_param1_0]% thì sát thương phải nhận giảm [ReduceReceivedDmgByHPEffect_param2_1]%,
+LacHoaLuuThuy_level3_des,"Khiên chắn tăng lên thành [LacHoaLuuThuyEffect_param2_2]% Công, Máu dưới [ReduceReceivedDmgByHPEffect_param1_0]% thì sát thương phải nhận giảm [ReduceReceivedDmgByHPEffect_param2_2]%",
+LuuVanTongMong,Lưu Vân Tống Mộng,
+LuuVanTongMong_des,"Dùng cước quét xuống đất 1 vòng, gây sát thương [param1_0]% Công lên [param2_0]m quanh mục tiêu, những kẻ trúng đòn bị giảm [ReduceDefenseEffect_param1_0]% Thủ trong [ReduceDefenseEffect_duration_0]s",
+LuuVanTongMong_level2_des,Giảm [ReduceDefenseEffect_param1_1]% Thủ của kẻ trúng đòn,
+LuuVanTongMong_level3_des,Sát thương tăng thành [param1_2]% và kẻ trúng đòn bị Choáng 3s,
+LuuVanTongMong_level4_des,Kết thúc chiêu thì nhận Bá Thể [GodEffect_duration_0]s,
+TrungVanTuHai,Trùng Vân Tụ Hải,
+TrungVanTuHai_des,"Nhảy đến kẻ địch xa nhất, gây 1 đòn sát thương [param1_0]% Công và chắc chắn Bạo Kích lên hắn. Xuất chiêu xong thì tăng [AddEvasionEffect_param1_0]% Né và hồi lại [RegenerateHPIntervalEffect_param1_0]% Máu Tối đa mỗi giây trong 5s. Địch bị Phá Nội Tại 2s trước khi chiêu thức đến.",
+TrungVanTuHai_level2_des,Né tăng [AddEvasionEffect_param1_1]%,
+TrungVanTuHai_level3_des,Hồi máu tăng thành [RegenerateHPIntervalEffect_param1_2]% mỗi giây,
+DanChiThanCong,Đàn Chỉ Thần Công,
+DanChiThanCong_des,"Tốc độ đánh tăng [RaiseAtkSpeedEffect_param1_0]%, khi tấn công có tỉ lệ [DanChiThanCongEffect_param1_0]% khiến địch bị cấm đánh [DanChiThanCongEffect_param2_0]s và khi cấm đánh thì gây thêm sát thương bằng [DanChiThanCongEffect_param3_0]% Công",
+DanChiThanCong_level2_des,Tốc độ đánh tăng [RaiseAtkSpeedEffect_param1_1]%,
+DanChiThanCong_level3_des,"Tốc độ đánh tăng [RaiseAtkSpeedEffect_param1_2]%, tỉ lệ cấm đánh tăng thành [DanChiThanCongEffect_param1_2]%",
+PhucThuyNanThu,Phúc Thủy Nan Thu,
+PhucThuyNanThu_des,"Điểm huyệt 2 kẻ địch ngẫu nhiên, ưu tiên kẻ địch không trong tầm đánh, khiến chúng bị khống chế trong 3s. Cấm hồi nội lực, mỗi giây rút đi [BurnMaxManaEffect_param1_0]% Nội Lực Tối Đa của hắn
+Mỗi giây địch nhận sát thương [param3_0]% Công",
+PhucThuyNanThu_level2_des,Sát thương mỗi giây tăng thành [param3_1]%,
+PhucThuyNanThu_level3_des,Kẻ bị khống chế mất [BurnMaxManaEffect_param1_2]% Nội lực Tối Đa mỗi giây,
+ThanDieuSkill,Thương Ưng Tróc Thố,
+ThanDieuSkill_des,Tỉ lệ [ThanDieuNormalAttackEffect_param1_0]% gây [ThanDieuNormalAttackEffect_param2_0]% Công của chủ nhân lên diện tích [ThanDieuNormalAttackEffect_param3_0]m quanh người địch. Thời gian chờ 5s,
+ThanDieuSkill_level2_des,Tỉ lệ [ThanDieuNormalAttackEffect_param1_0]% gây [ThanDieuNormalAttackEffect_param2_1]% Công của chủ nhân lên diện tích [ThanDieuNormalAttackEffect_param3_0]m quanh người địch. Thời gian chờ 5s,
+ThanDieuSkill_level3_des,Tỉ lệ [ThanDieuNormalAttackEffect_param1_0]% gây sát thương theo [ThanDieuNormalAttackEffect_param2_2]% Sức Tấn Công của chủ nhân lên diện tích [ThanDieuNormalAttackEffect_param3_0]m quanh người địch. Thời gian chờ 5s,
+TienLocSkill,Vũ Đả Lê Hoa,
+TienLocSkill_des,Tỉ lệ [TienLocEffect_param1_0]% hấp thu [TienLocEffect_param2_0]% sát thương khi chủ nhân trúng đòn. Thời gian chờ 2s,
+TienLocSkill_level2_des,Tỉ lệ [TienLocEffect_param1_0]% hấp thu [TienLocEffect_param2_1]% sát thương khi chủ nhân trúng đòn. Thời gian chờ 2s,
+TienLocSkill_level3_des,Tỉ lệ [TienLocEffect_param1_0]% hấp thu [TienLocEffect_param2_2]% sát thương khi chủ nhân trúng đòn. Thời gian chờ 2s. Hồi sinh chủ nhân 1 lần với Sinh Lực [param1_2]%.,
+ManhHoSkill,Mãnh Hổ Phốc Thực,
+ManhHoSkill_des,"Tăng thêm [ManhHoEffect_param1_0]% Công cho Chủ Nhân sau khi sử dụng Nộ Chiêu, tác dụng 1 lần duy nhất đến hết trận.",
+ManhHoSkill_level2_des,"Tăng thêm [ManhHoEffect_param1_1]% Công cho Chủ Nhân sau khi sử dụng Nộ Chiêu, tác dụng 1 lần duy nhất đến hết trận.",
+ManhHoSkill_level3_des,"Tăng thêm [ManhHoEffect_param1_2]% Công cho Chủ Nhân sau khi sử dụng Nộ Chiêu, tác dụng 1 lần duy nhất đến hết trận.",
+BachVienSkill,Hầu Tử Chi Uy,
+BachVienSkill_des,"Khiến mục tiêu của chủ nhân có tỉ lệ [BachVienNormalAttackEffect_param1_0]% mất [param1_0]% Sinh Lực Tối Đa mỗi giây trong [param2_0]s, sát thương bỏ qua thủ. Thời gian chờ 5s",
+BachVienSkill_level2_des,"Khiến mục tiêu của chủ nhân có tỉ lệ [BachVienNormalAttackEffect_param1_0]% mất [param1_1]% Sinh Lực Tối Đa mỗi giây trong [param2_0]s, sát thương bỏ qua thủ. Thời gian chờ 5s",
+BachVienSkill_level3_des,"Khiến mục tiêu của chủ nhân có tỉ lệ [BachVienNormalAttackEffect_param1_0]% mất [param1_2]% Sinh Lực Tối Đa mỗi giây trong [param2_0]s, sát thương bỏ qua thủ. Kẻ bị rút máu sẽ bị cưỡng ép đổi mục tiêu tấn công. Thời gian chờ 5s",
+ChuCapSkill,Vạn Độc Chi Vương,
+ChuCapSkill_des,"Phát nổ gây ra sát thương [param1_0]% Công Chủ Nhân lên [param2_0]m quanh người khi chủ nhân còn [param3_0]% Máu, kích hoạt 1 lần. ",
+ChuCapSkill_level2_des,"Phát nổ gây ra sát thương [param1_1]% Công Chủ Nhân lên [param2_0]m quanh người khi chủ nhân còn [param3_0]% Máu, địch bị giảm [ReducePhysicResistanceEffect_param1_1]% Kháng Đánh Thường, Kháng Chiêu Thức, Kháng Bạo đến hết trận. Nổ 1 lần duy nhất.",
+ChuCapSkill_level3_des,"Phát nổ gây ra sát thương [param1_2]% Công Chủ Nhân lên [param2_0]m quanh người khi chủ nhân còn [param3_0]% Máu, địch bị giảm [ReducePhysicResistanceEffect_param1_1]% Kháng Đánh Thường, Kháng Chiêu Thức, Kháng Bạo và không nhận được các hiệu ứng có lợi đến hết trận. Nổ 1 lần duy nhất.",

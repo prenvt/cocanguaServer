@@ -1,0 +1,336 @@
+[
+	{
+		"name": "BRONZE|NONE|4",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|NONE|8",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|NONE|12",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5],
+			"IncreaseReward": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|PHI_CONG|4",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|PHI_CONG|8",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|PHI_CONG|12",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5],
+			"IncreaseReward": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|DOANH_NHAN|4",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|DOANH_NHAN|8",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|DOANH_NHAN|12",
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"ReduceToll": [1, 5],
+			"IncreaseReward": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|CO_GAI",
+		"maxLevel": 4,
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BRONZE|TEN_TROM",
+		"maxLevel": 4,
+		"sellCost": 10000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "SILVER|NONE",
+		"maxLevel": 4,
+		"sellCost": 20000,
+		"upgradeCost": 10000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5]
+		}
+	},
+	{
+		"name": "SILVER|PHI_CONG",
+		"maxLevel": 4,
+		"sellCost": 20000,
+		"upgradeCost": 10000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "SILVER|DOANH_NHAN",
+		"maxLevel": 4,
+		"sellCost": 20000,
+		"upgradeCost": 10000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "SILVER|CO_GAI",
+		"maxLevel": 4,
+		"sellCost": 20000,
+		"upgradeCost": 10000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "SILVER|TEN_TROM",
+		"maxLevel": 4,
+		"sellCost": 20000,
+		"upgradeCost": 10000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "GOLD|NONE",
+		"maxLevel": 4,
+		"sellCost": 50000,
+		"upgradeCost": 30000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5]
+		}
+	},
+	{
+		"name": "GOLD|PHI_CONG",
+		"maxLevel": 4,
+		"sellCost": 50000,
+		"upgradeCost": 30000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "GOLD|DOANH_NHAN",
+		"maxLevel": 4,
+		"sellCost": 50000,
+		"upgradeCost": 30000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "GOLD|CO_GAI",
+		"maxLevel": 4,
+		"sellCost": 50000,
+		"upgradeCost": 30000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "GOLD|TEN_TROM",
+		"maxLevel": 4,
+		"sellCost": 50000,
+		"upgradeCost": 5000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "PURPLE|NONE",
+		"maxLevel": 4,
+		"sellCost": 100000,
+		"upgradeCost": 50000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5]
+		}
+	},
+	{
+		"name": "PURPLE|PHI_CONG",
+		"maxLevel": 4,
+		"sellCost": 100000,
+		"upgradeCost": 50000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "PURPLE|DOANH_NHAN",
+		"maxLevel": 4,
+		"sellCost": 100000,
+		"upgradeCost": 50000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "PURPLE|CO_GAI",
+		"maxLevel": 4,
+		"sellCost": 100000,
+		"upgradeCost": 50000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "PURPLE|TEN_TROM",
+		"maxLevel": 4,
+		"sellCost": 100000,
+		"upgradeCost": 50000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BLACK|NONE",
+		"maxLevel": 4,
+		"sellCost": 500000,
+		"upgradeCost": 200000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5]
+		}
+	},
+	{
+		"name": "BLACK|PHI_CONG",
+		"maxLevel": 4,
+		"sellCost": 500000,
+		"upgradeCost": 200000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BLACK|DOANH_NHAN",
+		"maxLevel": 4,
+		"sellCost": 500000,
+		"upgradeCost": 200000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BLACK|CO_GAI",
+		"maxLevel": 4,
+		"sellCost": 500000,
+		"upgradeCost": 200000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	},
+	{
+		"name": "BLACK|TEN_TROM",
+		"maxLevel": 4,
+		"sellCost": 500000,
+		"upgradeCost": 200000,
+		"statsValues": 
+		{
+			"IncreaseSalary": [1, 5],
+			"BonusSkillValue": [1, 5]
+		}
+	}
+]

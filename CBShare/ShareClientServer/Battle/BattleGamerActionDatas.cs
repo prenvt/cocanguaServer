@@ -11,6 +11,7 @@ namespace CBShare.Data
         MatchingSuccess = 0,
         StartBattle = 1,
         RollDice = 2,
+        ChooseHorse = 3,
     }
 
     public class BattleActionData

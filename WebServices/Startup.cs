@@ -80,11 +80,7 @@ namespace WebServices
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    string welcome_str = "Welcome to Monopoly - LOCAL";
-#if SOHA
-                    welcome_str = "Welcome to Monopoly : " + Configuration.GetValue<string>("SERVER_TYPE");
-#endif
-
+                    string welcome_str = "Welcome to Ludo";
                     await context.Response.WriteAsync(welcome_str);
                 });
                 //endpoints.MapRazorPages();

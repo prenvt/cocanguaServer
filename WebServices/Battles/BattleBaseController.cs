@@ -344,7 +344,7 @@ namespace WebServices.Battles
             }
         }
 
-        protected void WaitTurnGamerMoveHorse(int _diceValue)
+        protected void ProcessTurnGamerMoveHorse(int _diceValue)
         {
             try
             {
@@ -363,7 +363,26 @@ namespace WebServices.Battles
                 }
                 else if (horseCanMoveIdxsList.Count == 1)
                 {
-                    this.ProcessTurnGamerMoveHorse(horseCanMoveIdxsList[0]);
+                    var _horseIdx = horseCanMoveIdxsList[0];
+                    var startSpaceIdx = this.battleCfg.startIndexs[this.currentTurnGamer.color.ToString()];
+                    var horseSpaceIdx = this.currentTurnGamer.horseSpaceIndexsList[_horseIdx];
+                    var destSpaceIdx = horseSpaceIdx % this.battleCfg.numSpaces;
+                    if (destSpaceIdx > startSpaceIdx)
+                    {
+                        this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
+                    }
+                    else
+                    {
+                        var endSpaceIdx = this.battleCfg.endIndexs[this.currentTurnGamer.color.ToString()];
+                        if (destSpaceIdx <= endSpaceIdx)
+                        {
+                            this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
+                        }
+                        else
+                        {
+
+                        }
+                    }
                 }
                 else
                 {
@@ -380,37 +399,6 @@ namespace WebServices.Battles
         protected void WaitTurnGamerChooseHorseToMove(List<int> _horseIdxsList)
         {
 
-        }
-
-        protected void ProcessTurnGamerMoveHorse(int _horseIdx)
-        {
-            try
-            {
-                var startSpaceIdx = this.battleCfg.startIndexs[this.currentTurnGamer.color.ToString()];
-                var horseSpaceIdx = this.currentTurnGamer.horseSpaceIndexsList[_horseIdx];
-                var destSpaceIdx = horseSpaceIdx % this.battleCfg.numSpaces;
-                if (destSpaceIdx > startSpaceIdx)
-                {
-                    this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
-                }
-                else
-                {
-                    var endSpaceIdx = this.battleCfg.endIndexs[this.currentTurnGamer.color.ToString()];
-                    if (destSpaceIdx <= endSpaceIdx)
-                    {
-                        this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);
-                    }
-                    else
-                    {
-                        
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                ExceptionLogMongoDB.add(ex.ToString());
-                this.SendDisplayMessageToAllGamers(ex.ToString());
-            }
         }
 
         protected void ProcessApplyHorseMoveToSpace(int _horseIdx, int _fromSpaceIdx, int _destSpaceIdx)
@@ -731,7 +719,7 @@ namespace WebServices.Battles
                         }
                         else if (spaceValue / 10 == (int)gamerProperties.color)
                         {
-                            this.WaitTurnGamerMoveHorse(diceValue);
+                            this.ProcessTurnGamerMoveHorse(diceValue);
                         }
                         else
                         {
@@ -741,12 +729,12 @@ namespace WebServices.Battles
                     }
                     else
                     {
-                        this.WaitTurnGamerMoveHorse(diceValue);
+                        this.ProcessTurnGamerMoveHorse(diceValue);
                     }
                 }
                 else
                 {
-                    this.WaitTurnGamerMoveHorse(diceValue);
+                    this.ProcessTurnGamerMoveHorse(diceValue);
                 }
             }
             catch (Exception ex)

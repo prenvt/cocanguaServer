@@ -17,8 +17,9 @@ namespace CBShare.Data
         StartHorse = 2,
         MoveHorse = 3,
         KickHorse = 4,
-        UpdatePoint = 5,
-        ShowWarning = 6,
+        MoveStarHorse = 6,
+        UpdatePoint = 7,
+        UseBoosterItem = 8,
     }
 
     public class ReplayStepData

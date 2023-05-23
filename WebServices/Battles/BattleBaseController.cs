@@ -10,7 +10,6 @@ using System.Linq;
 using CBShare.Data;
 using LitJson;
 using CBShare.Battle;
-using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace WebServices.Battles
 {
@@ -127,6 +126,7 @@ namespace WebServices.Battles
                 {
                     case BattleActionType.MatchingSuccess:
                         {
+                            this.properties.state = BattleState.BuyBoosterItem;
                             var waitingTime = 5f;// this.battleCfg.waitTimes[BattleState.BUY_BOOSTER.ToString()];
                             for (int i = 0; i < this.properties.gamersPropertiesList.Count; i++)
                             {
@@ -140,6 +140,7 @@ namespace WebServices.Battles
 
                     case BattleActionType.StartBattle:
                         {
+                            this.properties.state = BattleState.Playing;
                             this.properties.turnGamerIndex = RandomUtils.GetRandomInt(0, 2);
                             this.properties.firstTurnGamerIndex = this.properties.turnGamerIndex;
                             //var actionCardCfg = ConfigManager.instance.GetActionCardConfig(ActionCardCode.StartGift);
@@ -597,7 +598,7 @@ namespace WebServices.Battles
                     {
                         gid = gid,
                         name = userInfo.gamerData.displayName,
-                        avatar = userInfo.gamerData.Avatar,
+                        //avatar = userInfo.gamerData.Avatar,
                         money = userInfo.gamerData.GetCurrencyValue(CurrencyCode.MONEY),
                         color = (GamerColor)this.properties.gamersPropertiesList.Count,
                     };

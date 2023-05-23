@@ -56,7 +56,7 @@ namespace CBShare.Data
     {
         public long gid;
         public string name;
-        public string avatar;
+        //public string avatar;
         public GamerColor color;
         public int rankingIndex;
         public GamerState state;

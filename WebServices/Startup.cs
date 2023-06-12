@@ -16,6 +16,8 @@ using System.Reflection;
 using System.Threading.Tasks;
 using CTPServer.MongoDB;
 using WebServices.Hubs;
+using LitJson;
+using WebServices.HTTPs;
 
 namespace WebServices
 {
@@ -87,6 +89,7 @@ namespace WebServices
                 //endpoints.MapHub<ChatHub>("/chatHub");
                 endpoints.MapHub<BattleHub>("/battleHub");
                 endpoints.MapPost("/game/request", HTTPRequest);
+                endpoints.Map("/gmtool", HandleGMToolRequest);
             });
 
             this.InitConfigs(env.ContentRootPath);
@@ -223,6 +226,85 @@ namespace WebServices
                 response.Add("data", responseData);
                 response.Add("iv", new_iv);
                 await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(response));
+            }
+        }
+
+        async Task HandleGMToolRequest(HttpContext context)
+        {
+            try
+            {
+                string methodName = null;
+                string data = null;
+
+                foreach (string key in context.Request.Query.Keys)
+                {
+                    string query = context.Request.Query[key];
+                    query = query.Trim();
+                    if (key == "method")
+                    {
+                        methodName = query;
+                    }
+                    else if (key == "data")
+                    {
+                        data = query;
+                    }
+                }
+
+                if (context.Request.Method == HttpMethods.Post)
+                {
+                    foreach (string key in context.Request.Form.Keys)
+                    {
+                        string value = context.Request.Form[key];
+                        value = value.Trim();
+                        if (key == "data")
+                        {
+                            data = value;
+                        }
+                        else if (key == "method")
+                        {
+                            methodName = value;
+                        }
+                    }
+                }
+                //string responseData = ProcessRequest(methodName, data, iv, binaryData);
+                bool encrypted = true;
+                MethodInfo mi = (typeof(TMCWebService)).GetMethod(methodName);
+                string responseData = null;
+
+                if (data != null)
+                {
+                    responseData = (string)mi.Invoke(null, new object[] { data });
+                }
+                else
+                {
+                    responseData = (string)mi.Invoke(null, new object[] { });
+                }
+
+                if (context.Request.Method == HttpMethods.Get)
+                {
+                    await context.Response.WriteAsync(responseData);
+                }
+                else
+                {
+                    // TODO: add response cache on gid request to prevent brute-force send same request
+                    Console.Out.WriteLine("response :" + responseData);
+                    string new_iv = encrypted ? HikerAes.GenerateIV() : string.Empty;
+                    responseData = ReadText.CompressString(responseData, new_iv);
+                    var response = new Dictionary<string, string>();
+                    response.Add("data", responseData);
+                    response.Add("iv", new_iv);
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                }
+            }
+            catch (Exception e)
+            {
+                var encrypted = false;
+                string new_iv = encrypted ? HikerAes.GenerateIV() : string.Empty;
+                string responseData = "Invalid Request";
+                var response = new Dictionary<string, string>();
+                response.Add("data", responseData);
+                response.Add("iv", new_iv);
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
             }
         }
     }

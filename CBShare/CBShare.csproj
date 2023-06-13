@@ -102,6 +102,7 @@
     <Compile Include="ShareClientServer\LZ4\LZ4s.Safe64HC.Dirty.cs" />
     <Compile Include="ShareClientServer\LZ4\Safe32LZ4Service.cs" />
     <Compile Include="ShareClientServer\LZ4\Safe64LZ4Service.cs" />
+    <Compile Include="ShareClientServer\RequestAndResponse\GMToolRequestResponseData .cs" />
     <Compile Include="ShareClientServer\RequestAndResponse\RequestResponseData.cs" />
     <Compile Include="ShareClientServer\Data\UserInfo.cs" />
     <Compile Include="ShareClientServer\Vector3\Exceptions\NormalizeVectorException.cs" />

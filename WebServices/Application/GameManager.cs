@@ -748,7 +748,7 @@ public class GameManager
         return true;
     }*/
 
-    public static ERROR_CODE CheckRequestValidation(RequestBase request, bool checkConfigVersion = true)
+    public static ErrorCode CheckRequestValidation(RequestBase request, bool checkConfigVersion = true)
     {
         /*string token = null;
         long gid = request.GID;
@@ -774,10 +774,10 @@ public class GameManager
         {
             //if (ConfigManager.Instance.ConfigsversionCode > request.ConfigVersion)
             {
-                return ERROR_CODE.CONFIG_VERSION_INVALID;
+                return ErrorCode.CONFIG_VERSION_INVALID;
             }
         }
-        return ERROR_CODE.OK;
+        return ErrorCode.OK;
     }
 
     public void AddCache(string cacheKey, Object cacheObj)

@@ -35,7 +35,7 @@ namespace WebServices
 
                 if (string.IsNullOrEmpty(request.username))
                 {
-                    return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
+                    return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
                 }
 
                 var userLoginData = UserLoginMongoDB.GetByUserName(request.username);
@@ -43,7 +43,7 @@ namespace WebServices
                 {
                     if (userLoginData != null) //UserExist
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("UserExist"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("UserExist"));
                     }
                     long gid = CounterMongoDB.GetNextValue("GID");
                     userLoginData = new UserLoginData()
@@ -58,11 +58,11 @@ namespace WebServices
                 {
                     if (userLoginData == null)
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("UserNotExist"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("UserNotExist"));
                     }
                     if (!userLoginData.password.Equals(request.password))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidPassword"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidPassword"));
                     }
                 }
 
@@ -90,13 +90,13 @@ namespace WebServices
                 if (response.userInfo.timeEvents == null)
                     response.userInfo.timeEvents = TimeEventMutexMongoDB.Get();*/
 
-                response.ErrorCode = ERROR_CODE.OK;
+                response.ErrorCode = ErrorCode.OK;
                 return GetResponseStr(response);
             }
             catch (Exception ex)
             {
                 ExceptionLogMongoDB.add(ex.ToString());
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
     }

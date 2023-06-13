@@ -9,17 +9,35 @@ using CBShare.Common;
 
 namespace CBShare.Data
 {
-    public class GMToolGetUsersRequestData : RequestBase
+    public class GMToolRequestBase
+    {
+
+    }
+
+    public class GMToolUserManagerRequest : GMToolRequestBase
+    {
+    }
+
+    public class GMToolGetUsersListRequest : GMToolRequestBase
     {
         
     }
 
-    public class GMToolGetUsersResponseData : ResponseBase
+    public class GMToolGetUsersListResponse : ResponseBase
     {
-        public long GID;
-        public UserInfo userInfo;
-        public string accessToken;
-        public string url;
-        public string username;
+       
+    }
+
+    public class GMToolUserData
+    {
+        public int index;
+        public int GID;
+        public string userName;
+        public string displayName;
+        public string phone;
+        public string email;
+        public DateTime registerTime;
+        public int money;
+        public int gold;
     }
 }

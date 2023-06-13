@@ -57,7 +57,7 @@ namespace WebServices
 
                 if (string.IsNullOrEmpty(request.username))
                 {
-                    return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
+                    return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
                 }
 
                 var userLoginData = UserLoginMongoDB.GetByUserName(request.username);
@@ -65,7 +65,7 @@ namespace WebServices
                 {
                     if (userLoginData != null) //UserExist
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("UserExist"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("UserExist"));
                     }
                     long gid = CounterMongoDB.GetNextValue("GID");
                     userLoginData = new UserLoginData()
@@ -80,11 +80,11 @@ namespace WebServices
                 {
                     if (userLoginData == null)
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("UserNotExist"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("UserNotExist"));
                     }
                     if (!userLoginData.password.Equals(request.password))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidPassword"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidPassword"));
                     }
                 }
 
@@ -112,13 +112,13 @@ namespace WebServices
                 if (response.userInfo.timeEvents == null)
                     response.userInfo.timeEvents = TimeEventMutexMongoDB.Get();*/
 
-                response.ErrorCode = ERROR_CODE.OK;
+                response.ErrorCode = ErrorCode.OK;
                 return GetResponseStr(response);
             }
             catch (Exception ex)
             {
                 ExceptionLogMongoDB.add(ex.ToString());
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 
@@ -404,8 +404,8 @@ namespace WebServices
             try
             {
                 var request = JsonMapper.ToObject<GetUserInfoRequest>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request, false);
-                if (errorCode != ERROR_CODE.OK)
+                ErrorCode errorCode = GameManager.CheckRequestValidation(request, false);
+                if (errorCode != ErrorCode.OK)
                 {
                     return GetErrorResponse(response, errorCode);
                 }
@@ -416,18 +416,18 @@ namespace WebServices
                     {
                         UserInfo uInfo = GameManager.GetUserInfo(gid, request.props);
                         response.userInfo = uInfo;
-                        response.ErrorCode = ERROR_CODE.OK;
+                        response.ErrorCode = ErrorCode.OK;
                         return GetResponseStr(response);
                     }
                     else
                     {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
+                        return GetErrorResponse(response, ErrorCode.ACCESS_TOKEN_INVALID);
                     }
                 }
             }
             catch (Exception ex)
             {
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 
@@ -438,8 +438,8 @@ namespace WebServices
             try
             {
                 var request = JsonMapper.ToObject<ChangeNameRequestData>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request, false);
-                if (errorCode != ERROR_CODE.OK)
+                ErrorCode errorCode = GameManager.CheckRequestValidation(request, false);
+                if (errorCode != ErrorCode.OK)
                 {
                     return GetErrorResponse(new ResponseBase(), errorCode);
                 }
@@ -449,12 +449,12 @@ namespace WebServices
                     long gid = request.GID;
                     if (!GamerMongoDB.checkAccessToken(gid, request.accessToken, true))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
+                        return GetErrorResponse(response, ErrorCode.ACCESS_TOKEN_INVALID);
                     }
                     if (ConfigManager.instance.CheckBanDisplayName(request.DisplayName))
                     {
                         string msg = string.Format(Localization.Get("DISPLAY_NAME_INVALID"), request.DisplayName);
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, msg);
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, msg);
                     }
                     response.userInfo = GameManager.GetUserInfo(gid, new List<string>(){
                             GameRequests.PROPS_GAMER_DATA });
@@ -468,7 +468,7 @@ namespace WebServices
                     if (GamerMongoDB.FindByDisplayName(request.DisplayName) != null)
                     {
                         string msg = string.Format(Localization.Get("DISPLAY_NAME_EXIST"), request.DisplayName);
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, msg);
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, msg);
                     }
 
                     /*if (response.userInfo.GamerData.ChangeDisplayName >= 1)
@@ -498,7 +498,7 @@ namespace WebServices
             catch (Exception ex)
             {
                 ExceptionLogMongoDB.add(ex.ToString());
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 
@@ -508,8 +508,8 @@ namespace WebServices
             try
             {
                 var request = JsonMapper.ToObject<ChangeAvatarRequestData>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request);
-                if (errorCode != ERROR_CODE.OK)
+                ErrorCode errorCode = GameManager.CheckRequestValidation(request);
+                if (errorCode != ErrorCode.OK)
                 {
                     return GetErrorResponse(new ResponseBase(), errorCode);
                 }
@@ -519,7 +519,7 @@ namespace WebServices
                     long gid = request.GID;
                     if (!GamerMongoDB.checkAccessToken(gid, request.accessToken, true))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
+                        return GetErrorResponse(response, ErrorCode.ACCESS_TOKEN_INVALID);
                     }
                     UserInfo userInfo = GameManager.GetUserInfo(gid, new List<string>()
                         {
@@ -527,7 +527,7 @@ namespace WebServices
 
                     if (userInfo == null)
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("DATABASE_ERROR"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("DATABASE_ERROR"));
                     }
 
                     userInfo.gamerData.Avatar = request.SpriteName;
@@ -542,7 +542,7 @@ namespace WebServices
             catch (Exception ex)
             {
                 ExceptionLogMongoDB.add(ex.ToString());
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 
@@ -552,8 +552,8 @@ namespace WebServices
             try
             {
                 var request = JsonMapper.ToObject<ChooseItemRequest>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request, false);
-                if (errorCode != ERROR_CODE.OK)
+                ErrorCode errorCode = GameManager.CheckRequestValidation(request, false);
+                if (errorCode != ErrorCode.OK)
                 {
                     return GetErrorResponse(response, errorCode);
                 }
@@ -562,7 +562,7 @@ namespace WebServices
                     long gid = request.GID;
                     if (!GamerMongoDB.checkAccessToken(gid, request.accessToken))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
+                        return GetErrorResponse(response, ErrorCode.ACCESS_TOKEN_INVALID);
                     }
                     
                     var userInfo = GameManager.GetUserInfo(gid, new List<string>() {
@@ -572,19 +572,19 @@ namespace WebServices
                     var characterData = userInfo.charactersList.Find(e => e.ID == request.itemID);
                     if (characterData == null)
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
                     }
                     //userInfo.gamerData.currentCharacter = characterData.code;
                     GamerMongoDB.Save(userInfo.gamerData);
 
                     response.userInfo = userInfo;
-                    response.ErrorCode = ERROR_CODE.OK;
+                    response.ErrorCode = ErrorCode.OK;
                     return GetResponseStr(response);
                 }
             }
             catch (Exception ex)
             {
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 
@@ -594,8 +594,8 @@ namespace WebServices
             try
             {
                 var request = JsonMapper.ToObject<ChooseItemRequest>(data);
-                ERROR_CODE errorCode = GameManager.CheckRequestValidation(request, false);
-                if (errorCode != ERROR_CODE.OK)
+                ErrorCode errorCode = GameManager.CheckRequestValidation(request, false);
+                if (errorCode != ErrorCode.OK)
                 {
                     return GetErrorResponse(response, errorCode);
                 }
@@ -604,7 +604,7 @@ namespace WebServices
                     long gid = request.GID;
                     if (!GamerMongoDB.checkAccessToken(gid, request.accessToken))
                     {
-                        return GetErrorResponse(response, ERROR_CODE.ACCESS_TOKEN_INVALID);
+                        return GetErrorResponse(response, ErrorCode.ACCESS_TOKEN_INVALID);
                     }
 
                     var userInfo = GameManager.GetUserInfo(gid, new List<string>() {
@@ -614,19 +614,19 @@ namespace WebServices
                     var diceData = userInfo.dicesList.Find(e => e.ID == request.itemID);
                     if (diceData == null)
                     {
-                        return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
+                        return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, Localization.Get("InvalidRequest"));
                     }
                     userInfo.gamerData.currentDice = diceData.code;
                     GamerMongoDB.Save(userInfo.gamerData);
 
                     response.userInfo = userInfo;
-                    response.ErrorCode = ERROR_CODE.OK;
+                    response.ErrorCode = ErrorCode.OK;
                     return GetResponseStr(response);
                 }
             }
             catch (Exception ex)
             {
-                return GetErrorResponse(response, ERROR_CODE.DISPLAY_MESSAGE, ex.ToString());
+                return GetErrorResponse(response, ErrorCode.DISPLAY_MESSAGE, ex.ToString());
             }
         }
 

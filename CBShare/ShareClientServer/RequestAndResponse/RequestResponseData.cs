@@ -31,14 +31,14 @@ namespace CBShare.Data
     public class ResponseBase
     {
         public string ErrorMessage { get; set; }
-        public ERROR_CODE ErrorCode { get; set; }
+        public ErrorCode ErrorCode { get; set; }
         public ResponseBase()
         {
-            ErrorCode = ERROR_CODE.OK;
+            ErrorCode = ErrorCode.OK;
         }
         public void Display(string msg)
         {
-            ErrorCode = ERROR_CODE.DISPLAY_MESSAGE;
+            ErrorCode = ErrorCode.DISPLAY_MESSAGE;
             ErrorMessage = msg;
         }
     }

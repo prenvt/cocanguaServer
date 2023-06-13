@@ -58,7 +58,7 @@
         EMO_10
     }
 
-    public enum ERROR_CODE
+    public enum ErrorCode
     {
         OK,
         DISPLAY_MESSAGE,

@@ -29,7 +29,7 @@ namespace WebServices
             return JsonMapper.ToJson(response);
         }
 
-        static string GetErrorResponse(ResponseBase response, ERROR_CODE code, string str = null)
+        static string GetErrorResponse(ResponseBase response, ErrorCode code, string str = null)
         {
             response.ErrorCode = code;
             response.ErrorMessage = str;

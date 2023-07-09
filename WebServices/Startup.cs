@@ -236,14 +236,14 @@ namespace WebServices
             {
                 context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
                 context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
-                if (!xClientID.Equals(BlockchainManager.API_CLIENT_ID) || !xClientSecret.Equals(BlockchainManager.API_CLIENT_SECRET))
+                /*if (!xClientID.Equals(BlockchainManager.API_CLIENT_ID) || !xClientSecret.Equals(BlockchainManager.API_CLIENT_SECRET))
                 {
                     bcResponse.meta.code = "UNBOX-500";
                     bcResponse.meta.message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
                     context.Response.StatusCode = 500;
                     await context.Response.WriteAsync(JsonMapper.ToJson(bcResponse));
                     return;
-                }
+                }*/
 
                 string methodName = null;
                 string data = null;

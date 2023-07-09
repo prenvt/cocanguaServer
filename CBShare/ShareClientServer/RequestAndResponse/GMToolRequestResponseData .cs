@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using CBShare.Battle;
-using CBShare.Configuration;
-using CBShare.Data;
-using CBShare.Common;
 
 namespace CBShare.Data
 {
@@ -16,6 +10,11 @@ namespace CBShare.Data
 
     public class GMToolUserManagerRequest : GMToolRequestBase
     {
+    }
+
+    public class GMToolUserManagerResponse : ResponseBase
+    {
+        public int totalUsersCount;
     }
 
     public class GMToolGetUsersListRequest : GMToolRequestBase

@@ -31,10 +31,10 @@ namespace WebServices
 
         public static string GetUsersList(string data)
         {
-            var response = new LoginResponseData();
+            var response = new GMToolGetUsersListResponse();
             try
             {
-                var request = LitJson.JsonMapper.ToObject<LoginRequestData>(data);
+                var request = JsonMapper.ToObject<GMToolGetUsersListRequest>(data);
                 /*DataTable userServerDataTable = UserServerUI.GetByUserName(username);
                 bool IsWhiteListUser = false;
                 if (userServerDataTable.Rows.Count > 0)

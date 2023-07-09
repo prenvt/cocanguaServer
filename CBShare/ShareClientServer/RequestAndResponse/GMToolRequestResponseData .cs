@@ -19,12 +19,13 @@ namespace CBShare.Data
 
     public class GMToolGetUsersListRequest : GMToolRequestBase
     {
-        
+        public int fromIdx;
+        public int toIdx;
     }
 
     public class GMToolGetUsersListResponse : ResponseBase
     {
-       
+        public List<GMToolUserData> usersList;
     }
 
     public class GMToolUserData

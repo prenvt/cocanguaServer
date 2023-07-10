@@ -245,6 +245,13 @@ namespace WebServices
                     return;
                 }*/
 
+                context.Request.EnableBuffering();
+                /*using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var bodyJson = JsonMapper.ToObject(body);*/
+
                 string methodName = null;
                 string data = null;
 
@@ -268,19 +275,21 @@ namespace WebServices
                     {
                         string value = context.Request.Form[key];
                         value = value.Trim();
-                        if (key == "data")
-                        {
-                            data = value;
-                        }
-                        else if (key == "method")
+                        if (key == "method")
                         {
                             methodName = value;
                         }
+                        else if (key == "data")
+                        {
+                            data = value;
+                        }
                     }
+                    using var reader = new StreamReader(context.Request.Body);
+                    data = await reader.ReadToEndAsync();
                 }
                 //string responseData = ProcessRequest(methodName, data, iv, binaryData);
                 bool encrypted = true;
-                MethodInfo mi = (typeof(TMCWebService)).GetMethod(methodName);
+                MethodInfo mi = (typeof(BaseWebService)).GetMethod(methodName);
                 string responseData = null;
 
                 if (data != null)

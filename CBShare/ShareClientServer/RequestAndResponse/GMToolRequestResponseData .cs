@@ -31,7 +31,7 @@ namespace CBShare.Data
     public class GMToolUserData
     {
         public int index;
-        public int GID;
+        public long GID;
         public string userName;
         public string displayName;
         public string phone;
@@ -39,5 +39,15 @@ namespace CBShare.Data
         public DateTime registerTime;
         public int money;
         public int gold;
+        public bool locking;
+    }
+
+    public class GMToolLockUserRequest : GMToolRequestBase
+    {
+        public long gid;
+    }
+
+    public class GMToolLockUserResponse : ResponseBase
+    {
     }
 }

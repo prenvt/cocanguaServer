@@ -116,5 +116,25 @@ namespace CTPServer.MongoDB
             var updateOperation = Builders<UserInfo.Gamer>.Update.Set("currentRoomID", roomID);
             var result = col.UpdateOne(new BsonDocument("_id", gid), updateOperation);
         }
+
+        public static int GetTotalGamersCount()
+        {
+            var col = GetDataCollection();
+            var builder = Builders<UserInfo.Gamer>.Filter;
+            long result = col.Count(builder.Empty);
+            return (int)result;
+        }
+
+        public static List<UserInfo.Gamer> GetGamersList(int _fromIdx, int _toIdx)
+        {
+            var top = 20;
+            var col = GetDataCollection();
+            var result = col.AsQueryable<UserInfo.Gamer>().
+                         Where(e => e.ID > 0).
+                         //OrderByDescending(c => c.diemQuanCong).
+                         //ThenBy(c => c.lastTimeCalcDiemQuanCong).
+                         Take(top).ToList<UserInfo.Gamer>();
+            return result;
+        }
     }
 }

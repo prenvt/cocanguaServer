@@ -32,7 +32,7 @@ namespace WebServices
         static string GetErrorResponse(ResponseBase response, ErrorCode code, string str = null)
         {
             response.ErrorCode = code;
-            response.ErrorMessage = str;
+            response.Message = str;
             return GetResponseStr(response);
         }
     }

@@ -19,6 +19,8 @@ using WebServices.Hubs;
 using LitJson;
 using WebServices.HTTPs;
 using static Google.Apis.Requests.BatchRequest;
+using CBShare.Data;
+using CBShare.Common;
 
 namespace WebServices
 {
@@ -90,7 +92,16 @@ namespace WebServices
                 //endpoints.MapHub<ChatHub>("/chatHub");
                 endpoints.MapHub<BattleHub>("/battleHub");
                 endpoints.MapPost("/game/request", HTTPRequest);
-                endpoints.Map("/gmtool", HandleGMToolRequest);
+
+                //endpoints.Map("/gmtool", HandleGMToolRequest);
+                endpoints.MapPost("gmtool/userManager", GMToolUserManager);
+                endpoints.MapPost("gmtool/getUsersList", GMToolGetUsersList);
+                endpoints.MapPost("gmtool/lockUser", GMToolLockUser);
+                endpoints.MapPost("gmtool/sendRewardToUser", GMToolSendRewardToUser);
+
+                endpoints.MapPost("gmtool/dashboard", GMToolDashboardBattleLogs);
+                endpoints.MapPost("gmtool/gamerBattleLogs", GMToolGamerBattleLogs);
+                //endpoints.MapPost("gmtool/getBattleLogsList", GMToolBattleLogsList);
             });
 
             this.InitConfigs(env.ContentRootPath);
@@ -230,28 +241,13 @@ namespace WebServices
             }
         }
 
-        async Task HandleGMToolRequest(HttpContext context)
+        /*async Task HandleGMToolRequest(HttpContext context)
         {
             try
             {
                 context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
                 context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
-                /*if (!xClientID.Equals(BlockchainManager.API_CLIENT_ID) || !xClientSecret.Equals(BlockchainManager.API_CLIENT_SECRET))
-                {
-                    bcResponse.meta.code = "UNBOX-500";
-                    bcResponse.meta.message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
-                    context.Response.StatusCode = 500;
-                    await context.Response.WriteAsync(JsonMapper.ToJson(bcResponse));
-                    return;
-                }*/
-
                 context.Request.EnableBuffering();
-                /*using var reader = new StreamReader(context.Request.Body);
-                var body = await reader.ReadToEndAsync();
-                // do something
-                context.Request.Body.Seek(0, SeekOrigin.Begin);
-                var bodyJson = JsonMapper.ToObject(body);*/
-
                 string methodName = null;
                 string data = null;
 
@@ -325,6 +321,260 @@ namespace WebServices
                 var response = new Dictionary<string, string>();
                 response.Add("data", responseData);
                 response.Add("iv", new_iv);
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }*/
+
+        async Task GMToolUserManager(HttpContext context)
+        {
+            var response = new GMToolUserManagerResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var bodyJson = JsonMapper.ToObject(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                response.totalUsersCount = GamerMongoDB.GetTotalGamersCount();
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolGetUsersList(HttpContext context)
+        {
+            var response = new GMToolGetUsersListResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                //var bodyJson = JsonMapper.ToObject(body);
+
+                var request = JsonMapper.ToObject<GMToolGetUsersListRequest>(body);
+                var gamersList = GamerMongoDB.GetGamersList(request.fromIdx, request.toIdx);
+                response.usersList = new List<GMToolUserData>();
+                var i = 0;
+                foreach (var gamerData in gamersList)
+                {
+                    i++;
+                    var userData = new GMToolUserData()
+                    {
+                        index = i,
+                        GID = gamerData.ID,
+                        userName = gamerData.displayName,
+                    };
+                    response.usersList.Add(userData);
+                }
+                response.ErrorCode = ErrorCode.OK;
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestGetUsersList " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolLockUser(HttpContext context)
+        {
+            var response = new GMToolLockUserResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                //var bodyJson = JsonMapper.ToObject(body);
+
+                var request = JsonMapper.ToObject<GMToolLockUserRequest>(body);
+                response.ErrorCode = ErrorCode.OK;
+                response.Message = "LOCK_USER_SUCCESS!";
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestGetUsersList " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolSendRewardToUser(HttpContext context)
+        {
+            var response = new GMToolSendRewardToUserResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                //var bodyJson = JsonMapper.ToObject(body);
+
+                var request = JsonMapper.ToObject<GMToolSendRewardToUserRequest>(body);
+                response.ErrorCode = ErrorCode.OK;
+                response.Message = "LOCK_USER_SUCCESS!";
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestGetUsersList " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolDashboardBattleLogs(HttpContext context)
+        {
+            var response = new GMToolGetDashboardBattleLogsResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolGetDashboardBattleLogsRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                if (request.logType == BattleLogType.All)
+                {
+
+                }
+                else if (request.logType == BattleLogType.Playing)
+                {
+                    var battlePropertiesList = BattleMongoDB.GetAllsPlayingList();
+
+                }
+                
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolGamerBattleLogs(HttpContext context)
+        {
+            var response = new GMToolGetGamerBattleLogsResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolGetGamerBattleLogsRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                var battlePropertiesList = BattleMongoDB.GetAllsPlayingList();
+
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
                 await context.Response.WriteAsync(JsonMapper.ToJson(response));
             }
         }

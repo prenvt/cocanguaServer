@@ -15,6 +15,9 @@ using CBShare.Common;
 
 public class GameManager
 {
+    public static string API_CLIENT_ID = "ludo";
+    public static string API_CLIENT_SECRET = "71EDC5735DA656618EC2262A79B2A";
+
     public MemoryCache Cache { get; set; }
     private static object syncObj = new object();
     private static GameManager _inst { get; set; }

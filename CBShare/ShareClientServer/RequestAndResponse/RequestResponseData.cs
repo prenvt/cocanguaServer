@@ -30,16 +30,16 @@ namespace CBShare.Data
 
     public class ResponseBase
     {
-        public string ErrorMessage { get; set; }
+        public string Message { get; set; }
         public ErrorCode ErrorCode { get; set; }
         public ResponseBase()
         {
-            ErrorCode = ErrorCode.OK;
+            this.ErrorCode = ErrorCode.OK;
         }
         public void Display(string msg)
         {
-            ErrorCode = ErrorCode.DISPLAY_MESSAGE;
-            ErrorMessage = msg;
+            this.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+            this.Message = msg;
         }
     }
 

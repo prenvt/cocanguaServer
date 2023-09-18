@@ -66,7 +66,7 @@ namespace WebServices
             {
                 var request = JsonMapper.ToObject<GMToolLockUserRequest>(data);
                 response.ErrorCode = ErrorCode.OK;
-                response.ErrorMessage = "LOCK_USER_SUCCESS!";
+                response.Message = "LOCK_USER_SUCCESS!";
                 return GetResponseStr(response);
             }
             catch (Exception ex)

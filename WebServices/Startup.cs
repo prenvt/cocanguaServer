@@ -99,7 +99,7 @@ namespace WebServices
                 endpoints.MapPost("gmtool/lockUser", GMToolLockUser);
                 endpoints.MapPost("gmtool/sendRewardToUser", GMToolSendRewardToUser);
 
-                endpoints.MapPost("gmtool/dashboard", GMToolDashboardBattleLogs);
+                endpoints.MapPost("gmtool/dashboardBattleLogs", GMToolDashboardBattleLogs);
                 endpoints.MapPost("gmtool/gamerBattleLogs", GMToolGamerBattleLogs);
                 //endpoints.MapPost("gmtool/getBattleLogsList", GMToolBattleLogsList);
             });

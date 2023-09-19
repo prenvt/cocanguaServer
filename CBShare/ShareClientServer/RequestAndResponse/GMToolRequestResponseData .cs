@@ -130,4 +130,34 @@ namespace CBShare.Data
         public int totalLogsCount;
         public List<GMToolGamerBattleLogData> battleLogsList;
     }
+
+    public class GMToolThongKeNapGoldRequest : GMToolRequestBase
+    {
+        public long GID;
+        public DateTime startTime;
+        public DateTime endTime;
+    }
+
+    public class GMToolThongKeNapGoldResponse : ResponseBase
+    {
+        public List<GMToolThongKeNapGoldData> logsList;
+    }
+
+    public class GMToolThongKeNapGoldData
+    {
+        public int index;
+        public DateTime time;
+        public BattleType roomMode;
+        public int asset;
+        public int bet;
+        public int booster;
+        public int rematch;
+        public int result;
+        public int movePoint;
+        public int rematchBonus;
+        public int diceBonus;
+        public int mapBonus;
+        public int avatarBonus;
+        public int sum;
+    }
 }

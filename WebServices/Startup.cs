@@ -101,7 +101,11 @@ namespace WebServices
 
                 endpoints.MapPost("gmtool/dashboardBattleLogs", GMToolDashboardBattleLogs);
                 endpoints.MapPost("gmtool/gamerBattleLogs", GMToolGamerBattleLogs);
-                //endpoints.MapPost("gmtool/getBattleLogsList", GMToolBattleLogsList);
+                endpoints.MapPost("gmtool/thongkeNapGold", GMToolThongKeNapGold);
+                endpoints.MapPost("gmtool/thongkeTieuGold", GMToolThongKeTieuGold);
+                endpoints.MapPost("gmtool/thongkeNapDiamond", GMToolThongKeNapDiamond);
+                endpoints.MapPost("gmtool/thongkeTieuDiamond", GMToolThongKeTieuDiamond);
+                endpoints.MapPost("gmtool/thongkeGiaiDau", GMToolThongKeGiaiDau);
             });
 
             this.InitConfigs(env.ContentRootPath);
@@ -566,6 +570,191 @@ namespace WebServices
                 response.ErrorCode = ErrorCode.OK;
                 var battlePropertiesList = BattleMongoDB.GetAllsPlayingList();
 
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolThongKeNapGold(HttpContext context)
+        {
+            var response = new GMToolThongKeNapGoldResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolThongKeNapGoldRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolThongKeTieuGold(HttpContext context)
+        {
+            var response = new GMToolThongKeTieuGoldResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolThongKeTieuGoldRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolThongKeNapDiamond(HttpContext context)
+        {
+            var response = new GMToolThongKeNapDiamondResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolThongKeNapDiamondRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolThongKeTieuDiamond(HttpContext context)
+        {
+            var response = new GMToolThongKeTieuDiamondResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolThongKeTieuDiamondRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
+                context.Response.StatusCode = 200;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+            catch (Exception ex)
+            {
+                ExceptionLogMongoDB.add("GMToolRequestUserManager " + ex.ToString());
+                response.ErrorCode = ErrorCode.UNKNOW_ERROR;
+                response.Message = "Unknown error if any.";
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync(JsonMapper.ToJson(response));
+            }
+        }
+
+        async Task GMToolThongKeGiaiDau(HttpContext context)
+        {
+            var response = new GMToolThongKeGiaiDauResponse();
+            try
+            {
+                context.Request.Headers.TryGetValue("X-Client-Id", out var xClientID);
+                context.Request.Headers.TryGetValue("X-Client-Secret", out var xClientSecret);
+                if (!xClientID.Equals(GameManager.API_CLIENT_ID) || !xClientSecret.Equals(GameManager.API_CLIENT_SECRET))
+                {
+                    response.ErrorCode = ErrorCode.DISPLAY_MESSAGE;
+                    response.Message = "Missing or invalid CLIENT-ID/ CLIENT-SECRET";
+                    context.Response.StatusCode = 500;
+                    await context.Response.WriteAsync(JsonMapper.ToJson(response));
+                    return;
+                }
+
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+                var request = JsonMapper.ToObject<GMToolThongKeGiaiDauRequest>(body);
+
+                response.ErrorCode = ErrorCode.OK;
                 context.Response.StatusCode = 200;
                 await context.Response.WriteAsync(JsonMapper.ToJson(response));
             }

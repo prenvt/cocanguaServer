@@ -89,9 +89,10 @@ namespace WebServices
                     await context.Response.WriteAsync(welcome_str);
                 });
                 //endpoints.MapRazorPages();
-                //endpoints.MapHub<ChatHub>("/chatHub");
+                endpoints.MapHub<ChatHub>("/chatHub");
                 endpoints.MapHub<BattleHub>("/battleHub");
                 endpoints.MapPost("/game/request", HTTPRequest);
+                endpoints.MapPost("/game/checkConnect", HTTPCheckConnect);
 
                 //endpoints.Map("/gmtool", HandleGMToolRequest);
                 endpoints.MapPost("gmtool/userManager", GMToolUserManager);
@@ -232,6 +233,27 @@ namespace WebServices
                 response.Add("data", responseData);
                 response.Add("iv", new_iv);
                 await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(response));
+            }
+            catch (Exception e)
+            {
+                var encrypted = false;
+                string new_iv = encrypted ? HikerAes.GenerateIV() : string.Empty;
+                string responseData = "Invalid Request";
+                var response = new Dictionary<string, string>();
+                response.Add("data", responseData);
+                response.Add("iv", new_iv);
+                await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(response));
+            }
+        }
+
+        async Task HTTPCheckConnect(HttpContext context)
+        {
+            try
+            {
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                await context.Response.WriteAsync(body);
             }
             catch (Exception e)
             {

@@ -367,7 +367,7 @@ namespace WebServices.Battles
                     var _horseIdx = horseCanMoveIdxsList[0];
                     var startSpaceIdx = this.battleCfg.startIndexs[this.currentTurnGamer.color.ToString()];
                     var horseSpaceIdx = this.currentTurnGamer.horseSpaceIndexsList[_horseIdx];
-                    var destSpaceIdx = horseSpaceIdx % this.battleCfg.numSpaces;
+                    var destSpaceIdx = (horseSpaceIdx + _diceValue) % this.battleCfg.numSpaces;
                     if (destSpaceIdx > startSpaceIdx)
                     {
                         this.ProcessApplyHorseMoveToSpace(_horseIdx, horseSpaceIdx, destSpaceIdx);

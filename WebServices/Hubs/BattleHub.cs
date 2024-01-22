@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using CBShare.Battle;
 using CBShare.Configuration;
 using Microsoft.AspNetCore.SignalR;
-using CBShare.Common;
-using WebServices.Battles;
 
 namespace WebServices.Hubs
 {
     public class BattleHub : Hub
     {
+        public async Task CheckConnect()
+        {
+            await Clients.Caller.SendAsync("CheckConnectResponse");
+        }
+
         public async Task RequestJoinRoom(long gid, BattleType _battleType, BattleLevel _roomLevel)
         {
             var roomID = GameManager.Instance.roomController.TryJoinRoom(gid, _battleType, _roomLevel);

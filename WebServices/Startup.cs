@@ -17,8 +17,6 @@ using System.Threading.Tasks;
 using CTPServer.MongoDB;
 using WebServices.Hubs;
 using LitJson;
-using WebServices.HTTPs;
-using static Google.Apis.Requests.BatchRequest;
 using CBShare.Data;
 using CBShare.Common;
 
@@ -88,13 +86,14 @@ namespace WebServices
                     string welcome_str = "Welcome to Ludo";
                     await context.Response.WriteAsync(welcome_str);
                 });
+
                 //endpoints.MapRazorPages();
                 endpoints.MapHub<ChatHub>("/chatHub");
                 endpoints.MapHub<BattleHub>("/battleHub");
                 endpoints.MapPost("/game/request", HTTPRequest);
                 endpoints.MapPost("/game/checkConnect", HTTPCheckConnect);
+                endpoints.MapPost("/game/request/RequestLogin", HTTPRequestWithMethod);
 
-                //endpoints.Map("/gmtool", HandleGMToolRequest);
                 endpoints.MapPost("gmtool/userManager", GMToolUserManager);
                 endpoints.MapPost("gmtool/getUsersList", GMToolGetUsersList);
                 endpoints.MapPost("gmtool/lockUser", GMToolLockUser);
@@ -233,6 +232,43 @@ namespace WebServices
                 response.Add("data", responseData);
                 response.Add("iv", new_iv);
                 await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(response));
+            }
+            catch (Exception e)
+            {
+                var encrypted = false;
+                string new_iv = encrypted ? HikerAes.GenerateIV() : string.Empty;
+                string responseData = "Invalid Request";
+                var response = new Dictionary<string, string>();
+                response.Add("data", responseData);
+                response.Add("iv", new_iv);
+                await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(response));
+            }
+        }
+
+        async Task HTTPRequestWithMethod(HttpContext context)
+        {
+            try
+            {
+                var paths = context.Request.Path.ToString().Split('/');
+                string methodName = paths.Last();
+                MethodInfo mi = (typeof(BaseWebService)).GetMethod(methodName);
+
+                bool encrypted = true;
+                context.Request.EnableBuffering();
+                using var reader = new StreamReader(context.Request.Body);
+                var body = await reader.ReadToEndAsync();
+                // do something
+                context.Request.Body.Seek(0, SeekOrigin.Begin);
+
+                var responseData = (string)mi.Invoke(null, new object[] { body });
+                // TODO: add response cache on gid request to prevent brute-force send same request
+                Console.Out.WriteLine("response :" + responseData);
+                //string new_iv = encrypted ? HikerAes.GenerateIV() : string.Empty;
+                //responseData = ReadText.CompressString(responseData, new_iv, encrypted);
+                //var response = new Dictionary<string, string>();
+                //response.Add("data", responseData);
+                //response.Add("iv", new_iv);
+                await context.Response.WriteAsync(Newtonsoft.Json.JsonConvert.SerializeObject(responseData));
             }
             catch (Exception e)
             {
